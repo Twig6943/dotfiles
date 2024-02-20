@@ -173,9 +173,10 @@ mode "resize" {
 
 #bindsym $mod+r mode "resize"
 
-#The ones I use; shapes
-exec_always --no-startup-id "$HOME/.config/polybar/launch.sh --shapes"
+#The ones I use; shapes,forest,grayblocks
+exec_always --no-startup-id "$HOME/.config/polybar/launch.sh --forest"
 exec_always feh --bg-fill /home/twig/Desktop/wallpapers/wallpaper.jpeg
 bindsym $mod+r exec "rofi -modi drun,run -show drun"
 bindsym $mod+e exec "thunar"
-bindsym Print exec "flameshot gui"
+bindsym Print exec "kazam -f"
+bindsym XF86AudioPlay exec playerctl play-pause
