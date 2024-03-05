@@ -1,5 +1,5 @@
 # WM-CONFIGS
-Personal config for various wms and whatnot.
+Personal configs for various wms and whatnot.
 
 https://github.com/hyper-dot/dotfiles-old
 https://github.com/adi1090x/polybar-themes
