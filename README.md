@@ -1,5 +1,5 @@
-# I3WM-POLYBARCONFIG
-Personal config for I3WM &amp; Polybar.
+# WM-CONFIGS
+Personal config for various wms and whatnot.
 
 https://github.com/hyper-dot/dotfiles-old
 https://github.com/adi1090x/polybar-themes
