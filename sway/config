@@ -94,10 +94,7 @@ output * bg /usr/share/backgrounds/sway/wp.jpg fill
     bindsym $mod+Shift+Right focus right
 
     # Move the focused window with the same, but add Shift
-    #bindsym $mod+Shift+$left move left
-    #bindsym $mod+Shift+$down move down
-    #bindsym $mod+Shift+$up move up
-    #bindsym $mod+Shift+$right move right
+
     # Ditto, with arrow keys
     bindsym $mod+Left move left
     bindsym $mod+Down move down
@@ -211,4 +208,6 @@ bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +2%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -2%
 bindsym Print exec "grimshot copy area"
+for_window [title="Picture in picture"]  floating enable
+for_window [title="Picture-in-Picture"]  floating enable
 include /etc/sway/config.d/*
