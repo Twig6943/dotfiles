@@ -208,6 +208,6 @@ bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +2%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -2%
 bindsym Print exec "grimshot copy area"
-for_window [title="Picture in picture"]  floating enable
-for_window [title="Picture-in-Picture"]  floating enable
+for_window [title="Picture in picture"]  floating enable, sticky on
+for_window [title="Picture-in-Picture"]  floating enable, sticky on
 include /etc/sway/config.d/*
