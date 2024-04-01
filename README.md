@@ -1,4 +1,4 @@
-# WM-CONFIGS
+# dotfiles
 Personal configs for various wms and whatnot.
 
 https://github.com/hyper-dot/dotfiles-old
