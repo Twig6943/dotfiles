@@ -1,6 +1,7 @@
 #this script is wip af
-#AppImages I use: balena,fluent reader,mpv,photogimp,qbittorrent,thorium,vscodium,walc
+#Apps I use: balena,fluent reader,mpv,photogimp,qbittorrent,thorium,vscodium,walc
 sudo apt install git gnome kitty cava steam speedtest pipewire wireplumber winetricks
+#sudo flatpak install
 git clone https://github.com/Twig6943/dotfiles
 sudo flatpak install dev.vencord.Vesktop
 wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.8.10/fastfetch-linux-amd64.deb
