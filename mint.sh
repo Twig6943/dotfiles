@@ -1,9 +1,11 @@
 #this script is wip af
+#AppImages I use: balena,fluent reader,mpv,photogimp,qbittorrent,thorium,vscodium,walc
 sudo apt install git gnome kitty cava steam speedtest pipewire wireplumber winetricks
 git clone https://github.com/Twig6943/dotfiles
 sudo flatpak install dev.vencord.Vesktop
 wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.8.10/fastfetch-linux-amd64.deb
 sudo dpkg -i fastfetch-linux-amd64.deb
+sudo rm fastfetch-linux-amd64.deb
 #Playit
 curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null
 echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list
@@ -22,4 +24,4 @@ sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/uninstalldesktopfile.
 sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/install.sh /home/$USER/Downloads
 sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/uninstall.sh /home/$USER/Downloads
 /home/$USER/Downloads/MangoHudandGoverlayInstaller/install.sh
-
+echo "Installation is done"
