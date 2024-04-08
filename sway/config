@@ -84,7 +84,6 @@ output * bg /home/twig/.config/sway/wp.png fill
     bindsym $mod+Shift+r reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e execR swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 #
 # Moving around:
 #
@@ -133,8 +132,8 @@ output * bg /home/twig/.config/sway/wp.png fill
     # You can "split" the current object of your focus with
     # $mod+b or $mod+v, for horizontal and vertical splits
     # respectively.
-    bindsym $mod+b splith
-    bindsym $mod+v splitv
+    #bindsym $mod+b splith
+    #bindsym $mod+v splitv
 
     # Switch the current container between different layout styles
     bindsym $mod+s layout stacking
@@ -145,7 +144,12 @@ output * bg /home/twig/.config/sway/wp.png fill
     bindsym $mod+f fullscreen
 
     # Toggle the current focus between tiling and floating mode
-    bindsym $mod+Shift+space floating toggle
+    bindsym $mod+X floating toggle
+
+    #Taskmgr
+    bindsym Ctrl+Alt+Delete exec "xfce4-taskmanager"
+    #Log out/ Exit sway
+    bindsym $mod+Shift+E exec "sway exit"
 
     # Swap focus between the tiling area and the floating area
     bindsym $mod+space focus mode_toggle
@@ -209,6 +213,8 @@ bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +2%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -2%
 bindsym Print exec "grimshot copy area"
+bindsym $mod+Shift+Escape exec "shutdown now"
+bindsym $mod+KP_Enter exec "kitty"
 for_window [title="Picture in picture"]  floating enable, sticky on
 for_window [title="Picture-in-Picture"]  floating enable, sticky on
 include /etc/sway/config.d/*
