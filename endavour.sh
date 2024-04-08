@@ -24,6 +24,7 @@ sudo pacman -S goverlay
 yay -S cava --noconfirm
 yay -S appimagelauncher --noconfirm
 yay -S grimshot-bin-sway --noconfirm
+yay -S wdisplays --noconfirm
 #Flatpak
 sudo flatpak install io.github.spacingbat3.webcord
 sudo flatpak install com.discordapp.Discord
