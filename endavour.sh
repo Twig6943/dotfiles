@@ -10,4 +10,5 @@ sudo pacman -S lxappearance
 sudo pacman -S thunar
 sudo pacman -S playerctl
 sudo pacman -S waybar
-yay -S cava
+yay -S cava --noconfirm
+yay -S appimagelauncher --noconfirm
