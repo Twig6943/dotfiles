@@ -1,3 +1,4 @@
+echo "Cancel the script if u want u have 5 seconds"
 #this script is wip af
 #Apps I use: balena,fluent reader,mpv,photogimp,qbittorrent,thorium,vscodium,walc
 sudo apt install git gnome kitty cava steam speedtest pipewire wireplumber winetricks
