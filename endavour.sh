@@ -23,6 +23,11 @@ sudo pacman -S htop
 sudo pacman -S cmatrix
 sudo pacman -S goverlay
 sudo pacman -S xfce4-taskmanager
+#Wallpaper
+wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O wp.png
+sudo mkdir /home/$USER/.config/sway/
+sudo cp wp.png /home/$USER/.config/sway/wp.png
+sudo rm wp.png
 #Yay
 yay -S cava --noconfirm
 yay -S appimagelauncher --noconfirm
