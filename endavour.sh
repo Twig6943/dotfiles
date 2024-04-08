@@ -17,6 +17,8 @@ sudo pacman -S steam
 sudo pacman -S wine
 sudo pacman -S winetricks
 sudo pacman -S speedtest-cli
+sudo pacman -S htop
+sudo pacman -S cmatrix
 #Yay
 yay -S cava --noconfirm
 yay -S appimagelauncher --noconfirm
