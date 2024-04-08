@@ -21,6 +21,7 @@ sudo pacman -S speedtest-cli
 sudo pacman -S htop
 sudo pacman -S cmatrix
 sudo pacman -S goverlay
+sudo pacman -S xfce4-taskmanager
 #Yay
 yay -S cava --noconfirm
 yay -S appimagelauncher --noconfirm
