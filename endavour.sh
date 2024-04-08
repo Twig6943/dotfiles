@@ -9,4 +9,5 @@ sudo pacman -S flatpak
 sudo pacman -S lxappearance
 sudo pacman -S thunar
 sudo pacman -S playerctl
+sudo pacman -S waybar
 yay -S cava
