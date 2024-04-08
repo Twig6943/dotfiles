@@ -22,10 +22,13 @@ sudo pacman -S cmatrix
 #Yay
 yay -S cava --noconfirm
 yay -S appimagelauncher --noconfirm
+yay -S grimshot-bin-sway --noconfirm
 #Flatpak
 sudo flatpak install io.github.spacingbat3.webcord
 sudo flatpak install com.discordapp.Discord
 sudo flatpak install org.gimp.GIMP
+#Clone dotfiles
+git clone https://github.com/Twig6943/dotfiles/
 #MangohudGoverlay
 cd /home/$USER/Downloads
 git clone https://github.com/Twig6943/MangoHudandGoverlayInstaller
