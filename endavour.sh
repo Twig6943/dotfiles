@@ -31,4 +31,8 @@ sudo flatpak install com.discordapp.Discord
 sudo flatpak install org.gimp.GIMP
 #Clone dotfiles
 git clone https://github.com/Twig6943/dotfiles/
+#Rename kde crap
+sudo mv /usr/bin/kwalletd5 /usr/bin/kwalletd55
+sudo mv /usr/bin/kwalletd66 /usr/bin/kwalletd66
+sudo mv /usr/bin/kwallet-query /usr/bin/kwallet-queryy
 echo "Installation is done"
