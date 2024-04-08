@@ -14,6 +14,9 @@ sudo pacman -S thunar
 sudo pacman -S playerctl
 sudo pacman -S waybar
 sudo pacman -S steam
+sudo pacman -S wine
+sudo pacman -S winetricks
+sudo pacman -S speedtest-cli
 #Yay
 yay -S cava --noconfirm
 yay -S appimagelauncher --noconfirm
