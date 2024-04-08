@@ -1,6 +1,7 @@
 echo placeholder
 sudo pacman -Syu
 sudo pacman -S kitty
+sudo pacman -S fastfetch
 sudo pacman -S hyprland
 sudo pacman -S wofi
 sudo pacman -S pavucontrol
