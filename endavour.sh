@@ -19,6 +19,7 @@ sudo pacman -S winetricks
 sudo pacman -S speedtest-cli
 sudo pacman -S htop
 sudo pacman -S cmatrix
+sudo pacman -S goverlay
 #Yay
 yay -S cava --noconfirm
 yay -S appimagelauncher --noconfirm
@@ -29,12 +30,4 @@ sudo flatpak install com.discordapp.Discord
 sudo flatpak install org.gimp.GIMP
 #Clone dotfiles
 git clone https://github.com/Twig6943/dotfiles/
-#MangohudGoverlay
-cd /home/$USER/Downloads
-git clone https://github.com/Twig6943/MangoHudandGoverlayInstaller
-sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/desktopfile.sh /home/$USER/Downloads
-sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/uninstalldesktopfile.sh /home/$USER/Downloads
-sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/install.sh /home/$USER/Downloads
-sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/uninstall.sh /home/$USER/Downloads
-/home/$USER/Downloads/MangoHudandGoverlayInstaller/install.sh
 echo "Installation is done"
