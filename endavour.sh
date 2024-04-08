@@ -1,5 +1,6 @@
 echo "Cancel the script if u want u have 5 seconds"
 sleep 5
+#Pacman
 sudo pacman -Syu
 sudo pacman -S kitty
 sudo pacman -S fastfetch
@@ -12,8 +13,14 @@ sudo pacman -S lxappearance
 sudo pacman -S thunar
 sudo pacman -S playerctl
 sudo pacman -S waybar
+sudo pacman -S steam
+#Yay
 yay -S cava --noconfirm
 yay -S appimagelauncher --noconfirm
+#Flatpak
+sudo flatpak install io.github.spacingbat3.webcord
+sudo flatpak install com.discordapp.Discord
+sudo flatpak install org.gimp.GIMP
 #MangohudGoverlay
 cd /home/$USER/Downloads
 git clone https://github.com/Twig6943/MangoHudandGoverlayInstaller
