@@ -42,6 +42,7 @@ yay -S wdisplays --noconfirm
 sudo flatpak install io.github.spacingbat3.webcord
 sudo flatpak install com.discordapp.Discord
 sudo flatpak install org.gimp.GIMP
+sudo flatpak install org.vinegarhq.Vinegar
 #Clone dotfiles
 git clone https://github.com/Twig6943/dotfiles/
 #Rename kde crap
