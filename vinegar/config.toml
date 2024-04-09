@@ -4,3 +4,5 @@
 renderer = "OpenGL"
 dxvk = false
 forced_version = "version-70a2467227df4077"
+[player.fflags]
+DFIntTaskSchedulerTargetFps = 60
