@@ -43,6 +43,7 @@ sudo flatpak install io.github.spacingbat3.webcord
 sudo flatpak install com.discordapp.Discord
 sudo flatpak install org.gimp.GIMP
 sudo flatpak install org.vinegarhq.Vinegar
+#sudo flatpak install org.deluge_torrent.deluge
 #Clone dotfiles
 git clone https://github.com/Twig6943/dotfiles/
 #Rename kde crap
