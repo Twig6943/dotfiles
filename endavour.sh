@@ -25,7 +25,9 @@ sudo pacman -S htop
 sudo pacman -S cmatrix
 sudo pacman -S goverlay
 sudo pacman -S xfce4-taskmanager
+sudo pacman -S xdg-desktop-portal-wlr
 #Pacman end
+systemctl --user restart xdg-desktop-portal
 sudo mkdir /home/$USER/.config/qBittorrent/
 wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /home/$USER/.config/qBittorrent/ICEBERG.qbtheme
 #Wallpaper
