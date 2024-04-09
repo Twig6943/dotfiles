@@ -24,6 +24,9 @@ sudo pacman -S htop
 sudo pacman -S cmatrix
 sudo pacman -S goverlay
 sudo pacman -S xfce4-taskmanager
+#Pacman end
+sudo mkdir /home/$USER/.config/qBittorrent/
+wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /home/$USER/.config/qBittorrent/ICEBERG.qbtheme
 #Wallpaper
 wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O wp.png
 sudo mkdir /home/$USER/.config/sway/
