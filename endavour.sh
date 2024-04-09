@@ -8,6 +8,7 @@ sudo pacman -S fastfetch
 sudo pacman -S hyprland
 sudo pacman -S sway
 sudo pacman -S swaybg
+sudo pacman -S gammastep 
 sudo pacman -S wofi
 sudo pacman -S pavucontrol
 sudo pacman -S yay
