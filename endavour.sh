@@ -3,6 +3,7 @@ sleep 5
 #Pacman
 sudo pacman -Syu
 sudo pacman -S kitty
+sudo pacman -S qbittorrent
 sudo pacman -S fastfetch
 sudo pacman -S hyprland
 sudo pacman -S sway
