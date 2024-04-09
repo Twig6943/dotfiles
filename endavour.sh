@@ -38,12 +38,12 @@ yay -S cava --noconfirm
 yay -S appimagelauncher --noconfirm
 yay -S grimshot-bin-sway --noconfirm
 yay -S wdisplays --noconfirm
-yay -S peazip-qt-bin --noconfirm
 #Flatpak
 sudo flatpak install io.github.spacingbat3.webcord
 sudo flatpak install com.discordapp.Discord
 sudo flatpak install org.gimp.GIMP
 sudo flatpak install org.vinegarhq.Vinegar
+sudo flatpak install com.github.unrud.VideoDownloader
 #sudo flatpak install org.deluge_torrent.deluge
 #Clone dotfiles
 git clone https://github.com/Twig6943/dotfiles/
