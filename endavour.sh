@@ -44,6 +44,7 @@ sudo flatpak install com.discordapp.Discord
 sudo flatpak install org.gimp.GIMP
 sudo flatpak install org.vinegarhq.Vinegar
 sudo flatpak install com.github.unrud.VideoDownloader
+sudo flatpak install me.hyliu.fluentreader
 #sudo flatpak install org.deluge_torrent.deluge
 #Clone dotfiles
 git clone https://github.com/Twig6943/dotfiles/
