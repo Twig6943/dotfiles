@@ -5,9 +5,10 @@ sudo pacman -Syu
 sudo pacman -S kitty
 sudo pacman -S qbittorrent
 sudo pacman -S fastfetch
-sudo pacman -S hyprland
+sudo pacman -S gnome
 sudo pacman -S sway
 sudo pacman -S swaybg
+sudo pacman -S xdg-desktop-portal-wlr
 sudo pacman -S gammastep 
 sudo pacman -S wofi
 sudo pacman -S pavucontrol
@@ -25,7 +26,6 @@ sudo pacman -S htop
 sudo pacman -S cmatrix
 sudo pacman -S goverlay
 sudo pacman -S xfce4-taskmanager
-sudo pacman -S xdg-desktop-portal-wlr
 #Pacman end
 systemctl --user restart xdg-desktop-portal
 sudo mkdir /home/$USER/.config/qBittorrent/
@@ -48,6 +48,7 @@ sudo flatpak install org.gimp.GIMP
 sudo flatpak install org.vinegarhq.Vinegar
 sudo flatpak install com.github.unrud.VideoDownloader
 sudo flatpak install me.hyliu.fluentreader
+sudo flatpak install com.heroicgameslauncher.hgl
 #sudo flatpak install org.deluge_torrent.deluge
 #Clone dotfiles
 git clone https://github.com/Twig6943/dotfiles/
