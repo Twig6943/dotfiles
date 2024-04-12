@@ -2,7 +2,7 @@ echo "Cancel the script if u want u have 5 seconds"
 sleep 5
 #this script is wip af
 #Apps I use: balena,fluent reader,mpv,photogimp,qbittorrent,thorium,vscodium,walc
-sudo apt install git gnome kitty cava steam speedtest pipewire wireplumber winetricks
+sudo apt install git gnome alacritty cava steam speedtest pipewire wireplumber winetricks
 #sudo flatpak install
 git clone https://github.com/Twig6943/dotfiles
 sudo flatpak install dev.vencord.Vesktop
