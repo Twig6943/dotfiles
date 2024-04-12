@@ -2,7 +2,7 @@ echo "Cancel the script if u want u have 5 seconds"
 sleep 5
 #Pacman
 sudo pacman -Syu
-sudo pacman -S kitty
+sudo pacman -S alacritty
 sudo pacman -S qbittorrent
 sudo pacman -S fastfetch
 sudo pacman -S gnome
