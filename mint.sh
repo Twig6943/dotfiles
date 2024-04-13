@@ -1,11 +1,10 @@
 echo "Cancel the script if u want u have 5 seconds"
 sleep 5
+sudo apt update
 #this script is wip af
 #Apps I use: balena,fluent reader,mpv,photogimp,qbittorrent,thorium,vscodium,walc
 sudo apt install git gnome alacritty cava steam speedtest pipewire wireplumber winetricks
-#sudo flatpak install
 git clone https://github.com/Twig6943/dotfiles
-sudo flatpak install dev.vencord.Vesktop
 wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.8.10/fastfetch-linux-amd64.deb
 sudo dpkg -i fastfetch-linux-amd64.deb
 sudo rm fastfetch-linux-amd64.deb
@@ -18,8 +17,9 @@ sudo apt install playit
 sudo mkdir -pm755 /etc/apt/keyrings
 sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+sudo apt update
 sudo apt install --install-recommends winehq-stable
-#MangohudGoverlay
+#MangohudandGoverlay
 cd /home/$USER/Downloads
 git clone https://github.com/Twig6943/MangoHudandGoverlayInstaller
 sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/desktopfile.sh /home/$USER/Downloads
@@ -27,4 +27,12 @@ sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/uninstalldesktopfile.
 sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/install.sh /home/$USER/Downloads
 sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/uninstall.sh /home/$USER/Downloads
 /home/$USER/Downloads/MangoHudandGoverlayInstaller/install.sh
+#Flatpaks
+sudo flatpak install io.github.spacingbat3.webcord
+sudo flatpak install com.discordapp.Discord
+sudo flatpak install org.gimp.GIMP
+sudo flatpak install org.vinegarhq.Vinegar
+sudo flatpak install com.github.unrud.VideoDownloader
+sudo flatpak install me.hyliu.fluentreader
+sudo flatpak install com.heroicgameslauncher.hgl
 echo "Installation is done"
