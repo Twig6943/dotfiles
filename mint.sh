@@ -39,6 +39,14 @@ sudo flatpak install me.hyliu.fluentreader
 sudo flatpak install com.heroicgameslauncher.hgl
 sudo flatpak install com.github.eneshecan.WhatsAppForLinux
 sudo flatpak install org.duckstation.DuckStation
+#Qbittorrent
+sudo flatpak install org.qbittorrent.qBittorrent
+sudo mkdir /home/$USER/.config/qBittorrent/
+wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /home/$USER/.config/qBittorrent/ICEBERG.qbtheme
+#Wallpapers
+mkdir /home/$USER/wallpapers
+wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /home/$USER/wallpapers/wp.png
+wget https://www.peakpx.com/eab3de02-8071-4550-af6e-7267203a4dd6 -O /home/$USER/wallpapers/wp1.png
 #Clone the repository
 git clone https://github.com/Twig6943/dotfiles
 echo "Installation is done"
