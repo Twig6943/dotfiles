@@ -47,7 +47,7 @@ sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/install.sh /home/$USE
 sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/uninstall.sh /home/$USER/Downloads
 /home/$USER/Downloads/MangoHudandGoverlayInstaller/install.sh
 #Flatpaks
-sudo flatpak install io.github.spacingbat3.webcord
+sudo flatpak install dev.vencord.Vesktop
 sudo flatpak install com.discordapp.Discord
 sudo flatpak install org.gimp.GIMP
 sudo flatpak install org.vinegarhq.Vinegar
