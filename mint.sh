@@ -1,9 +1,22 @@
 echo "Cancel the script if u want u have 5 seconds"
 sleep 5
 sudo apt update
-sudo apt install git gnome alacritty cava steam speedtest pipewire wireplumber pavucontrol lxappearance winetricks
+sudo apt install git   
+sudo apt install gnome
+sudo apt install alacritty
+sudo apt install cava
+sudo apt install steam
+sudo apt install speedtest-cli
+sudo apt install pipewire
+sudo apt install wireplumber
+sudo apt install pavucontrol
+sudo apt install lxappearance
+sudo apt install winetricks
 #Sway stuff
-#sudo apt install sway waybar playerctl wofi
+#sudo apt install sway
+#sudo apt install waybar 
+#sudo apt install playerctl
+#sudo apt install wofi
 wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.8.10/fastfetch-linux-amd64.deb -O /home/$USER/Downloads/fastfetch.deb
 wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb -O /home/$USER/Downloads/appimage.deb
 sudo dpkg -i /home/$USER/Downloads/fastfetch.deb
@@ -41,12 +54,12 @@ sudo flatpak install com.github.eneshecan.WhatsAppForLinux
 sudo flatpak install org.duckstation.DuckStation
 #Qbittorrent
 sudo flatpak install org.qbittorrent.qBittorrent
-sudo mkdir /home/$USER/.config/qBittorrent/
-wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /home/$USER/.config/qBittorrent/ICEBERG.qbtheme
+sudo mkdir /Crap/
+wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /Crap/ICEBERG.qbtheme
 #Wallpapers
 mkdir /home/$USER/wallpapers
-wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /home/$USER/wallpapers/wp.png
-wget https://www.peakpx.com/eab3de02-8071-4550-af6e-7267203a4dd6 -O /home/$USER/wallpapers/wp1.png
+wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /home/$USER/wallpapers/wp1.png
+wget https://github.com/Twig6943/dotfiles/blob/main/1203800.jpg?raw=true -O /home/$USER/wallpapers/wp2.png
 #Clone the repository
 git clone https://github.com/Twig6943/dotfiles
 echo "Installation is done"
