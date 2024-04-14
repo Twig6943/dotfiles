@@ -17,10 +17,11 @@ sudo apt install pavucontrol
 sudo apt install lxappearance
 sudo apt install winetricks
 #Sway stuff
-#sudo apt install sway
-#sudo apt install waybar 
-#sudo apt install playerctl
-#sudo apt install wofi
+sudo apt install sway
+sudo apt install waybar 
+sudo apt install playerctl
+sudo apt install wofi
+sudo apt install grimshot
 wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.8.10/fastfetch-linux-amd64.deb -O /home/$USER/Downloads/fastfetch.deb
 wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb -O /home/$USER/Downloads/appimage.deb
 sudo dpkg -i /home/$USER/Downloads/fastfetch.deb
