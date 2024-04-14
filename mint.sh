@@ -56,6 +56,7 @@ sudo flatpak install me.hyliu.fluentreader
 sudo flatpak install com.heroicgameslauncher.hgl
 sudo flatpak install com.github.eneshecan.WhatsAppForLinux
 sudo flatpak install org.duckstation.DuckStation
+sudo flatpak install org.prismlauncher.PrismLauncher
 #Qbittorrent
 sudo flatpak install org.qbittorrent.qBittorrent
 sudo mkdir /Crap/
