@@ -61,7 +61,7 @@ sudo flatpak install org.prismlauncher.PrismLauncher
 #Qbittorrent
 sudo flatpak install org.qbittorrent.qBittorrent
 sudo mkdir /Crap/
-wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /Crap/ICEBERG.qbtheme
+sudo wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /Crap/ICEBERG.qbtheme
 #Wallpapers
 mkdir /home/$USER/wallpapers
 wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /home/$USER/wallpapers/wp1.png
