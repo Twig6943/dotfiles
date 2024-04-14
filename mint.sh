@@ -2,7 +2,7 @@ echo "Cancel the script if u want u have 5 seconds"
 sleep 5
 sudo apt update
 sudo apt install git   
-sudo apt install gnome
+#sudo apt install gnome
 #Alacritty start
 sudo add-apt-repository ppa:aslatter/ppa -y
 sudo apt update
