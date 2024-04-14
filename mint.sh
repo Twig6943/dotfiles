@@ -3,7 +3,11 @@ sleep 5
 sudo apt update
 sudo apt install git   
 sudo apt install gnome
+#Alacritty start
+sudo add-apt-repository ppa:aslatter/ppa -y
+sudo apt update
 sudo apt install alacritty
+#Alacritty end
 sudo apt install cava
 sudo apt install steam
 sudo apt install speedtest-cli
