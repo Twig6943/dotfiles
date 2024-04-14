@@ -25,7 +25,7 @@ include /etc/sway/config-vars.d/*
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/twig/.config/sway/wp.png fill
+output * bg /home/twig/wallpapers/wp.png fill
 #
 # Example configuration:
 #
@@ -206,7 +206,7 @@ bar {
      swaybar_command waybar
 }
 bindsym $mod+r exec "wofi --show drun"
-bindsym $mod+e exec "thunar"
+bindsym $mod+e exec "nautilus"
 bindsym XF86AudioPlay exec playerctl play-pause
 #client.focused "#330766" "#330766" "#330766" "#330766"
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
@@ -214,7 +214,7 @@ bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +2%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -2%
 bindsym Print exec "grimshot copy area"
 bindsym $mod+Shift+Escape exec "shutdown now"
-bindsym $mod+KP_Enter exec "kitty"
+bindsym $mod+KP_Enter exec "alacritty"
 for_window [title="Picture in picture"]  floating enable, sticky on
 for_window [title="Picture-in-Picture"]  floating enable, sticky on
 include /etc/sway/config.d/*
