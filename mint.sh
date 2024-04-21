@@ -3,11 +3,11 @@ sleep 5
 sudo apt update
 sudo apt install git   
 #sudo apt install gnome
-#Alacritty start
-sudo add-apt-repository ppa:aslatter/ppa -y
-sudo apt update
-sudo apt install alacritty
-#Alacritty end
+#Alacritty start (disabled) 
+#sudo add-apt-repository ppa:aslatter/ppa -y
+#sudo apt update
+#sudo apt install alacritty
+#Alacritty end (disabled)
 sudo apt install cava
 sudo apt install steam
 sudo apt install speedtest-cli
@@ -58,6 +58,8 @@ sudo flatpak install com.heroicgameslauncher.hgl
 sudo flatpak install com.github.eneshecan.WhatsAppForLinux
 sudo flatpak install org.duckstation.DuckStation
 sudo flatpak install org.prismlauncher.PrismLauncher
+sudo flatpak install flathub org.wezfurlong.wezterm
+sudo flatpak install io.github.ungoogled_software.ungoogled_chromium
 #Qbittorrent
 sudo flatpak install org.qbittorrent.qBittorrent
 sudo mkdir /Crap/
