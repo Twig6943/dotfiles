@@ -4,9 +4,9 @@ sudo apt update
 sudo apt install git   
 #sudo apt install gnome
 #Alacritty start (disabled) 
-#sudo add-apt-repository ppa:aslatter/ppa -y
-#sudo apt update
-#sudo apt install alacritty
+sudo add-apt-repository ppa:aslatter/ppa -y
+sudo apt update
+sudo apt install alacritty
 #Alacritty end (disabled)
 sudo apt install cava
 sudo apt install steam
