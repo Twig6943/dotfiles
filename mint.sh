@@ -60,6 +60,7 @@ sudo flatpak install org.duckstation.DuckStation
 sudo flatpak install org.prismlauncher.PrismLauncher
 #sudo flatpak install flathub org.wezfurlong.wezterm
 sudo flatpak install io.github.ungoogled_software.ungoogled_chromium
+sudo flatpak install io.github.TheWisker.Cavasik
 #Qbittorrent
 sudo flatpak install org.qbittorrent.qBittorrent
 sudo mkdir /Crap/
