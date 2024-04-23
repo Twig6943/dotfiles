@@ -58,7 +58,7 @@ sudo flatpak install com.heroicgameslauncher.hgl
 sudo flatpak install com.github.eneshecan.WhatsAppForLinux
 sudo flatpak install org.duckstation.DuckStation
 sudo flatpak install org.prismlauncher.PrismLauncher
-sudo flatpak install flathub org.wezfurlong.wezterm
+#sudo flatpak install flathub org.wezfurlong.wezterm
 sudo flatpak install io.github.ungoogled_software.ungoogled_chromium
 #Qbittorrent
 sudo flatpak install org.qbittorrent.qBittorrent
