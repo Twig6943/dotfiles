@@ -70,4 +70,6 @@ wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /
 wget https://github.com/Twig6943/dotfiles/blob/main/1203800.jpg?raw=true -O /home/$USER/wallpapers/wp2.png
 #Clone the repository
 git clone https://github.com/Twig6943/dotfiles
+#Gnome window not responding fix
+#gsettings set org.gnome.mutter check-alive-timeout 60000
 echo "Installation is done"
