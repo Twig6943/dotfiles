@@ -46,6 +46,7 @@ sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/desktopfile.sh /home/
 sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/uninstalldesktopfile.sh /home/$USER/Downloads
 sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/install.sh /home/$USER/Downloads
 sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/uninstall.sh /home/$USER/Downloads
+chmod +x install.sh
 /home/$USER/Downloads/MangoHudandGoverlayInstaller/install.sh
 #Flatpaks
 sudo flatpak install dev.vencord.Vesktop
