@@ -210,7 +210,7 @@ bindsym $mod+e exec "nautilus"
 bindsym $mod+c exec "flatpak run io.github.TheWisker.Cavasik"
 exec_always gammastep -PO 4000
 bindsym XF86AudioPlay exec playerctl play-pause
-#client.focused "#330766" "#330766" "#330766" "#330766"
+client.focused "#520404" "#520404" "#520404" "#520404"
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +2%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -2%
