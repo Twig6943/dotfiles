@@ -3,6 +3,7 @@ sleep 5
 sudo apt update
 sudo apt install git   
 #sudo apt install gnome
+sydı apt install steam
 #Alacritty start (disabled) 
 sudo add-apt-repository ppa:aslatter/ppa -y
 sudo apt update
@@ -63,8 +64,6 @@ sudo flatpak install org.prismlauncher.PrismLauncher
 sudo flatpak install io.github.ungoogled_software.ungoogled_chromium
 sudo flatpak install io.github.TheWisker.Cavasik
 sudo flatpak install com.github.tchx84.Flatseal
-#Flatseal is to add secondary drives to steam
-sudo flatpak install com.valvesoftware.Steam
 #Qbittorrent
 sudo flatpak install org.qbittorrent.qBittorrent
 sudo mkdir /Crap/
