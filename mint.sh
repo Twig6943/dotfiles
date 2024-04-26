@@ -16,6 +16,7 @@ sudo apt install wireplumber
 sudo apt install pavucontrol
 sudo apt install lxappearance
 sudo apt install winetricks
+sudo apt install gammastep
 #Sway stuff
 sudo apt install sway
 sudo apt install waybar 
