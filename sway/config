@@ -25,7 +25,7 @@ include /etc/sway/config-vars.d/*
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/twig/wallpapers/wp.png fill
+output * bg /home/$USER/wallpapers/wp2.png fill
 #
 # Example configuration:
 #
@@ -207,6 +207,7 @@ bar {
 }
 bindsym $mod+r exec "wofi --show drun"
 bindsym $mod+e exec "nautilus"
+exec_always gammastep -PO 4000
 bindsym XF86AudioPlay exec playerctl play-pause
 #client.focused "#330766" "#330766" "#330766" "#330766"
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
