@@ -62,6 +62,8 @@ sudo flatpak install org.prismlauncher.PrismLauncher
 #sudo flatpak install flathub org.wezfurlong.wezterm
 sudo flatpak install io.github.ungoogled_software.ungoogled_chromium
 sudo flatpak install io.github.TheWisker.Cavasik
+sudo flatpak install com.github.tchx84.Flatseal
+#Flatseal is to add secondary drives to steam
 sudo flatpak install com.valvesoftware.Steam
 #Qbittorrent
 sudo flatpak install org.qbittorrent.qBittorrent
