@@ -8,21 +8,20 @@ sudo add-apt-repository ppa:aslatter/ppa -y
 sudo apt update
 sudo apt install alacritty
 #Alacritty end (disabled)
-sudo apt install cava
-sudo apt install steam
 sudo apt install speedtest-cli
 sudo apt install pipewire
 sudo apt install wireplumber
 sudo apt install pavucontrol
 sudo apt install lxappearance
 sudo apt install winetricks
-sudo apt install gammastep
 #Sway stuff
 sudo apt install sway
 sudo apt install waybar 
 sudo apt install playerctl
 sudo apt install wofi
 sudo apt install grimshot
+sudo apt install gammastep
+#Fastfetch
 wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.8.10/fastfetch-linux-amd64.deb -O /home/$USER/Downloads/fastfetch.deb
 wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb -O /home/$USER/Downloads/appimage.deb
 sudo dpkg -i /home/$USER/Downloads/fastfetch.deb
@@ -63,6 +62,7 @@ sudo flatpak install org.prismlauncher.PrismLauncher
 #sudo flatpak install flathub org.wezfurlong.wezterm
 sudo flatpak install io.github.ungoogled_software.ungoogled_chromium
 sudo flatpak install io.github.TheWisker.Cavasik
+sudo flatpak install com.valvesoftware.Steam
 #Qbittorrent
 sudo flatpak install org.qbittorrent.qBittorrent
 sudo mkdir /Crap/
