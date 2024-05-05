@@ -206,9 +206,9 @@ bar {
      swaybar_command waybar
 }
 bindsym $mod+r exec "wofi --show drun"
-bindsym $mod+e exec "nautilus"
+bindsym $mod+e exec "thunar"
 bindsym $mod+c exec "flatpak run io.github.TheWisker.Cavasik"
-exec_always gammastep -PO 4000
+exec_always gammastep -PO 2500
 bindsym XF86AudioPlay exec playerctl play-pause
 client.focused "#520404" "#520404" "#520404" "#520404"
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
