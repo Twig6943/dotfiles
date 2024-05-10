@@ -25,7 +25,7 @@ include /etc/sway/config-vars.d/*
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/$USER/wallpapers/wp.png fill
+output * bg /home/$USER/wallpapers/wp2.png fill
 #
 # Example configuration:
 #
@@ -37,9 +37,10 @@ output * bg /home/$USER/wallpapers/wp.png fill
 #
 # Example configuration:
 #
-# exec swayidle -w \
-#          timeout 300 'swaylock -f -c 000000' \
-#          timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
+
+#swayidle -w \
+#timeout 300 'swaylock -f -c 000000' \
+#timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
 #          before-sleep 'swaylock -f -c 000000'
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
