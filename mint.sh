@@ -1,14 +1,17 @@
 echo "Cancel the script if u want u have 5 seconds"
 sleep 5
+#Da important stuff
 sudo apt update
 sudo apt install git   
 #sudo apt install gnome
 sudo apt install steam
 sudo apt install nemo
-#Alacritty start
-sudo add-apt-repository ppa:aslatter/ppa -y
-sudo apt update
-sudo apt install alacritty
+sudo apt install wget
+sudo apt insall kitty
+#Alacritty start (disabled)
+#sudo add-apt-repository ppa:aslatter/ppa -y
+#sudo apt update
+#sudo apt install alacritty
 #Alacritty end
 #Linux Stuff
 sudo apt install speedtest-cli
@@ -27,7 +30,7 @@ sudo apt install playerctl
 sudo apt install wofi
 sudo apt install grimshot
 sudo apt install gammastep
-#Fastfetch
+#Fastfetch & APpImageLauncher
 wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.8.10/fastfetch-linux-amd64.deb -O /home/$USER/Downloads/fastfetch.deb
 wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb -O /home/$USER/Downloads/appimage.deb
 sudo dpkg -i /home/$USER/Downloads/fastfetch.deb
@@ -75,7 +78,7 @@ sudo mkdir /Crap/
 sudo wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /Crap/ICEBERG.qbtheme
 #Wallpapers
 mkdir /home/$USER/wallpapers
-wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /home/$USER/wallpapers/wp1.png
+wget https://github.com/Twig6943/dotfiles/blob/main/wp.png?raw=true -O /home/$USER/wallpapers/wp.png
 wget https://github.com/Twig6943/dotfiles/blob/main/1203800.jpg?raw=true -O /home/$USER/wallpapers/wp2.png
 #Clone the repository
 git clone https://github.com/Twig6943/dotfiles
