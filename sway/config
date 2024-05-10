@@ -219,7 +219,7 @@ bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -2%
 bindsym Print exec "grimshot copy area"
 bindsym $mod+Shift+Escape exec "shutdown now"
 bindsym $mod+Shift+Escape+R exec "reboot now"
-bindsym $mod+KP_Enter exec "alacritty"
+bindsym $mod+KP_Enter exec "$term"
 for_window [title="Picture in picture"]  floating enable, sticky on
 for_window [title="Picture-in-Picture"]  floating enable, sticky on
 include /etc/sway/config.d/*
