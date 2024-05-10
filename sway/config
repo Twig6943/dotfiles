@@ -208,6 +208,7 @@ bar {
 bindsym $mod+r exec "wofi --show drun"
 bindsym $mod+e exec "thunar"
 bindsym $mod+c exec "flatpak run io.github.TheWisker.Cavasik"
+bindsym $mod+l exec "swaylock"
 exec_always gammastep -PO 2500
 bindsym XF86AudioPlay exec playerctl play-pause
 client.focused "#520404" "#520404" "#520404" "#520404"
