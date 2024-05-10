@@ -22,6 +22,7 @@ sudo apt install playerctl
 sudo apt install wofi
 sudo apt install grimshot
 sudo apt install gammastep
+sudo apt install swaylock
 #Fastfetch
 wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.8.10/fastfetch-linux-amd64.deb -O /home/$USER/Downloads/fastfetch.deb
 wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb -O /home/$USER/Downloads/appimage.deb
