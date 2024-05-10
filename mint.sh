@@ -20,7 +20,7 @@ sudo apt install winetricks
 #Sway stuff
 sudo apt install sway
 sudo apt install swaybg
-sudo apt install swayidle
+#sudo apt install swayidle
 sudo apt install swaylock
 sudo apt install waybar 
 sudo apt install playerctl
