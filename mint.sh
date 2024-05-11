@@ -76,7 +76,10 @@ sudo flatpak install io.github.ungoogled_software.ungoogled_chromium
 sudo flatpak install io.github.TheWisker.Cavasik
 sudo flatpak install com.github.tchx84.Flatseal
 sudo flatpak install org.qbittorrent.qBittorrent
+#Brawl // Animation 
 sudo flatpak install org.synfig.SynfigStudio
+sudo flatpak install org.inkscape.Inkscape
+sudo flatpak install com.jpexs.decompiler.flash
 #Crap/Flameshot Stuff
 sudo mkdir /crap/
 sudo wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /crap/ICEBERG.qbtheme
