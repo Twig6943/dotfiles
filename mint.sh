@@ -29,6 +29,7 @@ sudo apt install xdg-desktop-portal-wlr
 sudo apt install waybar 
 sudo apt install playerctl
 sudo apt install wofi
+sudo apt install grim
 sudo apt install grimshot
 sudo apt install gammastep
 #Fastfetch & APpImageLauncher
