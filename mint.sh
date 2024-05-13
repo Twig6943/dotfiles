@@ -1,3 +1,5 @@
+#Install the Qredshift extension for night light
+#https://cinnamon-spices.linuxmint.com/applets/view/313
 echo "Cancel the script if u want u have 5 seconds"
 sleep 5
 #Da important stuff
@@ -5,7 +7,7 @@ sudo apt update
 sudo apt install git   
 #sudo apt install gnome
 sudo apt install steam
-sudo apt install nemo
+#sudo apt install nemo
 sudo apt install wget
 sudo apt insall kitty
 #Alacritty start (disabled)
