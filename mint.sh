@@ -22,18 +22,20 @@ sudo apt install wireplumber
 sudo apt install pavucontrol
 sudo apt install lxappearance
 sudo apt install winetricks
-#Sway stuff
-sudo apt install sway
-sudo apt install swaybg
+#Sway stuff (disabled)
+#sudo apt install sway
+#sudo apt install swaybg
 #sudo apt install swayidle
-sudo apt install swaylock
-sudo apt install xdg-desktop-portal-wlr
-sudo apt install waybar 
-sudo apt install playerctl
-sudo apt install wofi
-sudo apt install grim
-sudo apt install grimshot
-sudo apt install gammastep
+#sudo apt install swaylock
+#sudo apt install xdg-desktop-portal-wlr
+#sudo apt install waybar 
+#sudo apt install playerctl
+#sudo apt install wofi
+#sudo apt install grim
+#sudo apt install grimshot
+#sudo apt install gammastep
+#Sway stuff (disabled)
+
 #Fastfetch & APpImageLauncher
 wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.8.10/fastfetch-linux-amd64.deb -O /home/$USER/Downloads/fastfetch.deb
 wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb -O /home/$USER/Downloads/appimage.deb
@@ -99,3 +101,4 @@ git clone https://github.com/Twig6943/dotfiles
 #Gnome window not responding fix
 #gsettings set org.gnome.mutter check-alive-timeout 60000
 echo "Installation is done"
+#Fart
