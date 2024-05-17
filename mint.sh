@@ -23,25 +23,25 @@ sudo apt install pavucontrol
 sudo apt install lxappearance
 sudo apt install winetricks
 #Sway stuff (disabled)
-#sudo apt install sway
-#sudo apt install swaybg
-#sudo apt install swayidle
-#sudo apt install swaylock
-#sudo apt install xdg-desktop-portal-wlr
-#sudo apt install waybar 
-#sudo apt install playerctl
-#sudo apt install wofi
-#sudo apt install grim
-#sudo apt install grimshot
-#sudo apt install gammastep
+sudo apt install sway
+sudo apt install swaybg
+sudo apt install swayidle
+sudo apt install swaylock
+sudo apt install xdg-desktop-portal-wlr
+sudo apt install waybar 
+sudo apt install playerctl
+sudo apt install wofi
+sudo apt install grim
+sudo apt install grimshot
+sudo apt install gammastep
 #Sway stuff (disabled)
 
 #Fastfetch & APpImageLauncher
-wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.8.10/fastfetch-linux-amd64.deb -O /home/$USER/Downloads/fastfetch.deb
+#wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.8.10/fastfetch-linux-amd64.deb -O /home/$USER/Downloads/fastfetch.deb
 wget https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb -O /home/$USER/Downloads/appimage.deb
-sudo dpkg -i /home/$USER/Downloads/fastfetch.deb
+#sudo dpkg -i /home/$USER/Downloads/fastfetch.deb
 sudo dpkg -i /home/$USER/Downloads/appimage.deb
-sudo rm /home/$USER/Downloads/fastfetch.deb
+#sudo rm /home/$USER/Downloads/fastfetch.deb
 sudo rm /home/$USER/Downloads/appimage.deb
 #Playit
 curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null
@@ -81,6 +81,11 @@ sudo flatpak install io.github.ungoogled_software.ungoogled_chromium
 sudo flatpak install io.github.TheWisker.Cavasik
 sudo flatpak install com.github.tchx84.Flatseal
 sudo flatpak install org.qbittorrent.qBittorrent
+
+#NixPackages
+sh <(curl -L https://nixos.org/nix/install) --daemon
+nix-env -iA nixpkgs.fastfetch
+
 #Brawl // Animation 
 sudo flatpak install org.synfig.SynfigStudio
 sudo flatpak install org.inkscape.Inkscape
