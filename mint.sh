@@ -93,10 +93,6 @@ sudo flatpak install com.jpexs.decompiler.flash
 #Crap/Flameshot Stuff
 sudo mkdir /crap/
 sudo wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /crap/ICEBERG.qbtheme
-#sudo wget https://raw.githubusercontent.com/Twig6943/dotfiles/main/sway.sh -O /crap/sway.sh
-#sudo chmod +x /crap/sway.sh
-#sudo wget https://raw.githubusercontent.com/Twig6943/dotfiles/main/sway.desktop -O /usr/share/wayland-sessions/sway.desktop
-#sudo chmod +x /usr/share/wayland-sessions/sway.desktop
 #Wallpapers
 mkdir /home/$USER/wallpapers
 wget https://github.com/Twig6943/dotfiles/blob/main/wp.png?raw=true -O /home/$USER/wallpapers/wp.png
