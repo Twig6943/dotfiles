@@ -22,7 +22,7 @@ sudo apt install wireplumber
 sudo apt install pavucontrol
 sudo apt install lxappearance
 sudo apt install winetricks
-#Sway stuff (disabled)
+#Sway stuff (enabled)
 sudo apt install sway
 sudo apt install swaybg
 sudo apt install swayidle
@@ -34,7 +34,7 @@ sudo apt install wofi
 sudo apt install grim
 sudo apt install grimshot
 sudo apt install gammastep
-#Sway stuff (disabled)
+#Sway stuff (enabled)
 
 #Fastfetch & APpImageLauncher
 #wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.8.10/fastfetch-linux-amd64.deb -O /home/$USER/Downloads/fastfetch.deb
