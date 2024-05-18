@@ -81,6 +81,7 @@ sudo flatpak install io.github.ungoogled_software.ungoogled_chromium
 sudo flatpak install io.github.TheWisker.Cavasik
 sudo flatpak install com.github.tchx84.Flatseal
 sudo flatpak install org.qbittorrent.qBittorrent
+sudo flatpak install io.mrarm.mcpelauncher
 
 #NixPackages
 sh <(curl -L https://nixos.org/nix/install) --daemon
