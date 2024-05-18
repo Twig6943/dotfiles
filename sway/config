@@ -114,8 +114,9 @@ output * bg /home/$USER/wallpapers/wp.png fill
     # Make the current focus fullscreen
     bindsym $mod+f fullscreen
 
-    # Toggle the current focus between tiling and floating mode
-    bindsym $mod+X floating toggle
+#Toggle the current focus between tiling and floating 
+bindsym $mod+X floating toggle
+bindsym $mod+Z floating toggle, sticky on
 
     #Taskmgr
     bindsym Ctrl+Alt+Delete exec "xfce4-taskmanager"
