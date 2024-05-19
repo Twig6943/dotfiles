@@ -1,10 +1,24 @@
 echo "Cancel the script if u want u have 5 seconds"
 sleep 5
-#Pacman
+#Update & Install YaY
 sudo pacman -Syu
+pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
+sudo pacman -Sy git
+#Pacman
 sudo pacman -S qbittorrent
 sudo pacman -S fastfetch
 #sudo pacman -S gnome
+
+
+#Nvidia Stuff (Disabled)
+#git clone https://github.com/Frogging-Family/nvidia-all.git
+#cd nvidia-all
+#makepkg -si
+
+
 
 #Sway stuff
 sudo pacman -S kitty
@@ -35,10 +49,10 @@ systemctl --user restart xdg-desktop-portal
 mkdir /home/$USER/.config/qBittorrent/
 wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /home/$USER/.config/qBittorrent/ICEBERG.qbtheme
 #Wallpaper
-wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /home/$USER/.config/sway/wp2.png
 sudo mkdir /home/$USER/.config/sway
 sudo cp wp.png /home/$USER/.config/sway/wp.png
 sudo rm wp.png
+wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /home/$USER/.config/sway/wp2.png
 #Yay
 yay -S cava --noconfirm
 yay -S appimagelauncher --noconfirm
@@ -57,10 +71,13 @@ sudo flatpak install io.github.ungoogled_software.ungoogled_chromium
 sudo flatpak install io.github.TheWisker.Cavasik
 sudo flatpak install com.github.tchx84.Flatseal
 sudo flatpak install org.prismlauncher.PrismLauncher
+sudo flatpak install io.mrarm.mcpelauncher
 sudo flatpak install org.duckstation.DuckStation
 sudo flatpak install com.github.eneshecan.WhatsAppForLinux
+
 #sudo flatpak install flathub org.wezfurlong.wezterm
 #sudo flatpak install org.deluge_torrent.deluge
+
 #Brawl // Animation 
 sudo flatpak install org.synfig.SynfigStudio
 sudo flatpak install org.inkscape.Inkscape
@@ -72,5 +89,9 @@ sudo mv /usr/bin/kwalletd5 /usr/bin/kwalletd55
 sudo mv /usr/bin/kwalletd66 /usr/bin/kwalletd66
 sudo mv /usr/bin/kwallet-query /usr/bin/kwallet-queryy
 
+#Clone the repository
 git clone https://github.com/Twig6943/dotfiles
+
+
 echo "Installation is done"
+sleep 5
