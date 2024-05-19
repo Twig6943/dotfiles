@@ -83,7 +83,11 @@ sudo flatpak install io.github.TheWisker.Cavasik
 sudo flatpak install com.github.tchx84.Flatseal
 sudo flatpak install org.qbittorrent.qBittorrent
 sudo flatpak install io.mrarm.mcpelauncher
-
+#Gzdoom
+sudo flatpak install org.zdoom.GZDoom
+mkdir /home/$USER/.config/gzdoom
+mkdir /home/$USER/.config/gzdoom/wads
+mkdir /home/$USER/.config/gzdoom/pk3
 #NixPackages
 sh <(curl -L https://nixos.org/nix/install) --daemon
 nix-env -iA nixpkgs.fastfetch
