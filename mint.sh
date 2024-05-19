@@ -28,6 +28,7 @@ sudo apt install swaybg
 sudo apt install swayidle
 sudo apt install swaylock
 sudo apt install xdg-desktop-portal-wlr
+sudo apt install wdisplays
 sudo apt install waybar 
 sudo apt install playerctl
 sudo apt install wofi
