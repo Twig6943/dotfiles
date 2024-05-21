@@ -87,14 +87,19 @@ sudo flatpak install org.qbittorrent.qBittorrent
 sudo flatpak install io.mrarm.mcpelauncher
 sudo flatpak install org.zdoom.GZDoom
 
-#AppImage Package manager
-curl https://raw.githubusercontent.com/srevinsaju/zap/main/install.sh | sudo bash -s
-
 #Brawl // Animation 
 sudo flatpak install org.synfig.SynfigStudio
 sudo flatpak install org.inkscape.Inkscape
 sudo flatpak install com.jpexs.decompiler.flash
-#Crap/Flameshot Stuff
+
+#AppImage Package manager
+curl https://raw.githubusercontent.com/srevinsaju/zap/main/install.sh | sudo bash -s
+zap init
+zap install --github --from Heroic-Games-Launcher/HeroicGamesLauncher
+zap install --github --from minecraft-linux/appimage-builder
+zap install --github --from VSCodium/vscodium
+
+#Crap folder stuff
 sudo mkdir /crap/
 sudo wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /crap/ICEBERG.qbtheme
 #Wallpapers
@@ -102,6 +107,7 @@ mkdir /home/$USER/wallpapers
 wget https://github.com/Twig6943/dotfiles/blob/main/wp.png?raw=true -O /home/$USER/wallpapers/wp.png
 wget https://github.com/Twig6943/dotfiles/blob/main/1203800.jpg?raw=true -O /home/$USER/wallpapers/wp2.png
 #Clone the repository
+cd /home/$USER
 git clone https://github.com/Twig6943/dotfiles
 #Gnome window not responding fix
 #gsettings set org.gnome.mutter check-alive-timeout 60000
