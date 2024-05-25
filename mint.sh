@@ -1,4 +1,4 @@
-#Install the Qredshift extension for night light
+#Install the Qredshift extension for night light if you're on Cinnamon
 #https://cinnamon-spices.linuxmint.com/applets/view/313
 echo "Cancel the script if u want u have 5 seconds"
 sleep 5
