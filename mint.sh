@@ -87,7 +87,7 @@ sudo flatpak install org.qbittorrent.qBittorrent
 sudo flatpak install io.mrarm.mcpelauncher
 sudo flatpak install org.zdoom.GZDoom
 
-#Brawl // Animation 
+#Brawl // Animation (flatpak)
 sudo flatpak install org.synfig.SynfigStudio
 sudo flatpak install org.inkscape.Inkscape
 sudo flatpak install com.jpexs.decompiler.flash
@@ -98,6 +98,7 @@ zap init
 zap install --github --from Heroic-Games-Launcher/HeroicGamesLauncher
 zap install --github --from minecraft-linux/appimage-builder
 zap install --github --from VSCodium/vscodium
+zap install --github --from th-ch/youtube-music
 
 #Crap folder stuff
 sudo mkdir /crap/
