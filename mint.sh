@@ -22,6 +22,7 @@ sudo apt install wireplumber
 sudo apt install pavucontrol
 sudo apt install lxappearance
 sudo apt install winetricks
+sudo apt install vulkan-tools
 
 #Sway stuff (enabled)
 sudo apt install sway
