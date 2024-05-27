@@ -22,6 +22,7 @@ sudo pacman -S winetricks
 sudo pacman -S speedtest-cli
 sudo pacman -S htop
 sudo pacman -S cmatrix
+sudo pacman -S mangohud
 sudo pacman -S goverlay
 sudo pacman -S xfce4-taskmanager
 
@@ -46,8 +47,6 @@ mkdir /home/$USER/.config/qBittorrent/
 wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /home/$USER/.config/qBittorrent/ICEBERG.qbtheme
 #Wallpaper
 sudo mkdir /home/$USER/wallpapers
-sudo cp wp.png /home/$USER/wallpapers
-sudo rm wp.png
 wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /home/$USER/wallpapers/wp2.png
 #Yay
 yay -S cava --noconfirm
@@ -76,6 +75,7 @@ sudo flatpak install org.synfig.SynfigStudio
 sudo flatpak install org.inkscape.Inkscape
 sudo flatpak install com.jpexs.decompiler.flash
 
+#Disabled flatpaks
 #sudo flatpak install flathub org.wezfurlong.wezterm
 #sudo flatpak install org.deluge_torrent.deluge
 
