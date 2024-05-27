@@ -87,6 +87,7 @@ sudo flatpak install com.github.tchx84.Flatseal
 sudo flatpak install org.qbittorrent.qBittorrent
 sudo flatpak install io.mrarm.mcpelauncher
 sudo flatpak install org.zdoom.GZDoom
+sudo flatpak install im.fluffychat.Fluffychat
 
 #Brawl // Animation (flatpak)
 sudo flatpak install org.synfig.SynfigStudio
