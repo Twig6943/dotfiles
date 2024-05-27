@@ -70,6 +70,7 @@ sudo flatpak install org.prismlauncher.PrismLauncher
 sudo flatpak install io.mrarm.mcpelauncher
 sudo flatpak install org.duckstation.DuckStation
 sudo flatpak install com.github.eneshecan.WhatsAppForLinux
+sudo flatpak install im.fluffychat.Fluffychat
 #Brawl // Animation 
 sudo flatpak install org.synfig.SynfigStudio
 sudo flatpak install org.inkscape.Inkscape
