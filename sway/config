@@ -182,13 +182,21 @@ bindsym $mod+e exec "thunar"
 bindsym $mod+c exec "flatpak run io.github.TheWisker.Cavasik"
 bindsym $mod+l exec "swaylock"
 exec_always gammastep -PO 2500
-bindsym XF86AudioPlay exec playerctl play-pause
 client.focused "#520404" "#520404" "#520404" "#520404"
+
+#Audio shit
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym $mod+F5 exec playerctl previous
+bindsym $mod+F6 exec playerctl next
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +2%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -2%
+
+#Screenshot stuff
 bindsym Print exec "grimshot copy area"
 bindsym Ctrl+Print exec "grimshot save area"
+
+#Power stuff
 bindsym $mod+Shift+Escape exec "shutdown now"
 bindsym $mod+Alt+r exec "reboot now"
 bindsym $mod+Shift+l exec "systemctl suspend"
