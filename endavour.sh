@@ -10,7 +10,7 @@ sudo pacman -Sy git
 #Pacman
 sudo pacman -S qbittorrent
 sudo pacman -S fastfetch
-#sudo pacman -S gnome
+sudo pacman -S jq
 sudo pacman -S pavucontrol
 sudo pacman -S yay
 sudo pacman -S flatpak
@@ -25,6 +25,8 @@ sudo pacman -S cmatrix
 sudo pacman -S mangohud
 sudo pacman -S goverlay
 sudo pacman -S xfce4-taskmanager
+#sudo pacman -S gnome
+
 
 #Nvidia Stuff (Disabled)
 #git clone https://github.com/Frogging-Family/nvidia-all.git
@@ -81,7 +83,7 @@ sudo flatpak install com.jpexs.decompiler.flash
 #sudo flatpak install org.deluge_torrent.deluge
 
 #AppImage Package manager
-curl https://raw.githubusercontent.com/srevinsaju/zap/main/install.sh | sudo bash -s
+sudo curl https://raw.githubusercontent.com/srevinsaju/zap/main/install.sh | sudo bash -s
 zap init
 zap install --github --from Heroic-Games-Launcher/HeroicGamesLauncher
 zap install --github --from minecraft-linux/appimage-builder
