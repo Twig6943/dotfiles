@@ -65,6 +65,7 @@ sudo flatpak install me.hyliu.fluentreader
 sudo flatpak install io.github.ungoogled_software.ungoogled_chromium
 sudo flatpak install io.github.TheWisker.Cavasik
 sudo flatpak install com.github.tchx84.Flatseal
+sudo flatpak install io.github.peazip.PeaZip
 sudo flatpak install org.prismlauncher.PrismLauncher
 sudo flatpak install gg.guilded.Guilded
 sudo flatpak install org.duckstation.DuckStation
