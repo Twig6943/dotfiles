@@ -82,6 +82,7 @@ sudo flatpak install com.jpexs.decompiler.flash
 
 #AppImages
 #APPIMAGE DEFAULT DIRECTORY: /home/twig/.local/share/zap/v2
+mkdir /home/$USER/Applications
 yay -S appimagelauncher-bin --noconfirm
 sudo curl https://raw.githubusercontent.com/srevinsaju/zap/main/install.sh | sudo bash -s
 zap init
