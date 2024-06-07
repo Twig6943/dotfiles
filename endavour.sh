@@ -48,8 +48,8 @@ systemctl --user restart xdg-desktop-portal
 mkdir /home/$USER/.config/qBittorrent/
 wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /home/$USER/.config/qBittorrent/ICEBERG.qbtheme
 #Wallpaper
-sudo mkdir /home/$USER/wallpapers
-wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /home/$USER/wallpapers/wp2.png
+mkdir /home/$USER/wallpapers
+wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /home/$USER/wallpapers/wp.png
 #Yay
 yay -S grimshot-bin-sway --noconfirm
 yay -S wdisplays --noconfirm
