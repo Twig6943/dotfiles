@@ -52,7 +52,6 @@ sudo mkdir /home/$USER/wallpapers
 wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /home/$USER/wallpapers/wp2.png
 #Yay
 yay -S cava --noconfirm
-yay -S appimagelauncher --noconfirm
 yay -S grimshot-bin-sway --noconfirm
 yay -S wdisplays --noconfirm
 yay -S noisetorch-bin --noconfirm
