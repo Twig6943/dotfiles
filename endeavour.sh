@@ -89,7 +89,7 @@ zap init
 zap install --github --from Heroic-Games-Launcher/HeroicGamesLauncher
 zap install --github --from minecraft-linux/appimage-builder
 zap install --github --from VSCodium/vscodium
-
+yo
 #Clone dotfiles
 cd /home/$USER
 git clone https://github.com/Twig6943/dotfiles
