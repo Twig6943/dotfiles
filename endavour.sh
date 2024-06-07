@@ -82,11 +82,11 @@ sudo flatpak install com.jpexs.decompiler.flash
 
 #AppImage Package manager
 #APPIMAGE DEFAULT DIRECTORY: /home/twig/.local/share/zap/v2
-sudo curl https://raw.githubusercontent.com/srevinsaju/zap/main/install.sh | sudo bash -s
-zap init
-zap install --github --from Heroic-Games-Launcher/HeroicGamesLauncher
-zap install --github --from minecraft-linux/appimage-builder
-zap install --github --from VSCodium/vscodium
+#sudo curl https://raw.githubusercontent.com/srevinsaju/zap/main/install.sh | sudo bash -s
+#zap init
+#zap install --github --from Heroic-Games-Launcher/HeroicGamesLauncher
+#zap install --github --from minecraft-linux/appimage-builder
+#zap install --github --from VSCodium/vscodium
 
 #Clone dotfiles
 cd /home/$USER
