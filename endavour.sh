@@ -57,6 +57,7 @@ yay -S noisetorch-bin --noconfirm
 #Flatpak
 sudo flatpak install xyz.armcord.ArmCord
 sudo flatpak install com.discordapp.Discord
+sudo flatpak install io.github.shiftey.Desktop
 sudo flatpak install org.gimp.GIMP
 sudo flatpak install org.vinegarhq.Vinegar
 sudo flatpak install com.github.unrud.VideoDownloader
