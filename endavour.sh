@@ -66,7 +66,6 @@ sudo flatpak install io.github.TheWisker.Cavasik
 sudo flatpak install com.github.tchx84.Flatseal
 sudo flatpak install org.prismlauncher.PrismLauncher
 sudo flatpak install gg.guilded.Guilded
-sudo flatpak install io.mrarm.mcpelauncher
 sudo flatpak install org.duckstation.DuckStation
 sudo flatpak install com.github.eneshecan.WhatsAppForLinux
 sudo flatpak install im.fluffychat.Fluffychat
