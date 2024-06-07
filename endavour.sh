@@ -79,6 +79,7 @@ sudo flatpak install com.jpexs.decompiler.flash
 #sudo flatpak install org.deluge_torrent.deluge
 
 #AppImage Package manager
+#APPIMAGE DEFAULT DIRECTORY: /home/twig/.local/share/zap/v2
 sudo curl https://raw.githubusercontent.com/srevinsaju/zap/main/install.sh | sudo bash -s
 zap init
 zap install --github --from Heroic-Games-Launcher/HeroicGamesLauncher
