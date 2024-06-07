@@ -90,14 +90,15 @@ zap install --github --from VSCodium/vscodium
 #Clone dotfiles
 cd /home/$USER
 git clone https://github.com/Twig6943/dotfiles
+#Cavasik config
+wget https://raw.githubusercontent.com/Twig6943/dotfiles/main/cavasik/config.cavasik -O /home/$USER/.var/app/io.github.TheWisker.Cavasik/config/cavasik/config.cavasik
+
 
 #Create /crap/ folder 
 sudo mkdir /crap
 sudo chown $USER 777 /crap
 sudo chown 777 /crap
 sudo chmod 777 /crap
-#Cavasik config goes here to avoid issues
-wget https://raw.githubusercontent.com/Twig6943/dotfiles/main/cavasik/config.cavasik -O /crap
 
 
 
