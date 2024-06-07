@@ -80,10 +80,14 @@ sudo flatpak install com.jpexs.decompiler.flash
 #sudo flatpak install flathub org.wezfurlong.wezterm
 #sudo flatpak install org.deluge_torrent.deluge
 
-#AppImages V2 (V1 can be found in mint.sh (I might replace zap with AM in mint.sh one day) )
-wget https://raw.githubusercontent.com/ivan-hc/AM/main/INSTALL && chmod a+x ./INSTALL && sudo ./INSTALL
-
-
+#AppImages
+#APPIMAGE DEFAULT DIRECTORY: /home/twig/.local/share/zap/v2
+yay -S appimagelauncher-bin --noconfirm
+sudo curl https://raw.githubusercontent.com/srevinsaju/zap/main/install.sh | sudo bash -s
+zap init
+zap install --github --from Heroic-Games-Launcher/HeroicGamesLauncher
+zap install --github --from minecraft-linux/appimage-builder
+zap install --github --from VSCodium/vscodium
 
 #Clone dotfiles
 cd /home/$USER
