@@ -96,6 +96,10 @@ sudo mkdir /crap
 sudo chown $USER 777 /crap
 sudo chown 777 /crap
 sudo chmod 777 /crap
+#Cavasik config goes here to avoid issues
+wget https://raw.githubusercontent.com/Twig6943/dotfiles/main/cavasik/config.cavasik -O /crap
+
+
 
 #Rename kde crap
 sudo mv /usr/bin/kwalletd5 /usr/bin/kwalletd55
