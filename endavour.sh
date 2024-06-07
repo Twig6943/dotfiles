@@ -91,6 +91,12 @@ zap install --github --from VSCodium/vscodium
 cd /home/$USER
 git clone https://github.com/Twig6943/dotfiles
 
+#Create /crap/ folder 
+sudo mkdir /crap
+sudo chown $USER 777 /crap
+sudo chown 777 /crap
+sudo chmod 777 /crap
+
 #Rename kde crap
 sudo mv /usr/bin/kwalletd5 /usr/bin/kwalletd55
 sudo mv /usr/bin/kwalletd66 /usr/bin/kwalletd66
