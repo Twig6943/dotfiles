@@ -4,6 +4,9 @@
 #
 # Read `man 5 sway` for a complete reference.
 
+
+exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
+
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -201,6 +204,6 @@ bindsym $mod+Shift+Escape exec "shutdown now"
 bindsym $mod+Alt+r exec "reboot now"
 bindsym $mod+Shift+l exec "systemctl suspend"
 bindsym $mod+KP_Enter exec "$term"
-for_window [title="Picture-in-Picture"]  floating enable, sticky on
 for_window [title="Picture in picture"]  floating enable, sticky on
+for_window [title="Picture-in-Picture"]  floating enable, sticky on
 include /etc/sway/config.d/*
