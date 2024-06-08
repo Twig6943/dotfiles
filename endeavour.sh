@@ -71,6 +71,7 @@ sudo flatpak install gg.guilded.Guilded
 sudo flatpak install org.duckstation.DuckStation
 sudo flatpak install com.github.eneshecan.WhatsAppForLinux
 sudo flatpak install im.fluffychat.Fluffychat
+sudo flatpak install org.freedesktop.Platform.VulkanLayer.MangoHud
 #Brawl // Animation 
 sudo flatpak install org.synfig.SynfigStudio
 sudo flatpak install org.inkscape.Inkscape
