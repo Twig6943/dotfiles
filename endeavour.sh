@@ -90,6 +90,7 @@ zap init
 zap install --github --from Heroic-Games-Launcher/HeroicGamesLauncher
 zap install --github --from minecraft-linux/appimage-builder
 zap install --github --from VSCodium/vscodium
+zap install --github --from ungoogled-software/ungoogled-chromium-portablelinux
 yo
 #Clone dotfiles
 cd /home/$USER
