@@ -33,13 +33,15 @@ sudo pacman -S xfce4-taskmanager
 #cd nvidia-all
 #makepkg -si
 
-#Sway stuff
-sudo pacman -S kitty
+#WM stuff
+sudo pacman -S hyprland
+yay -S hyprshade --noconfirm
 sudo pacman -S sway
 sudo pacman -S swaybg
 sudo pacman -S swaylock
+sudo pacman -S kitty
 sudo pacman -S xdg-desktop-portal-wlr
-sudo pacman -S gammastep
+#sudo pacman -S gammastep
 sudo pacman -S waybar
 sudo pacman -S playerctl
 sudo pacman -S wofi
