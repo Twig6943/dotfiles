@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<opml version="1.1" xmlns:feeder="https://nononsenseapps.com/feeder">
-  <head>
-    <title>
-      Feeder
-    </title>
-  </head>
-  <body>
-    <outline feeder:notify="false" feeder:imageUrl="https://news.nononsenseapps.com/apple-touch-icon.png" feeder:fullTextByDefault="false" feeder:openArticlesWith="" feeder:alternateId="false" title="Feeder News" text="Feeder News" type="rss" xmlUrl="https://news.nononsenseapps.com/index.atom"/>
-    <outline feeder:notify="false" feeder:imageUrl="https://github.githubassets.com/favicons/favicon.svg" feeder:fullTextByDefault="true" feeder:openArticlesWith="" feeder:alternateId="false" title="Release notes from Hyprland" text="Release notes from Hyprland" type="rss" xmlUrl="https://github.com/hyprwm/Hyprland/releases.atom"/>
-    <outline feeder:notify="false" feeder:fullTextByDefault="true" feeder:openArticlesWith="" feeder:alternateId="false" title="GamingOnLinux Latest Articles" text="GamingOnLinux Latest Articles" type="rss" xmlUrl="https://www.gamingonlinux.com/article_rss.php"/>
-    <outline feeder:notify="false" feeder:imageUrl="https://weekly.nixos.org/theme/images/apple-icon-57x57.png" feeder:fullTextByDefault="true" feeder:openArticlesWith="" feeder:alternateId="false" title="NixOS Weekly" text="NixOS Weekly" type="rss" xmlUrl="https://weekly.nixos.org/feeds/all.rss.xml"/>
-    <outline feeder:notify="false" feeder:imageUrl="https://cdn.ntv.com.tr/img/152.png" feeder:fullTextByDefault="true" feeder:openArticlesWith="" feeder:alternateId="true" title="ntv.com.tr" text="ntv.com.tr" type="rss" xmlUrl="https://www.ntv.com.tr/turkiye.rss"/>
-    <outline feeder:notify="false" feeder:imageUrl="https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2023/11/sygundemjpg-Z1g4r_89ukKXCeFVYgNdsw.jpg" feeder:fullTextByDefault="true" feeder:openArticlesWith="" feeder:alternateId="false" title="Gündem haberleri - Son dakika gündem haberleri - Sözcü" text="Gündem haberleri - Son dakika gündem haberleri - Sözcü" type="rss" xmlUrl="https://www.sozcu.com.tr/feeds-rss-category-gundem"/>
-    <outline feeder:notify="false" feeder:imageUrl="https://s3.amazonaws.com/o.assets.images.ign.com/kraken/IGN-Logo-RSS.png" feeder:fullTextByDefault="true" feeder:openArticlesWith="" feeder:alternateId="false" title="IGN All" text="IGN All" type="rss" xmlUrl="http://feeds.feedburner.com/ign/all"/>
-    <outline feeder:notify="false" feeder:fullTextByDefault="true" feeder:openArticlesWith="" feeder:alternateId="false" title="Rock Paper Shotgun Latest Articles Feed" text="Rock Paper Shotgun Latest Articles Feed" type="rss" xmlUrl="https://www.rockpapershotgun.com/feed"/>
-    <outline feeder:notify="false" feeder:imageUrl="https://vanilla.futurecdn.net/pcgamer/928760/apple-touch-icon.png" feeder:fullTextByDefault="true" feeder:openArticlesWith="" feeder:alternateId="false" title=" PCGamer latest " text=" PCGamer latest " type="rss" xmlUrl="https://www.pcgamer.com/rss/"/>
-    <outline feeder:notify="false" feeder:imageUrl="https://www.omgubuntu.co.uk/wp-content/uploads/2023/11/cropped-siteidentify-32x32.jpg" feeder:fullTextByDefault="true" feeder:openArticlesWith="" feeder:alternateId="false" title="OMG! Ubuntu" text="OMG! Ubuntu" type="rss" xmlUrl="https://www.omgubuntu.co.uk/feed"/>
-    <outline feeder:notify="false" feeder:fullTextByDefault="true" feeder:openArticlesWith="" feeder:alternateId="false" title="Phoronix" text="Phoronix" type="rss" xmlUrl="https://www.phoronix.com/rss.php"/>
-    <outline feeder:notify="false" feeder:imageUrl="https://i0.wp.com/www.omglinux.com/wp-content/uploads/2022/05/cropped-Group-19-4.png?fit=32%2C32&amp;ssl=1" feeder:fullTextByDefault="true" feeder:openArticlesWith="" feeder:alternateId="false" title="OMG! Linux" text="OMG! Linux" type="rss" xmlUrl="https://www.omglinux.com/feed/"/>
-    <outline feeder:notify="false" feeder:imageUrl="https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2023/11/syteknolojijpg-o4n4qEWSdUKlIUd8_4Sv8Q.jpg" feeder:fullTextByDefault="true" feeder:openArticlesWith="" feeder:alternateId="false" title="Bilim Teknoloji - Son dakika bilim teknoloji haberleri - Sözcü" text="Bilim Teknoloji - Son dakika bilim teknoloji haberleri - Sözcü" type="rss" xmlUrl="https://www.sozcu.com.tr/feeds-rss-category-bilim-teknoloji"/>
-    <outline feeder:notify="false" feeder:imageUrl="https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png" feeder:fullTextByDefault="true" feeder:openArticlesWith="" feeder:alternateId="false" title="NYT &gt; World News" text="NYT &gt; World News" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/World.xml"/>
-    <outline feeder:notify="false" feeder:imageUrl="https://www.cartoonbrew.com/wp-content/uploads/2018/03/cropped-cropped-favicon-3-150x150.png" feeder:fullTextByDefault="true" feeder:openArticlesWith="" feeder:alternateId="false" title="Cartoon Brew" text="Cartoon Brew" type="rss" xmlUrl="http://feeds.feedburner.com/CartoonBrew"/>
-    <feeder:settings>
-      <feeder:setting key="pref_theme" value="night"/>
-      <feeder:setting key="pref_sync_on_resume" value="false"/>
-      <feeder:setting key="pref_body_text_scale" value="1.4000001"/>
-      <feeder:setting key="pref_dynamic_theme" value="true"/>
-      <feeder:setting key="pref_added_feeder_news" value="true"/>
-    </feeder:settings>
-  </body>
+<opml version="1.0">
+	<head>
+		<title>Fluent Reader Export</title>
+	</head>
+	<body>
+		<outline text="NYT &gt; World News" title="NYT &gt; World News" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/World.xml"/>
+		<outline text=" PCGamer latest " title=" PCGamer latest " type="rss" xmlUrl="https://www.pcgamer.com/rss/"/>
+		<outline text="OMG! Ubuntu" title="OMG! Ubuntu" type="rss" xmlUrl="https://www.omgubuntu.co.uk/feed"/>
+		<outline text="ntv.com.tr" title="ntv.com.tr" type="rss" xmlUrl="https://www.ntv.com.tr/turkiye.rss"/>
+		<outline text="Feeder News" title="Feeder News" type="rss" xmlUrl="https://news.nononsenseapps.com/index.atom"/>
+		<outline text="OMG! Linux" title="OMG! Linux" type="rss" xmlUrl="https://www.omglinux.com/feed/"/>
+		<outline text="Cartoon Brew" title="Cartoon Brew" type="rss" xmlUrl="http://feeds.feedburner.com/CartoonBrew"/>
+		<outline text="IGN All" title="IGN All" type="rss" xmlUrl="http://feeds.feedburner.com/ign/all"/>
+		<outline text="Bilim Teknoloji - Son dakika bilim teknoloji haberleri - Sözcü" title="Bilim Teknoloji - Son dakika bilim teknoloji haberleri - Sözcü" type="rss" xmlUrl="https://www.sozcu.com.tr/feeds-rss-category-bilim-teknoloji"/>
+		<outline text="NixOS Weekly" title="NixOS Weekly" type="rss" xmlUrl="https://weekly.nixos.org/feeds/all.rss.xml"/>
+		<outline text="Gündem haberleri - Son dakika gündem haberleri - Sözcü" title="Gündem haberleri - Son dakika gündem haberleri - Sözcü" type="rss" xmlUrl="https://www.sozcu.com.tr/feeds-rss-category-gundem"/>
+		<outline text="Release notes from Hyprland" title="Release notes from Hyprland" type="rss" xmlUrl="https://github.com/hyprwm/Hyprland/releases.atom"/>
+		<outline text="GamingOnLinux Latest Articles" title="GamingOnLinux Latest Articles" type="rss" xmlUrl="https://www.gamingonlinux.com/article_rss.php"/>
+		<outline text="Phoronix" title="Phoronix" type="rss" xmlUrl="https://www.phoronix.com/rss.php"/>
+		<outline text="Rock Paper Shotgun Latest Articles Feed" title="Rock Paper Shotgun Latest Articles Feed" type="rss" xmlUrl="https://www.rockpapershotgun.com/feed"/>
+		<outline text="Turuncu Levye" title="Turuncu Levye" type="rss" xmlUrl="https://www.turunculevye.com/feed/"/>
+		<outline text="Webtekno | Teknoloji Haberleri ve İncelemeleri" title="Webtekno | Teknoloji Haberleri ve İncelemeleri" type="rss" xmlUrl="https://www.webtekno.com/rss.xml"/>
+		<outline text="Geekyapar!" title="Geekyapar!" type="rss" xmlUrl="https://geekyapar.com/feed/"/>
+		<outline text="Cumhuriyet Gazetesi - Dünya" title="Cumhuriyet Gazetesi - Dünya" type="rss" xmlUrl="http://www.cumhuriyet.com.tr/rss/4.xml"/>
+		<outline text="Turkmmo" title="Turkmmo" type="rss" xmlUrl="https://www.turkmmo.com/feed"/>
+	</body>
 </opml>
