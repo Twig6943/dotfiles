@@ -61,7 +61,6 @@ sudo flatpak install org.gimp.GIMP
 sudo flatpak install org.vinegarhq.Vinegar
 sudo flatpak install https://sober.vinegarhq.org/sober.flatpakref
 sudo flatpak install com.github.unrud.VideoDownloader
-sudo flatpak install io.github.martinrotter.rssguard
 sudo flatpak install io.github.ungoogled_software.ungoogled_chromium
 sudo flatpak install io.github.TheWisker.Cavasik
 sudo flatpak install com.github.tchx84.Flatseal
@@ -90,6 +89,7 @@ chmod a+x ./AM-INSTALLER
 am -i heroic-games-launcher
 am -i mcpelauncher 
 am -i vscodium
+am -i fluent-reader
 #Clone dotfiles
 cd /home/$USER
 git clone https://github.com/Twig6943/dotfiles
