@@ -1,0 +1,16 @@
+[Cavasik]
+Description=Cavasik
+above=true
+aboverule=3
+belowrule=3
+desktopfile=io.github.TheWisker.Cavasik
+desktopfilerule=3
+fullscreenrule=3
+layer=above
+layerrule=2
+minimizerule=3
+noborderrule=3
+title=Cavasik
+types=1
+wmclass=io.github.TheWisker.Cavasik
+wmclassmatch=1
