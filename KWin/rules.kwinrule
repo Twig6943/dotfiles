@@ -14,3 +14,27 @@ title=Cavasik
 types=1
 wmclass=io.github.TheWisker.Cavasik
 wmclassmatch=1
+
+[PiP (Chromium)]
+Description=PiP (Chromium)
+above=true
+aboverule=3
+belowrule=3
+fullscreenrule=3
+minimizerule=3
+title=Picture in picture
+titlematch=1
+wmclass=PiP (Chromium)
+wmclasscomplete=true
+
+[PiP (Firefox)]
+Description=PiP (Firefox)
+above=true
+aboverule=3
+belowrule=3
+fullscreenrule=3
+minimizerule=3
+title=Picture-in-Picture
+titlematch=1
+wmclass=PiP (Firefox)
+wmclasscomplete=true
