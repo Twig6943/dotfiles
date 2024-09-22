@@ -8,9 +8,12 @@ imports = [
 ]
 
 # Packages to be installed via the native package manager.
+
+#Packages to be installed via Pacman.
 [managers.system]
 items = [
     "git",
+    "fastfetch",
     "yay",
     "steam",
     "clamtk",
@@ -28,6 +31,24 @@ items = [
     "opencl-amd",
     "wireguard-dkms",
 ]
+
+#Packages to be installed via YaY.
+[managers.yay]
+items = [
+    "appimagelauncher-bin",
+    "waydroid",
+    "hardinfo2",
+    "grimshot-bin-sway",
+    "opencl-amd",
+    "playit-bin",
+]
+
+#Packages to be installed via AM.
+[managers.am]
+items = [
+    "vscodium",
+]
+
 
 # Packages to be installed via Flatpak.
 [managers.flatpak]
