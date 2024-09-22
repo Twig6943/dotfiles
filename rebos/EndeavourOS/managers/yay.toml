@@ -1,0 +1,11 @@
+# YaY
+
+add = "yay -S #:?"
+remove = "yay -R #:?"
+
+plural_name = "YaY"
+
+hook_name = "YaY"
+
+[config]
+many_args = true
