@@ -16,14 +16,14 @@ items = [
     "clamtk",
     "goverlay",
     "mangohud",
-    "winetricks"
+    "winetricks",
     "protontricks",
     "wine",
     "speedtest-cli",
     "sway",
     "hyprland",
     "xdg-desktop-portal-wlr",
-    "p7zip"
+    "p7zip",
     "amdvlk",
     "opencl-amd",
     "wireguard-dkms",
