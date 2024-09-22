@@ -11,7 +11,20 @@ imports = [
 [managers.system]
 items = [
     "git",
+    "yay",
     "steam",
+    "clamtk"
+    "winetricks"
+    "protontricks",
+    "wine",
+    "speedtest-cli",
+    "sway",
+    "hyprland",
+    "xdg-desktop-portal-wlr",
+    "p7zip"
+    "amdvlk",
+    "opencl-amd",
+    "wireguard-dkms",
 ]
 
 # Packages to be installed via Flatpak.
@@ -21,7 +34,6 @@ items = [
     "com.github.Matoking.protontricks",
     "com.github.tchx84.Flatseal",
     "com.github.ztefn.haguichi",
-    "com.gitlab.davem.ClamTk",
     "com.ktechpit.whatsie",
     "com.vysp3r.ProtonPlus",
     "dev.vencord.Vesktop",
@@ -48,6 +60,8 @@ items = [
     "org.vinegarhq.Sober",
     "org.vinegarhq.Vinegar",
     "sh.ppy.osu",
+    "org.videolan.VLC",
+    "in.srev.guiscrcpy",
 ]
 
 # Packages to be installed via Cargo.
