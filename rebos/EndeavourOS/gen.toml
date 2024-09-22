@@ -1,27 +1,57 @@
-# --------------------------- #
-#    Manager Configuration    #
-# --------------------------- #
+# --------------------- #
+#    Generation File    #
+# --------------------- #
 
-# Make sure to enter the exact command you use as the normal user!
-# That means including 'sudo' or 'doas' or whatever if the command needs it.
-# Where you would put items, enter '#:?'.
+# Other generation files to import. (Example: intensive_apps -> ~/.config/rebos/imports/intensive_apps.toml)
+imports = [
+    # "intensive_apps",
+]
 
-# Example: add = "sudo apt install #:?"
+# Packages to be installed via the native package manager.
+[managers.system]
+items = [
+    "git",
+    "steam",
+]
 
-add = "sudo pacman -S #:?" # Example: sudo apt install #:?
-remove = "sudo pacman -R #:?" # Example: sudo apt remove #:?
-sync = "eos-update" # Example: sudo apt update
-upgrade = "" # Example: sudo apt upgrade
+# Packages to be installed via Flatpak.
+[managers.flatpak]
+items = [
+    "com.github.KRTirtho.Spotube",
+    "com.github.Matoking.protontricks",
+    "com.github.tchx84.Flatseal",
+    "com.github.ztefn.haguichi",
+    "com.gitlab.davem.ClamTk",
+    "com.ktechpit.whatsie",
+    "com.vysp3r.ProtonPlus",
+    "dev.vencord.Vesktop",
+    "im.fluffychat.Fluffychat",
+    "io.github.TheWisker.Cavasik",
+    "io.github.peazip.PeaZip",
+    "io.github.shadowmario.fnf-psychengine",
+    "io.gitlab.librewolf-community",
+    "net.davidotek.pupgui2",
+    "net.werwolv.ImHex",
+    "org.audacityteam.Audacity",
+    "org.blender.Blender",
+    "org.duckstation.DuckStation",
+    "org.flameshot.Flameshot",
+    "org.inkscape.Inkscape",
+    "org.kde.akregator",
+    "org.kde.kclock",
+    "org.kde.krdc",
+    "org.kde.krita",
+    "org.libreoffice.LibreOffice",
+    "org.mozilla.Thunderbird",
+    "org.nickvision.tubeconverter",
+    "org.ryujinx.Ryujinx",
+    "org.vinegarhq.Sober",
+    "org.vinegarhq.Vinegar",
+    "sh.ppy.osu",
+]
 
-plural_name = "system packages"
-
-hook_name = "system_packages" # This is used in hooks. (Example: post_system_packages_add)
-
-# ------------------------------- #
-#    Additional configuration.    #
-# ------------------------------- #
-
-# many_args = BOOL: Can you supply many items as an argument? Example: 'sudo apt install git vim wget'
-
-[config]
-many_args = true
+# Packages to be installed via Cargo.
+[managers.cargo]
+items = [
+    # "bacon",
+]
