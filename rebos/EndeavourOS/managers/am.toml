@@ -1,0 +1,12 @@
+# AppImages
+
+add = "am -i #:?"
+remove = "am -r #:?"
+upgrade = "am update"
+
+plural_name = "am"
+
+hook_name = "am"
+
+[config]
+many_args = true
