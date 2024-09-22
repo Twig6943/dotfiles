@@ -13,7 +13,9 @@ items = [
     "git",
     "yay",
     "steam",
-    "clamtk"
+    "clamtk",
+    "goverlay",
+    "mangohud",
     "winetricks"
     "protontricks",
     "wine",
@@ -31,6 +33,7 @@ items = [
 [managers.flatpak]
 items = [
     "com.github.KRTirtho.Spotube",
+    "io.mrarm.mcpelauncher",
     "com.github.Matoking.protontricks",
     "com.github.tchx84.Flatseal",
     "com.github.ztefn.haguichi",
@@ -62,6 +65,8 @@ items = [
     "sh.ppy.osu",
     "org.videolan.VLC",
     "in.srev.guiscrcpy",
+    "org.freedesktop.Platform.VulkanLayer.MangoHud",
+    "org.freedesktop.Platform.VulkanLayer.gamescope",
 ]
 
 # Packages to be installed via Cargo.
