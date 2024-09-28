@@ -47,6 +47,7 @@ items = [
 [managers.am]
 items = [
     "vscodium",
+    "heroic-games-launcher",
 ]
 
 
