@@ -34,7 +34,6 @@ items = [
 #Packages to be installed via YaY.
 [managers.yay]
 items = [
-    "appimagelauncher-bin",
     "waydroid",
     "hardinfo2",
     "grimshot-bin-sway",
