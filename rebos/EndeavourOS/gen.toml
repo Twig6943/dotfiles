@@ -48,6 +48,7 @@ items = [
     "vscodium",
     "heroic-games-launcher",
     "wireguard-gui",
+    "webcamoid",
 ]
 
 
@@ -88,6 +89,7 @@ items = [
     "sh.ppy.osu",
     "org.videolan.VLC",
     "in.srev.guiscrcpy",
+    "com.obsproject.Studio",
     "org.freedesktop.Platform.VulkanLayer.MangoHud",
     "org.freedesktop.Platform.VulkanLayer.gamescope",
 ]
