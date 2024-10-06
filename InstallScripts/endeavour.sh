@@ -19,6 +19,7 @@ wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbthe
 mkdir /home/$USER/wallpapers
 wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /home/$USER/wallpapers/wp.png
 
+sudo pacman -S libappimage
 #Install "AM"
 mkdir /home/$USER/Applications
 wget -q https://raw.githubusercontent.com/ivan-hc/AM/main/AM-INSTALLER
