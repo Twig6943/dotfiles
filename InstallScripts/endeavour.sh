@@ -21,7 +21,6 @@ wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /
 
 #Install "AM"
 mkdir /home/$USER/Applications
-yay -S appimagelauncher-bin --noconfirm
 wget -q https://raw.githubusercontent.com/ivan-hc/AM/main/AM-INSTALLER
 chmod a+x ./AM-INSTALLER
 ./AM-INSTALLER
