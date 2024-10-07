@@ -16,7 +16,6 @@ items = [
     "fastfetch",
     "yay",
     "clamtk",
-    "goverlay",
     "mangohud",
     "winetricks",
     "protontricks",
@@ -47,6 +46,7 @@ items = [
     "vscodium",
     "steam",
     "heroic-games-launcher",
+    "goverlay",
     "wireguard-gui",
     "webcamoid",
 ]
