@@ -49,6 +49,7 @@ items = [
     "goverlay",
     "wireguard-gui",
     "webcamoid",
+    "osu",
 ]
 
 
@@ -86,7 +87,6 @@ items = [
     "org.ryujinx.Ryujinx",
     "org.vinegarhq.Sober",
     "org.vinegarhq.Vinegar",
-    "sh.ppy.osu",
     "org.videolan.VLC",
     "in.srev.guiscrcpy",
     "com.obsproject.Studio",
