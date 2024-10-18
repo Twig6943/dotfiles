@@ -50,6 +50,7 @@ items = [
     "wireguard-gui",
     "webcamoid",
     "osu",
+    "element",
 ]
 
 
@@ -92,7 +93,6 @@ items = [
     "com.obsproject.Studio",
     "org.freedesktop.Platform.VulkanLayer.MangoHud",
     "org.freedesktop.Platform.VulkanLayer.gamescope",
-    "im.riot.Riot",
 ]
 
 # Packages to be installed via Cargo.
