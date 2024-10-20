@@ -98,9 +98,3 @@ items = [
     "org.freedesktop.Platform.VulkanLayer.MangoHud",
     "org.freedesktop.Platform.VulkanLayer.gamescope",
 ]
-
-# Packages to be installed via Cargo.
-[managers.cargo]
-items = [
-    # "bacon",
-]
