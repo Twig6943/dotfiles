@@ -28,6 +28,7 @@ items = [
     "amdvlk",
     "opencl-amd",
     "wireguard-dkms",
+    "yazi",
     "kvantum",
     "qt5ct",
     "qt6ct",
