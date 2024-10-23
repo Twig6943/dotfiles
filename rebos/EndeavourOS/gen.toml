@@ -28,6 +28,8 @@ items = [
     "amdvlk",
     "opencl-amd",
     "wireguard-dkms",
+    "qt5ct",
+    "qt6ct",
 ]
 
 #Packages to be installed via YaY.
