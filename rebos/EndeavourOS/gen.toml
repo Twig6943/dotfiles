@@ -56,6 +56,7 @@ items = [
     "webcamoid",
     "osu",
     "zapzap",
+    "signal",
 ]
 
 
@@ -67,7 +68,6 @@ items = [
     "com.github.Matoking.protontricks",
     "com.github.tchx84.Flatseal",
     "com.github.ztefn.haguichi",
-    "org.signal.Signal",
     "com.vysp3r.ProtonPlus",
     "dev.vencord.Vesktop",
     "im.fluffychat.Fluffychat",
