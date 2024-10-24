@@ -82,6 +82,7 @@ items = [
     "org.duckstation.DuckStation",
     "org.flameshot.Flameshot",
     "com.jpexs.decompiler.flash",
+    "com.github.libresprite.LibreSprite",
     "rs.ruffle.Ruffle",
     "org.synfig.SynfigStudio",
     "org.inkscape.Inkscape",
