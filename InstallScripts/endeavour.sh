@@ -11,16 +11,13 @@ cd yay-bin
 makepkg -si
 sudo pacman -Sy git
 
-#Qbit theme
-mkdir /home/$USER/.config/qBittorrent/
-wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /home/$USER/.config/qBittorrent/ICEBERG.qbtheme
+#Rebos
+sudo bash -c 'echo -e "\n[oglo-arch-repo]\nSigLevel = Optional DatabaseOptional\nServer = https://gitlab.com/Oglo12/\$repo/-/raw/main/\$arch" >> /etc/pacman.conf'
+sudo pacman -Syy
+sudo pacman -S rebos
 
-#Wallpaper
-mkdir /home/$USER/wallpapers
-wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /home/$USER/wallpapers/wp.png
-
+#Install AppImage stuff
 sudo pacman -S libappimage
-#Install "AM"
 mkdir /home/$USER/Applications
 wget -q https://raw.githubusercontent.com/ivan-hc/AM/main/AM-INSTALLER
 chmod a+x ./AM-INSTALLER
@@ -29,6 +26,14 @@ chmod a+x ./AM-INSTALLER
 #Clone dotfiles
 cd /home/$USER
 git clone https://github.com/Twig6943/dotfiles
+
+#Qbit theme
+mkdir /home/$USER/.config/qBittorrent/
+wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /home/$USER/.config/qBittorrent/ICEBERG.qbtheme
+
+#Wallpaper
+mkdir /home/$USER/wallpapers
+wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /home/$USER/wallpapers/wp.png
 
 #Create /crap/ folder 
 sudo mkdir /crap
