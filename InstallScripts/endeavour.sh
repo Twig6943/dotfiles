@@ -1,5 +1,3 @@
-#Install OnionMediaX manually
-
 echo "Cancel the script if u want u have 5 seconds"
 sleep 5
 
