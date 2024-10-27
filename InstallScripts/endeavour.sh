@@ -19,9 +19,15 @@ sudo pacman -S rebos
 #Install AppImage stuff
 sudo pacman -S libappimage
 mkdir /home/$USER/Applications
+#Install AM
 wget -q https://raw.githubusercontent.com/ivan-hc/AM/main/AM-INSTALLER
 chmod a+x ./AM-INSTALLER
-./AM-INSTALLER
+sudo ./AM-INSTALLER
+
+#Install AppMan
+wget -q https://raw.githubusercontent.com/ivan-hc/AM/main/AM-INSTALLER
+chmod a+x ./AM-INSTALLER
+sudo ./AM-INSTALLER
 
 #Clone dotfiles
 cd /home/$USER
