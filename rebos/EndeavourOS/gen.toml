@@ -55,7 +55,7 @@ items = [
     "wireguard-gui",
     "webcamoid",
     "osu",
-    "zapzap",
+    "altus",
     "signal",
     "libresprite",
 ]
@@ -65,6 +65,7 @@ items = [
 [managers.flatpak]
 items = [
     "com.github.KRTirtho.Spotube",
+    "org.strawberrymusicplayer.strawberry",
     "io.mrarm.mcpelauncher",
     "com.github.Matoking.protontricks",
     "com.github.tchx84.Flatseal",
