@@ -12,6 +12,7 @@ sudo pacman -Sy git
 #Extra flatpak installations (Check readme.md for the guide)
 sudo mkdir -p /etc/flatpak/installations.d
 #sudoedit /etc/flatpak/installations.d/extra.conf
+#export XDG_DATA_DIRS="${XDG_DATA_DIRS:+$XDG_DATA_DIRS:}/path/to/your/custom/desktop/files"
 
 #Rebos
 sudo bash -c 'echo -e "\n[oglo-arch-repo]\nSigLevel = Optional DatabaseOptional\nServer = https://gitlab.com/Oglo12/\$repo/-/raw/main/\$arch" >> /etc/pacman.conf'
@@ -21,6 +22,7 @@ sudo pacman -S rebos
 #Install AppImage stuff
 sudo pacman -S libappimage
 mkdir /home/$USER/Applications
+
 #Install AM
 wget -q https://raw.githubusercontent.com/ivan-hc/AM/main/AM-INSTALLER
 chmod a+x ./AM-INSTALLER
