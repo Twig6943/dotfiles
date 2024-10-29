@@ -19,7 +19,6 @@ items = [
     "mangohud",
     "winetricks",
     "wireguard-tools",
-    "protontricks",
     "wine",
     "speedtest-cli",
     "sway",
@@ -37,12 +36,14 @@ items = [
 [managers.yay]
 items = [
     "waydroid",
-    "hardinfo2",
     "grimshot-bin-sway",
     "opencl-amd",
     "playit-bin",
     "wireguard-dkms",
 ]
+
+#Disabled pkgs
+#hardinfo2
 
 #Packages to be installed via AM.
 [managers.am]
