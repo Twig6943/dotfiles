@@ -51,7 +51,6 @@ items = [
     "etcher",
     "vscodium",
     "steam",
-    "heroic-games-launcher",
     "goverlay",
     "wireguard-gui",
     "webcamoid",
@@ -67,6 +66,7 @@ items = [
 [managers.flatpak]
 items = [
     "com.github.KRTirtho.Spotube",
+    "com.heroicgameslauncher.hgl",
     "org.strawberrymusicplayer.strawberry",
     "io.mrarm.mcpelauncher",
     "com.github.Matoking.protontricks",
