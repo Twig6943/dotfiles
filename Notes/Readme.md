@@ -8,4 +8,4 @@ I3 config requires [this](https://github.com/adi1090x/polybar-themes)
 
 Just sum more [dotfiles](https://github.com/hyper-dot/dotfiles-old)
 
-[WINE DARK THEME 🍷](https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/wine-dark-theme.reg)
+WINE [DARK THEME 🍷](https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/wine-dark-theme.reg)
