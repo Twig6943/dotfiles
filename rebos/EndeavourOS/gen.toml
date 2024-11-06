@@ -50,6 +50,7 @@ items = [
 [managers.am]
 items = [
     "etcher",
+    "zen-browser",
     "vscodium",
     "steam",
     "goverlay",
@@ -80,7 +81,6 @@ items = [
     "io.github.TheWisker.Cavasik",
     "io.github.peazip.PeaZip",
     "io.github.shadowmario.fnf-psychengine",
-    "io.gitlab.librewolf-community",
     "net.davidotek.pupgui2",
     "net.werwolv.ImHex",
     "org.audacityteam.Audacity",
@@ -109,3 +109,6 @@ items = [
     "org.freedesktop.Platform.VulkanLayer.gamescope",
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
+
+#Disabled pkgs;
+# "io.gitlab.librewolf-community",
