@@ -9,6 +9,8 @@ https://search.brave.com/search?q=%s
 
 4.Add [google](https://github.com/ungoogled-software/ungoogled-chromium/discussions/1488#discussioncomment-619116)
 
+#Librewolf alt+1,2,3 keys work even with space working at the same time I dont fucking know how
+
 # MISCELLANEOUS AFTER INSTALL STUFF
 
 Flatpak [custom installation guide](https://docs.flatpak.org/en/latest/tips-and-tricks.html#adding-a-custom-installation)
