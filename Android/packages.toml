@@ -15,6 +15,9 @@ F-Droid = [
  "com.foobnix.pro.pdf.reader",
  "com.secuso.privacyFriendlyCodeScanner",
  "com.nononsenseapps.feeder",
+ "org.ca.squawker",
+ "com.beemdevelopment.aegis",
+ "me.zhanghai.android.files",
  "apt.izzysoft.de/com.hjiangsu.thunder",
 ]
 #Disabled pkgs;
@@ -25,7 +28,9 @@ Obtanium = [
  "github.com/flixclusiveorg/Flixclusive",
  "github.com/revoltchat/rvmob",
  "github.com/KhoalaS/Infinity-For-Reddit",
+ "torproject.org/download/ CALF:tor-browser-android-aarch64.*apk$",
 ]
+#CALF=Custom apk link filter for Obtanium
 
 Play_Store = [
  "com.valvesoftware.android.steam.community",
