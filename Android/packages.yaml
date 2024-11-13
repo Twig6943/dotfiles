@@ -1,16 +1,18 @@
-#Just a pkg name means its on f-droid.org
-F-Droid;
+# A list of apps categorized by their source platform
+# Just a package name indicates it's available on f-droid.org
+
+F-Droid:
 {
-   "com.nextcloud.client",
-   "it.niedermann.owncloud.notes",
+ "com.nextcloud.client",
+ "it.niedermann.owncloud.notes",
 }
 
-Obtanium;
+Obtanium:
 {
-   "github.com/bluesky-social/social-app",
+ "github.com/bluesky-social/social-app",
 }
 
-Play Store;
+Play Store:
 {
-   "com.valvesoftware.android.steam.community",
+ "com.valvesoftware.android.steam.community"
 }
