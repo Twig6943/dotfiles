@@ -69,6 +69,7 @@ items = [
 items = [
     "com.github.KRTirtho.Spotube",
     "com.heroicgameslauncher.hgl",
+    "org.purplei2p.i2pd",
     "org.strawberrymusicplayer.strawberry",
     "io.mrarm.mcpelauncher",
     "com.github.Matoking.protontricks",
