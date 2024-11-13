@@ -10,7 +10,7 @@ Obtanium;
    "github.com/bluesky-social/social-app",
 }
 
-Aurora Store;
+Play Store;
 {
-   "",
+   "com.valvesoftware.android.steam.community",
 }
