@@ -1,7 +1,10 @@
+#Just a pkg name means its on f-droid.org
 F-Droid;
       "com.nextcloud.client",
       "it.niedermann.owncloud.notes",
 
-#Just a pkg name means its on f-droid.org
+Obtanium;
+      "github.com/bluesky-social/social-app",
+
 Aurora Store;
-      ""
+      "",
