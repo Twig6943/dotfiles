@@ -1,10 +1,16 @@
 #Just a pkg name means its on f-droid.org
 F-Droid;
-      "com.nextcloud.client",
-      "it.niedermann.owncloud.notes",
+{
+   "com.nextcloud.client",
+   "it.niedermann.owncloud.notes",
+}
 
 Obtanium;
-      "github.com/bluesky-social/social-app",
+{
+   "github.com/bluesky-social/social-app",
+}
 
 Aurora Store;
-      "",
+{
+   "",
+}
