@@ -1,0 +1,32 @@
+# A list of apps categorized by their source platform
+# Just a package name indicates it's available on f-droid.org
+
+F-Droid = [
+ "com.nextcloud.client",
+ "it.niedermann.owncloud.notes",
+ "com.nononsenseapps.notepad",
+ "org.schabi.newpipe",
+ "com.aurora.store",
+ "co.prestosole.clima",
+ "im.vector.app",
+ "com.zaneschepke.wireguardautotunnel",
+ "org.documentfoundation.libreoffice",
+ "dev.imranr.obtainium.fdroid",
+ "com.foobnix.pro.pdf.reader"
+ "com.secuso.privacyFriendlyCodeScanner",
+ "com.nononsenseapps.feeder",
+ "apt.izzysoft.de/com.hjiangsu.thunder",
+]
+#Disabled pkgs;
+#org.pocketworkstation.pckeyboard
+
+Obtanium = [
+ "github.com/bluesky-social/social-app",
+ "github.com/flixclusiveorg/Flixclusive",
+ "github.com/revoltchat/rvmob",
+ "github.com/KhoalaS/Infinity-For-Reddit",
+]
+
+Play_Store = [
+ "com.valvesoftware.android.steam.community",
+]
