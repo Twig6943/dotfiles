@@ -75,6 +75,7 @@ items = [
     "com.github.Matoking.protontricks",
     "com.github.tchx84.Flatseal",
     "org.fkoehler.KTailctl",
+    "io.gpt4all.gpt4all",
     "com.github.ztefn.haguichi",
     "com.vysp3r.ProtonPlus",
     "dev.vencord.Vesktop",
