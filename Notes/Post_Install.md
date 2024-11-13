@@ -7,7 +7,7 @@
 3.Add brave search
 https://search.brave.com/search?q=%s
 
-4.Add [google](https://github.com/ungoogled-software/ungoogled-chromium/discussions/1488#discussioncomment-619116)
+4.Add [google](https://github.com/ungoogled-software/ungoogled-chromium/discussions/1488#discussioncomment-619116) (or maybe just use !g )
 
 #Librewolf alt+1,2,3 keys work even with space working at the same time I dont fucking know how
 
