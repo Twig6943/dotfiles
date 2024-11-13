@@ -18,6 +18,11 @@ F-Droid = [
  "org.ca.squawker",
  "com.beemdevelopment.aegis",
  "me.zhanghai.android.files",
+ "us.spotco.fennec_dos",
+ "com.retroarch",
+ "org.videolan.vlc",
+ "org.purplei2p.i2pd",
+ "de.yaacc",
  "apt.izzysoft.de/com.hjiangsu.thunder",
 ]
 #Disabled pkgs;
@@ -28,6 +33,8 @@ Obtanium = [
  "github.com/flixclusiveorg/Flixclusive",
  "github.com/revoltchat/rvmob",
  "github.com/KhoalaS/Infinity-For-Reddit",
+ "github.com/ruffle-rs/ruffle-android",
+ "github.com/ProtonMail/android-mail",
  "torproject.org/download/ CALF:tor-browser-android-aarch64.*apk$",
 ]
 #CALF=Custom apk link filter for Obtanium
@@ -35,3 +42,4 @@ Obtanium = [
 Play_Store = [
  "com.valvesoftware.android.steam.community",
 ]
+#Probably going to switch my steam 2FA to email & delete aurora from fdroid pkgs.
