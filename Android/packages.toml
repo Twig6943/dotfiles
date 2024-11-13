@@ -23,7 +23,9 @@ F-Droid = [
  "org.videolan.vlc",
  "org.purplei2p.i2pd",
  "de.yaacc",
+ "org.joinmastodon.android",
  "apt.izzysoft.de/com.hjiangsu.thunder",
+ "mobileapp.bitwarden.com/com.x8bit.bitwarden",
 ]
 #Disabled pkgs;
 #org.pocketworkstation.pckeyboard
