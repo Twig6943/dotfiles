@@ -39,7 +39,7 @@ Obtanium = [
  "github.com/KhoalaS/Infinity-For-Reddit",
  "github.com/ruffle-rs/ruffle-android",
  "github.com/ProtonMail/android-mail",
- "github.com/karlstav/cava"
+ "github.com/karlstav/cava",
  "torproject.org/download/ CALF:tor-browser-android-aarch64.*apk$",
 ]
 #CALF=Custom apk link filter for Obtanium
