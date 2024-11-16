@@ -9,7 +9,7 @@ Switch to Next Keyboard Layout=Meta+Alt+K
 AboutApp=
 AboutKDE=
 Activate Next Tab=Ctrl+]; Ctrl+PgDown
-Activate Previous Tab=Ctrl+PgUp; Ctrl+[
+Activate Previous Tab=Ctrl+[; Ctrl+PgUp
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
 Back=Alt+Left; Back
@@ -22,7 +22,7 @@ ConfigureNotifications=
 ConfigureToolbars=
 Copy=Ctrl+C; Ctrl+Ins
 CreateFolder=Ctrl+Shift+N
-Cut=Shift+Del; Ctrl+X
+Cut=Ctrl+X; Shift+Del
 DeleteFile=Shift+Del
 DeleteWordBack=Ctrl+Backspace
 DeleteWordForward=Ctrl+Del
@@ -39,14 +39,14 @@ FindPrev=Shift+F3
 FitToHeight=
 FitToPage=
 FitToWidth=
-Forward=Alt+Right; Forward
+Forward=Forward; Alt+Right
 ForwardWord=Ctrl+Right
 FullScreen=Ctrl+Shift+F
 Goto=
 GotoLine=Ctrl+G
 GotoPage=
 Help=F1
-Home=Alt+Home; Home Page
+Home=Home Page; Alt+Home
 KeyBindings=Ctrl+Alt+,
 Mail=
 MoveToTrash=Del
@@ -88,7 +88,7 @@ Undo=Ctrl+Z
 Up=Alt+Up
 WhatsThis=Shift+F1
 Zoom=
-ZoomIn=Ctrl+=; Ctrl++
+ZoomIn=Ctrl++; Ctrl+=
 ZoomOut=Ctrl+-
 
 [kaccess][Global Shortcuts]
@@ -97,7 +97,7 @@ Toggle Screen Reader On and Off=Meta+Alt+S
 [kcm_touchpad][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
-Toggle Touchpad=Meta+Ctrl+Zenkaku Hankaku; Touchpad Toggle
+Toggle Touchpad=Touchpad Toggle; Meta+Ctrl+Zenkaku Hankaku
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -324,7 +324,7 @@ nextmedia=Media Next; Meta+F6
 pausemedia=Media Pause
 playmedia=
 playpausemedia=Media Play
-previousmedia=Meta+F5; Media Previous
+previousmedia=Media Previous; Meta+F5
 stopmedia=Media Stop
 
 [org.kde.dolphin.desktop][Global Shortcuts]
@@ -340,16 +340,16 @@ _launch=Ctrl+Alt+T
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Alt+F2; Alt+Space; Search
+_launch=Search; Alt+Space; Alt+F2
 
 [org.kde.kscreen.desktop][Global Shortcuts]
-ShowOSD=Display; Meta+P
+ShowOSD=Meta+P; Display
 
 [org.kde.plasma-systemmonitor.desktop][Global Shortcuts]
 _launch=Meta+Esc
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
-_launch=Meta+.; Meta+Ctrl+Alt+Shift+Space
+_launch=Meta+Ş; Meta+.; Meta+Ctrl+Alt+Shift+Space
 
 [org.kde.spectacle.desktop][Global Shortcuts]
 ActiveWindowScreenShot=Meta+Print
@@ -359,7 +359,7 @@ OpenWithoutScreenshot=
 RecordRegion=Meta+R; Meta+Shift+R
 RecordScreen=Meta+Alt+R
 RecordWindow=Meta+Ctrl+R
-RectangularRegionScreenShot=Ctrl+Print; Meta+Shift+Print
+RectangularRegionScreenShot=Meta+Shift+Print; Ctrl+Print
 WindowUnderCursorScreenShot=Meta+Ctrl+Print
 _launch=Meta+Shift+S
 
@@ -376,7 +376,7 @@ PowerOff=Power Off
 Sleep=Sleep
 Toggle Keyboard Backlight=Keyboard Light On/Off
 Turn Off Screen=
-powerProfile=Battery; Meta+B
+powerProfile=Meta+B; Battery
 
 [plasmashell][Global Shortcuts]
 activate application launcher=Meta; Alt+F1
@@ -425,6 +425,12 @@ stop current activity=Meta+S
 switch to next activity=
 switch to previous activity=
 toggle do not disturb=
+
+[strawberry][Global Shortcuts]
+next_track=
+play_pause=
+prev_track=
+stop=
 
 [systemsettings.desktop][Global Shortcuts]
 _launch=Tools
