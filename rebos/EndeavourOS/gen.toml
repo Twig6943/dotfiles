@@ -40,7 +40,7 @@ items = [
     "waydroid",
     "grimshot-bin-sway",
     "opencl-amd",
-    "playit-bin",
+    "lact-bin"
     "wireguard-dkms",
 ]
 
@@ -51,7 +51,6 @@ items = [
 [managers.am]
 items = [
     "etcher",
-    "zen-browser",
     "vscodium",
     "steam",
     "goverlay",
@@ -77,6 +76,7 @@ items = [
     "website.i2pd.i2pd",
     "org.strawberrymusicplayer.strawberry",
     "io.mrarm.mcpelauncher",
+    "io.gitlab.librewolf-community",
     "com.github.Matoking.protontricks",
     "com.github.tchx84.Flatseal",
     "dev.bragefuglseth.Keypunch",
@@ -112,7 +112,6 @@ items = [
     "org.vinegarhq.Sober",
     "org.vinegarhq.Vinegar",
     "im.riot.Riot",
-    "org.videolan.VLC",
     "in.srev.guiscrcpy",
     "com.obsproject.Studio",
     "org.freedesktop.Platform.VulkanLayer.MangoHud",
@@ -121,4 +120,4 @@ items = [
 ]
 
 #Disabled pkgs;
-# "io.gitlab.librewolf-community",
+# "org.videolan.VLC",
