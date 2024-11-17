@@ -17,6 +17,16 @@ types=1
 wmclass=io.github.TheWisker.Cavasik
 wmclassmatch=1
 
+[Emoji Selector]
+Description=Emoji Selector
+above=true
+aboverule=3
+desktops=\\0
+desktopsrule=3
+wmclass=plasma-emojier org.kde.plasma.emojier
+wmclasscomplete=true
+wmclassmatch=1
+
 [PiP (Chromium)]
 Description=PiP (Chromium)
 above=true
