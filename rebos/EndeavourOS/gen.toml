@@ -40,7 +40,7 @@ items = [
     "waydroid",
     "grimshot-bin-sway",
     "opencl-amd",
-    "lact-bin"
+    "lact-bin",
     "wireguard-dkms",
 ]
 
@@ -98,6 +98,7 @@ items = [
     "org.duckstation.DuckStation",
     "org.flameshot.Flameshot",
     "com.jpexs.decompiler.flash",
+    "org.kde.haruna",
     "rs.ruffle.Ruffle",
     "org.synfig.SynfigStudio",
     "org.inkscape.Inkscape",
