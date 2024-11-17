@@ -30,6 +30,7 @@ F-Droid = [
  "mobileapp.bitwarden.com/com.x8bit.bitwarden",
 ]
 #Disabled pkgs;
+#org.quantumbadger.redreader
 #org.pocketworkstation.pckeyboard
 #apt.izzysoft.de/ml.docilealligator.infinityforreddit.patreon
 
@@ -38,13 +39,14 @@ Obtanium = [
  "github.com/flixclusiveorg/Flixclusive",
  "github.com/revoltchat/rvmob",
  "github.com/ruffle-rs/ruffle-android",
+ "github.com/KhoalaS/Infinity-For-Reddit",
  "github.com/ProtonMail/android-mail",
  "github.com/karlstav/cava",
  "torproject.org/download/ CALF:tor-browser-android-aarch64.*apk$",
 ]
 #CALF=Custom apk link filter for Obtanium
 #Disabled pkgs
-#github.com/KhoalaS/Infinity-For-Reddit
+#
 
 Play_Store = [
  "com.valvesoftware.android.steam.community",
