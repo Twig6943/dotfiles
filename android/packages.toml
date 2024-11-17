@@ -27,6 +27,7 @@ F-Droid = [
  "org.joinmastodon.android",
  "com.commit451.gitlab",
  "apt.izzysoft.de/com.hjiangsu.thunder",
+ "apt.izzysoft.de/ml.docilealligator.infinityforreddit.patreon",
  "mobileapp.bitwarden.com/com.x8bit.bitwarden",
 ]
 #Disabled pkgs;
@@ -36,13 +37,14 @@ Obtanium = [
  "github.com/bluesky-social/social-app",
  "github.com/flixclusiveorg/Flixclusive",
  "github.com/revoltchat/rvmob",
- "github.com/KhoalaS/Infinity-For-Reddit",
  "github.com/ruffle-rs/ruffle-android",
  "github.com/ProtonMail/android-mail",
  "github.com/karlstav/cava",
  "torproject.org/download/ CALF:tor-browser-android-aarch64.*apk$",
 ]
 #CALF=Custom apk link filter for Obtanium
+#Disabled pkgs
+#github.com/KhoalaS/Infinity-For-Reddit
 
 Play_Store = [
  "com.valvesoftware.android.steam.community",
