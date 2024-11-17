@@ -27,11 +27,11 @@ F-Droid = [
  "org.joinmastodon.android",
  "com.commit451.gitlab",
  "apt.izzysoft.de/com.hjiangsu.thunder",
- "apt.izzysoft.de/ml.docilealligator.infinityforreddit.patreon",
  "mobileapp.bitwarden.com/com.x8bit.bitwarden",
 ]
 #Disabled pkgs;
 #org.pocketworkstation.pckeyboard
+#apt.izzysoft.de/ml.docilealligator.infinityforreddit.patreon
 
 Obtanium = [
  "github.com/bluesky-social/social-app",
