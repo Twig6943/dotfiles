@@ -9,10 +9,10 @@ Switch to Next Keyboard Layout=Meta+Alt+K
 AboutApp=
 AboutKDE=
 Activate Next Tab=Ctrl+]; Ctrl+PgDown
-Activate Previous Tab=Ctrl+[; Ctrl+PgUp
+Activate Previous Tab=Ctrl+PgUp; Ctrl+[
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
-Back=Alt+Left; Back
+Back=Back; Alt+Left
 BackwardWord=Ctrl+Left
 Begin=Ctrl+Home
 BeginningOfLine=Home
@@ -20,7 +20,7 @@ Clear=
 Close=Ctrl+Esc; Ctrl+W
 ConfigureNotifications=
 ConfigureToolbars=
-Copy=Ctrl+C; Ctrl+Ins
+Copy=Ctrl+Ins; Ctrl+C
 CreateFolder=Ctrl+Shift+N
 Cut=Ctrl+X; Shift+Del
 DeleteFile=Shift+Del
@@ -39,14 +39,14 @@ FindPrev=Shift+F3
 FitToHeight=
 FitToPage=
 FitToWidth=
-Forward=Forward; Alt+Right
+Forward=Alt+Right; Forward
 ForwardWord=Ctrl+Right
 FullScreen=Ctrl+Shift+F
 Goto=
 GotoLine=Ctrl+G
 GotoPage=
 Help=F1
-Home=Home Page; Alt+Home
+Home=Alt+Home; Home Page
 KeyBindings=Ctrl+Alt+,
 Mail=
 MoveToTrash=Del
@@ -66,7 +66,7 @@ PrintPreview=
 Prior=PgUp
 Quit=Ctrl+Q
 Redo=Ctrl+Shift+Z
-Reload=F5; Refresh
+Reload=Refresh; F5
 RenameFile=F2
 Replace=Ctrl+R
 ReportBug=
@@ -76,7 +76,7 @@ RotateUp=Up
 Save=Ctrl+S
 SaveAs=Ctrl+Shift+S
 SelectAll=Ctrl+A
-ShowHideHiddenFiles=Ctrl+H; Alt+.
+ShowHideHiddenFiles=Alt+.; Ctrl+H
 ShowMenubar=Ctrl+M
 ShowStatusbar=
 ShowToolbar=
@@ -90,6 +90,15 @@ WhatsThis=Shift+F1
 Zoom=
 ZoomIn=Ctrl++; Ctrl+=
 ZoomOut=Ctrl+-
+
+[io.github.TheWisker.Cavasik.desktop][Global Shortcuts]
+_launch=Meta+C
+
+[io.gitlab.librewolf-community.desktop][Global Shortcuts]
+_launch=Meta+F
+new-private-window=
+new-window=
+profilemanager=
 
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=Meta+Alt+S
@@ -111,7 +120,7 @@ mute=Volume Mute
 
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=
-Lock Session=Screensaver; Meta+L
+Lock Session=Meta+L; Screensaver
 Log Out=Ctrl+Alt+Del
 Log Out Without Confirmation=
 LogOut=
@@ -271,18 +280,18 @@ Window to Screen 5=
 Window to Screen 6=
 Window to Screen 7=
 view_actual_size=Meta+0
-view_zoom_in=Meta++; Meta+=
+view_zoom_in=Meta+=; Meta++
 view_zoom_out=Meta+-
 
 [lattedock][Global Shortcuts]
 activate entry 1=
 activate entry 10=
 activate entry 11=Meta+Z
-activate entry 12=Meta+X
-activate entry 13=Meta+C
+activate entry 12=
+activate entry 13=
 activate entry 14=
 activate entry 15=
-activate entry 16=Meta+N
+activate entry 16=
 activate entry 17=Meta+M
 activate entry 18=Meta+,
 activate entry 19=
@@ -327,6 +336,9 @@ playpausemedia=Media Play
 previousmedia=Media Previous; Meta+F5
 stopmedia=Media Stop
 
+[org.kde.akregator.desktop][Global Shortcuts]
+_launch=Meta+X
+
 [org.kde.dolphin.desktop][Global Shortcuts]
 _launch=Meta+E
 
@@ -340,16 +352,19 @@ _launch=Ctrl+Alt+T
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Search; Alt+Space; Alt+F2
+_launch=Alt+Space; Search; Alt+F2
 
 [org.kde.kscreen.desktop][Global Shortcuts]
 ShowOSD=Meta+P; Display
+
+[org.kde.kwrite.desktop][Global Shortcuts]
+_launch=Meta+N
 
 [org.kde.plasma-systemmonitor.desktop][Global Shortcuts]
 _launch=Meta+Esc
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
-_launch=Meta+Ş; Meta+.; Meta+Ctrl+Alt+Shift+Space
+_launch=Meta+Ctrl+Alt+Shift+Space; Meta+Ş; Meta+.
 
 [org.kde.spectacle.desktop][Global Shortcuts]
 ActiveWindowScreenShot=Meta+Print
