@@ -56,13 +56,17 @@ items = [
     "goverlay",
     "wireguard-gui",
     "webcamoid",
-    "osu",
     "altus",
     "signal",
     "libresprite",
     "motrix",
 ]
 
+#Packages to be installed via AM --user mode.
+[managers.am_user]
+items = [
+    "osu",
+]
 
 # Packages to be installed via Flatpak.
 [managers.flatpak]
