@@ -1,4 +1,4 @@
-//Insert deetz to your up to date user.js config
+//Insert these to the end of arkenfox user.js
 
 //Vertical tabs
 user_pref("sidebar.revamp", true);
