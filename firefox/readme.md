@@ -2,7 +2,7 @@
 
 Grab user.js from [Arkenfox](https://github.com/arkenfox/user.js/blob/master/user.js)
 
-[user-overrides.js](https://gitlab.com/trafotin/dotfiles/-/blob/main/user-overrides.js)
+[user-overrides.js](https://github.com/Twig6943/dotfiles/blob/main/firefox/user-overrides.js)
 
 # Extensions
 
