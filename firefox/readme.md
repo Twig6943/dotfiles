@@ -1,3 +1,7 @@
+# Search Engine
+
+### Switch to Duckduckgo
+
 # USER.JS STUFF
 
 Grab user.js from [Arkenfox](https://github.com/arkenfox/user.js/blob/master/user.js)
