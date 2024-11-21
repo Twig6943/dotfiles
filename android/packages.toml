@@ -30,6 +30,7 @@ F-Droid = [
  "mobileapp.bitwarden.com/com.x8bit.bitwarden",
 ]
 #Disabled pkgs;
+#org.telegram.messenger
 #org.quantumbadger.redreader
 #org.pocketworkstation.pckeyboard
 #apt.izzysoft.de/ml.docilealligator.infinityforreddit.patreon
