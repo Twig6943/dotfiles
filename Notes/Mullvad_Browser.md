@@ -6,5 +6,3 @@
 3.Disable NoScript
 
 4.Add Brave search
-
-5.
