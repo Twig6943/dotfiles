@@ -100,3 +100,6 @@ user_pref("privacy.sanitize.timeSpan", 0);
 //Delete history, although might be security theater.
 //Helps against forensic tools.
 user_pref("places.history.enabled", false);
+
+//Animations
+user_pref("sidebar.animation.enabled", false);
