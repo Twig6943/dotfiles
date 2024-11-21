@@ -12,4 +12,6 @@ Grab user.js from [Arkenfox](https://github.com/arkenfox/user.js/blob/master/use
 
 # Bookmarks
 
-Grab from da cloud
+Grab from proton drive/nextcloud
+
+# [Other firefox based browsers](https://github.com/Twig6943/dotfiles/blob/main/firefox/Other)
