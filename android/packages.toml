@@ -29,6 +29,7 @@ F-Droid = [
  "apt.izzysoft.de/com.hjiangsu.thunder",
  "mobileapp.bitwarden.com/com.x8bit.bitwarden",
 ]
+
 #Disabled pkgs;
 #org.telegram.messenger
 #org.quantumbadger.redreader
@@ -46,6 +47,7 @@ Obtanium = [
  "github.com/karlstav/cava",
  "torproject.org/download/ CALF:tor-browser-android-aarch64.*apk$",
 ]
+
 #CALF=Custom apk link filter for Obtanium
 #Disabled pkgs
 #
@@ -54,3 +56,5 @@ Play_Store = [
  "com.valvesoftware.android.steam.community",
 ]
 #Probably going to switch my steam 2FA to email & delete aurora from fdroid pkgs.
+#Disabled pkgs
+#com.whatsapp
