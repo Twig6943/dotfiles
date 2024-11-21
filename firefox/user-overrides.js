@@ -4,6 +4,9 @@
 user_pref("sidebar.revamp", true);
 user_pref("sidebar.verticalTabs", true);
 
+//Bookmarks 
+user_pref("browser.toolbars.bookmarks.visibility", "always");
+
 //DNS over HTTPS (Skip this if you're using system wide)
 user_pref("network.trr.uri", "https://mozilla.cloudflare-dns.com/dns-query");
 user_pref("network.trr.mode", 2);
