@@ -1,15 +1,13 @@
-# Librewolf Settings 
-1. Enable Cookies
-![image](https://github.com/user-attachments/assets/26c41a46-659d-47c0-b893-d991e45637e6)
+# Firefox Settings 
 
-2.Install [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+1.Install [Extensions](https://github.com/Twig6943/dotfiles/tree/main/firefox)
 
-3.Add brave search
+2.Add brave search
 https://search.brave.com/search?q=%s
 
-4.Add [google](https://github.com/ungoogled-software/ungoogled-chromium/discussions/1488#discussioncomment-619116) (or maybe just use !g )
+3.Add [google](https://github.com/ungoogled-software/ungoogled-chromium/discussions/1488#discussioncomment-619116) (or maybe just use !g )
 
-#Librewolf alt+1,2,3 keys work even with space working at the same time I dont fucking know how
+#Firefox alt+1,2,3 keys work even with space working at the same time I dont fucking know how
 
 # MISCELLANEOUS AFTER INSTALL STUFF
 
