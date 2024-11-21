@@ -76,7 +76,7 @@ items = [
     "website.i2pd.i2pd",
     "org.strawberrymusicplayer.strawberry",
     "io.mrarm.mcpelauncher",
-    "io.gitlab.librewolf-community",
+    "org.mozilla.firefox",
     "com.github.Matoking.protontricks",
     "com.github.tchx84.Flatseal",
     "dev.bragefuglseth.Keypunch",
@@ -122,3 +122,4 @@ items = [
 
 #Disabled pkgs;
 # "org.videolan.VLC",
+# "io.gitlab.librewolf-community",
