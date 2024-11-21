@@ -1,4 +1,4 @@
-//Insert these to the end of arkenfox user.js
+//OVERRIDES (Insert these to the end of arkenfox user.js)
 
 //Vertical tabs
 user_pref("sidebar.revamp", true);
