@@ -1,12 +1,10 @@
-//I read the wiki
-//https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D
+//Insert deetz to your up to date user.js config
 
-//DNS over HTTPS
-//Protects web requests from an ISP
-//Please pick a provider you trust.
-//Disable if you use PiHole, but tools like pfBlocker work fine.
-// Cloudflare (default in US & Canada).
-//Quad 9: https://dns.quad9.net/dns-query
+//Vertical tabs
+user_pref("sidebar.revamp", true);
+user_pref("sidebar.verticalTabs", true);
+
+//DNS over HTTPS (Skip this if you're using system wide)
 user_pref("network.trr.uri", "https://mozilla.cloudflare-dns.com/dns-query");
 user_pref("network.trr.mode", 2);
 
@@ -40,8 +38,10 @@ user_pref("network.http.referer.XOriginPolicy", 2);
    // user_pref("media.peerconnection.enabled", false);
 // Disable Media Plugins
    // user_pref("media.gmp-provider.enabled", false);
+
 // Disable DRM, FCKDRM
-   // user_pref("media.gmp-widevinecdm.enabled", false);
+user_pref("media.gmp-widevinecdm.enabled", false);
+
 user_pref("media.eme.enabled", false);
 //Autoplaying settings
 //0=Allow all, 1=Block non-muted media (default), 5=Block all
@@ -66,12 +66,12 @@ user_pref("network.cookie.lifetimePolicy", 2);
    // user_pref("privacy.clearsitedata.cache.enabled", true);
 
 //Clear data on shutdown
-user_pref("privacy.sanitize.sanitizeOnShutdown", true);
+user_pref("privacy.sanitize.sanitizeOnShutdown", false);
 user_pref("privacy.clearOnShutdown.cache", true);     // [DEFAULT: true]
-user_pref("privacy.clearOnShutdown.downloads", true); // [DEFAULT: true]
-user_pref("privacy.clearOnShutdown.formdata", true);  // [DEFAULT: true]
-user_pref("privacy.clearOnShutdown.history", true);   // [DEFAULT: true]
-user_pref("privacy.clearOnShutdown.sessions", true);  // [DEFAULT: true]
+user_pref("privacy.clearOnShutdown.downloads", false); // [DEFAULT: true]
+user_pref("privacy.clearOnShutdown.formdata", false);  // [DEFAULT: true]
+user_pref("privacy.clearOnShutdown.history", false);   // [DEFAULT: true]
+user_pref("privacy.clearOnShutdown.sessions", false);  // [DEFAULT: true]
 user_pref("privacy.clearOnShutdown.offlineApps", false); // [DEFAULT: false]
 user_pref("privacy.clearOnShutdown.cookies", false);
    // user_pref("privacy.clearOnShutdown.siteSettings", false); // [DEFAULT: false]
