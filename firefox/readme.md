@@ -9,3 +9,7 @@ Grab user.js from [Arkenfox](https://github.com/arkenfox/user.js/blob/master/use
 [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
 [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
+
+# Bookmarks
+
+Grab from cloud
