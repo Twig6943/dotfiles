@@ -84,6 +84,8 @@ user_pref("privacy.clearOnShutdown.history", false);   // [DEFAULT: true]
 user_pref("privacy.clearOnShutdown.sessions", false);  // [DEFAULT: true]
 user_pref("privacy.clearOnShutdown.offlineApps", false); // [DEFAULT: false]
 user_pref("privacy.clearOnShutdown.cookies", false);
+user_pref("services.sync.prefs.sync.privacy.clearOnShutdown.history", true);
+
    // user_pref("privacy.clearOnShutdown.siteSettings", false); // [DEFAULT: false]
 // Manual wiping, such as the forget-me-not button
 user_pref("privacy.cpd.cache", true);    // [DEFAULT: true]
