@@ -39,6 +39,7 @@ Obtanium = [
  "github.com/flixclusiveorg/Flixclusive",
  "github.com/revoltchat/rvmob",
  "github.com/ruffle-rs/ruffle-android",
+ "github.com/signalapp/Signal-Android",
  "github.com/KhoalaS/Infinity-For-Reddit",
  "github.com/ProtonMail/android-mail",
  "github.com/karlstav/cava",
