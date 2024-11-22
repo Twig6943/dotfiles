@@ -121,5 +121,6 @@ items = [
 ]
 
 #Disabled pkgs;
-# "org.videolan.VLC",
+# "org.videolan.VLC", #Waiting for wayland
+# "net.mullvad.MullvadBrowser",
 # "io.gitlab.librewolf-community",
