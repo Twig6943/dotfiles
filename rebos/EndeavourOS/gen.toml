@@ -105,7 +105,6 @@ items = [
     "org.kde.akregator",
     "org.kde.kclock",
     "org.kde.krdc",
-    "ca.desrt.dconf-editor",
     "org.kde.krita",
     "org.libreoffice.LibreOffice",
     "org.mozilla.Thunderbird",
@@ -125,3 +124,4 @@ items = [
 # "org.videolan.VLC", #Waiting for wayland
 # "net.mullvad.MullvadBrowser",
 # "io.gitlab.librewolf-community",
+# "ca.desrt.dconf-editor",
