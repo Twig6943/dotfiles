@@ -1,5 +1,15 @@
 //OVERRIDES (Insert these to the end of arkenfox user.js)
 
+//HW ACCEL (On)
+user_pref("webgl.disabled", false);
+user_pref("webgl.force-enabled", false)
+user_pref("media.hardware-video-decoding.enabled", true)
+user_pref("media.ffmpeg.vaapi.enabled", true);
+user_pref("gfx.webrender.all", true);
+user_pref("layers.acceleration.force-enabled", true);
+user_pref("media.ffmpeg.vaapi.enabled", true);
+user_pref("media.rdd-vpx.enabled", true);
+
 //Vertical tabs
 user_pref("sidebar.revamp", true);
 user_pref("sidebar.verticalTabs", true);
@@ -19,10 +29,6 @@ user_pref("identity.fxaccounts.enabled", false);
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.phishing.enabled", false);
 user_pref("browser.safebrowsing.downloads.enabled", false);
-
-//WebGL is a security risk, but sometimes breaks things like 23andMe
-//or Google Maps (not always).
-user_pref("webgl.disabled", true);
 
 // Leave IPv6 enabled
 user_pref("network.dns.disableIPv6", false);
