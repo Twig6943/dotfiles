@@ -10,6 +10,9 @@ user_pref("layers.acceleration.force-enabled", true);
 user_pref("media.ffmpeg.vaapi.enabled", true);
 user_pref("media.rdd-vpx.enabled", true);
 
+//Developer console pin to right
+user_pref("devtools.toolbox.host", "right");
+
 //Vertical tabs
 user_pref("sidebar.revamp", true);
 user_pref("sidebar.verticalTabs", true);
