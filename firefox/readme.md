@@ -1,6 +1,6 @@
 # Search Engine
 
-### Switch to Duckduckgo
+### Switch to a popular [searxng instance](https://searx.space/)
 
 # USER.JS STUFF
 
