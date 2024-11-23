@@ -1,3 +1,2 @@
-Can't use anything chromium based cuz of mv3 
-
-might use brave if there's a proper decrappifier
+Settings for browsers with in-built adblockers. 
+(Can't rely on extensions cuz of mv3)
