@@ -1,5 +1,5 @@
-echo "Cancel the script if u want u have 5 seconds"
-sleep 5
+echo "Cancel the script if u want u have 10 seconds"
+sleep 10
 
 #Update & Install YaY
 sudo pacman -Syu
