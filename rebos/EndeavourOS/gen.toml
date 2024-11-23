@@ -1,7 +1,6 @@
 #Notes
 #1.Enable wayland backend on libresprite pkg via flatseal
 
-
 # Packages to be installed via the native package manager.
 
 #Packages to be installed via Pacman.
