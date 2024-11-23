@@ -26,6 +26,11 @@ items = [
     "kvantum",
     "qt5ct",
     "qt6ct",
+    "virt-manager",
+    "qemu",
+    "libvirt",
+    "bridge-utils",
+    "virt-viewer",
 ]
 #Disabled pkgs
 
