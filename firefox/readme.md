@@ -12,6 +12,8 @@ Overrides: [user-overrides.js](https://github.com/Twig6943/dotfiles/blob/main/fi
 
 [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
+[Dark reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
+
 [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
 
 # Bookmarks
