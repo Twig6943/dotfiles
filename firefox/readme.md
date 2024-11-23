@@ -1,6 +1,6 @@
 # Search Engine
 
-### Switch to a popular [searxng instance](https://searx.space/)
+### Switch to a popular [SearXNG instance](https://searx.space/)
 
 # USER.JS STUFF
 
