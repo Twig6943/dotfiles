@@ -27,6 +27,7 @@ items = [
     "qt5ct",
     "qt6ct",
 ]
+#Disabled pkgs
 
 #Packages to be installed via YaY.
 [managers.yay]
@@ -37,7 +38,6 @@ items = [
     "lact-bin",
     "wireguard-dkms",
 ]
-
 #Disabled pkgs
 #hardinfo2
 
@@ -48,18 +48,20 @@ items = [
     "vscodium",
     "steam",
     "goverlay",
-    "wireguard-gui",
     "webcamoid",
     "altus",
     "signal",
     "motrix",
 ]
+#Dısabled pkgs
+#wireguard-gui
 
 #Packages to be installed via AM --user mode.
 [managers.am_user]
 items = [
     "osu",
 ]
+#Disabled pkgs
 
 # Packages to be installed via Flatpak.
 [managers.flatpak]
@@ -113,7 +115,6 @@ items = [
     "org.freedesktop.Platform.VulkanLayer.gamescope",
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
-
 #Disabled pkgs;
 # "org.videolan.VLC", #Waiting for wayland
 # "net.mullvad.MullvadBrowser",
