@@ -9,13 +9,15 @@ Set `Auto Dark Mode for Web Contents` to `Enabled with selective inversion of no
 
 ### Switch to a popular [SearXNG instance](https://searx.space/)
 
-# Extensions
+# Extensions (I don't really use these)
 
 [Chromium web store](https://github.com/NeverDecaf/chromium-web-store)
 
-[uBlock Origin lite](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+[uBlock Origin lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
 
-[Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
+[Better volume booster](https://chromewebstore.google.com/detail/browser-boost-extra-tools/akknpgblpchaoebdoiojonnahhnfgnem)
+
+[Bitwarden](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb)
 
 # Bookmarks
 
