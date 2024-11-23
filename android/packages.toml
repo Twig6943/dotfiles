@@ -53,7 +53,6 @@ Obtanium = [
 Play_Store = [
  "",
 ]
-#Probably going to switch my steam 2FA to email & delete aurora from fdroid pkgs.
 #Disabled pkgs
 #com.whatsapp
 #com.valvesoftware.android.steam.community
