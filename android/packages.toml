@@ -26,6 +26,7 @@ F-Droid = [
  "de.yaacc",
  "org.joinmastodon.android",
  "com.commit451.gitlab",
+ "cromite.org/org.cromite.cromite",
  "apt.izzysoft.de/com.hjiangsu.thunder",
  "mobileapp.bitwarden.com/com.x8bit.bitwarden",
 ]
@@ -42,6 +43,7 @@ Obtanium = [
  "github.com/ruffle-rs/ruffle-android",
  "github.com/signalapp/Signal-Android",
  "github.com/KhoalaS/Infinity-For-Reddit",
+ "github.com/NewPipeX/NewPipeX",
  "github.com/ProtonMail/android-mail",
  "github.com/karlstav/cava",
  "torproject.org/download/ CALF:tor-browser-android-aarch64.*apk$",
