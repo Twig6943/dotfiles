@@ -40,6 +40,7 @@ items = [
     "waydroid",
     "grimshot-bin-sway",
     "opencl-amd",
+    "cromite-bin",
     "lact-bin",
     "wireguard-dkms",
 ]
