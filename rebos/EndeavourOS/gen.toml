@@ -100,7 +100,6 @@ items = [
     "org.duckstation.DuckStation",
     "org.flameshot.Flameshot",
     "com.jpexs.decompiler.flash",
-
     "rs.ruffle.Ruffle",
     "org.synfig.SynfigStudio",
     "com.github.libresprite.LibreSprite",
