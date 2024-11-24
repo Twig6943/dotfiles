@@ -83,6 +83,7 @@ items = [
     "dev.bragefuglseth.Keypunch",
     "org.fkoehler.KTailctl",
     "io.gpt4all.gpt4all",
+    "io.mpv.Mpv",
     "com.github.ztefn.haguichi",
     "com.vysp3r.ProtonPlus",
     "dev.vencord.Vesktop",
@@ -99,7 +100,7 @@ items = [
     "org.duckstation.DuckStation",
     "org.flameshot.Flameshot",
     "com.jpexs.decompiler.flash",
-    "org.kde.haruna",
+
     "rs.ruffle.Ruffle",
     "org.synfig.SynfigStudio",
     "com.github.libresprite.LibreSprite",
@@ -122,7 +123,8 @@ items = [
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
 #Disabled pkgs;
-# "org.videolan.VLC", #Waiting for wayland
-# "net.mullvad.MullvadBrowser",
-# "io.gitlab.librewolf-community",
-# "ca.desrt.dconf-editor",
+#"org.videolan.VLC", #Waiting for wayland
+#"net.mullvad.MullvadBrowser",
+#"io.gitlab.librewolf-community",
+#"ca.desrt.dconf-editor",
+#"org.kde.haruna",
