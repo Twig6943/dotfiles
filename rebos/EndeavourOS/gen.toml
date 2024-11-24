@@ -66,7 +66,7 @@ items = [
 #Packages to be installed via AM --user mode.
 [managers.am_user]
 items = [
-    "",
+    "hmcl",
 ]
 #Disabled pkgs
 #osu
