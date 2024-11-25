@@ -127,6 +127,7 @@ items = [
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
 #Disabled pkgs;
+#"org.gnome.Boxes",
 #"org.videolan.VLC", #Waiting for wayland
 #"net.mullvad.MullvadBrowser",
 #"io.gitlab.librewolf-community",
