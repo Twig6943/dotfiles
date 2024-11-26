@@ -39,7 +39,6 @@ items = [
     "waydroid",
     "grimshot-bin-sway",
     "opencl-amd",
-    "cromite-bin",
     "lact-bin",
     "wireguard-dkms",
 ]
@@ -53,6 +52,7 @@ items = [
     "vscodium",
     "steam",
     "goverlay",
+    "cromite",
     "webcamoid",
     "altus",
     "signal",
