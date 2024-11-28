@@ -45,7 +45,6 @@ user_pref("browser.urlbar.suggest.searches", false);
 user_pref("browser.cache.disk.enable", true);
 //Enable favicons, the icons in bookmarks
 user_pref("browser.shell.shortcutFavicons", true);
-//Enable Mozilla Container Tabs
 //Redundant with Total Cookie Protection, but useful if you have multiple accounts
 //with the same provider (e.g. a work Google account and a personal Google account)
 user_pref("privacy.userContext.enabled", true);
