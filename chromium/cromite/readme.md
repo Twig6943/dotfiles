@@ -7,7 +7,7 @@ Set `Auto Dark Mode for Web Contents` to `Enabled with selective inversion of no
 
 # Search Engine
 
-### Switch to a popular [SearXNG instance](https://searx.space/)
+### Switch to a popular [SearXNG instance](https://searx.space/) or to DuckDuckGo
 
 # Extensions (I don't really use these)
 
