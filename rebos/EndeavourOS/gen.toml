@@ -107,6 +107,7 @@ items = [
     "org.audacityteam.Audacity",
     "org.blender.Blender",
     "org.flameshot.Flameshot",
+    "io.github.marco_calautti.DeltaPatcher",
     "com.jpexs.decompiler.flash",
     "rs.ruffle.Ruffle",
     "org.synfig.SynfigStudio",
