@@ -21,7 +21,7 @@ Set `Auto Dark Mode for Web Contents` to `Enabled with selective inversion of no
 
 [Bitwarden](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb)
 
-# [Brave-debullshitinator](https://github.com/MulesGaming/brave-debullshitinator)
+# [Policies](https://github.com/Twig6943/dotfiles/blob/main/chromium/brave/policies.json)
 
 # Bookmarks
 
