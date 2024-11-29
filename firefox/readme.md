@@ -12,6 +12,8 @@ Overrides: [user-overrides.js](https://github.com/Twig6943/dotfiles/blob/main/fi
 
 [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
+[Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+
 [Better volume booster](https://addons.mozilla.org/en-US/firefox/addon/better-volume-booster/)
 
 [Dark reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
