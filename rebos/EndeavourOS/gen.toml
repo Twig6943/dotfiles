@@ -130,6 +130,7 @@ items = [
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
 #Disabled pkgs;
+#"com.brave.Browser",
 #"org.gnome.Boxes",
 #"org.videolan.VLC", #Waiting for wayland
 #"net.mullvad.MullvadBrowser",
