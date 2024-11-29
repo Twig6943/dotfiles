@@ -21,6 +21,10 @@ Set `Auto Dark Mode for Web Contents` to `Enabled with selective inversion of no
 
 [Bitwarden](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb)
 
+# Tampermonkey
+
+[YT-Anti-Anti-Adblock](https://github.com/NullDev/YT-Anti-Anti-Adblock)
+
 # Bookmarks
 
 Grab from proton drive/nextcloud
