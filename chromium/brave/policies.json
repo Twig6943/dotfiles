@@ -6,5 +6,6 @@
     "IPFSEnabled": false,
     "NewTabPageLocation": "about:blank",
     "PasswordManagerEnabled": false,
-    "HardwareAccelerationModeEnabled": true
+    "HardwareAccelerationModeEnabled": true,
+    "HelpMeWriteSettings": false
 }
