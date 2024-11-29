@@ -7,5 +7,6 @@
     "NewTabPageLocation": "about:blank",
     "PasswordManagerEnabled": false,
     "HardwareAccelerationModeEnabled": true,
-    "HelpMeWriteSettings": false
+    "HelpMeWriteSettings": false,
+    "MemorySaverModeSavings": 1
 }
