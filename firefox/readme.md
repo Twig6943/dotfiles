@@ -12,7 +12,7 @@ Overrides: [user-overrides.js](https://github.com/Twig6943/dotfiles/blob/main/fi
 
 [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
-[Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+[Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
 [Better volume booster](https://addons.mozilla.org/en-US/firefox/addon/better-volume-booster/)
 
