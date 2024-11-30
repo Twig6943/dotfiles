@@ -54,13 +54,13 @@ items = [
     "vscodium",
     "steam",
     "goverlay",
-    "cromite",
     "webcamoid",
     "altus",
     "signal",
     "motrix",
 ]
 #Dısabled pkgs
+#cromite
 #wireguard-gui
 
 #Packages to be installed via AM --user mode.
@@ -81,6 +81,7 @@ items = [
     "org.strawberrymusicplayer.strawberry",
     "io.mrarm.mcpelauncher",
     "org.mozilla.firefox",
+    "com.brave.Browser",
     "com.github.Matoking.protontricks",
     "com.github.tchx84.Flatseal",
     "dev.bragefuglseth.Keypunch",
@@ -132,11 +133,11 @@ items = [
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
 #Disabled pkgs;
-#"org.telegram.desktop",
-#"com.brave.Browser",
-#"org.gnome.Boxes",
-#"org.videolan.VLC", #Waiting for wayland
-#"net.mullvad.MullvadBrowser",
-#"io.gitlab.librewolf-community",
-#"ca.desrt.dconf-editor",
-#"org.kde.haruna",
+#org.telegram.desktop
+#com.brave.Browser
+#org.gnome.Boxes
+#org.videolan.VLC", #Waiting for wayland
+#net.mullvad.MullvadBrowser
+#io.gitlab.librewolf-community
+#ca.desrt.dconf-editor"
+#org.kde.haruna
