@@ -7,7 +7,6 @@
 [managers.system]
 items = [
     "git",
-    "fastfetch",
     "yay",
     "mangohud",
     "winetricks",
@@ -50,6 +49,7 @@ items = [
 [managers.am]
 items = [
     "etcher",
+    "fastfetch",
     "vscodium",
     "steam",
     "goverlay",
