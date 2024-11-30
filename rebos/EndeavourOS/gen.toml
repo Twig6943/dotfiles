@@ -37,6 +37,7 @@ items = [
 [managers.yay]
 items = [
     "waydroid",
+    "waydroid-image-gapps",
     "grimshot-bin-sway",
     "opencl-amd",
     "lact-bin",
