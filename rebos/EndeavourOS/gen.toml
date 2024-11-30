@@ -131,6 +131,7 @@ items = [
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
 #Disabled pkgs;
+#"org.telegram.desktop",
 #"com.brave.Browser",
 #"org.gnome.Boxes",
 #"org.videolan.VLC", #Waiting for wayland
