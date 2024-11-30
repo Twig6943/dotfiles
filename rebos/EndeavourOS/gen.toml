@@ -8,6 +8,8 @@
 items = [
     "git",
     "yay",
+    "zip",
+    "p7zip",
     "mangohud",
     "winetricks",
     "vkmark",
@@ -18,7 +20,6 @@ items = [
     "sway",
     "hyprland",
     "xdg-desktop-portal-wlr",
-    "p7zip",
     "amdvlk",
     "yazi",
     "kvantum",
