@@ -38,6 +38,7 @@ items = [
 items = [
     "waydroid",
     "waydroid-image-gapps",
+    "gimp-git", #Switch to flatpak once gimp 3 releases
     "grimshot-bin-sway",
     "opencl-amd",
     "lact-bin",
