@@ -56,7 +56,6 @@ items = [
     "goverlay",
     "webcamoid",
     "altus",
-    "signal",
     "motrix",
 ]
 #Dısabled pkgs
@@ -126,6 +125,7 @@ items = [
     "org.mozilla.Thunderbird",
     "org.nickvision.tubeconverter",
     "im.riot.Riot",
+    "org.signal.Signal",
     "in.srev.guiscrcpy",
     "com.obsproject.Studio",
     "org.freedesktop.Platform.VulkanLayer.MangoHud",
