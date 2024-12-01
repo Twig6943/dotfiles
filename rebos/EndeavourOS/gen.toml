@@ -65,7 +65,7 @@ items = [
 #Packages to be installed via AM --user mode.
 [managers.am_user]
 items = [
-    "hmcl",
+    "",
 ]
 #Disabled pkgs
 #osu
@@ -93,7 +93,7 @@ items = [
     "im.fluffychat.Fluffychat",
     "io.github.TheWisker.Cavasik",
     "io.github.peazip.PeaZip",
-    "org.prismlauncher.PrismLauncher",
+    "org.fn2006.PollyMC", #Install from .flatpak file
     "dev.bragefuglseth.Keypunch",
     "sh.ppy.osu",
     "io.github.shadowmario.fnf-psychengine",
