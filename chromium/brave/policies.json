@@ -8,6 +8,6 @@
     "PasswordManagerEnabled": false,
     "HardwareAccelerationModeEnabled": true,
     "HelpMeWriteSettings": false,
-    "MemorySaverModeSavings": 1,
-    "HighEfficiencyModeEnabled": true
+    "HighEfficiencyModeEnabled": true,
+    "MemorySaverModeSavings": 2
 }
