@@ -33,10 +33,6 @@ am -i rebos
 cd /home/$USER
 git clone https://github.com/Twig6943/dotfiles
 
-#Qbit theme
-mkdir /home/$USER/.config/qBittorrent/
-wget https://github.com/maboroshin/qBittorrentDarktheme/raw/master/ICEBERG.qbtheme -O /home/$USER/.config/qBittorrent/ICEBERG.qbtheme
-
 #Wallpaper
 mkdir /home/$USER/wallpapers
 wget https://github.com/hyprwm/Hyprland/blob/main/assets/wall2.png?raw=true -O /home/$USER/wallpapers/wp.png
