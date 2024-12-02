@@ -127,15 +127,15 @@ items = [
     "org.signal.Signal",
     "dev.vencord.Vesktop",
     "in.srev.guiscrcpy",
-    "com.dec05eba.gpu_screen_recorder",
     "com.obsproject.Studio",
+    "com.dec05eba.gpu_screen_recorder",
+    "org.tenacityaudio.Tenacity",
     "org.freedesktop.Platform.VulkanLayer.MangoHud",
     "org.freedesktop.Platform.VulkanLayer.gamescope",
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
 #Disabled pkgs;
-#org.videolan.VLC #Waiting for wayland
-#org.audacityteam.Audacity #Waiting for wayland
+#org.videolan.VLC #Waiting for wayland #USE MPV FOR THE TIME BEING
 #net.werwolv.ImHex #Waiting for wayland support
 #org.flameshot.Flameshot
 #org.vinegarhq.Vinegar
