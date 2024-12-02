@@ -1,13 +1,11 @@
 #Notes;
 #Install PollyMC's .flatpak file from github.com/fn2006/PollyMC/releases 
 
-#Software that doesn't support wayland
-#Steam,krita,FFDEC,Ryujinx,Yuzu,FNF
-
 #Software that does support wayland but needs a flag/etc;
 #LibreSprite,Spotify,Chromium
 
-# Packages to be installed via the native package manager.
+#Software that doesn't support wayland
+#Steam,krita,Resolve,FFDEC,Ryujinx,Yuzu,FNF
 
 #Packages to be installed via Pacman.
 [managers.system]
@@ -93,19 +91,8 @@ items = [
     "com.brave.Browser",
     "com.github.tchx84.Flatseal",
     "io.gpt4all.gpt4all",
-    "io.mpv.Mpv",
     "io.github.TheWisker.Cavasik",
     "io.github.peazip.PeaZip",
-    "dev.bragefuglseth.Keypunch",
-    "sh.ppy.osu",
-    "io.mrarm.mcpelauncher",
-    "io.github.shadowmario.fnf-psychengine",
-    "tw.ddnet.ddnet",
-    "org.ryujinx.Ryujinx",
-    "org.duckstation.DuckStation",
-    "org.vinegarhq.Sober",
-    "net.davidotek.pupgui2",
-    "com.github.Matoking.protontricks",
     "org.gnome.GHex",
     "com.nextcloud.desktopclient.nextcloud",
     "org.blender.Blender",
@@ -127,9 +114,21 @@ items = [
     "org.signal.Signal",
     "dev.vencord.Vesktop",
     "in.srev.guiscrcpy",
+    "io.mpv.Mpv",
     "com.obsproject.Studio",
     "com.dec05eba.gpu_screen_recorder",
+    "org.kde.kdenlive",
     "org.tenacityaudio.Tenacity",
+    "dev.bragefuglseth.Keypunch",
+    "sh.ppy.osu",
+    "io.mrarm.mcpelauncher",
+    "io.github.shadowmario.fnf-psychengine",
+    "tw.ddnet.ddnet",
+    "org.ryujinx.Ryujinx",
+    "org.duckstation.DuckStation",
+    "org.vinegarhq.Sober",
+    "net.davidotek.pupgui2",
+    "com.github.Matoking.protontricks",
     "org.freedesktop.Platform.VulkanLayer.MangoHud",
     "org.freedesktop.Platform.VulkanLayer.gamescope",
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
