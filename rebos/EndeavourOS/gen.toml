@@ -80,7 +80,6 @@ items = [
 items = [
     "com.github.KRTirtho.Spotube",
     "org.strawberrymusicplayer.strawberry",
-    "com.heroicgameslauncher.hgl",
     "website.i2pd.i2pd",
     "dev.deedles.Trayscale",
     "com.github.ztefn.haguichi",
@@ -119,6 +118,7 @@ items = [
     "org.kde.kdenlive",
     "org.tenacityaudio.Tenacity",
     "dev.bragefuglseth.Keypunch",
+    "com.heroicgameslauncher.hgl",
     "sh.ppy.osu",
     "io.mrarm.mcpelauncher",
     "io.github.shadowmario.fnf-psychengine",
