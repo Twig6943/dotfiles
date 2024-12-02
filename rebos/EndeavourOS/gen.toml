@@ -4,7 +4,7 @@
 #Software that doesn't support wayland
 #Steam,krita,FFDEC,Ryujinx,Yuzu,FNF
 
-#Apps that does support wayland but needs a flag/etc;
+#Software that does support wayland but needs a flag/etc;
 #LibreSprite,Spotify,Chromium
 
 # Packages to be installed via the native package manager.
