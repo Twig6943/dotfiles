@@ -1,5 +1,11 @@
-#Notes
-#1.Enable wayland backend on libresprite pkg via flatseal
+#Notes;
+#Install PollyMC's .flatpak file from github.com/fn2006/PollyMC/releases 
+
+#Software that doesn't support wayland
+#Steam,krita,FFDEC,Ryujinx,Yuzu,FNF
+
+#Apps that does support wayland but needs a flag/etc;
+#LibreSprite,Spotify,Chromium
 
 # Packages to be installed via the native package manager.
 
@@ -15,7 +21,7 @@ items = [
     "vkmark",
     "speedtest-cli",
     "wireguard-tools",
-    "tailscale",
+    "headscale",
     "wine",
     "sway",
     "hyprland",
@@ -57,7 +63,8 @@ items = [
     "goverlay",
     "webcamoid",
     "altus",
-    "motrix",
+    "cromite",
+    "duckstation", #Using AppImage cuz of wayland support
 ]
 #Dısabled pkgs
 #cromite
@@ -75,40 +82,33 @@ items = [
 [managers.flatpak]
 items = [
     "com.github.KRTirtho.Spotube",
+    "org.strawberrymusicplayer.strawberry",
     "com.heroicgameslauncher.hgl",
     "website.i2pd.i2pd",
     "dev.deedles.Trayscale",
     "com.github.ztefn.haguichi",
+    "net.agalwood.Motrix",
     "org.qbittorrent.qBittorrent",
-    "org.strawberrymusicplayer.strawberry",
-    "io.mrarm.mcpelauncher",
     "org.mozilla.firefox",
     "com.brave.Browser",
-    "com.github.Matoking.protontricks",
     "com.github.tchx84.Flatseal",
     "io.gpt4all.gpt4all",
     "io.mpv.Mpv",
-    "com.vysp3r.ProtonPlus",
-    "dev.vencord.Vesktop",
-    "im.fluffychat.Fluffychat",
     "io.github.TheWisker.Cavasik",
     "io.github.peazip.PeaZip",
-    "org.fn2006.PollyMC", #Install from .flatpak file
     "dev.bragefuglseth.Keypunch",
     "sh.ppy.osu",
+    "io.mrarm.mcpelauncher",
     "io.github.shadowmario.fnf-psychengine",
     "tw.ddnet.ddnet",
     "org.ryujinx.Ryujinx",
     "org.duckstation.DuckStation",
     "org.vinegarhq.Sober",
-    "org.vinegarhq.Vinegar",
     "net.davidotek.pupgui2",
-    "net.werwolv.ImHex",
+    "com.github.Matoking.protontricks",
+    "org.gnome.GHex",
     "com.nextcloud.desktopclient.nextcloud",
-    "com.hunterwittenborn.Celeste",
-    "org.audacityteam.Audacity",
     "org.blender.Blender",
-    "org.flameshot.Flameshot",
     "io.github.marco_calautti.DeltaPatcher",
     "com.jpexs.decompiler.flash",
     "rs.ruffle.Ruffle",
@@ -118,26 +118,34 @@ items = [
     "org.kde.akregator",
     "org.kde.kclock",
     "org.gnome.baobab",
-    "org.kde.krdc",
+    "com.rustdesk.RustDesk",
     "com.gitlab.davem.ClamTk",
     "org.kde.krita",
     "org.libreoffice.LibreOffice",
-    "org.mozilla.Thunderbird",
     "org.nickvision.tubeconverter",
     "im.riot.Riot",
     "org.signal.Signal",
+    "dev.vencord.Vesktop"
     "in.srev.guiscrcpy",
+    "com.dec05eba.gpu_screen_recorder",
     "com.obsproject.Studio",
     "org.freedesktop.Platform.VulkanLayer.MangoHud",
     "org.freedesktop.Platform.VulkanLayer.gamescope",
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
 #Disabled pkgs;
+#org.videolan.VLC #Waiting for wayland
+#org.audacityteam.Audacity #Waiting for wayland
+#net.werwolv.ImHex #Waiting for wayland support
+#org.flameshot.Flameshot
+#org.vinegarhq.Vinegar
+#com.vysp3r.ProtonPlus
+#org.mozilla.Thunderbird
+#im.fluffychat.Fluffychat
 #org.telegram.desktop
-#com.brave.Browser
 #org.gnome.Boxes
-#org.videolan.VLC", #Waiting for wayland
 #net.mullvad.MullvadBrowser
 #io.gitlab.librewolf-community
-#ca.desrt.dconf-editor"
+#ca.desrt.dconf-editor
 #org.kde.haruna
+#com.hunterwittenborn.Celeste
