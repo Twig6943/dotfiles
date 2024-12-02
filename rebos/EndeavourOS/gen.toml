@@ -65,7 +65,6 @@ items = [
     "duckstation", #Using AppImage cuz of wayland support
 ]
 #Dısabled pkgs
-#cromite
 #wireguard-gui
 
 #Packages to be installed via AM --user mode.
