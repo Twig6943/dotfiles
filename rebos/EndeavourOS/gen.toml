@@ -5,7 +5,7 @@
 #Wine,LibreSprite,Spotify,Chromium
 
 #Software that doesn't support wayland
-#Steam,krita,Resolve,FFDEC,Ryujinx,Yuzu,FNF
+#Steam,krita,FFDEC,Ryujinx,Yuzu,FNF,Resolve
 
 #Packages to be installed via Pacman.
 [managers.system]
@@ -134,6 +134,7 @@ items = [
 ]
 #Disabled pkgs;
 #org.videolan.VLC #Waiting for wayland #USE MPV FOR THE TIME BEING
+#org.kde.haruna
 #net.werwolv.ImHex #Waiting for wayland support
 #org.flameshot.Flameshot
 #org.vinegarhq.Vinegar
@@ -145,5 +146,4 @@ items = [
 #net.mullvad.MullvadBrowser
 #io.gitlab.librewolf-community
 #ca.desrt.dconf-editor
-#org.kde.haruna
 #com.hunterwittenborn.Celeste
