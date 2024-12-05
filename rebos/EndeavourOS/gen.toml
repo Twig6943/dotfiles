@@ -83,7 +83,7 @@ items = [
     "website.i2pd.i2pd",
     "dev.deedles.Trayscale",
     "com.github.ztefn.haguichi",
-    "net.agalwood.Motrix",
+    "org.kde.kget",
     "org.qbittorrent.qBittorrent",
     "org.mozilla.firefox",
     "com.brave.Browser",
