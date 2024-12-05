@@ -12,13 +12,15 @@ Overrides: [user-overrides.js](https://github.com/Twig6943/dotfiles/blob/main/fi
 
 [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
-[Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
-
 [Better volume booster](https://addons.mozilla.org/en-US/firefox/addon/better-volume-booster/)
+
+[Multi-threaded download manager](https://addons.mozilla.org/en-US/firefox/addon/multithreaded-download-manager/)
 
 [Dark reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
 
 [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
+
+[Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
 # Bookmarks
 
