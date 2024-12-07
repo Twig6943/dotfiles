@@ -44,12 +44,12 @@ items = [
     "waydroid-image-gapps",
     "gimp-git", #Switch to flatpak once gimp 3 releases
     "grimshot-bin-sway",
-    "opencl-amd",
     "lact-bin",
     "wireguard-dkms",
 ]
 #Disabled pkgs
 #hardinfo2
+#opencl-amd
 
 #Packages to be installed via AM.
 [managers.am]
@@ -62,7 +62,6 @@ items = [
     "webcamoid",
     "altus",
     "cromite",
-    "duckstation", #Using AppImage cuz of wayland support
 ]
 #Dısabled pkgs
 #wireguard-gui
@@ -70,7 +69,7 @@ items = [
 #Packages to be installed via AM --user mode.
 [managers.am_user]
 items = [
-    "",
+    "duckstation", #Using AppImage cuz of wayland support",
 ]
 #Disabled pkgs
 #osu
@@ -92,7 +91,6 @@ items = [
     "io.github.TheWisker.Cavasik",
     "io.github.peazip.PeaZip",
     "org.gnome.GHex",
-    "com.nextcloud.desktopclient.nextcloud",
     "org.blender.Blender",
     "io.github.marco_calautti.DeltaPatcher",
     "com.jpexs.decompiler.flash",
@@ -133,6 +131,7 @@ items = [
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
 #Disabled pkgs;
+#com.nextcloud.desktopclient.nextcloud # I don't really need this
 #org.videolan.VLC #Waiting for wayland #USE MPV FOR THE TIME BEING
 #org.kde.haruna
 #net.werwolv.ImHex #Waiting for wayland support
