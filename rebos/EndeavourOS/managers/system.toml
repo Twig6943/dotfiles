@@ -8,8 +8,8 @@
 
 # Example: add = "sudo apt install #:?"
 
-add = "sudo pacman -S #:?" # Example: sudo apt install #:?
-remove = "sudo pacman -R #:?" # Example: sudo apt remove #:?
+add = "sudo pacman -S #:? --noconfirm" # Example: sudo apt install #:?
+remove = "sudo pacman -R #:? --noconfirm" # Example: sudo apt remove #:?
 sync = "eos-update" # Example: sudo apt update
 upgrade = "eos-update" # Example: sudo apt upgrade
 
