@@ -1,7 +1,7 @@
 # YaY
 
-add = "yay -S #:?"
-remove = "yay -R #:?"
+add = "yay -S #:? --noconfirm"
+remove = "yay -R #:? --noconfirm"
 
 plural_name = "YaY"
 
