@@ -1,6 +1,6 @@
 # Useful stuff
 
-### OGLO ARCH REPO
+### OGLO ARCH REPO (use in case something happens to the am pkg of rebos)
 
 ```
 #Rebos Arch repo
