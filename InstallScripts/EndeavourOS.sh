@@ -1,13 +1,8 @@
 echo "Cancel the script if u want u have 10 seconds"
 sleep 10
 
-#Update & Install YaY
-sudo pacman -Syu
-pacman -S --needed git base-devel
-git clone https://aur.archlinux.org/yay-bin.git
-cd yay-bin
-makepkg -si
-sudo pacman -Sy git
+#Update
+eos-update
 
 #Extra flatpak installations (Check readme.md for the guide)
 sudo mkdir -p /etc/flatpak/installations.d
