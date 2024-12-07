@@ -16,11 +16,6 @@ sudo mkdir -p /etc/flatpak/installations.d
 #sudoedit /etc/flatpak/installations.d/extra.conf
 #export XDG_DATA_DIRS="${XDG_DATA_DIRS:+$XDG_DATA_DIRS:}/path/to/your/custom/desktop/files"
 
-#Rebos Arch repo
-#sudo bash -c 'echo -e "\n[oglo-arch-repo]\nSigLevel = Optional DatabaseOptional\nServer = https://gitlab.com/Oglo12/\$repo/-/raw/main/\$arch" >> /etc/pacman.conf'
-#sudo pacman -Syy
-#sudo pacman -S rebos
-
 #Install AppImage stuff
 #sudo pacman -S libappimage #turns out its not needed
 mkdir /home/$USER/Applications
