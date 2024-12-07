@@ -11,13 +11,10 @@ sudo pacman -S flatpak --noconfirm
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak remote-add sober https://sober.vinegarhq.org/repo/
 
-#Extra flatpak installations (Check readme.md for the guide)
+#Extra flatpak installation folder (CHECK "NOTES/README.MD" FOR MORE INFO)
 sudo mkdir -p /etc/flatpak/installations.d
-#sudoedit /etc/flatpak/installations.d/extra.conf
-#export XDG_DATA_DIRS="${XDG_DATA_DIRS:+$XDG_DATA_DIRS:}/path/to/your/custom/desktop/files"
 
 #Install AppImage stuff
-#sudo pacman -S libappimage #turns out its not needed
 mkdir /home/$USER/Applications
 
 #Install AM
