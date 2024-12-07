@@ -40,7 +40,6 @@ items = [
 items = [
     "waydroid",
     "waydroid-image-gapps",
-    "gimp-git", #Switch to flatpak once gimp 3 releases
     "grimshot-bin-sway",
     "lact-bin",
     "wireguard-dkms",
@@ -54,6 +53,7 @@ items = [
 items = [
     "fastfetch",
     "vscodium",
+    "gimp-git", #Switch to flatpak once gimp 3 releases
     "steam",
     "goverlay",
     "webcamoid",
