@@ -28,8 +28,7 @@ cd /home/$USER
 git clone https://github.com/Twig6943/dotfiles
 
 #Wallpaper
-mkdir /home/$USER/wallpapers
-wget https://github.com/hyprwm/Hyprland/blob/main/assets/install/wall2.png?raw=true -O /home/$USER/wallpapers/wp.png
+sudo wget https://github.com/hyprwm/Hyprland/blob/main/assets/install/wall2.png?raw=true -O /usr/share/wallpapers/wall1.png
 
 #Create /crap/ folder 
 sudo mkdir /crap
