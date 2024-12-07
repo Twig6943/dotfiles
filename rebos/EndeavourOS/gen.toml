@@ -20,6 +20,7 @@ items = [
     "headscale",
     "wine",
     "sway",
+    "swaybg",
     "hyprland",
     "xdg-desktop-portal-wlr",
     "amdvlk",
