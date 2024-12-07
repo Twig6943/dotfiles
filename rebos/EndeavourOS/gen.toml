@@ -131,7 +131,6 @@ items = [
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
 #Disabled pkgs;
-#com.nextcloud.desktopclient.nextcloud # I don't really need this
 #org.videolan.VLC #Waiting for wayland #USE MPV FOR THE TIME BEING
 #org.kde.haruna
 #net.werwolv.ImHex #Waiting for wayland support
@@ -146,3 +145,4 @@ items = [
 #io.gitlab.librewolf-community
 #ca.desrt.dconf-editor
 #com.hunterwittenborn.Celeste
+#com.nextcloud.desktopclient.nextcloud # I don't really need this
