@@ -56,7 +56,6 @@ items = [
     "fastfetch",
     "vscodium",
     "gimp-git", #Switch to flatpak once gimp 3 releases
-    "steam",
     "goverlay",
     "webcamoid",
     "altus",
@@ -116,6 +115,7 @@ items = [
     "org.kde.kdenlive",
     "org.tenacityaudio.Tenacity",
     "com.heroicgameslauncher.hgl",
+    "com.valvesoftware.Steam",
     "org.ryujinx.Ryujinx",
     "org.duckstation.DuckStation",
     "net.davidotek.pupgui2",
