@@ -9,7 +9,7 @@
 # Example: add = "sudo apt install #:?"
 
 add = "sudo pacman -S #:? --noconfirm" # Example: sudo apt install #:?
-remove = "sudo pacman -R #:? --noconfirm" # Example: sudo apt remove #:?
+remove = "sudo pacman -Rns #:? --noconfirm" # Example: sudo apt remove #:?
 sync = "eos-update" # Example: sudo apt update
 upgrade = "eos-update" # Example: sudo apt upgrade
 
