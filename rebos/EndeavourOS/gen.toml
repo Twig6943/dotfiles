@@ -10,8 +10,6 @@
 #Packages to be installed via Pacman.
 [managers.system]
 items = [
-    "git",
-    "yay",
     "zip",
     "p7zip",
     "mangohud",
