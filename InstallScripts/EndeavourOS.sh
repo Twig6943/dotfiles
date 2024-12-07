@@ -4,14 +4,17 @@ sleep 10
 #Update
 eos-update
 
+#Install flatpak
+sudo pacman -S flatpak --noconfirm
+
+#Flatpak repositories
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add sober https://sober.vinegarhq.org/repo/
+
 #Extra flatpak installations (Check readme.md for the guide)
 sudo mkdir -p /etc/flatpak/installations.d
 #sudoedit /etc/flatpak/installations.d/extra.conf
 #export XDG_DATA_DIRS="${XDG_DATA_DIRS:+$XDG_DATA_DIRS:}/path/to/your/custom/desktop/files"
-
-#Flatpak repositories
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
 
 #Rebos Arch repo
 #sudo bash -c 'echo -e "\n[oglo-arch-repo]\nSigLevel = Optional DatabaseOptional\nServer = https://gitlab.com/Oglo12/\$repo/-/raw/main/\$arch" >> /etc/pacman.conf'
@@ -23,10 +26,10 @@ flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
 mkdir /home/$USER/Applications
 
 #Install AM
-yay -S am
+yay -S am --noconfirm
 
 #Rebos
-am -i rebos
+am -i rebos --noconfirm
 
 #Clone dotfiles
 cd /home/$USER
