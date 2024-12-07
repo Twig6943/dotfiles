@@ -54,7 +54,6 @@ items = [
 #Packages to be installed via AM.
 [managers.am]
 items = [
-    "etcher",
     "fastfetch",
     "vscodium",
     "steam",
