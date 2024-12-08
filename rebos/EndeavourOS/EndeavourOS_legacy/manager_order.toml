@@ -1,0 +1,10 @@
+begin = [
+  "system",
+  "yay",
+  "am",
+  "am_user",
+]
+
+end = [
+  "flatpak",
+]

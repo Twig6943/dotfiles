@@ -1,0 +1,139 @@
+#Notes;
+#Install PollyMC's .flatpak file from github.com/fn2006/PollyMC/releases
+
+#Software that does support wayland but needs a flag/etc;
+#Wine,LibreSprite,Spotify,Chromium
+
+#Software that doesn't support wayland
+#Steam,Proton,krita,FFDEC,Ryujinx,Yuzu,FNF,Resolve
+
+#Packages to be installed via Pacman.
+[managers.system]
+items = [
+    "zip",
+    "p7zip",
+    "mangohud", #Remove once you learn how to use the flatpak pkg
+    "winetricks",
+    "amdvlk",
+    "vulkan-radeon",
+    "vkmark",
+    "wireguard-tools",
+    "headscale",
+    "wine",
+    "htop",
+    "virt-manager",
+    "qemu",
+    "libvirt",
+    "bridge-utils",
+    "virt-viewer",
+]
+#Disabled pkgs
+
+#Packages to be installed via YaY.
+[managers.yay]
+items = [
+    "waydroid",
+    "waydroid-image-gapps",
+    "lact-bin",
+    "wireguard-dkms",
+]
+#Disabled pkgs
+#hardinfo2
+#opencl-amd
+
+#Packages to be installed via AM.
+[managers.am]
+items = [
+    "fastfetch",
+    "vscodium",
+    "gimp-git", #Switch to flatpak once gimp 3 releases
+    "goverlay",
+    "webcamoid",
+    "altus",
+    "cromite",
+]
+#Dısabled pkgs
+#wireguard-gui
+
+#Packages to be installed via AM --user mode.
+[managers.am_user]
+items = [
+    "duckstation", #Using AppImage cuz of wayland support",
+]
+#Disabled pkgs
+#osu
+
+# Packages to be installed via Flatpak.
+[managers.flatpak]
+items = [
+    "com.github.KRTirtho.Spotube",
+    "org.strawberrymusicplayer.strawberry",
+    "website.i2pd.i2pd",
+    "dev.deedles.Trayscale",
+    "com.github.ztefn.haguichi",
+    "org.kde.kget",
+    "org.qbittorrent.qBittorrent",
+    "org.mozilla.firefox",
+    "com.brave.Browser",
+    "com.github.tchx84.Flatseal",
+    "io.gpt4all.gpt4all",
+    "io.github.TheWisker.Cavasik",
+    "io.github.peazip.PeaZip",
+    "org.gnome.GHex",
+    "org.blender.Blender",
+    "io.github.marco_calautti.DeltaPatcher",
+    "com.jpexs.decompiler.flash",
+    "rs.ruffle.Ruffle",
+    "org.synfig.SynfigStudio",
+    "com.github.libresprite.LibreSprite",
+    "org.inkscape.Inkscape",
+    "org.kde.akregator",
+    "org.kde.kclock",
+    "io.gitlab.adhami3310.Impression",
+    "org.gnome.baobab",
+    "com.rustdesk.RustDesk",
+    "com.gitlab.davem.ClamTk",
+    "org.kde.krita",
+    "org.libreoffice.LibreOffice",
+    "org.nickvision.tubeconverter",
+    "im.riot.Riot",
+    "org.signal.Signal",
+    "dev.vencord.Vesktop",
+    "in.srev.guiscrcpy",
+    "io.mpv.Mpv",
+    "com.obsproject.Studio",
+    "com.dec05eba.gpu_screen_recorder",
+    "org.kde.kdenlive",
+    "org.tenacityaudio.Tenacity",
+    "com.heroicgameslauncher.hgl",
+    "com.valvesoftware.Steam",
+    "org.ryujinx.Ryujinx",
+    "org.duckstation.DuckStation",
+    "net.davidotek.pupgui2",
+    "com.github.Matoking.protontricks",
+    "sh.ppy.osu",
+    "io.github.shadowmario.fnf-psychengine",
+    "dev.bragefuglseth.Keypunch",
+    "io.mrarm.mcpelauncher",
+    "org.vinegarhq.Sober",
+    "tw.ddnet.ddnet",
+    "org.freedesktop.Platform.VulkanLayer.MangoHud",
+    "org.freedesktop.Platform.VulkanLayer.gamescope",
+    "org.freedesktop.Platform.VulkanLayer.vkBasalt",
+]
+#Disabled pkgs;
+#org.videolan.VLC #Waiting for wayland #USE MPV FOR THE TIME BEING
+#org.kde.haruna
+#net.werwolv.ImHex #Waiting for wayland support
+#org.flameshot.Flameshot
+#org.vinegarhq.Vinegar
+#com.vysp3r.ProtonPlus
+#org.mozilla.Thunderbird
+#im.fluffychat.Fluffychat
+#org.telegram.desktop
+#org.gnome.Boxes
+#net.mullvad.MullvadBrowser
+#io.gitlab.librewolf-community
+#ca.desrt.dconf-editor
+#com.hunterwittenborn.Celeste
+#com.nextcloud.desktopclient.nextcloud # I don't really need this
