@@ -13,6 +13,7 @@ items = [
     "zip",
     "p7zip",
     "mangohud", #Remove once you learn how to use the flatpak pkg
+    "qt6pas", #This is here cuz of the goverlay AppImage
     "winetricks",
     "amdvlk",
     "vulkan-radeon",
