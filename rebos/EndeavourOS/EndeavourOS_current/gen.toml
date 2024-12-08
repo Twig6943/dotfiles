@@ -74,7 +74,6 @@ items = [
     "website.i2pd.i2pd",
     "dev.deedles.Trayscale",
     "com.github.ztefn.haguichi",
-    "org.kde.kget",
     "org.qbittorrent.qBittorrent",
     "org.mozilla.firefox",
     "com.brave.Browser",
@@ -125,6 +124,7 @@ items = [
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
 #Disabled pkgs;
+#org.kde.kget #Doesn't have an extension which prevents me from downloading from some sites unlike FDM
 #org.videolan.VLC #Waiting for wayland #USE MPV FOR THE TIME BEING
 #org.kde.haruna
 #net.werwolv.ImHex #Waiting for wayland support
