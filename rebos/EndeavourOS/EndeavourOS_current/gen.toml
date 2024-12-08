@@ -1,4 +1,5 @@
 #Notes;
+#Don't uninstall native firefox pkg cuz of FDM
 #Install PollyMC's .flatpak file from github.com/fn2006/PollyMC/releases
 
 #Software that does support wayland but needs a flag/etc;
@@ -35,6 +36,7 @@ items = [
 items = [
     "waydroid",
     "waydroid-image-gapps",
+    "freedownloadmanager", #Using this cuz this is the only download manager with a working integration
     "lact-bin",
     "wireguard-dkms",
 ]
