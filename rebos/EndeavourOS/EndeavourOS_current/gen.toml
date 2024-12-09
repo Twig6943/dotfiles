@@ -112,7 +112,6 @@ items = [
     "com.heroicgameslauncher.hgl",
     "com.valvesoftware.Steam",
     "org.ryujinx.Ryujinx",
-    "org.duckstation.DuckStation",
     "net.davidotek.pupgui2",
     "com.github.Matoking.protontricks",
     "sh.ppy.osu",
