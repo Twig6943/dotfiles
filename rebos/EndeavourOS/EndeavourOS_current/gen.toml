@@ -97,6 +97,7 @@ items = [
     "com.rustdesk.RustDesk",
     "com.gitlab.davem.ClamTk",
     "org.kde.krita",
+    "ch.openboard.OpenBoard",
     "org.libreoffice.LibreOffice",
     "org.nickvision.tubeconverter",
     "im.riot.Riot",
