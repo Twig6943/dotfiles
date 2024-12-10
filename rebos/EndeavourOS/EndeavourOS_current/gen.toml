@@ -36,7 +36,7 @@ items = [
 [managers.yay]
 items = [
     "waydroid",
-    "waydroid-image-gapps",
+    "waydroid-image",
     "freedownloadmanager", #Using this cuz this is the only download manager with a working integration
     "lact-bin",
     "wireguard-dkms",
