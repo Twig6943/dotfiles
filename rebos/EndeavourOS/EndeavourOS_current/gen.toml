@@ -36,7 +36,6 @@ items = [
 [managers.yay]
 items = [
     "waydroid",
-    "waydroid-image",
     "binder_linux-dkms",
     "freedownloadmanager", #Using this cuz this is the only download manager with a working integration
     "lact-bin",
