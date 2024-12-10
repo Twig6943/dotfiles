@@ -37,9 +37,9 @@ items = [
 items = [
     "waydroid",
     "binder_linux-dkms",
+    "wireguard-dkms",
     "freedownloadmanager", #Using this cuz this is the only download manager with a working integration
     "lact-bin",
-    "wireguard-dkms",
 ]
 #Disabled pkgs
 #hardinfo2
