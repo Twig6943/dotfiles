@@ -52,6 +52,7 @@ items = [
     "vscodium",
     "gimp-git", #Switch to flatpak once gimp 3 releases
     "goverlay",
+    "waydroid-helper",
     "webcamoid",
     "cromite",
 ]
