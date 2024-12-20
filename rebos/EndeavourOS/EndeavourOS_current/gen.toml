@@ -114,6 +114,7 @@ items = [
     "org.kde.kdenlive",
     "org.tenacityaudio.Tenacity",
     "com.heroicgameslauncher.hgl",
+    "net.lutris.Lutris", #Fallback cuz heroic's wayland backend broke I want to kms
     "com.valvesoftware.Steam",
     "org.ryujinx.Ryujinx",
     "net.davidotek.pupgui2",
