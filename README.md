@@ -1,6 +1,6 @@
-# dotfiles
-
-Personal configs for various wms and whatnot.
+# Hood certified distros
+EndeavourOS
+Debian
 
 # [IMPORTANT NOTES ❗](https://github.com/Twig6943/dotfiles/tree/main/Notes)
 
