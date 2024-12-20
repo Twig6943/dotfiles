@@ -103,6 +103,7 @@ items = [
     "ch.openboard.OpenBoard",
     "org.libreoffice.LibreOffice",
     "org.nickvision.tubeconverter",
+    "com.github.unrud.VideoDownloader", #Fallback
     "im.riot.Riot",
     "org.signal.Signal",
     "dev.vencord.Vesktop",
