@@ -61,7 +61,6 @@ items = [
 #Packages to be installed via AM --user mode.
 [managers.am_user]
 items = [
-    "heroic-games-launcher", #Using AppImage cuz of native linux games",
     "duckstation", #Using AppImage cuz of wayland support",
     "ultimmc",
 ]
@@ -114,6 +113,7 @@ items = [
     "org.tenacityaudio.Tenacity",
     "com.valvesoftware.Steam",
     "org.ryujinx.Ryujinx",
+    "com.heroicgameslauncher.hgl",
     "net.davidotek.pupgui2",
     "com.github.Matoking.protontricks",
     "sh.ppy.osu",
