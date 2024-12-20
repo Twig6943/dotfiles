@@ -17,8 +17,6 @@ items = [
     "qt6pas", #This is here cuz of the goverlay AppImage
     "discover",
     "winetricks",
-    "amdvlk",
-    "vulkan-radeon",
     "vkmark",
     "wireguard-tools",
     "headscale",
@@ -114,7 +112,6 @@ items = [
     "org.kde.kdenlive",
     "org.tenacityaudio.Tenacity",
     "com.heroicgameslauncher.hgl",
-    "net.lutris.Lutris", #Fallback cuz heroic's wayland backend broke I want to kms
     "com.valvesoftware.Steam",
     "org.ryujinx.Ryujinx",
     "net.davidotek.pupgui2",

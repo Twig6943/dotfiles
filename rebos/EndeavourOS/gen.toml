@@ -1,35 +1,27 @@
 #Notes;
+#Don't uninstall native firefox pkg cuz of FDM
 #Install PollyMC's .flatpak file from github.com/fn2006/PollyMC/releases
 
 #Software that does support wayland but needs a flag/etc;
 #Wine,LibreSprite,Spotify,Chromium
 
 #Software that doesn't support wayland
-#Steam,krita,FFDEC,Ryujinx,Yuzu,FNF,Resolve
+#Steam,Proton,krita,FFDEC,Ryujinx,Yuzu,FNF,Resolve
 
 #Packages to be installed via Pacman.
 [managers.system]
 items = [
     "zip",
     "p7zip",
-    "mangohud",
+    "mangohud", #Remove once you learn how to use the flatpak pkg
+    "qt6pas", #This is here cuz of the goverlay AppImage
+    "discover",
     "winetricks",
-    "amdvlk",
-    "vulkan-radeon",
     "vkmark",
-    "speedtest-cli",
     "wireguard-tools",
     "headscale",
     "wine",
-    "sway",
-    "swaybg",
-    "hyprland",
-    "xdg-desktop-portal-wlr",
-    "yazi",
     "htop",
-    "kvantum",
-    "qt5ct",
-    "qt6ct",
     "virt-manager",
     "qemu",
     "libvirt",
@@ -42,10 +34,10 @@ items = [
 [managers.yay]
 items = [
     "waydroid",
-    "waydroid-image-gapps",
-    "grimshot-bin-sway",
-    "lact-bin",
+    "binder_linux-dkms",
     "wireguard-dkms",
+    "freedownloadmanager", #Using this cuz this is the only download manager with a working integration
+    "lact-bin",
 ]
 #Disabled pkgs
 #hardinfo2
@@ -58,17 +50,19 @@ items = [
     "vscodium",
     "gimp-git", #Switch to flatpak once gimp 3 releases
     "goverlay",
+    "waydroid-helper",
     "webcamoid",
-    "altus",
     "cromite",
 ]
 #Dısabled pkgs
 #wireguard-gui
+#altus
 
 #Packages to be installed via AM --user mode.
 [managers.am_user]
 items = [
     "duckstation", #Using AppImage cuz of wayland support",
+    "ultimmc",
 ]
 #Disabled pkgs
 #osu
@@ -81,8 +75,8 @@ items = [
     "website.i2pd.i2pd",
     "dev.deedles.Trayscale",
     "com.github.ztefn.haguichi",
-    "org.kde.kget",
     "org.qbittorrent.qBittorrent",
+    "com.pojtinger.felicitas.Multiplex",
     "org.mozilla.firefox",
     "com.brave.Browser",
     "com.github.tchx84.Flatseal",
@@ -104,8 +98,10 @@ items = [
     "com.rustdesk.RustDesk",
     "com.gitlab.davem.ClamTk",
     "org.kde.krita",
+    "ch.openboard.OpenBoard",
     "org.libreoffice.LibreOffice",
     "org.nickvision.tubeconverter",
+    "com.github.unrud.VideoDownloader", #Fallback
     "im.riot.Riot",
     "org.signal.Signal",
     "dev.vencord.Vesktop",
@@ -118,7 +114,6 @@ items = [
     "com.heroicgameslauncher.hgl",
     "com.valvesoftware.Steam",
     "org.ryujinx.Ryujinx",
-    "org.duckstation.DuckStation",
     "net.davidotek.pupgui2",
     "com.github.Matoking.protontricks",
     "sh.ppy.osu",
@@ -132,6 +127,7 @@ items = [
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
 #Disabled pkgs;
+#org.kde.kget #Doesn't have an extension which prevents me from downloading from some sites unlike FDM
 #org.videolan.VLC #Waiting for wayland #USE MPV FOR THE TIME BEING
 #org.kde.haruna
 #net.werwolv.ImHex #Waiting for wayland support

@@ -1,0 +1,2 @@
+RX 580:
+sudo pacman -S amdvlk vulkan-radeon
