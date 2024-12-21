@@ -8,8 +8,8 @@
 
 # Example: add = "sudo apt install #:?"
 
-add = "sudo dnf install -y #:? --noconfirm" # Example: sudo apt install #:?
-remove = "sudo dnf remove -y #:? --noconfirm" # Example: sudo apt remove #:?
+add = "sudo dnf install -y #:?" # Example: sudo apt install #:?
+remove = "sudo dnf remove -y #:?" # Example: sudo apt remove #:?
 sync = "sudo dnf update -y" # Example: sudo apt update
 upgrade = "sudo dnf update -y" # Example: sudo apt upgrade
 
