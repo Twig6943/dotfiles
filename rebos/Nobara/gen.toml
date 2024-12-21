@@ -34,10 +34,10 @@ items = [
     "fastfetch",
     "vscodium",
     "gimp-git", #Switch to flatpak once gimp 3 releases
-    "heroic-games-launcher",
     "goverlay",
     "waydroid-helper",
     "webcamoid",
+    "heroic-games-launcher",
     "element",
     "signal",
     "vesktop",
