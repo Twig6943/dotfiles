@@ -49,8 +49,8 @@ items = [
 [managers.am_user]
 items = [
     "duckstation", #Using AppImage cuz of wayland support",
+    "funkin-psych", #Using AppImage cuz of wayland support",
     "ultimmc",
-    "funkin-psych",
 ]
 #Disabled pkgs
 
