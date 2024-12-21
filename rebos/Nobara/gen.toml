@@ -42,6 +42,7 @@ items = [
     "signal",
     "vesktop",
     "cromite",
+    "brave-appimage",
 ]
 
 #Packages to be installed via AM --user mode.
@@ -64,7 +65,6 @@ items = [
     "org.qbittorrent.qBittorrent",
     "com.pojtinger.felicitas.Multiplex",
     "org.mozilla.firefox",
-    "com.brave.Browser",
     "com.github.tchx84.Flatseal",
     "io.gpt4all.gpt4all",
     "io.github.TheWisker.Cavasik",
