@@ -1,0 +1,110 @@
+#Notes;
+#Don't uninstall native firefox pkg cuz of FDM
+
+#Software that does support wayland but needs a flag/etc;
+#Wine,LibreSprite,Spotify,Chromium
+
+#Software that doesn't support wayland
+#Steam,Proton,krita,FFDEC,Ryujinx,Yuzu,FNF,Resolve
+
+#Packages to be installed via Pacman.
+[managers.system]
+items = [
+    "zip",
+    "p7zip",
+    "mangohud", #Remove once you learn how to use the flatpak pkg
+    "gamescope",
+    "waydroid",
+    "qt6pas", #This is here cuz of the goverlay AppImage
+    "gnome-disk-utility", #DO NOT REMOVE THIS
+    "winetricks",
+    "vkmark",
+    "wireguard",
+    "wireguard-tools",
+    "headscale.x86_64",
+    "htop",
+    "virt-manager",
+]
+#Disabled pkgs
+#FDM (working on flatpak/appimage)
+
+#Packages to be installed via AM.
+[managers.am]
+items = [
+    "fastfetch",
+    "vscodium",
+    "gimp-git", #Switch to flatpak once gimp 3 releases
+    "heroic-games-launcher",
+    "goverlay",
+    "waydroid-helper",
+    "webcamoid",
+    "cromite",
+]
+
+#Packages to be installed via AM --user mode.
+[managers.am_user]
+items = [
+    "duckstation", #Using AppImage cuz of wayland support",
+    "ultimmc",
+]
+#Disabled pkgs
+
+# Packages to be installed via Flatpak.
+[managers.flatpak]
+items = [
+    "com.github.KRTirtho.Spotube",
+    "org.strawberrymusicplayer.strawberry",
+    "website.i2pd.i2pd",
+    "dev.deedles.Trayscale",
+    "com.github.ztefn.haguichi",
+    "org.qbittorrent.qBittorrent",
+    "com.pojtinger.felicitas.Multiplex",
+    "org.mozilla.firefox",
+    "com.brave.Browser",
+    "com.github.tchx84.Flatseal",
+    "io.gpt4all.gpt4all",
+    "io.github.TheWisker.Cavasik",
+    "io.github.peazip.PeaZip",
+    "org.gnome.GHex",
+    "org.blender.Blender",
+    "io.github.marco_calautti.DeltaPatcher",
+    "com.jpexs.decompiler.flash",
+    "rs.ruffle.Ruffle",
+    "org.synfig.SynfigStudio",
+    "com.github.libresprite.LibreSprite",
+    "org.inkscape.Inkscape",
+    "org.kde.akregator",
+    "org.kde.kclock",
+    "io.gitlab.adhami3310.Impression",
+    "org.gnome.baobab",
+    "com.rustdesk.RustDesk",
+    "com.gitlab.davem.ClamTk",
+    "org.kde.krita",
+    "ch.openboard.OpenBoard",
+    "org.libreoffice.LibreOffice",
+    "org.nickvision.tubeconverter",
+    "com.github.unrud.VideoDownloader", #Fallback
+    "im.riot.Riot",
+    "org.signal.Signal",
+    "dev.vencord.Vesktop",
+    "in.srev.guiscrcpy",
+    "io.mpv.Mpv",
+    "com.obsproject.Studio",
+    "com.dec05eba.gpu_screen_recorder",
+    "org.kde.kdenlive",
+    "org.tenacityaudio.Tenacity",
+    "com.valvesoftware.Steam",
+    "org.ryujinx.Ryujinx",
+    "net.davidotek.pupgui2",
+    "com.github.Matoking.protontricks",
+    "sh.ppy.osu",
+    "io.github.shadowmario.fnf-psychengine",
+    "dev.bragefuglseth.Keypunch",
+    "io.mrarm.mcpelauncher",
+    "org.vinegarhq.Sober",
+    "tw.ddnet.ddnet",
+    "org.freedesktop.Platform.VulkanLayer.MangoHud",
+    "org.freedesktop.Platform.VulkanLayer.gamescope",
+    "org.freedesktop.Platform.VulkanLayer.vkBasalt",
+]
+#Disabled pkgs;

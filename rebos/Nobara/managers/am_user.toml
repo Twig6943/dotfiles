@@ -1,0 +1,12 @@
+# AppImages (User mode)
+
+add = "am -i --user #:?"
+remove = "am -r --user #:?"
+upgrade = "am update"
+
+plural_name = "am_user"
+
+hook_name = "am_user"
+
+[config]
+many_args = true
