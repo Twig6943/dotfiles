@@ -14,6 +14,7 @@ items = [
     "zip",
     "p7zip",
     "mangohud", #Remove once you learn how to use the flatpak pkg
+    "gamescope",
     "qt6pas", #This is here cuz of the goverlay AppImage
     "discover",
     "gnome-disk-utility", #DO NOT REMOVE THIS
@@ -50,6 +51,7 @@ items = [
     "fastfetch",
     "vscodium",
     "gimp-git", #Switch to flatpak once gimp 3 releases
+    "heroic-games-launcher",
     "goverlay",
     "waydroid-helper",
     "webcamoid",
@@ -114,7 +116,6 @@ items = [
     "org.tenacityaudio.Tenacity",
     "com.valvesoftware.Steam",
     "org.ryujinx.Ryujinx",
-    "com.heroicgameslauncher.hgl",
     "net.davidotek.pupgui2",
     "com.github.Matoking.protontricks",
     "sh.ppy.osu",
