@@ -40,6 +40,7 @@ items = [
     "webcamoid",
     "element",
     "signal",
+    "vesktop",
     "cromite",
 ]
 
@@ -87,8 +88,6 @@ items = [
     "org.libreoffice.LibreOffice",
     "org.nickvision.tubeconverter",
     "com.github.unrud.VideoDownloader", #Fallback
-    "org.signal.Signal",
-    "dev.vencord.Vesktop",
     "in.srev.guiscrcpy",
     "io.mpv.Mpv",
     "com.obsproject.Studio",
