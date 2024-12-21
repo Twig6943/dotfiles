@@ -1,4 +1,5 @@
 # Hood certified distros
+Nobara
 
 EndeavourOS
 
