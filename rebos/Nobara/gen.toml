@@ -31,6 +31,8 @@ items = [
 #Packages to be installed via AM.
 [managers.am]
 items = [
+    "cromite",
+    "brave-appimage",
     "fastfetch",
     "vscodium",
     "gimp-git", #Switch to flatpak once gimp 3 releases
@@ -41,8 +43,6 @@ items = [
     "element",
     "signal",
     "vesktop",
-    "cromite",
-    "brave-appimage",
 ]
 
 #Packages to be installed via AM --user mode.
