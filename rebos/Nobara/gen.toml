@@ -38,6 +38,8 @@ items = [
     "goverlay",
     "waydroid-helper",
     "webcamoid",
+    "element",
+    "signal",
     "cromite",
 ]
 
@@ -84,7 +86,6 @@ items = [
     "org.libreoffice.LibreOffice",
     "org.nickvision.tubeconverter",
     "com.github.unrud.VideoDownloader", #Fallback
-    "im.riot.Riot",
     "org.signal.Signal",
     "dev.vencord.Vesktop",
     "in.srev.guiscrcpy",
