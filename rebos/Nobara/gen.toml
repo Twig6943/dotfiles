@@ -48,6 +48,7 @@ items = [
 items = [
     "duckstation", #Using AppImage cuz of wayland support",
     "ultimmc",
+    "funkin-psych",
 ]
 #Disabled pkgs
 
@@ -99,7 +100,6 @@ items = [
     "net.davidotek.pupgui2",
     "com.github.Matoking.protontricks",
     "sh.ppy.osu",
-    "io.github.shadowmario.fnf-psychengine",
     "dev.bragefuglseth.Keypunch",
     "io.mrarm.mcpelauncher",
     "org.vinegarhq.Sober",
