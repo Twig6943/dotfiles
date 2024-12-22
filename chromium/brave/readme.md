@@ -17,6 +17,8 @@ Set `Auto Dark Mode for Web Contents` to `Enabled with selective inversion of no
 
 [Chromium web store](https://github.com/NeverDecaf/chromium-web-store)
 
+[Yt video stretcher](https://github.com/Dinoosauro/youtube-fullscreen-fit?tab=readme-ov-file)
+
 [Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
 [uBlock Origin lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
