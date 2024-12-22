@@ -4,7 +4,7 @@
 
 Flatpak [custom installation guide](https://docs.flatpak.org/en/latest/tips-and-tricks.html#adding-a-custom-installation)
 
-[Minecraft-Wayland GLFW lib](https://github.com/BoyOrigin/glfw-wayland)
+[Minecraft-Wayland GLFW lib](https://github.com/BoyOrigin/glfw-wayland/releases)
 
 WINE [DARK THEME 🍷](https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/wine-dark-theme.reg) (For .wine)
 
