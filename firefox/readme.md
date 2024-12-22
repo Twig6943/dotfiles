@@ -14,6 +14,10 @@ Overrides: [user-overrides.js](https://github.com/Twig6943/dotfiles/blob/main/fi
 
 [Better volume booster](https://addons.mozilla.org/en-US/firefox/addon/better-volume-booster/)
 
+[YT Video Stretcher](https://addons.mozilla.org/en-US/firefox/addon/youtube-fullscreen-fit/)
+
+[Free download manager](https://addons.mozilla.org/en-US/firefox/addon/free-download-manager-addon/)
+
 [Multi-threaded download manager](https://addons.mozilla.org/en-US/firefox/addon/multithreaded-download-manager/)
 
 [Dark reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
