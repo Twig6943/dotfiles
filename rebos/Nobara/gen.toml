@@ -65,6 +65,7 @@ items = [
     "org.qbittorrent.qBittorrent",
     "com.pojtinger.felicitas.Multiplex",
     "org.mozilla.firefox",
+    "org.telegram.desktop",
     "com.github.tchx84.Flatseal",
     "io.gpt4all.gpt4all",
     "io.github.TheWisker.Cavasik",
