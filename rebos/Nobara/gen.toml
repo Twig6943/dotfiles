@@ -26,7 +26,6 @@ items = [
     "virt-manager",
 ]
 #Disabled pkgs
-#FDM (working on flatpak/appimage)
 
 #Packages to be installed via AM.
 [managers.am]
