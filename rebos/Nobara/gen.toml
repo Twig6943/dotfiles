@@ -32,6 +32,7 @@ items = [
 [managers.am]
 items = [
     "cromite",
+    "fdm",
     "brave-appimage",
     "fastfetch",
     "vscodium",
