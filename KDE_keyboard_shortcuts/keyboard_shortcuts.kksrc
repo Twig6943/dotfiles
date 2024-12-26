@@ -1,5 +1,5 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-b6766102-c61a-45b8-86c0-c78e13d13279=
+switch-to-activity-245bc5f9-9ec3-4c43-a570-dd59ae3c1332=
 
 [KDE Keyboard Layout Switcher][Global Shortcuts]
 Switch to Last-Used Keyboard Layout=Meta+Alt+L
@@ -39,7 +39,7 @@ FindPrev=Shift+F3
 FitToHeight=
 FitToPage=
 FitToWidth=
-Forward=Alt+Right; Forward
+Forward=Forward; Alt+Right
 ForwardWord=Ctrl+Right
 FullScreen=Ctrl+Shift+F
 Goto=
@@ -54,7 +54,7 @@ New=Ctrl+N
 Next=PgDown
 NextCompletion=Ctrl+Down
 Open=Ctrl+O
-OpenContextMenu=Shift+F10; Menu
+OpenContextMenu=Menu; Shift+F10
 OpenMainMenu=F10
 OpenRecent=
 Paste=Shift+Ins; Ctrl+V
@@ -66,7 +66,7 @@ PrintPreview=
 Prior=PgUp
 Quit=Ctrl+Q
 Redo=Ctrl+Shift+Z
-Reload=Refresh; F5
+Reload=F5; Refresh
 RenameFile=F2
 Replace=Ctrl+R
 ReportBug=
@@ -90,15 +90,6 @@ WhatsThis=Shift+F1
 Zoom=
 ZoomIn=Ctrl++; Ctrl+=
 ZoomOut=Ctrl+-
-
-[io.github.TheWisker.Cavasik.desktop][Global Shortcuts]
-_launch=Meta+C
-
-[io.gitlab.librewolf-community.desktop][Global Shortcuts]
-_launch=Meta+F
-new-private-window=
-new-window=
-profilemanager=
 
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=Meta+Alt+S
@@ -151,7 +142,6 @@ MoveZoomUp=
 Overview=Meta+W
 Setup Window Shortcut=
 Show Desktop=Meta+D
-Suspend Compositing=Alt+Shift+F12
 Switch One Desktop Down=Meta+Ctrl+Down
 Switch One Desktop Up=Meta+Ctrl+Up
 Switch One Desktop to the Left=Meta+Ctrl+Left
@@ -283,61 +273,15 @@ view_actual_size=Meta+0
 view_zoom_in=Meta+=; Meta++
 view_zoom_out=Meta+-
 
-[lattedock][Global Shortcuts]
-activate entry 1=
-activate entry 10=
-activate entry 11=Meta+Z
-activate entry 12=
-activate entry 13=
-activate entry 14=
-activate entry 15=
-activate entry 16=
-activate entry 17=Meta+M
-activate entry 18=Meta+,
-activate entry 19=
-activate entry 2=
-activate entry 3=
-activate entry 4=
-activate entry 5=
-activate entry 6=
-activate entry 7=
-activate entry 8=
-activate entry 9=
-new instance for entry 1=Meta+Ctrl+1
-new instance for entry 10=Meta+Ctrl+0
-new instance for entry 11=Meta+Ctrl+Z
-new instance for entry 12=
-new instance for entry 13=Meta+Ctrl+C
-new instance for entry 14=Meta+Ctrl+V
-new instance for entry 15=Meta+Ctrl+B
-new instance for entry 16=Meta+Ctrl+N
-new instance for entry 17=Meta+Ctrl+M
-new instance for entry 18=Meta+Ctrl+,
-new instance for entry 19=Meta+Ctrl+.
-new instance for entry 2=Meta+Ctrl+2
-new instance for entry 3=Meta+Ctrl+3
-new instance for entry 4=Meta+Ctrl+4
-new instance for entry 5=Meta+Ctrl+5
-new instance for entry 6=Meta+Ctrl+6
-new instance for entry 7=Meta+Ctrl+7
-new instance for entry 8=Meta+Ctrl+8
-new instance for entry 9=Meta+Ctrl+9
-show latte global settings=
-show latte view=Meta+`
-show view settings=Meta+A
-
 [mediacontrol][Global Shortcuts]
 mediavolumedown=
 mediavolumeup=
-nextmedia=Media Next; Meta+F6
+nextmedia=Meta+F6; Media Next
 pausemedia=Media Pause
 playmedia=
 playpausemedia=Media Play
-previousmedia=Media Previous; Meta+F5
+previousmedia=Meta+F5; Media Previous
 stopmedia=Media Stop
-
-[org.kde.akregator.desktop][Global Shortcuts]
-_launch=Meta+X
 
 [org.kde.dolphin.desktop][Global Shortcuts]
 _launch=Meta+E
@@ -352,19 +296,16 @@ _launch=Ctrl+Alt+T
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Alt+Space; Search; Alt+F2
+_launch=Alt+Space; Alt+F2; Search
 
 [org.kde.kscreen.desktop][Global Shortcuts]
-ShowOSD=Meta+P; Display
-
-[org.kde.kwrite.desktop][Global Shortcuts]
-_launch=Meta+N
+ShowOSD=Display; Meta+P
 
 [org.kde.plasma-systemmonitor.desktop][Global Shortcuts]
 _launch=Meta+Esc
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
-_launch=Meta+Ctrl+Alt+Shift+Space; Meta+Ş; Meta+.
+_launch=Meta+Ctrl+Alt+Shift+Space; Meta+.; Meta+Ş
 
 [org.kde.spectacle.desktop][Global Shortcuts]
 ActiveWindowScreenShot=Meta+Print
@@ -391,10 +332,10 @@ PowerOff=Power Off
 Sleep=Sleep
 Toggle Keyboard Backlight=Keyboard Light On/Off
 Turn Off Screen=
-powerProfile=Meta+B; Battery
+powerProfile=Battery; Meta+B
 
 [plasmashell][Global Shortcuts]
-activate application launcher=Meta; Alt+F1
+activate application launcher=Alt+F1; Meta
 activate task manager entry 1=Meta+1
 activate task manager entry 10=
 activate task manager entry 2=Meta+2
@@ -405,25 +346,7 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
-activate widget 102=
-activate widget 126=
-activate widget 176=
-activate widget 201=
-activate widget 27=
-activate widget 295=
 activate widget 3=
-activate widget 352=
-activate widget 409=
-activate widget 434=
-activate widget 503=
-activate widget 52=
-activate widget 528=
-activate widget 553=
-activate widget 579=
-activate widget 604=
-activate widget 629=
-activate widget 654=
-activate widget 77=
 clear-history=
 clipboard_action=Meta+Ctrl+X
 cycle-panels=Meta+Alt+P
