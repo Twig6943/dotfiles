@@ -40,7 +40,6 @@ items = [
     "waydroid-helper",
     "webcamoid",
     "heroic-games-launcher",
-    "element",
     "signal",
     "vesktop",
 ]
@@ -65,6 +64,7 @@ items = [
     "org.qbittorrent.qBittorrent",
     "com.pojtinger.felicitas.Multiplex",
     "org.mozilla.firefox",
+    "im.riot.Riot",
     "org.telegram.desktop",
     "com.github.tchx84.Flatseal",
     "io.gpt4all.gpt4all",
