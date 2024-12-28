@@ -102,6 +102,7 @@ items = [
     "com.github.Matoking.protontricks",
     "sh.ppy.osu",
     "dev.bragefuglseth.Keypunch",
+    "net.supertuxkart.SuperTuxKart",
     "io.mrarm.mcpelauncher",
     "org.zdoom.GZDoom",
     "org.vinegarhq.Sober",
