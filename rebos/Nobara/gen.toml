@@ -103,6 +103,7 @@ items = [
     "sh.ppy.osu",
     "dev.bragefuglseth.Keypunch",
     "io.mrarm.mcpelauncher",
+    "org.zdoom.GZDoom",
     "org.vinegarhq.Sober",
     "tw.ddnet.ddnet",
     "org.freedesktop.Platform.VulkanLayer.MangoHud",
