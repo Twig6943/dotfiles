@@ -96,6 +96,7 @@ items = [
     "org.kde.kdenlive",
     "org.tenacityaudio.Tenacity",
     "com.valvesoftware.Steam",
+    "org.libretro.RetroArch",
     "org.ryujinx.Ryujinx",
     "net.davidotek.pupgui2",
     "com.github.Matoking.protontricks",
