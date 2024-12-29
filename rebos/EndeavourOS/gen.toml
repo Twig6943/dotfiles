@@ -1,6 +1,5 @@
 #Notes;
 #Don't uninstall native firefox pkg cuz of FDM
-#Install PollyMC's .flatpak file from github.com/fn2006/PollyMC/releases
 
 #Software that does support wayland but needs a flag/etc;
 #Wine,LibreSprite,Spotify,Chromium
@@ -125,3 +124,10 @@ items = [
     "org.freedesktop.Platform.VulkanLayer.gamescope",
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
+
+
+# Packages to be installed via Flatpak.
+#[managers.flatpak_external]
+#items = [
+    #"github.com/fn2006/PollyMC"
+#]
