@@ -1,7 +1,7 @@
 # Hood certified distros
-Nobara
-
 EndeavourOS
+
+Nobara (Kinda)
 
 Debian
 
