@@ -21,7 +21,7 @@ mkdir /home/$USER/Applications
 yay -S am --noconfirm
 
 #Rebos
-am -i rebos --noconfirm
+am -i rebos
 rebos setup
 rebos config init
 
