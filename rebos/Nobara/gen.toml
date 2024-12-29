@@ -10,6 +10,7 @@
 #Packages to be installed via Pacman.
 [managers.system]
 items = [
+    "git",
     "zip",
     "p7zip",
     "mangohud", #Remove once you learn how to use the flatpak pkg
