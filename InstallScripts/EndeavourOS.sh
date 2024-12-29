@@ -23,6 +23,8 @@ yay -S am --noconfirm
 
 #Rebos
 am -i rebos --noconfirm
+rebos setup
+rebos config init
 
 #Clone dotfiles
 cd /home/$USER
