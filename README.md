@@ -1,11 +1,14 @@
-# Hood certified distros
+# Peak Distro 👑
+
 EndeavourOS
+
+# Hood certified distros 😎
 
 Nobara (Kinda)
 
 Debian
 
-# No no distros
+# No no distros 💩
 CachyOS
 
 # [IMPORTANT NOTES ❗](https://github.com/Twig6943/dotfiles/tree/main/Notes)
