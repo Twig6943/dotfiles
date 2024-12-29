@@ -32,7 +32,7 @@ git clone https://github.com/Twig6943/dotfiles
 
 #Wallpaper
 sudo mkdir /usr/share/wallpapers/Custom/
-sudo wget https://github.com/hyprwm/Hyprland/blob/main/assets/install/wall2.png?raw=true -O /usr/share/wallpapers/Custom/wall1.png
+sudo wget https://lemmy.today/pictrs/image/ff5c85e4-3df6-452b-bb4c-e2abf4be3ae5.jpeg -O /usr/share/wallpapers/Custom/wall1.png
 
 #Create /crap/ folder 
 sudo mkdir /crap
