@@ -10,6 +10,9 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 #Idk how to add sober's repo only without gpg errors
 flatpak install --user https://sober.vinegarhq.org/sober.flatpakref 
 
+#Eglgears_wayland symlink
+sudo ln -s /usr/lib64/mesa/eglgears_wayland /usr/bin/eglgears_wayland
+
 #Extra flatpak installation folder (CHECK "NOTES/README.MD" FOR MORE INFO)
 sudo mkdir -p /etc/flatpak/installations.d
 
