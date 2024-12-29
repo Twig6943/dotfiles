@@ -1,24 +1,28 @@
 # Peak Combination 👑
 
-OS:EndeavourOS
+OS: `EndeavourOS`
 
-Display Server: Wayland
+Display Server: `Wayland`
 
-DE: KDE
+DE: `KDE`
 
-File system: BTRFS
+File system: `BTRFS`
 
-Bootloader: SystemD
+Bootloader: `SystemD`
 
-Browser: Firefox
+Browser: `Firefox`
 
-Communication: Matrix
+Communication: `Matrix`
 
-# Hood certified distros 😎
+Video editing: `Kdenlive`
 
+# Hood certified stuff 😎
+
+OS
+```
 Nobara (Kinda)
-
 Debian
+```
 
 # No no distros 💩
 CachyOS
