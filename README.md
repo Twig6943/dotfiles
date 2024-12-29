@@ -2,8 +2,6 @@
 
 OS: `EndeavourOS`
 
-Browser: `Firefox`
-
 Display Server: `Wayland`
 
 DE: `KDE`
@@ -15,6 +13,8 @@ Bootloader: `SystemD`
 Browser: `Firefox`
 
 Communication: `Matrix`
+
+Browser: `Firefox`
 
 Video editing: `Kdenlive`
 
