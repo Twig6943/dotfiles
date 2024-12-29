@@ -1,11 +1,17 @@
 # Peak Combination 👑
 
 OS:EndeavourOS
+
 Display Server: Wayland
+
 DE: KDE
+
 File system: BTRFS
+
 Bootloader: SystemD
+
 Browser: Firefox
+
 Communication: Matrix
 
 # Hood certified distros 😎
