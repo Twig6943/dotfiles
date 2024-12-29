@@ -2,6 +2,8 @@
 
 OS: `EndeavourOS`
 
+Browser: `Firefox`
+
 Display Server: `Wayland`
 
 DE: `KDE`
