@@ -38,37 +38,34 @@ items = [
     "waydroid",
     "binder_linux-dkms",
     "wireguard-dkms",
-    "freedownloadmanager", #Using this cuz this is the only download manager with a working integration
     "lact-bin",
 ]
-#Disabled pkgs
-#hardinfo2
-#opencl-amd
 
 #Packages to be installed via AM.
 [managers.am]
 items = [
+    "cromite",
+    "fdm",
+    "brave-appimage",
     "fastfetch",
     "vscodium",
     "gimp-git", #Switch to flatpak once gimp 3 releases
-    "heroic-games-launcher",
     "goverlay",
     "waydroid-helper",
     "webcamoid",
-    "cromite",
+    "heroic-games-launcher",
+    "signal",
+    "vesktop",
 ]
-#Dısabled pkgs
-#wireguard-gui
-#altus
+
 
 #Packages to be installed via AM --user mode.
 [managers.am_user]
 items = [
     "duckstation", #Using AppImage cuz of wayland support",
+    "funkin-psych", #Using AppImage cuz of wayland support",
     "ultimmc",
 ]
-#Disabled pkgs
-#osu
 
 # Packages to be installed via Flatpak.
 [managers.flatpak]
@@ -81,7 +78,8 @@ items = [
     "org.qbittorrent.qBittorrent",
     "com.pojtinger.felicitas.Multiplex",
     "org.mozilla.firefox",
-    "com.brave.Browser",
+    "im.riot.Riot",
+    "org.telegram.desktop",
     "com.github.tchx84.Flatseal",
     "io.gpt4all.gpt4all",
     "io.github.TheWisker.Cavasik",
@@ -97,7 +95,7 @@ items = [
     "org.kde.akregator",
     "org.kde.kclock",
     "io.gitlab.adhami3310.Impression",
-    "org.gnome.baobab",
+    "org.kde.filelight",
     "com.rustdesk.RustDesk",
     "com.gitlab.davem.ClamTk",
     "org.kde.krita",
@@ -105,9 +103,6 @@ items = [
     "org.libreoffice.LibreOffice",
     "org.nickvision.tubeconverter",
     "com.github.unrud.VideoDownloader", #Fallback
-    "im.riot.Riot",
-    "org.signal.Signal",
-    "dev.vencord.Vesktop",
     "in.srev.guiscrcpy",
     "io.mpv.Mpv",
     "com.obsproject.Studio",
@@ -115,33 +110,18 @@ items = [
     "org.kde.kdenlive",
     "org.tenacityaudio.Tenacity",
     "com.valvesoftware.Steam",
+    "org.libretro.RetroArch",
     "org.ryujinx.Ryujinx",
     "net.davidotek.pupgui2",
     "com.github.Matoking.protontricks",
     "sh.ppy.osu",
-    "io.github.shadowmario.fnf-psychengine",
     "dev.bragefuglseth.Keypunch",
+    "net.supertuxkart.SuperTuxKart",
     "io.mrarm.mcpelauncher",
+    "org.zdoom.GZDoom",
     "org.vinegarhq.Sober",
     "tw.ddnet.ddnet",
     "org.freedesktop.Platform.VulkanLayer.MangoHud",
     "org.freedesktop.Platform.VulkanLayer.gamescope",
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
-#Disabled pkgs;
-#org.kde.kget #Doesn't have an extension which prevents me from downloading from some sites unlike FDM
-#org.videolan.VLC #Waiting for wayland #USE MPV FOR THE TIME BEING
-#org.kde.haruna
-#net.werwolv.ImHex #Waiting for wayland support
-#org.flameshot.Flameshot
-#org.vinegarhq.Vinegar
-#com.vysp3r.ProtonPlus
-#org.mozilla.Thunderbird
-#im.fluffychat.Fluffychat
-#org.telegram.desktop
-#org.gnome.Boxes
-#net.mullvad.MullvadBrowser
-#io.gitlab.librewolf-community
-#ca.desrt.dconf-editor
-#com.hunterwittenborn.Celeste
-#com.nextcloud.desktopclient.nextcloud # I don't really need this
