@@ -2,7 +2,7 @@
 
 add = "flatpak install #:?"
 remove = "flatpak uninstall #:?"
-upgrade = "flatpak upgrade"
+upgrade = "flatpak update"
 
 plural_name = "flatpaks"
 
