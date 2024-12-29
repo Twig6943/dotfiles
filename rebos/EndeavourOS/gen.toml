@@ -128,5 +128,5 @@ items = [
 # Packages to be installed via Flatpak.
 #[managers.flatpak_external]
 #items = [
-    #"github.com/fn2006/PollyMC"
+    #"github.com/fn2006/PollyMC",
 #]
