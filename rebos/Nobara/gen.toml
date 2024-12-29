@@ -107,7 +107,7 @@ items = [
     "org.zdoom.GZDoom",
     "io.mrarm.mcpelauncher",
     "org.vinegarhq.Sober",
-    "io.gitlab.android_translation_layer.BaseApp",
+    "io.gitlab.android_translation_layer.BaseApp", #Idk how to use this
     "tw.ddnet.ddnet",
     "org.freedesktop.Platform.VulkanLayer.MangoHud",
     "org.freedesktop.Platform.VulkanLayer.gamescope",
