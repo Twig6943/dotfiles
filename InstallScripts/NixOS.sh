@@ -4,6 +4,9 @@ sleep 10
 #NixOS shit for home
 mkdir /home/$USER/.nixos
 
+#Apply button (Useful)
+#sudo nixos-rebuild switch --flake ~/.nixos
+
 #Extra flatpak installation folder (CHECK "NOTES/README.MD" FOR MORE INFO)
 sudo mkdir -p /etc/flatpak/installations.d
 
