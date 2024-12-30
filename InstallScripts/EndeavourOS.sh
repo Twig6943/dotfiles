@@ -9,7 +9,7 @@ sudo pacman -S flatpak --noconfirm
 
 #Flatpak repositories
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak remote-add --no-gpg-verify --if-not-exists sober https://sober.vinegarhq.org/repo/
+flatpak remote-add --if-not-exists sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak-repos/sober.flatpakrepo
 
 #Extra flatpak installation folder (CHECK "NOTES/README.MD" FOR MORE INFO)
 sudo mkdir -p /etc/flatpak/installations.d
