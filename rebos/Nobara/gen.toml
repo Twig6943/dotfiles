@@ -63,7 +63,6 @@ items = [
     "dev.deedles.Trayscale",
     "com.github.ztefn.haguichi",
     "org.qbittorrent.qBittorrent",
-    "com.pojtinger.felicitas.Multiplex",
     "org.mozilla.firefox",
     "im.riot.Riot",
     "org.telegram.desktop",
