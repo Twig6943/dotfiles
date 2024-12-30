@@ -1,0 +1,109 @@
+#This is here for reference reasons
+
+#Packages to be installed via NixPKGS.
+[managers.system]
+items = [
+    "git",
+    "zip",
+    "p7zip",
+    "mangohud", #Remove once you learn how to use the flatpak pkg
+    "gamescope",
+    "waydroid",
+    "qt6pas", #This is here cuz of the goverlay AppImage
+    "gnome-disk-utility", #DO NOT REMOVE THIS
+    "winetricks",
+    "vkmark",
+    "wireguard",
+    "wireguard-tools",
+    "headscale.x86_64",
+    "htop",
+    "virt-manager",
+]
+#Disabled pkgs
+
+#Packages to be installed via AM.
+[managers.am]
+items = [
+    "cromite",
+    "fdm",
+    "brave-appimage",
+    "fastfetch",
+    "vscodium",
+    "gimp-git", #Switch to flatpak once gimp 3 releases
+    "goverlay",
+    "waydroid-helper",
+    "webcamoid",
+    "heroic-games-launcher",
+    "signal",
+    "vesktop",
+    "duckstation", #Using AM pkg cuz of wayland support",
+    "funkin-psych", #Using AM pkg cuz of wayland support",
+    "ultimmc",
+]
+
+# Packages to be installed via Flatpak.
+[managers.flatpak]
+items = [
+    "com.github.KRTirtho.Spotube",
+    "org.strawberrymusicplayer.strawberry",
+    "website.i2pd.i2pd",
+    "dev.deedles.Trayscale",
+    "com.github.ztefn.haguichi",
+    "org.qbittorrent.qBittorrent",
+    "com.pojtinger.felicitas.Multiplex",
+    "org.mozilla.firefox",
+    "im.riot.Riot",
+    "org.telegram.desktop",
+    "com.github.tchx84.Flatseal",
+    "io.gpt4all.gpt4all",
+    "io.github.TheWisker.Cavasik",
+    "io.github.peazip.PeaZip",
+    "org.gnome.GHex",
+    "org.blender.Blender",
+    "io.github.marco_calautti.DeltaPatcher",
+    "com.jpexs.decompiler.flash",
+    "rs.ruffle.Ruffle",
+    "org.synfig.SynfigStudio",
+    "com.github.libresprite.LibreSprite",
+    "org.inkscape.Inkscape",
+    "org.kde.akregator",
+    "org.kde.kclock",
+    "io.gitlab.adhami3310.Impression",
+    "org.kde.filelight",
+    "com.rustdesk.RustDesk",
+    "com.gitlab.davem.ClamTk",
+    "org.kde.krita",
+    "ch.openboard.OpenBoard",
+    "org.libreoffice.LibreOffice",
+    "org.nickvision.tubeconverter",
+    "com.github.unrud.VideoDownloader", #Fallback
+    "in.srev.guiscrcpy",
+    "io.mpv.Mpv",
+    "com.obsproject.Studio",
+    "com.dec05eba.gpu_screen_recorder",
+    "org.kde.kdenlive",
+    "org.tenacityaudio.Tenacity",
+    "com.valvesoftware.Steam",
+    "org.libretro.RetroArch",
+    "org.ryujinx.Ryujinx",
+    "net.davidotek.pupgui2",
+    "com.github.Matoking.protontricks",
+    "sh.ppy.osu",
+    "dev.bragefuglseth.Keypunch",
+    "net.supertuxkart.SuperTuxKart",
+    "org.zdoom.GZDoom",
+    "io.mrarm.mcpelauncher",
+    "org.vinegarhq.Sober",
+    "io.gitlab.android_translation_layer.BaseApp", #Idk how to use this
+    "tw.ddnet.ddnet",
+    "org.freedesktop.Platform.VulkanLayer.MangoHud",
+    "org.freedesktop.Platform.VulkanLayer.gamescope",
+    "org.freedesktop.Platform.VulkanLayer.vkBasalt",
+]
+#Disabled pkgs;
+
+# Packages to be installed via Flatpak.
+#[managers.flatpak_external]
+#items = [
+    #"github.com/fn2006/PollyMC",
+#]
