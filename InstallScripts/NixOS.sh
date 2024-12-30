@@ -1,10 +1,6 @@
 echo "Cancel the script if u want u have 10 seconds"
 sleep 10
 
-#Flatpak repositories
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak remote-add --no-gpg-verify --if-not-exists sober https://sober.vinegarhq.org/repo/
-
 #NixOS shit for home
 mkdir /home/$USER/.nixos
 
