@@ -1,25 +1,8 @@
 #This is here for reference reasons
 
 #Packages to be installed via NixPKGS.
-[managers.system]
-items = [
-    "git",
-    "zip",
-    "p7zip",
-    "mangohud", #Remove once you learn how to use the flatpak pkg
-    "gamescope",
-    "waydroid",
-    "qt6pas", #This is here cuz of the goverlay AppImage
-    "gnome-disk-utility", #DO NOT REMOVE THIS
-    "winetricks",
-    "vkmark",
-    "wireguard",
-    "wireguard-tools",
-    "headscale.x86_64",
-    "htop",
-    "virt-manager",
-]
-#Disabled pkgs
+#[managers.system]
+#Handled via https://github.com/Twig6943/dotfiles/blob/main/NixStuff/NixOS/configuration.nix
 
 #Packages to be installed via AM.
 [managers.am]
