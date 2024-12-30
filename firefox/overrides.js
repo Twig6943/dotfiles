@@ -33,8 +33,9 @@ user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.phishing.enabled", false);
 user_pref("browser.safebrowsing.downloads.enabled", false);
 
-// Leave IPv6 enabled
+// Enable IPv6 
 user_pref("network.dns.disableIPv6", false);
+user_pref("network.dns.preferIPv6", true);
 
 //Reenable search engines
 user_pref("keyword.enabled", true);
