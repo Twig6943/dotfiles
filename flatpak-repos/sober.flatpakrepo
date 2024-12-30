@@ -1,6 +1,6 @@
 [Flatpak Repo]
 Name=sober
-URL=https://sober.vinegarhq.org/repo/
+Url=https://sober.vinegarhq.org/repo/
 Description=This is the Sober app repository.
 Branches=stable
 Homepage=https://sober.vinegarhq.org
