@@ -26,7 +26,7 @@ Nobara (Kinda)
 Debian
 ```
 
-# No no distros 💩
+# No no stuff 💩
 CachyOS
 
 # [IMPORTANT NOTES ❗](https://github.com/Twig6943/dotfiles/tree/main/Notes)
