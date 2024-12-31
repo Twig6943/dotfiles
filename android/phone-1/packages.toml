@@ -1,6 +1,7 @@
 # A list of apps categorized by their source platform
 
 F-Droid.repos = [
+ "microg.org/fdroid/repo",
  "cromite.org/fdroid/repo",
  "apt.izzysoft.de/fdroid/repo",
  "mobileapp.bitwarden.com/fdroid/repo",
