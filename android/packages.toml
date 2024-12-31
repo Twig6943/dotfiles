@@ -1,5 +1,10 @@
 # A list of apps categorized by their source platform
-# Just a package name indicates it's available on f-droid.org
+
+F-Droid.repos = [
+ "cromite.org/fdroid/repo",
+ "apt.izzysoft.de/fdroid/repo",
+ "mobileapp.bitwarden.com/fdroid/repo",
+]
 
 F-Droid = [
  "com.nextcloud.client",
@@ -27,15 +32,11 @@ F-Droid = [
  "de.yaacc",
  "org.joinmastodon.android",
  "com.commit451.gitlab",
- "cromite.org/org.cromite.cromite",
- "apt.izzysoft.de/com.hjiangsu.thunder",
- "mobileapp.bitwarden.com/com.x8bit.bitwarden",
+ "org.cromite.cromite",
+ "com.hjiangsu.thunder",
+ "com.x8bit.bitwarden",
 ]
 #Disabled pkgs;
-#org.telegram.messenger
-#org.quantumbadger.redreader
-#org.pocketworkstation.pckeyboard
-#apt.izzysoft.de/ml.docilealligator.infinityforreddit.patreon
 
 Obtanium = [
  "github.com/bluesky-social/social-app",
@@ -47,7 +48,8 @@ Obtanium = [
  "github.com/NewPipeX/NewPipeX",
  "github.com/ProtonMail/android-mail",
  "github.com/karlstav/cava",
- "torproject.org/download/ CALF:tor-browser-android-aarch64.*apk$",
+ "whatsapp get from apps.obtainium.imranr.dev"
+ "torproject.org/download CALF:tor-browser-android-aarch64.*apk$",
 ]
 #CALF=Custom apk link filter for Obtanium
 #Disabled pkgs
@@ -58,4 +60,3 @@ Play_Store = [
 ]
 #Disabled pkgs
 #com.whatsapp
-#com.valvesoftware.android.steam.community
