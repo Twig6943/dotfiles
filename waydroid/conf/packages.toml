@@ -1,5 +1,4 @@
 # A list of apps categorized by their source platform
-# Just a package name indicates it's available on f-droid.org
 
 F-Droid.repos = [
  "cromite.org/fdroid/repo",
