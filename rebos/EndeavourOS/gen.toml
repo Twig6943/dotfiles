@@ -11,6 +11,7 @@
 [managers.system]
 items = [
     "zip",
+    "flatpak-builder",
     "p7zip",
     "mangohud", #Remove once you learn how to use the flatpak pkg
     "gamescope",
@@ -128,4 +129,5 @@ items = [
 #[managers.flatpak_external]
 #items = [
     #"github.com/fn2006/PollyMC",
+    #"github.com/Twigzimbo/Resolve-Flatpak",
 #]
