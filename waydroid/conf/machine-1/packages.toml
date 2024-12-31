@@ -1,7 +1,7 @@
 # A list of apps categorized by their source platform
 
 F-Droid.repos = [
- "cromite.org/fdroid/repo",
+ "www.cromite.org/fdroid/repo",
  "microg.org/fdroid/repo",
 ]
 
