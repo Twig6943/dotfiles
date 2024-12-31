@@ -6,6 +6,7 @@ F-Droid.repos = [
 ]
 
 F-Droid = [
+ "org.microg.gms",
  "org.cromite.cromite",
 ]
 
