@@ -1,61 +1,18 @@
 # A list of apps categorized by their source platform
 # Just a package name indicates it's available on f-droid.org
 
-F-Droid = [
- "com.nextcloud.client",
- "it.niedermann.owncloud.notes",
- "com.nononsenseapps.notepad",
- "org.schabi.newpipe",
- "org.purplei2p.i2pd",
- "com.stoutner.privacybrowser.standard",
- "com.aurora.store",
- "co.prestosole.clima",
- "im.vector.app",
- "com.zaneschepke.wireguardautotunnel",
- "org.documentfoundation.libreoffice",
- "dev.imranr.obtainium.fdroid",
- "com.foobnix.pro.pdf.reader",
- "com.secuso.privacyFriendlyCodeScanner",
- "com.nononsenseapps.feeder",
- "org.ca.squawker",
- "com.beemdevelopment.aegis",
- "me.zhanghai.android.files",
- "us.spotco.fennec_dos",
- "com.retroarch",
- "is.xyz.mpv",
- "org.videolan.vlc",
- "de.yaacc",
- "org.joinmastodon.android",
- "com.commit451.gitlab",
- "cromite.org/org.cromite.cromite",
- "apt.izzysoft.de/com.hjiangsu.thunder",
- "mobileapp.bitwarden.com/com.x8bit.bitwarden",
+F-Droid.repos = [
+ "cromite.org/fdroid/repo",
 ]
-#Disabled pkgs;
-#org.telegram.messenger
-#org.quantumbadger.redreader
-#org.pocketworkstation.pckeyboard
-#apt.izzysoft.de/ml.docilealligator.infinityforreddit.patreon
+
+F-Droid = [
+ "org.cromite.cromite",
+]
 
 Obtanium = [
- "github.com/bluesky-social/social-app",
- "github.com/flixclusiveorg/Flixclusive",
- "github.com/revoltchat/rvmob",
- "github.com/ruffle-rs/ruffle-android",
- "github.com/signalapp/Signal-Android",
- "github.com/KhoalaS/Infinity-For-Reddit",
- "github.com/NewPipeX/NewPipeX",
- "github.com/ProtonMail/android-mail",
- "github.com/karlstav/cava",
- "torproject.org/download/ CALF:tor-browser-android-aarch64.*apk$",
+ "",
 ]
-#CALF=Custom apk link filter for Obtanium
-#Disabled pkgs
-#
 
 Play_Store = [
  "",
 ]
-#Disabled pkgs
-#com.whatsapp
-#com.valvesoftware.android.steam.community
