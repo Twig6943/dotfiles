@@ -129,5 +129,5 @@ items = [
 #[managers.flatpak_external]
 #items = [
     #"github.com/fn2006/PollyMC",
-    #"github.com/pobthebuilder/resolve-flatpak",
+    #"gitgud.io/Twig6943/resolve-flatpak",
 #]
