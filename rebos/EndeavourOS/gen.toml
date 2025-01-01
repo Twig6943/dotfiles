@@ -1,4 +1,5 @@
 #Notes;
+#This gen.toml is ready for a davincibox install
 #Don't uninstall native firefox pkg cuz of FDM
 
 #Software that does support wayland but needs a flag/etc;
@@ -13,6 +14,7 @@ items = [
     "zip",
     "flatpak-builder",
     "distrobox",
+    "lshw",
     "p7zip",
     "mangohud", #Remove once you learn how to use the flatpak pkg
     "gamescope",
