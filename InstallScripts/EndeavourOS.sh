@@ -15,6 +15,7 @@ flatpak remote-add --if-not-exists sober https://raw.githubusercontent.com/Twig6
 sudo mkdir -p /etc/flatpak/installations.d
 
 #Flatpak env vars & perms
+#sudo flatpak override --env=GTK_THEME=Adwaita:dark
 #GPU Screen recorder
 flatpak override --env=GTK_THEME=Adwaita:dark com.dec05eba.gpu_screen_recorder
 flatpak --user override --env=GTK_THEME=Adwaita:dark com.dec05eba.gpu_screen_recorder
