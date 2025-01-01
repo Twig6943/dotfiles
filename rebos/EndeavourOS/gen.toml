@@ -108,6 +108,7 @@ items = [
     "org.tenacityaudio.Tenacity",
     "com.valvesoftware.Steam",
     "org.libretro.RetroArch",
+    "org.yuzu_emu.yuzu",
     "org.ryujinx.Ryujinx",
     "net.davidotek.pupgui2",
     "com.github.Matoking.protontricks",
