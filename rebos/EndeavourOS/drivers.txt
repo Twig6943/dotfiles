@@ -3,3 +3,4 @@ sudo pacman -S amdvlk vulkan-radeon
 
 OpenCL:
 yay -S opencl-amd
+sudo pacman -S opencl-rusticl-mesa
