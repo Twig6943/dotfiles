@@ -10,6 +10,10 @@ user_pref("layers.acceleration.force-enabled", true);
 user_pref("media.ffmpeg.vaapi.enabled", true);
 user_pref("media.rdd-vpx.enabled", true);
 
+//Disable download prompts
+user_pref("browser.download.alwaysOpenPanel", false);
+user_pref("browser.download.always_ask_before_handling_new_types", false);
+
 //Developer console pin to right
 user_pref("devtools.toolbox.host", "right");
 
