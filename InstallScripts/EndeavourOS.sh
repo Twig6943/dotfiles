@@ -14,6 +14,9 @@ flatpak remote-add --if-not-exists sober https://raw.githubusercontent.com/Twig6
 #Extra flatpak installation folder (CHECK "NOTES/README.MD" FOR MORE INFO)
 sudo mkdir -p /etc/flatpak/installations.d
 
+#Flatpak env vars & perms
+#flatpak override --user --env=GTK_THEME=Adwaita-dark com.dec05eba.gpu_screen_recorder
+
 #Install AppImage stuff
 mkdir /home/$USER/Applications
 
