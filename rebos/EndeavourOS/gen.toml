@@ -44,26 +44,24 @@ items = [
 #Packages to be installed via AM.
 [managers.am]
 items = [
-    "cromite",
     "fdm",
+    "cromite",
     "brave-appimage",
     "fastfetch",
     "vscodium",
     "gimp-git", #Switch to flatpak once gimp 3 releases
     "goverlay",
     "waydroid-helper",
-    "webcamoid",
     "heroic-games-launcher",
     "signal",
     "vesktop",
 ]
 
-
 #Packages to be installed via AM --user mode.
 [managers.am_user]
 items = [
     "duckstation", #Using AppImage cuz of wayland support",
-    "funkin-psych", #Using AppImage cuz of wayland support",
+    "funkin-legacy", #Using AppImage cuz of wayland support",
     "ultimmc",
 ]
 
