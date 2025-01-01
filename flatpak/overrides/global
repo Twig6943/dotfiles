@@ -1,0 +1,5 @@
+[Context]
+filesystems=~/.config/gtk-4.0;~/.local/share/themes;~/.config/gtk-3.0;~/.themes;
+
+[Environment]
+GTK_THEME=Breeze:dark
