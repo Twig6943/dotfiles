@@ -12,6 +12,7 @@
 items = [
     "zip",
     "flatpak-builder",
+    "distrobox",
     "p7zip",
     "mangohud", #Remove once you learn how to use the flatpak pkg
     "gamescope",
