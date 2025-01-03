@@ -24,6 +24,8 @@ Overrides: [user-overrides.js](https://github.com/Twig6943/dotfiles/blob/main/fi
 
 [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
 
+[Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
+
 [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
 # Bookmarks
