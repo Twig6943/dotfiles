@@ -17,6 +17,7 @@ items = [
     "lshw",
     "p7zip",
     "mangohud", #Remove once you learn how to use the flatpak pkg
+    "gamemode",
     "gamescope",
     "qt6pas", #This is here cuz of the goverlay AppImage
     "discover",
