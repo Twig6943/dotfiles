@@ -19,6 +19,8 @@ Set `Auto Dark Mode for Web Contents` to `Enabled with selective inversion of no
 
 [uBlock Origin lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
 
+[SponsorBlock](https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone)
+
 [Better volume booster](https://chromewebstore.google.com/detail/browser-boost-extra-tools/akknpgblpchaoebdoiojonnahhnfgnem)
 
 [Bitwarden](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb)
