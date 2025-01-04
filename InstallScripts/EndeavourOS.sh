@@ -17,12 +17,15 @@ sudo mkdir -p /etc/flatpak/installations.d
 #Flatpak env vars & perms
 #sudo flatpak override --env=GTK_THEME=Adwaita:dark
 #GPU Screen recorder
-flatpak override --env=GTK_THEME=Adwaita:dark com.dec05eba.gpu_screen_recorder
-flatpak --user override --env=GTK_THEME=Adwaita:dark com.dec05eba.gpu_screen_recorder
+flatpak override --env=GTK_THEME=Breeze:dark com.dec05eba.gpu_screen_recorder
+flatpak --user override --env=GTK_THEME=Breeze:dark com.dec05eba.gpu_screen_recorder
 
 #Nheko
 sudo flatpak override --socket=wayland im.nheko.Nheko
 flatpak --user override --socket=wayland im.nheko.Nheko
+
+#MangoHud
+flatpak override --user --filesystem=xdg-config/MangoHud:ro
 
 #Install AppImage stuff
 mkdir /home/$USER/Applications
