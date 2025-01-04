@@ -22,11 +22,12 @@ items = [
     "qt6pas", #This is here cuz of the goverlay AppImage
     "discover",
     "gnome-disk-utility", #DO NOT REMOVE THIS
-    "winetricks",
     "vkmark",
     "wireguard-tools",
     "headscale",
     "wine",
+    "winetricks",
+    "kdialog",
     "htop",
     "virt-manager",
     "qemu",
