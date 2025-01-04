@@ -12,6 +12,8 @@ Overrides: [user-overrides.js](https://github.com/Twig6943/dotfiles/blob/main/fi
 
 [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
+[SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
+
 [Better volume booster](https://addons.mozilla.org/en-US/firefox/addon/better-volume-booster/)
 
 [YT Video Stretcher](https://addons.mozilla.org/en-US/firefox/addon/youtube-fullscreen-fit/)
