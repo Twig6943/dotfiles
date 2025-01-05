@@ -85,6 +85,7 @@ items = [
     "im.nheko.Nheko",
     "org.telegram.desktop",
     "com.github.tchx84.Flatseal",
+    "io.github.flattool.Warehouse",
     "io.gpt4all.gpt4all",
     "io.github.TheWisker.Cavasik",
     "io.github.peazip.PeaZip",
