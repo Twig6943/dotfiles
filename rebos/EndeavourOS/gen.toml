@@ -28,6 +28,7 @@ items = [
     "wine",
     "winetricks",
     "kdialog",
+    "zenity",
     "htop",
     "virt-manager",
     "qemu",
