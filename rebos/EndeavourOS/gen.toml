@@ -71,9 +71,11 @@ items = [
 ]
 
 # Packages to be installed via Flatpak.
+# SpotX https://github.com/SpotX-Official/SpotX-Bash
 [managers.flatpak]
 items = [
     "com.github.KRTirtho.Spotube",
+    "com.spotify.Client",
     "org.strawberrymusicplayer.strawberry",
     "website.i2pd.i2pd",
     "dev.deedles.Trayscale",
