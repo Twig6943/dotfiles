@@ -29,8 +29,6 @@ Set `Auto Dark Mode for Web Contents` to `Enabled with selective inversion of no
 
 [Bitwarden](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb)
 
-# [Policies](https://github.com/Twig6943/dotfiles/blob/main/chromium/brave/policies.json) (extract to `/etc/brave/policies/managed/` )
-
 # Bookmarks
 
 Grab from proton drive/nextcloud
