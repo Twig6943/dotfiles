@@ -1,6 +1,6 @@
 # Policies
 
-Put [policies.json](https://github.com/Twig6943/dotfiles/blob/main/chromium/brave/policies.json) to `/etc/brave/policies/`
+Put [policies.json](https://github.com/Twig6943/dotfiles/blob/main/chromium/brave/policies.json) to `/etc/brave/policies`
 
 # Flags
 Go to `chrome://flags`
