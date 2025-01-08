@@ -9,23 +9,10 @@ sudo pacman -S flatpak --noconfirm
 
 #Flatpak repositories
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak remote-add --if-not-exists sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak-repos/sober.flatpakrepo
+flatpak remote-add --if-not-exists sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo
 
 #Extra flatpak installation folder (CHECK "NOTES/README.MD" FOR MORE INFO)
 sudo mkdir -p /etc/flatpak/installations.d
-
-#Flatpak env vars & perms
-#sudo flatpak override --env=GTK_THEME=Adwaita:dark
-#GPU Screen recorder
-flatpak override --env=GTK_THEME=Breeze:dark com.dec05eba.gpu_screen_recorder
-flatpak --user override --env=GTK_THEME=Breeze:dark com.dec05eba.gpu_screen_recorder
-
-#Nheko
-sudo flatpak override --socket=wayland im.nheko.Nheko
-flatpak --user override --socket=wayland im.nheko.Nheko
-
-#MangoHud
-flatpak override --user --filesystem=xdg-config/MangoHud:ro
 
 #Install AppImage stuff
 mkdir /home/$USER/Applications
