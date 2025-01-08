@@ -1,0 +1,10 @@
+# Flatpak repos
+
+add = "flatpak remote-add --if-not-exists #:?"
+
+plural_name = "flatpak_repos"
+
+hook_name = "flatpak_repos"
+
+[config]
+many_args = false
