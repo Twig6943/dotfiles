@@ -7,11 +7,6 @@ eos-update
 #Install flatpak
 sudo pacman -S flatpak --noconfirm
 
-#Flatpak repositories
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak remote-add --if-not-exists sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo
-flatpak remote-add --if-not-exists nheko https://raw.githubusercontent.com/Nheko-Reborn/nheko/refs/heads/master/nheko-nightly.flatpakrepo
-
 #Extra flatpak installation folder (CHECK "NOTES/README.MD" FOR MORE INFO)
 sudo mkdir -p /etc/flatpak/installations.d
 
