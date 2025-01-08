@@ -1,5 +1,4 @@
 [Context]
-filesystems=~/.config/gtk-4.0;~/.local/share/themes;~/.config/gtk-3.0;~/.themes;
+sockets=wayland
 
-[Environment]
-GTK_THEME=Breeze:dark
+filesystems=xdg-config/MangoHud:ro
