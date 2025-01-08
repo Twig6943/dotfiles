@@ -1,4 +1,6 @@
 [Context]
 sockets=wayland
-
 filesystems=xdg-config/MangoHud:ro
+
+[Environment]
+GTK_THEME=Adwaita:dark
