@@ -54,7 +54,6 @@ items = [
     "cromite",
     "brave-appimage",
     "fastfetch",
-    "vscodium",
     "gimp-git", #Switch to flatpak once gimp 3 releases
     "goverlay",
     "waydroid-helper",
@@ -113,6 +112,7 @@ items = [
     "com.rustdesk.RustDesk",
     "com.gitlab.davem.ClamTk",
     "org.kde.krita",
+    "com.vscodium.codium",
     "ch.openboard.OpenBoard",
     "org.libreoffice.LibreOffice",
     "org.nickvision.tubeconverter",
