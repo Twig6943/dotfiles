@@ -74,7 +74,6 @@ items = [
 items = [
     "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
     "sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo",
-    "nheko https://raw.githubusercontent.com/Nheko-Reborn/nheko/refs/heads/master/nheko-nightly.flatpakrepo",
 ]
 
 # Packages to be installed via Flatpak.
