@@ -1,0 +1,5 @@
+[Context]
+sockets=gpg-agent;cups;pcsc;system-bus;session-bus
+devices=shm;kvm;input;dri
+features=per-app-dev-shm;canbus;bluetooth;multiarch
+filesystems=home;host-etc;host-os
