@@ -12,9 +12,11 @@ Bootloader: `SystemD`
 
 Browser: `Firefox`
 
-Communication: `Matrix`
+Communication: `Matrix/Nheko`
 
 Browser: `Cromite w ad filters/Firefox w user.js`
+
+Video Player: `Mpv`
 
 Video editing: `Kdenlive`
 
