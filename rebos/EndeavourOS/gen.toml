@@ -65,7 +65,6 @@ items = [
 #Packages to be installed via AM --user mode.
 [managers.am_user]
 items = [
-    "duckstation", #Using AppImage cuz of wayland support",
     "funkin-legacy", #Using AppImage cuz of wayland support",
     "ultimmc",
 ]
@@ -88,7 +87,7 @@ items = [
     "com.github.ztefn.haguichi",
     "org.qbittorrent.qBittorrent",
     "org.mozilla.firefox",
-    "com.brave.Browser",
+    "com.brave.Browser", #This is here because of XCloud/Fortnite
     "im.nheko.Nheko",
     "im.riot.Riot",
     "org.telegram.desktop",
@@ -141,7 +140,7 @@ items = [
     "org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
 
-# Packages to be installed via Flatpak.
+# Packages to be installed as .flatpak files.
 #[managers.flatpak_external]
 #items = [
     #"github.com/fn2006/PollyMC",
