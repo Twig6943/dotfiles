@@ -14,7 +14,7 @@ Browser: `Firefox`
 
 Communication: `Matrix`
 
-Browser: `Firefox`
+Browser: `Cromite w ad filters/Firefox w user.js`
 
 Video editing: `Kdenlive`
 
