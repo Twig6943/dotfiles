@@ -53,7 +53,6 @@ items = [
 items = [
     "fdm",
     "cromite",
-    "brave-appimage",
     "fastfetch",
     "gimp-git", #Switch to flatpak once gimp 3 releases
     "goverlay",
@@ -89,6 +88,7 @@ items = [
     "com.github.ztefn.haguichi",
     "org.qbittorrent.qBittorrent",
     "org.mozilla.firefox",
+    "com.brave.Browser",
     "im.nheko.Nheko",
     "im.riot.Riot",
     "org.telegram.desktop",
