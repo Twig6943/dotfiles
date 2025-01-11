@@ -9,3 +9,5 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 PATH="$HOME/.local/share/soar/bin:$PATH"
+
+export GDK_BACKEND=wayland,x11
