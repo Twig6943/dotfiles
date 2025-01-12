@@ -2,23 +2,23 @@
 
 OS: `EndeavourOS`
 
-Display Server: `Wayland`
+Display Server: `Wayland/XWayland`
 
 DE: `KDE`
 
-File system: `BTRFS`
+File system: `BTRFS/Ext4`
 
-Bootloader: `SystemD`
+Bootloader: `SystemD/Grub`
 
-Browser: `Firefox`
-
-Communication: `Matrix/Nheko`
+Communication: `Nheko/Element`
 
 Browser: `Cromite w ad filters/Firefox w user.js`
 
-Video Player: `Mpv`
+Video Player: `Mpv/Vlc`
 
-Video editing: `Kdenlive`
+Video editing: `Kdenlive/Shotcut`
+
+
 
 # Hood certified stuff 😎
 
