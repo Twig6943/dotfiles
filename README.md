@@ -2,21 +2,21 @@
 
 OS: `EndeavourOS`
 
-Display Server: `Wayland/XWayland`
+Display Server: `Wayland`
 
 DE: `KDE`
 
-File system: `BTRFS/Ext4`
+File system: `BTRFS`
 
-Bootloader: `SystemD/Grub`
+Bootloader: `SystemD`
 
-Communication: `Nheko/Element`
+Communication: `Nheko`
 
 Browser: `Cromite w ad filters/Firefox w user.js`
 
-Video Player: `Mpv/Vlc`
+Video Player: `Mpv`
 
-Video editing: `Kdenlive/Shotcut`
+Video editing: `Kdenlive`
 
 
 
