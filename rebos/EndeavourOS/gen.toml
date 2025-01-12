@@ -31,11 +31,6 @@ items = [
     "kdialog",
     "zenity",
     "htop",
-    "virt-manager",
-    "qemu",
-    "libvirt",
-    "bridge-utils",
-    "virt-viewer",
 ]
 #Disabled pkgs
 
@@ -87,6 +82,7 @@ items = [
     "dev.deedles.Trayscale",
     "com.github.ztefn.haguichi",
     "org.qbittorrent.qBittorrent",
+    "org.gnome.Boxes",
     "org.mozilla.firefox",
     "im.nheko.Nheko",
     "im.riot.Riot",
