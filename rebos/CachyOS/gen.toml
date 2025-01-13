@@ -24,6 +24,7 @@ items = [
     "discover",
     "timeshift", #Launch with `sudo -E GDK_BACKEND=wayland timeshift-gtk`
     "gnome-disk-utility", #DO NOT REMOVE THIS
+    "xdg-desktop-portal-gtk",
     "vkmark",
     "wireguard-tools",
     "headscale",
