@@ -85,8 +85,8 @@ items = [
     "sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo",
 ]
 
-# Packages to be installed via Flatpak. (Extra mode)
-[managers.flatpak_extra]
+# Packages to be installed via Flatpak. (System mode)
+[managers.flatpak]
 items = [
     "flathub com.dec05eba.gpu_screen_recorder", #I have to install this as system 😭
 ]
