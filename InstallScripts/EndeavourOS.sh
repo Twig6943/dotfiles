@@ -1,4 +1,5 @@
-echo "Cancel the script if u want u have 10 seconds"
+echo "Starting within 10 seconds"
+
 sleep 10
 
 #Update
@@ -9,9 +10,13 @@ sudo pacman -S flatpak --noconfirm
 
 #Extra flatpak installation folder (CHECK "NOTES/README.MD" FOR MORE INFO)
 sudo mkdir -p /etc/flatpak/installations.d
+sudo touch /etc/flatpak/installations.d/extra.conf
 
 #Install AppImage stuff
 mkdir /home/$USER/Applications
+
+#Install YaY
+paru -S yay-bin --noconfirm
 
 #Install AM
 yay -S am --noconfirm
