@@ -1,6 +1,6 @@
 # Peak Combination 👑
 
-OS: `EndeavourOS`
+OS: `CachyOS`
 
 Display Server: `Wayland`
 
@@ -24,13 +24,13 @@ Video editing: `Kdenlive`
 
 OS
 ```
+EndeavourOS
 Nobara (Kinda)
 Debian
 ```
 
 # No no stuff 💩
-CachyOS
 
 # [IMPORTANT NOTES ❗](https://github.com/Twig6943/dotfiles/tree/main/Notes)
 
-<img src="https://avatars.githubusercontent.com/u/119701717" alt="Placeholder" width="400"/>
+<img src="https://assets.mycast.io/actor_images/actor-man-batman-arkham-977281_small.jpg" width="400"/>
