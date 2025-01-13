@@ -1,6 +1,6 @@
 #Notes;
+#This gen.toml is ready for a davincibox install
 #Don't uninstall native firefox pkg cuz of FDM
-#Install PollyMC's .flatpak file from github.com/fn2006/PollyMC/releases
 
 #Software that does support wayland but needs a flag/etc;
 #Wine,LibreSprite,Spotify,Chromium
@@ -12,21 +12,25 @@
 [managers.system]
 items = [
     "zip",
+    "flatpak-builder",
+    "distrobox",
+    "lshw",
     "p7zip",
     "mangohud", #Remove once you learn how to use the flatpak pkg
+    "gamemode",
+    "gamescope",
     "qt6pas", #This is here cuz of the goverlay AppImage
     "discover",
-    "winetricks",
+    "timeshift", #Launch with `sudo -E GDK_BACKEND=wayland timeshift-gtk`
+    "gnome-disk-utility", #DO NOT REMOVE THIS
     "vkmark",
     "wireguard-tools",
     "headscale",
     "wine",
+    "winetricks",
+    "kdialog",
+    "zenity",
     "htop",
-    "virt-manager",
-    "qemu",
-    "libvirt",
-    "bridge-utils",
-    "virt-viewer",
 ]
 #Disabled pkgs
 
@@ -35,111 +39,124 @@ items = [
 items = [
     "waydroid",
     "binder_linux-dkms",
-    "wireguard-dkms",
-    "freedownloadmanager", #Using this cuz this is the only download manager with a working integration
     "lact-bin",
 ]
-#Disabled pkgs
-#hardinfo2
-#opencl-amd
 
 #Packages to be installed via AM.
 [managers.am]
 items = [
+    "fdm",
+    "cromite",
+    "brave", #This is here because of XCloud/Fortnite
     "fastfetch",
-    "vscodium",
     "gimp-git", #Switch to flatpak once gimp 3 releases
     "goverlay",
     "waydroid-helper",
-    "webcamoid",
-    "cromite",
+    "heroic-games-launcher",
+    "signal",
+    "vesktop",
 ]
-#Dısabled pkgs
-#wireguard-gui
-#altus
 
 #Packages to be installed via AM --user mode.
 [managers.am_user]
 items = [
-    "duckstation", #Using AppImage cuz of wayland support",
+    "funkin-legacy", #Using AppImage cuz of wayland support",
     "ultimmc",
 ]
-#Disabled pkgs
-#osu
 
-# Packages to be installed via Flatpak.
-[managers.flatpak]
+#Repos to be added system wide.
+[managers.flatpak_repos]
 items = [
-    "com.github.KRTirtho.Spotube",
-    "org.strawberrymusicplayer.strawberry",
-    "website.i2pd.i2pd",
-    "dev.deedles.Trayscale",
-    "com.github.ztefn.haguichi",
-    "org.qbittorrent.qBittorrent",
-    "com.pojtinger.felicitas.Multiplex",
-    "org.mozilla.firefox",
-    "com.brave.Browser",
-    "com.github.tchx84.Flatseal",
-    "io.gpt4all.gpt4all",
-    "io.github.TheWisker.Cavasik",
-    "io.github.peazip.PeaZip",
-    "org.gnome.GHex",
-    "org.blender.Blender",
-    "io.github.marco_calautti.DeltaPatcher",
-    "com.jpexs.decompiler.flash",
-    "rs.ruffle.Ruffle",
-    "org.synfig.SynfigStudio",
-    "com.github.libresprite.LibreSprite",
-    "org.inkscape.Inkscape",
-    "org.kde.akregator",
-    "org.kde.kclock",
-    "io.gitlab.adhami3310.Impression",
-    "org.gnome.baobab",
-    "com.rustdesk.RustDesk",
-    "com.gitlab.davem.ClamTk",
-    "org.kde.krita",
-    "ch.openboard.OpenBoard",
-    "org.libreoffice.LibreOffice",
-    "org.nickvision.tubeconverter",
-    "com.github.unrud.VideoDownloader", #Fallback
-    "im.riot.Riot",
-    "org.signal.Signal",
-    "dev.vencord.Vesktop",
-    "in.srev.guiscrcpy",
-    "io.mpv.Mpv",
-    "com.obsproject.Studio",
-    "com.dec05eba.gpu_screen_recorder",
-    "org.kde.kdenlive",
-    "org.tenacityaudio.Tenacity",
-    "com.heroicgameslauncher.hgl",
-    "com.valvesoftware.Steam",
-    "org.ryujinx.Ryujinx",
-    "net.davidotek.pupgui2",
-    "com.github.Matoking.protontricks",
-    "sh.ppy.osu",
-    "io.github.shadowmario.fnf-psychengine",
-    "dev.bragefuglseth.Keypunch",
-    "io.mrarm.mcpelauncher",
-    "org.vinegarhq.Sober",
-    "tw.ddnet.ddnet",
-    "org.freedesktop.Platform.VulkanLayer.MangoHud",
-    "org.freedesktop.Platform.VulkanLayer.gamescope",
-    "org.freedesktop.Platform.VulkanLayer.vkBasalt",
+    "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
+    "sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo",
 ]
-#Disabled pkgs;
-#org.kde.kget #Doesn't have an extension which prevents me from downloading from some sites unlike FDM
-#org.videolan.VLC #Waiting for wayland #USE MPV FOR THE TIME BEING
-#org.kde.haruna
-#net.werwolv.ImHex #Waiting for wayland support
-#org.flameshot.Flameshot
-#org.vinegarhq.Vinegar
-#com.vysp3r.ProtonPlus
-#org.mozilla.Thunderbird
-#im.fluffychat.Fluffychat
-#org.telegram.desktop
-#org.gnome.Boxes
-#net.mullvad.MullvadBrowser
-#io.gitlab.librewolf-community
-#ca.desrt.dconf-editor
-#com.hunterwittenborn.Celeste
-#com.nextcloud.desktopclient.nextcloud # I don't really need this
+
+#Repos to be added as user.
+[managers.flatpak_repos_user]
+items = [
+    "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
+    "sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo",
+]
+
+#Repos to be added to the extra installation.
+[managers.flatpak_repos_extra]
+items = [
+    "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
+    "sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo",
+]
+
+# Packages to be installed via Flatpak. (User mode)
+[managers.flatpak_user]
+items = [
+    "flathub com.github.KRTirtho.Spotube",
+    "flathub com.spotify.Client",
+    "flathub org.strawberrymusicplayer.strawberry",
+    "flathub website.i2pd.i2pd",
+    "flathub dev.deedles.Trayscale",
+    "flathub flathub com.github.ztefn.haguichi",
+    "flathub org.gnome.Boxes",
+    "flathub org.mozilla.firefox",
+    "flathub im.nheko.Nheko",
+    "flathub im.riot.Riot",
+    "flathub org.telegram.desktop",
+    "flathub io.github.flattool.Warehouse",
+    "flathub io.gpt4all.gpt4all",
+    "flathub org.gnome.GHex",
+    "flathub org.blender.Blender",
+    "flathub rs.ruffle.Ruffle",
+    "flathub org.synfig.SynfigStudio",
+    "flathub com.github.libresprite.LibreSprite",
+    "flathub org.kde.akregator",
+    "flathub org.kde.kclock",
+    "flathub io.gitlab.adhami3310.Impression",
+    "flathub org.kde.filelight",
+    "flathub com.rustdesk.RustDesk",
+    "flathub com.gitlab.davem.ClamTk",
+    "flathub com.vscodium.codium",
+    "flathub org.libreoffice.LibreOffice",
+    "flathub org.nickvision.tubeconverter",
+    "flathub com.github.unrud.VideoDownloader", #Fallback
+    "flathub in.srev.guiscrcpy",
+    "flathub com.obsproject.Studio",
+    "flathub com.dec05eba.gpu_screen_recorder",
+    "flathub org.kde.kdenlive",
+    "flathub com.valvesoftware.Steam",
+    "flathub org.libretro.RetroArch",
+    "flathub org.yuzu_emu.yuzu",
+    "flathub org.ryujinx.Ryujinx",
+    "flathub net.davidotek.pupgui2",
+    "flathub com.github.Matoking.protontricks",
+    "flathub org.freedesktop.Platform.VulkanLayer.MangoHud//23.08",
+    "flathub org.freedesktop.Platform.VulkanLayer.gamescope//23.08",
+    "flathub org.freedesktop.Platform.VulkanLayer.vkBasalt//23.08",
+]
+
+# Packages to be installed via Flatpak. (Extra mode)
+[managers.flatpak_extra]
+items = [
+    "sober org.vinegarhq.Sober",
+    "flathub io.mrarm.mcpelauncher",
+    "flathub sh.ppy.osu",
+    "flathub tw.ddnet.ddnet",
+    "flathub org.zdoom.GZDoom",
+    "flathub net.supertuxkart.SuperTuxKart",
+    "flathub dev.bragefuglseth.Keypunch",
+    "flathub io.github.TheWisker.Cavasik",
+    "flathub com.github.tchx84.Flatseal",
+    "flathub io.github.marco_calautti.DeltaPatcher",
+    "flathub org.kde.krita",
+    "flathub org.inkscape.Inkscape",
+    "flathub com.jpexs.decompiler.flash",
+    "flathub io.mpv.Mpv",
+    "flathub ch.openboard.OpenBoard",
+    "flathub io.github.peazip.PeaZip",
+    "flathub org.qbittorrent.qBittorrent",
+    "flathub org.tenacityaudio.Tenacity",
+]
+
+# Packages to be installed as .flatpak files.
+#[managers.flatpak_file]
+#items = [
+    #"github.com/fn2006/PollyMC",
+    #"gitgud.io/Twig6943/resolve-flatpak",
+#]
