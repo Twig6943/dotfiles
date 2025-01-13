@@ -1,7 +1,7 @@
 # Flatpak repos (User installation mode)
 
 add = "flatpak --user remote-add --if-not-exists #:?"
-remove = "flatpak --user remote-delete #:?"
+remove = ""
 
 plural_name = "flatpak_repos_user"
 
