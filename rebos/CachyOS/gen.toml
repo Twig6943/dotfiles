@@ -53,7 +53,6 @@ items = [
     "goverlay",
     "waydroid-helper",
     "heroic-games-launcher",
-    "signal",
     "vesktop",
 ]
 
@@ -134,7 +133,6 @@ items = [
 # Packages to be installed via Flatpak. (Extra mode)
 [managers.flatpak_extra]
 items = [
-    "sober org.vinegarhq.Sober",
     "flathub io.mrarm.mcpelauncher",
     "flathub sh.ppy.osu",
     "flathub tw.ddnet.ddnet",
@@ -152,6 +150,7 @@ items = [
     "flathub io.github.peazip.PeaZip",
     "flathub org.qbittorrent.qBittorrent",
     "flathub org.tenacityaudio.Tenacity",
+    "sober org.vinegarhq.Sober",
 ]
 
 # Packages to be installed as .flatpak files.
