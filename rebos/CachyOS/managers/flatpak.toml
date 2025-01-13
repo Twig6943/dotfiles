@@ -1,7 +1,7 @@
-# Flatpak
+# Flatpak (System installation mode)
 
-add = "flatpak install #:?"
-remove = "flatpak uninstall #:?"
+add = "flatpak --system install #:? -y"
+remove = ""
 upgrade = "flatpak update"
 
 plural_name = "flatpaks"
@@ -9,4 +9,4 @@ plural_name = "flatpaks"
 hook_name = "flatpaks"
 
 [config]
-many_args = true
+many_args = false
