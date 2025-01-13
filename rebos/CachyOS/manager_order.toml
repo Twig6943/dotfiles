@@ -6,5 +6,9 @@ begin = [
 ]
 
 end = [
-  "flatpak",
+  "flatpak_repos",
+  "flatpak_repos_user"
+  "flatpak_repos_extra",
+  "flatpak_user",
+  "flatpak_extra",
 ]
