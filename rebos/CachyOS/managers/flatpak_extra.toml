@@ -1,7 +1,7 @@
 # Flatpak (Extra installation mode)
 
 add = "flatpak --installation=extra install #:? -y"
-remove = "flatpak --installation=extra uninstall #:? -y"
+remove = ""
 
 plural_name = "flatpak_extra"
 
