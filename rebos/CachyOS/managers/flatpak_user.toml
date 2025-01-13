@@ -1,7 +1,7 @@
 # Flatpak (User mode)
 
 add = "flatpak --user install #:? -y"
-remove = "flatpak --user uninstall #:? -y"
+remove = ""
 
 plural_name = "flatpak_user"
 
