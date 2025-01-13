@@ -12,6 +12,7 @@
 [managers.system]
 items = [
     "zip",
+    "kio-admin",
     "flatpak-builder",
     "distrobox",
     "lshw",
