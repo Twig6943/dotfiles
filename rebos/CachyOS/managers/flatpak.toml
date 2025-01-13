@@ -2,11 +2,11 @@
 
 add = "flatpak install #:?"
 remove = "flatpak uninstall #:?"
-upgrade = "flatpak upgrade"
+upgrade = "flatpak update"
 
 plural_name = "flatpaks"
 
 hook_name = "flatpaks"
 
 [config]
-many_args = false
+many_args = true
