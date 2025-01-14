@@ -10,8 +10,7 @@
 
 add = "sudo pacman -S #:? --noconfirm" # Example: sudo apt install #:?
 remove = "sudo pacman -Rns #:? --noconfirm" # Example: sudo apt remove #:?
-sync = "eos-update" # Example: sudo apt update
-upgrade = "eos-update" # Example: sudo apt upgrade
+upgrade = "sudo pacman -Syu" # Example: sudo apt upgrade
 
 plural_name = "system packages"
 
