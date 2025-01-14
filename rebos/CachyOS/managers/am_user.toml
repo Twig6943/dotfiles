@@ -2,7 +2,6 @@
 
 add = "am -i --user #:?"
 remove = "am -r --user #:?"
-upgrade = "am update"
 
 plural_name = "am_user"
 
