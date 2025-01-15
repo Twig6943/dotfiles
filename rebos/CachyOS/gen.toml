@@ -22,7 +22,6 @@ items = [
     "gamemode",
     "gamescope",
     "qt6pas", #This is here cuz of the goverlay AppImage
-    "discover",
     "timeshift", #Launch with `sudo -E GDK_BACKEND=wayland timeshift-gtk`
     "gnome-disk-utility", #DO NOT REMOVE THIS
     "xdg-desktop-portal-gtk",
