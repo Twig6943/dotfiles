@@ -12,11 +12,11 @@
 [managers.system]
 items = [
     "zip",
+    "p7zip",
     "kio-admin",
     "flatpak-builder",
     "distrobox",
     "lshw",
-    "p7zip",
     "mangohud", #Remove once you learn how to use the flatpak pkg
     "lib32-mangohud", #When not using WoW64 mode of wine (for 32bit win games)
     "gamemode",
