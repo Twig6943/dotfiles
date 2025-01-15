@@ -18,7 +18,7 @@ items = [
     "lshw",
     "p7zip",
     "mangohud", #Remove once you learn how to use the flatpak pkg
-    "lib32-mangohud" #When not using WoW64 mode of wine (for 32bit win games)
+    "lib32-mangohud", #When not using WoW64 mode of wine (for 32bit win games)
     "gamemode",
     "gamescope",
     "qt6pas", #This is here cuz of the goverlay AppImage
