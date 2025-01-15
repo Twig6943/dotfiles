@@ -2,6 +2,7 @@
 
 add = "yay -S #:? --noconfirm"
 remove = "yay -Rns #:? --noconfirm"
+upgrade = "yay -Syu"
 
 plural_name = "YaY"
 
