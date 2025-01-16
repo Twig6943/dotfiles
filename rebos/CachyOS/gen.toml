@@ -51,6 +51,7 @@ items = [
     "fdm",
     "cromite",
     "lutris",
+    "vscodium",
     "fastfetch",
     "gimp-git", #Switch to flatpak once gimp 3 releases
     "goverlay",
@@ -116,7 +117,6 @@ items = [
     "flathub io.gitlab.adhami3310.Impression",
     "flathub org.kde.filelight",
     "flathub com.rustdesk.RustDesk",
-    "flathub com.vscodium.codium",
     "flathub org.libreoffice.LibreOffice",
     "flathub org.nickvision.tubeconverter",
     "flathub in.srev.guiscrcpy",
