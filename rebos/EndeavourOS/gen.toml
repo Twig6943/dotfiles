@@ -50,7 +50,6 @@ items = [
 items = [
     "fdm",
     "cromite",
-    "lutris",
     "fastfetch",
     "gimp-git", #Switch to flatpak once gimp 3 releases
     "goverlay",
@@ -101,6 +100,7 @@ items = [
     "flathub website.i2pd.i2pd",
     "flathub dev.deedles.Trayscale",
     "flathub flathub com.github.ztefn.haguichi",
+    "com.heroicgameslauncher.hgl",
     "flathub org.gnome.Boxes",
     "flathub org.mozilla.firefox",
     "flathub com.google.Chrome", #Fortnite Browser
