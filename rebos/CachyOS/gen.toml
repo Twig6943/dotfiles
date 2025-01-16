@@ -13,6 +13,7 @@
 items = [
     "zip",
     "p7zip",
+    "kitty", #THIS IS THE ONLY GOD DAMN TERMINAL THAT RUN JUST "RUN" SH FILES
     "kio-admin",
     "flatpak-builder",
     "distrobox",
