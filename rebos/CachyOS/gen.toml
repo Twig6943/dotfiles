@@ -49,7 +49,6 @@ items = [
 items = [
     "fdm",
     "cromite",
-    "brave", #This is here because of XCloud/Fortnite
     "fastfetch",
     "gimp-git", #Switch to flatpak once gimp 3 releases
     "goverlay",
@@ -103,6 +102,7 @@ items = [
     "flathub flathub com.github.ztefn.haguichi",
     "flathub org.gnome.Boxes",
     "flathub org.mozilla.firefox",
+    "flathub com.google.Chrome", #Fortnite Browser
     "flathub im.nheko.Nheko",
     "flathub im.riot.Riot",
     "flathub io.github.flattool.Warehouse",
