@@ -5,8 +5,9 @@ sleep 10
 #Update
 eos-update
 
-#Install flatpak
+#Install flatpak & disk util
 sudo pacman -S flatpak --noconfirm
+sudo pacman -S gnome-disk-utility --noconfirm
 
 #Extra flatpak installation folder (CHECK "NOTES/README.MD" FOR MORE INFO)
 sudo mkdir -p /etc/flatpak/installations.d
