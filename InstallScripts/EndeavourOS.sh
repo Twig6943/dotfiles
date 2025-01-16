@@ -7,7 +7,7 @@ eos-update
 
 #Install flatpak & disk util
 sudo pacman -S flatpak --noconfirm
-sudo pacman -S gnome-disk-utility --noconfirm
+sudo pacman -S gnome-disk-utility --noconfirm #DO NOT REMOVE
 
 #Extra flatpak installation folder (CHECK "NOTES/README.MD" FOR MORE INFO)
 sudo mkdir -p /etc/flatpak/installations.d

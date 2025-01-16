@@ -1,13 +1,26 @@
-#System
+# --------------------------- #
+#    Manager Configuration    #
+# --------------------------- #
+
+# Make sure to enter the exact command you use as the normal user!
+# That means including 'sudo' or 'doas' or whatever if the command needs it.
+# Where you would put items, enter '#:?'.
+
+# Example: add = "sudo apt install #:?"
 
 add = "sudo pacman -S #:? --noconfirm" # Example: sudo apt install #:?
 remove = "sudo pacman -Rns #:? --noconfirm" # Example: sudo apt remove #:?
-sync = "eos-update" # Example: sudo apt update
-upgrade = "eos-update" # Example: sudo apt upgrade
+upgrade = "sudo pacman -Syu" # Example: sudo apt upgrade
 
 plural_name = "system packages"
 
 hook_name = "system_packages" # This is used in hooks. (Example: post_system_packages_add)
+
+# ------------------------------- #
+#    Additional configuration.    #
+# ------------------------------- #
+
+# many_args = BOOL: Can you supply many items as an argument? Example: 'sudo apt install git vim wget'
 
 [config]
 many_args = true

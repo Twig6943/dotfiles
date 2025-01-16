@@ -12,17 +12,20 @@
 [managers.system]
 items = [
     "zip",
+    "p7zip",
+    "kitty", #THIS IS THE ONLY GOD DAMN TERMINAL THAT JUST "RUNS" SH FILES
+    "kio-admin",
     "flatpak-builder",
+    "discover",
     "distrobox",
     "lshw",
-    "p7zip",
     "mangohud", #Remove once you learn how to use the flatpak pkg
+    "lib32-mangohud", #When not using WoW64 mode of wine (for 32bit win games)
     "gamemode",
     "gamescope",
     "qt6pas", #This is here cuz of the goverlay AppImage
-    "discover",
     "timeshift", #Launch with `sudo -E GDK_BACKEND=wayland timeshift-gtk`
-    "gnome-disk-utility", #DO NOT REMOVE THIS
+    "xdg-desktop-portal-gtk",
     "vkmark",
     "wireguard-tools",
     "headscale",
@@ -39,7 +42,6 @@ items = [
 items = [
     "waydroid",
     "binder_linux-dkms",
-    "wireguard-dkms",
     "lact-bin",
 ]
 
@@ -48,13 +50,12 @@ items = [
 items = [
     "fdm",
     "cromite",
-    "brave", #This is here because of XCloud/Fortnite
+    "lutris",
+    "vscodium",
     "fastfetch",
     "gimp-git", #Switch to flatpak once gimp 3 releases
     "goverlay",
     "waydroid-helper",
-    "heroic-games-launcher",
-    "signal",
     "vesktop",
 ]
 
@@ -65,79 +66,96 @@ items = [
     "ultimmc",
 ]
 
+#Repos to be added system wide.
 [managers.flatpak_repos]
 items = [
     "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
     "sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo",
 ]
 
-# Packages to be installed via Flatpak.
-# SpotX https://github.com/SpotX-Official/SpotX-Bash
+#Repos to be added as user.
+[managers.flatpak_repos_user]
+items = [
+    "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
+    "sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo",
+]
+
+#Repos to be added to the extra installation.
+[managers.flatpak_repos_extra]
+items = [
+    "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
+    "sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo",
+]
+
+# Packages to be installed via Flatpak. (System mode)
 [managers.flatpak]
 items = [
-    "com.github.KRTirtho.Spotube",
-    "com.spotify.Client",
-    "org.strawberrymusicplayer.strawberry",
-    "website.i2pd.i2pd",
-    "dev.deedles.Trayscale",
-    "com.github.ztefn.haguichi",
-    "org.qbittorrent.qBittorrent",
-    "org.gnome.Boxes",
-    "org.mozilla.firefox",
-    "im.nheko.Nheko",
-    "im.riot.Riot",
-    "org.telegram.desktop",
-    "com.github.tchx84.Flatseal",
-    "io.github.flattool.Warehouse",
-    "io.gpt4all.gpt4all",
-    "io.github.TheWisker.Cavasik",
-    "io.github.peazip.PeaZip",
-    "org.gnome.GHex",
-    "org.blender.Blender",
-    "io.github.marco_calautti.DeltaPatcher",
-    "com.jpexs.decompiler.flash",
-    "rs.ruffle.Ruffle",
-    "org.synfig.SynfigStudio",
-    "com.github.libresprite.LibreSprite",
-    "org.inkscape.Inkscape",
-    "org.kde.akregator",
-    "org.kde.kclock",
-    "io.gitlab.adhami3310.Impression",
-    "org.kde.filelight",
-    "com.rustdesk.RustDesk",
-    "com.gitlab.davem.ClamTk",
-    "org.kde.krita",
-    "com.vscodium.codium",
-    "ch.openboard.OpenBoard",
-    "org.libreoffice.LibreOffice",
-    "org.nickvision.tubeconverter",
-    "com.github.unrud.VideoDownloader", #Fallback
-    "in.srev.guiscrcpy",
-    "io.mpv.Mpv",
-    "com.obsproject.Studio",
-    "com.dec05eba.gpu_screen_recorder",
-    "org.kde.kdenlive",
-    "org.tenacityaudio.Tenacity",
-    "com.valvesoftware.Steam",
-    "org.libretro.RetroArch",
-    "org.yuzu_emu.yuzu",
-    "org.ryujinx.Ryujinx",
-    "net.davidotek.pupgui2",
-    "com.github.Matoking.protontricks",
-    "sh.ppy.osu",
-    "dev.bragefuglseth.Keypunch",
-    "net.supertuxkart.SuperTuxKart",
-    "io.mrarm.mcpelauncher",
-    "org.zdoom.GZDoom",
-    "org.vinegarhq.Sober",
-    "tw.ddnet.ddnet",
-    "org.freedesktop.Platform.VulkanLayer.MangoHud",
-    "org.freedesktop.Platform.VulkanLayer.gamescope",
-    "org.freedesktop.Platform.VulkanLayer.vkBasalt",
+    "flathub com.dec05eba.gpu_screen_recorder", #I have to install this as system 😭
+]
+
+# Packages to be installed via Flatpak. (User mode)
+[managers.flatpak_user]
+items = [
+    "flathub com.github.KRTirtho.Spotube",
+    "flathub com.spotify.Client",
+    "flathub org.strawberrymusicplayer.strawberry",
+    "flathub website.i2pd.i2pd",
+    "flathub dev.deedles.Trayscale",
+    "flathub flathub com.github.ztefn.haguichi",
+    "flathub org.gnome.Boxes",
+    "flathub org.mozilla.firefox",
+    "flathub com.google.Chrome", #Fortnite Browser
+    "flathub im.nheko.Nheko",
+    "flathub io.github.flattool.Warehouse",
+    "flathub org.gnome.GHex",
+    "flathub org.blender.Blender",
+    "flathub rs.ruffle.Ruffle",
+    "flathub org.synfig.SynfigStudio",
+    "flathub com.github.libresprite.LibreSprite",
+    "flathub org.kde.akregator",
+    "flathub org.kde.kclock",
+    "flathub io.gitlab.adhami3310.Impression",
+    "flathub org.kde.filelight",
+    "flathub com.rustdesk.RustDesk",
+    "flathub org.libreoffice.LibreOffice",
+    "flathub org.nickvision.tubeconverter",
+    "flathub in.srev.guiscrcpy",
+    "flathub com.obsproject.Studio",
+    "flathub org.kde.kdenlive",
+    "flathub com.valvesoftware.Steam",
+    "flathub org.libretro.RetroArch",
+    "flathub net.davidotek.pupgui2",
+    "flathub com.github.Matoking.protontricks",
+    "flathub org.freedesktop.Platform.VulkanLayer.MangoHud//23.08",
+    "flathub org.freedesktop.Platform.VulkanLayer.gamescope//23.08",
+    "flathub org.freedesktop.Platform.VulkanLayer.vkBasalt//23.08",
+]
+
+# Packages to be installed via Flatpak. (Extra mode)
+[managers.flatpak_extra]
+items = [
+    "flathub io.mrarm.mcpelauncher",
+    "flathub sh.ppy.osu",
+    "flathub tw.ddnet.ddnet",
+    "flathub org.zdoom.GZDoom",
+    "flathub net.supertuxkart.SuperTuxKart",
+    "flathub dev.bragefuglseth.Keypunch",
+    "flathub io.github.TheWisker.Cavasik",
+    "flathub com.github.tchx84.Flatseal",
+    "flathub io.github.marco_calautti.DeltaPatcher",
+    "flathub org.kde.krita",
+    "flathub org.inkscape.Inkscape",
+    "flathub com.jpexs.decompiler.flash",
+    "flathub io.mpv.Mpv",
+    "flathub ch.openboard.OpenBoard",
+    "flathub io.github.peazip.PeaZip",
+    "flathub org.qbittorrent.qBittorrent",
+    "flathub org.tenacityaudio.Tenacity",
+    "sober org.vinegarhq.Sober",
 ]
 
 # Packages to be installed as .flatpak files.
-#[managers.flatpak_external]
+#[managers.flatpak_file]
 #items = [
     #"github.com/fn2006/PollyMC",
     #"gitgud.io/Twig6943/resolve-flatpak",

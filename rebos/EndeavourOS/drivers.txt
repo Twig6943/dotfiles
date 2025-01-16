@@ -1,4 +1,6 @@
-RX 580:
+RX 580
+
+Drivers:
 sudo pacman -S amdvlk vulkan-radeon
 
 OpenCL:
