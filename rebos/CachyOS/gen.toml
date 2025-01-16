@@ -25,7 +25,6 @@ items = [
     "gamescope",
     "qt6pas", #This is here cuz of the goverlay AppImage
     "timeshift", #Launch with `sudo -E GDK_BACKEND=wayland timeshift-gtk`
-    "gnome-disk-utility", #DO NOT REMOVE THIS
     "xdg-desktop-portal-gtk",
     "vkmark",
     "wireguard-tools",
@@ -51,6 +50,7 @@ items = [
 items = [
     "fdm",
     "cromite",
+    "lutris",
     "fastfetch",
     "gimp-git", #Switch to flatpak once gimp 3 releases
     "goverlay",
@@ -134,7 +134,6 @@ items = [
 # Packages to be installed via Flatpak. (Extra mode)
 [managers.flatpak_extra]
 items = [
-    "flathub com.heroicgameslauncher.hgl",
     "flathub io.mrarm.mcpelauncher",
     "flathub sh.ppy.osu",
     "flathub tw.ddnet.ddnet",
