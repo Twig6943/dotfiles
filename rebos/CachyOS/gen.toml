@@ -49,7 +49,6 @@ items = [
 [managers.am]
 items = [
     "fdm",
-    "heroic-games-launcher",
     "cromite",
     "fastfetch",
     "gimp-git", #Switch to flatpak once gimp 3 releases
@@ -101,6 +100,7 @@ items = [
     "flathub website.i2pd.i2pd",
     "flathub dev.deedles.Trayscale",
     "flathub flathub com.github.ztefn.haguichi",
+    "flathub com.heroicgameslauncher.hgl",
     "flathub org.gnome.Boxes",
     "flathub org.mozilla.firefox",
     "flathub com.google.Chrome", #Fortnite Browser
