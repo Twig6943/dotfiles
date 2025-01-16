@@ -1,6 +1,6 @@
 # Peak Combination 👑
 
-OS: `CachyOS`
+OS: `EndeavourOS`
 
 Display Server: `Wayland`
 
@@ -18,11 +18,7 @@ Video Player: `Mpv`
 
 Video editing: `Kdenlive`
 
-
-
 # Hood certified stuff 😎
-
-OS
 ```
 EndeavourOS
 Nobara (Kinda)
@@ -30,6 +26,9 @@ Debian
 ```
 
 # No no stuff 💩
+```
+CachyOS
+```
 
 # [IMPORTANT NOTES ❗](https://github.com/Twig6943/dotfiles/tree/main/Notes)
 
