@@ -16,6 +16,7 @@ items = [
     "kitty", #THIS IS THE ONLY GOD DAMN TERMINAL THAT JUST "RUNS" SH FILES
     "kio-admin",
     "flatpak-builder",
+    "discover",
     "distrobox",
     "lshw",
     "mangohud", #Remove once you learn how to use the flatpak pkg
