@@ -49,6 +49,7 @@ items = [
 [managers.am]
 items = [
     "fdm",
+    "heroic-games-launcher",
     "cromite",
     "fastfetch",
     "gimp-git", #Switch to flatpak once gimp 3 releases
@@ -96,7 +97,6 @@ items = [
 items = [
     "flathub com.github.KRTirtho.Spotube",
     "flathub com.spotify.Client",
-    "flathub net.lutris.Lutris",
     "flathub org.strawberrymusicplayer.strawberry",
     "flathub website.i2pd.i2pd",
     "flathub dev.deedles.Trayscale",
