@@ -2,7 +2,7 @@
 
 # MISCELLANEOUS AFTER INSTALL STUFF
 
-Launch native games using `.sh` files & `kitty`
+Launch linux native games using `.sh` files & `kitty`
 
 Flatpak [custom installation guide](https://docs.flatpak.org/en/latest/tips-and-tricks.html#adding-a-custom-installation)
 
