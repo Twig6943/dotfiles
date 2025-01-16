@@ -4,8 +4,9 @@ echo "Starting within 10 seconds"
 
 sleep 10
 
-#Install flatpak
+#Install flatpak & disk util
 sudo pacman -S flatpak --noconfirm
+sudo pacman -S gnome-disk-utility --noconfirm
 
 #Extra flatpak installation folder (CHECK "NOTES/README.MD" FOR MORE INFO)
 sudo mkdir -p /etc/flatpak/installations.d
