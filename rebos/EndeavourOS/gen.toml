@@ -51,7 +51,6 @@ items = [
     "fdm",
     "cromite",
     "lutris",
-    "vscodium",
     "fastfetch",
     "gimp-git", #Switch to flatpak once gimp 3 releases
     "goverlay",
