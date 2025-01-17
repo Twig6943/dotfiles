@@ -1,4 +1,4 @@
-# Peak Combination 👑
+# Peak Combination 👑 (Super Skibidi 🚽)
 
 OS: `EndeavourOS`
 
@@ -8,11 +8,13 @@ DE: `KDE`
 
 File system: `BTRFS`
 
+Game Launcher: `Lutris`
+
 Bootloader: `SystemD`
 
-Communication: `Nheko`
+Communication: `Nheko/Dino`
 
-Browser: `Cromite w ad filters/Firefox w user.js`
+Browser: `Firefox w user.js/Cromite w ad filters`
 
 Video Player: `Mpv`
 
