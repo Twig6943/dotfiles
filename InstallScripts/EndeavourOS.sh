@@ -11,7 +11,6 @@ sudo pacman -S gnome-disk-utility --noconfirm #DO NOT REMOVE
 
 #Extra flatpak installation folder (CHECK "NOTES/README.MD" FOR MORE INFO)
 sudo mkdir -p /etc/flatpak/installations.d
-sudo touch /etc/flatpak/installations.d/extra.conf
 
 #Install AppImage stuff
 mkdir /home/$USER/Applications
