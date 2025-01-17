@@ -1,2 +1,5 @@
 [Context]
 filesystems=host-etc;host-os;host
+
+[Environment]
+GTK_THEME=Breeze:dark
