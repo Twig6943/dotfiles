@@ -105,6 +105,7 @@ items = [
     "flathub org.mozilla.firefox",
     "flathub com.google.Chrome", #Fortnite Browser
     "flathub im.nheko.Nheko",
+    "flathub im.dino.Dino",
     "flathub io.github.flattool.Warehouse",
     "flathub org.gnome.GHex",
     "flathub org.blender.Blender",
