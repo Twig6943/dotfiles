@@ -10,6 +10,9 @@ user_pref("layers.acceleration.force-enabled", true);
 user_pref("media.ffmpeg.vaapi.enabled", true);
 user_pref("media.rdd-vpx.enabled", true);
 
+//Enable autscroll
+user_pref("general.autoScroll", true);
+
 //Useless web dark theme thing
 user_pref("browser.in-content.dark-mode", true);
 
