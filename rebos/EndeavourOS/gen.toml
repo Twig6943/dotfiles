@@ -67,6 +67,7 @@ items = [
 [managers.flatpak_repos]
 items = [
     "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
+    "flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo",
     "sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo",
 ]
 
@@ -74,6 +75,7 @@ items = [
 [managers.flatpak_repos_user]
 items = [
     "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
+    "flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo",
     "sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo",
 ]
 
@@ -81,6 +83,7 @@ items = [
 [managers.flatpak_repos_extra]
 items = [
     "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
+    "flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo",
     "sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo",
 ]
 
