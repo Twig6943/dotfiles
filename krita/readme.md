@@ -1,6 +1,14 @@
-Canvas bg: #242424
+# Colors
+
+Canvas bg: `#242424`
+
+Checkerboard 1: `#1E1E1E`
+
+Checkerboard 2: `#2C2C2C`
 
 `.colors` files to go `color-schemes` folder
+
+# Shortcuts 
 
 As for the `shortcuts` files just import those from the UI
 
