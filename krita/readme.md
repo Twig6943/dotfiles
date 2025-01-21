@@ -1,3 +1,3 @@
-Canvas bg: #262626
+Canvas bg: #242424
 
 https://www.youtube.com/watch?v=ChF9XWSSDFI
