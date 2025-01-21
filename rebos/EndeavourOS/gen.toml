@@ -50,7 +50,6 @@ items = [
     "fdm",
     "cromite",
     "fastfetch",
-    "gimp-git", #Switch to flatpak once gimp 3 releases
     "goverlay",
     "waydroid-helper",
     "vesktop",
@@ -59,7 +58,7 @@ items = [
 #Packages to be installed via AM --user mode.
 [managers.am_user]
 items = [
-    "funkin-legacy", #Using AppImage cuz of wayland support",
+    "funkin-legacy", #Using am pkg cuz of wayland support",
     "ultimmc",
 ]
 
@@ -130,8 +129,11 @@ items = [
     "flathub net.davidotek.pupgui2",
     "flathub com.github.Matoking.protontricks",
     "flathub org.freedesktop.Platform.VulkanLayer.MangoHud//23.08",
+    "flathub org.freedesktop.Platform.VulkanLayer.MangoHud//24.08",
     "flathub org.freedesktop.Platform.VulkanLayer.gamescope//23.08",
+    "flathub org.freedesktop.Platform.VulkanLayer.gamescope//24.08",
     "flathub org.freedesktop.Platform.VulkanLayer.vkBasalt//23.08",
+    "flathub org.freedesktop.Platform.VulkanLayer.vkBasalt//24.08",
 ]
 
 # Packages to be installed via Flatpak. (Extra mode)
@@ -154,6 +156,7 @@ items = [
     "flathub io.github.peazip.PeaZip",
     "flathub org.qbittorrent.qBittorrent",
     "flathub org.tenacityaudio.Tenacity",
+    "flathub-beta org.gimp.GIMP",
     "sober org.vinegarhq.Sober",
 ]
 
