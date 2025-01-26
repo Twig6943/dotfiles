@@ -2,7 +2,7 @@
 
 add = "am -i #:?"
 remove = "am -r #:?"
-upgrade = "am update"
+update = "am update"
 
 plural_name = "am"
 
