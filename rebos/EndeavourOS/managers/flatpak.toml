@@ -2,7 +2,7 @@
 
 add = "flatpak --system install #:? -y"
 remove = ""
-upgrade = "flatpak update"
+update = "flatpak update -y"
 
 plural_name = "flatpak"
 
