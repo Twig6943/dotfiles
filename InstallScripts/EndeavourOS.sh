@@ -27,6 +27,7 @@ soar defconfig --external
 
 #Rebos
 am -i rebos
+#soar install 
 rebos setup
 rebos config init
 
