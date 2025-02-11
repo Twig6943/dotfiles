@@ -1,7 +1,7 @@
 # SoarPKGS (Profile 1)
 
-add = "soar install #:?"
-remove = "soar remove #:?"
+add = "soar --profile profile1 install #:?"
+remove = "soar --profile profile1 remove #:?"
 
 plural_name = "soar_profile1"
 
