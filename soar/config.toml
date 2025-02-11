@@ -1,0 +1,23 @@
+default_profile = "default"
+
+[[repositories]]
+name = "bincache"
+url = "https://meta.pkgforge.dev/bincache/x86_64-Linux.sdb.zstd"
+
+[[repositories]]
+name = "pkgcache"
+url = "https://meta.pkgforge.dev/pkgcache/x86_64-Linux.sdb.zstd"
+
+[[repositories]]
+name = "ivan-hc-am"
+url = "https://meta.pkgforge.dev/external/am/x86_64-Linux.json.zstd"
+
+[[repositories]]
+name = "appimage-github-io"
+url = "https://meta.pkgforge.dev/external/appimage.github.io/x86_64-Linux.json.zstd"
+
+[profile.default]
+root_path = "/home/twig/.local/share/soar"
+
+[profile.profile1]
+root_path = "/home/twig/Desktop/Sigma"
