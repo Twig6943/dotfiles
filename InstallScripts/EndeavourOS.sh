@@ -18,8 +18,8 @@ mkdir /home/$USER/Applications
 #Install YaY
 paru -S yay-bin --noconfirm
 
-#Install AM
-yay -S am --noconfirm
+#Install Soar
+yay -S soar-bin --noconfirm
 
 #Rebos
 am -i rebos
