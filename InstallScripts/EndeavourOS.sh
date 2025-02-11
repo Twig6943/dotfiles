@@ -16,10 +16,14 @@ sudo mkdir -p /etc/flatpak/installations.d
 mkdir /home/$USER/Applications
 
 #Install YaY
-paru -S yay-bin --noconfirm
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
 
 #Install Soar
 yay -S soar-bin --noconfirm
+soar defconfig --external
 
 #Rebos
 am -i rebos
