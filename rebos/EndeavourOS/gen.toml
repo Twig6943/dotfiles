@@ -13,6 +13,7 @@
 items = [
     "zip",
     "p7zip",
+    "fastfetch",
     "kio-admin",
     "flatpak-builder",
     "discover",
@@ -45,18 +46,17 @@ items = [
 ]
 
 #Packages to be installed via AM.
-[managers.am]
+[managers.soar]
 items = [
-    "fdm",
-    "cromite",
-    "fastfetch",
-    "goverlay",
-    "waydroid-helper",
-    "vesktop",
+    "fdm#runimage.debian.fdm:pkgcache",
+    "cromite#AM.x86_64.cromite.cromite:ivan-hc-am",
+    "goverlay#github.com.benjamimgois.goverlay.beta:pkgcache",
+    "waydroid-helper#github.com.ayasa520.waydroid-helper.stable:pkgcache",
+    "vesktop#github.com.Vencord.Vesktop:pkgcache",
 ]
 
 #Packages to be installed via AM --user mode.
-[managers.am_user]
+[managers.soar_profile1]
 items = [
     "funkin-legacy", #Using am pkg cuz of wayland support",
     "ultimmc",
