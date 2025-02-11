@@ -24,7 +24,7 @@ items = [
     "gamemode",
     "gamescope",
     "qt6pas", #This is here cuz of the goverlay AppImage
-    "timeshift", #Launch with `sudo -E GDK_BACKEND=wayland timeshift-gtk`
+    "timeshift",
     "xdg-desktop-portal-gtk",
     "vkmark",
     "wireguard-tools",
