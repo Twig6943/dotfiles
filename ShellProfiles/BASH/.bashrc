@@ -11,3 +11,4 @@ PS1='[\u@\h \W]\$ '
 PATH="$HOME/.local/share/soar/bin:$PATH"
 
 export GDK_BACKEND=wayland,x11
+export PATH="$HOME/.local/share/soar/bin:$PATH"
