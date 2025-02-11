@@ -13,8 +13,8 @@
 items = [
     "zip",
     "p7zip",
-    "fastfetch",
     "kio-admin",
+    "fastfetch",
     "flatpak-builder",
     "discover",
     "distrobox",
