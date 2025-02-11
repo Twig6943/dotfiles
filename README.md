@@ -6,6 +6,8 @@ Display Server: `Wayland`
 
 DE: `KDE`
 
+PKG Manager: `Flatpak/Soar`
+
 File system: `BTRFS`
 
 Game Launcher: `Lutris`
