@@ -45,7 +45,7 @@ items = [
     "lact-bin",
 ]
 
-#Packages to be installed via AM.
+#Packages to be installed via Soar.
 [managers.soar]
 items = [
     "fdm#runimage.debian.fdm:pkgcache",
@@ -55,7 +55,7 @@ items = [
     "vesktop#github.com.Vencord.Vesktop:pkgcache",
 ]
 
-#Packages to be installed via AM --user mode.
+#Packages to be installed via Soar. (Profile 1)
 [managers.soar_profile1]
 items = [
     "funkin-legacy", #Using am pkg cuz of wayland support",
