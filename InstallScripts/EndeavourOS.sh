@@ -26,8 +26,7 @@ yay -S soar-bin --noconfirm
 soar defconfig --external
 
 #Rebos
-am -i rebos
-#soar install 
+soar install rebos#gitlab.com.Oglo12.rebos:bincache
 rebos setup
 rebos config init
 
