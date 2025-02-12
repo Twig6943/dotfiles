@@ -58,7 +58,7 @@ items = [
 [managers.soar_profile1]
 items = [
     "funkin#AM.x86_64.funkin-legacy.funkin:ivan-hc-am", #Using soar pkg cuz of wayland support",
-    "ultimmc#runimage.debian.ultimmc:pkgcache",
+    "ultimmc#wrappe.ultimmc:pkgcache",
 ]
 
 #Repos to be added system wide.
