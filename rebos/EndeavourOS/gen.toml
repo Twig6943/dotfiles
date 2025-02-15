@@ -23,7 +23,6 @@ items = [
     "lib32-mangohud", #When not using WoW64 mode of wine (for 32bit win games)
     "gamemode",
     "gamescope",
-    "qt6pas", #This is here cuz of the goverlay AppImage
     "timeshift",
     "xdg-desktop-portal-gtk",
     "vkmark",
