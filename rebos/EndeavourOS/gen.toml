@@ -126,7 +126,7 @@ items = [
     "flathub com.valvesoftware.Steam",
     "flathub org.libretro.RetroArch",
     "flathub net.davidotek.pupgui2",
-    "flathub com.github.Matoking.protontricks",
+    "flathub com.vysp3r.ProtonPlus",
     "flathub org.freedesktop.Platform.VulkanLayer.MangoHud//23.08",
     "flathub org.freedesktop.Platform.VulkanLayer.MangoHud//24.08",
     "flathub org.freedesktop.Platform.VulkanLayer.gamescope//23.08",
