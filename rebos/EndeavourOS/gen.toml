@@ -47,7 +47,7 @@ items = [
 #Packages to be installed via Soar.
 [managers.soar]
 items = [
-    "fdm#runimage.debian.fdm:pkgcache",
+    "fdm#wrappe.fdm:pkgcache",
     "cromite#AM.x86_64.cromite.cromite:ivan-hc-am",
     "goverlay#github.com.benjamimgois.goverlay.beta:pkgcache",
     "waydroid-helper#github.com.ayasa520.waydroid-helper.stable:pkgcache",
