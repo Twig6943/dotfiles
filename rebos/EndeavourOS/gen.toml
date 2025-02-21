@@ -23,6 +23,7 @@ items = [
     "lib32-mangohud", #When not using WoW64 mode of wine (for 32bit win games)
     "gamemode",
     "gamescope",
+    "kaccounts-providers",
     "timeshift",
     "xdg-desktop-portal-gtk",
     "vkmark",
