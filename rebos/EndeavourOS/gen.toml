@@ -49,6 +49,7 @@ items = [
 [managers.soar]
 items = [
     "fdm#wrappe.fdm:pkgcache",
+    "vlc-git#AM.x86_64.vlc-git.vlc-git:ivan-hc-am",
     "cromite#AM.x86_64.cromite.cromite:ivan-hc-am",
     "goverlay#github.com.benjamimgois.goverlay.beta:pkgcache",
     "waydroid-helper#github.com.ayasa520.waydroid-helper.stable:pkgcache",
