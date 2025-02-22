@@ -9,6 +9,7 @@ F-Droid.repos = [
 ]
 
 F-Droid = [
+ "io.github.z3r0c00l_2k.aquadroid",
  "org.microg.gms",
  "com.nextcloud.client",
  "it.niedermann.owncloud.notes",
