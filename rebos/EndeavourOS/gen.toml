@@ -95,6 +95,7 @@ items = [
 # Packages to be installed via Flatpak. (User mode)
 [managers.flatpak_user]
 items = [
+    "flathub org.ghidra_sre.Ghidra",
     "flathub com.github.KRTirtho.Spotube",
     "flathub com.spotify.Client",
     "flathub org.strawberrymusicplayer.strawberry",
