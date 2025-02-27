@@ -121,6 +121,7 @@ items = [
     "flathub io.gitlab.adhami3310.Impression",
     "flathub org.kde.filelight",
     "flathub com.rustdesk.RustDesk",
+    "flathub org.kde.krdc",
     "flathub org.libreoffice.LibreOffice",
     "flathub org.nickvision.tubeconverter",
     "flathub in.srev.guiscrcpy",
