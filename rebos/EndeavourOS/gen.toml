@@ -155,6 +155,7 @@ items = [
     "flathub org.kde.krita",
     "flathub org.inkscape.Inkscape",
     "flathub com.jpexs.decompiler.flash",
+    "flathub org.kde.haruna",
     "flathub io.mpv.Mpv",
     "flathub ch.openboard.OpenBoard",
     "flathub io.github.peazip.PeaZip",
