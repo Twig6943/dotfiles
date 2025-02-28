@@ -48,6 +48,7 @@ items = [
 #Packages to be installed via Soar.
 [managers.soar]
 items = [
+    "librewolf#gitlab.com.librewolf-community.browser.appimage.stable:pkgcache",
     "fdm#wrappe.fdm:pkgcache",
     "vlc-git#AM.x86_64.vlc-git.vlc-git:ivan-hc-am",
     "cromite#AM.x86_64.cromite.cromite:ivan-hc-am",
@@ -105,7 +106,6 @@ items = [
     "flathub net.lutris.Lutris",
     "org.kde.konsole", #This is here to launch native games inside flatpak env
     "flathub org.gnome.Boxes",
-    "flathub io.gitlab.librewolf-community",
     "flathub com.google.Chrome", #Fortnite Browser
     "flathub im.nheko.Nheko",
     "flathub im.riot.Riot",
