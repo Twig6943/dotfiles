@@ -13,6 +13,9 @@ user_pref("media.rdd-vpx.enabled", true);
 //Enable autscroll
 user_pref("general.autoScroll", true);
 
+//Disable resistfingerprint (I need dark theme)
+user_pref("privacy.resistFingerprinting", false);
+
 //Useless web dark theme thing
 user_pref("browser.in-content.dark-mode", true);
 
