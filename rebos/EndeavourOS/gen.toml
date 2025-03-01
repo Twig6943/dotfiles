@@ -159,6 +159,7 @@ items = [
     "flathub io.mpv.Mpv",
     "flathub ch.openboard.OpenBoard",
     "flathub io.github.peazip.PeaZip",
+    "flathub io.github.shiftey.Desktop",
     "flathub org.qbittorrent.qBittorrent",
     "flathub org.tenacityaudio.Tenacity",
     "flathub-beta org.gimp.GIMP",
