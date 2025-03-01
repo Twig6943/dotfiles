@@ -16,7 +16,7 @@ Bootloader: `SystemD`
 
 Communication: `Nheko/Dino`
 
-Browser: `Firefox w user.js/Cromite w ad filters`
+Browser: `Librewolf w user.js/Cromite w ad filters`
 
 Video Player: `Mpv`
 
