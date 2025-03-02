@@ -51,7 +51,7 @@ items = [
     "librewolf#gitlab.com.librewolf-community.browser.appimage.stable:pkgcache",
     "fdm#wrappe.fdm:pkgcache",
     "vlc-git#AM.x86_64.vlc-git.vlc-git:ivan-hc-am",
-    "cromite#AM.x86_64.cromite.cromite:ivan-hc-am",
+    "cromite#github.com.pkgforge-dev.Cromite-AppImage",
     "goverlay#github.com.benjamimgois.goverlay.beta:pkgcache",
     "waydroid-helper#github.com.ayasa520.waydroid-helper.stable:pkgcache",
 ]
