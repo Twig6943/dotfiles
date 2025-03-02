@@ -6,15 +6,13 @@ Set up [user.js](https://github.com/Twig6943/dotfiles/blob/main/firefox/librewol
 
 [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
+[Varia download manager](https://addons.mozilla.org/en-US/firefox/addon/varia-integrator/)
+
 [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
 
 [Better volume booster](https://addons.mozilla.org/en-US/firefox/addon/better-volume-booster/)
 
 [YT Video Stretcher](https://addons.mozilla.org/en-US/firefox/addon/youtube-fullscreen-fit/)
-
-[Free download manager](https://addons.mozilla.org/en-US/firefox/addon/free-download-manager-addon/)
-
-[Varia download manager](https://addons.mozilla.org/en-US/firefox/addon/varia-integrator/)
 
 [Dark reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
 
