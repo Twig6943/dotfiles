@@ -1,12 +1,11 @@
 #Notes;
 #This gen.toml is ready for a davincibox install
-#Don't uninstall native firefox pkg cuz of FDM
 
 #Software that does support wayland but needs a flag/etc;
 #Wine,LibreSprite,Spotify,Chromium
 
 #Software that doesn't support wayland
-#Steam,Proton,krita,FFDEC,Ryujinx,Yuzu,FNF,Resolve
+#Steam,Proton,krita,FFDEC,Ghidra,Resolve
 
 #Packages to be installed via Pacman.
 [managers.system]
@@ -49,7 +48,6 @@ items = [
 [managers.soar]
 items = [
     "librewolf#gitlab.com.librewolf-community.browser.appimage.stable:pkgcache",
-    "fdm#wrappe.fdm:pkgcache",
     "vlc-git#AM.x86_64.vlc-git.vlc-git:ivan-hc-am",
     "cromite#github.com.pkgforge-dev.Cromite-AppImage",
     "goverlay#github.com.benjamimgois.goverlay.beta:pkgcache",
