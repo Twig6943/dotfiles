@@ -104,6 +104,7 @@ items = [
     "flathub net.lutris.Lutris",
     "org.kde.konsole", #This is here to launch native games inside flatpak env
     "flathub org.gnome.Boxes",
+    "flathub io.github.giantpinkrobots.varia",
     "flathub com.google.Chrome", #Fortnite Browser
     "flathub im.nheko.Nheko",
     "flathub im.riot.Riot",
