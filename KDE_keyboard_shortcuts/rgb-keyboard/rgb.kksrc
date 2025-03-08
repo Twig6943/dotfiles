@@ -101,9 +101,6 @@ gpu_screen_recorder_start_stop_recording=Alt+F1
 [io.github.TheWisker.Cavasik.desktop][Global Shortcuts]
 _launch=Meta+C
 
-[org.nickvision.cavalier.desktop][Global Shortcuts]
-_launch=Meta+X
-
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=Meta+Alt+S
 
