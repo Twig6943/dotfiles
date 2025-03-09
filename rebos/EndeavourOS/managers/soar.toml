@@ -2,7 +2,7 @@
 
 add = "soar install #:?"
 remove = "soar remove #:?"
-update = "soar update"
+upgrade = "soar update"
 
 plural_name = "soar"
 
