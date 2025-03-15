@@ -1,20 +1,19 @@
 #Notes;
 #This gen.toml is ready for a davincibox install
-#Don't uninstall native firefox pkg cuz of FDM
 
 #Software that does support wayland but needs a flag/etc;
 #Wine,LibreSprite,Spotify,Chromium
 
 #Software that doesn't support wayland
-#Steam,Proton,krita,FFDEC,Ryujinx,Yuzu,FNF,Resolve
+#Steam,Proton,krita,FFDEC,Ghidra,Resolve
 
 #Packages to be installed via Pacman.
 [managers.system]
 items = [
     "zip",
     "p7zip",
-    "kitty", #THIS IS THE ONLY GOD DAMN TERMINAL THAT JUST "RUNS" SH FILES
     "kio-admin",
+    "fastfetch",
     "flatpak-builder",
     "discover",
     "distrobox",
@@ -23,8 +22,8 @@ items = [
     "lib32-mangohud", #When not using WoW64 mode of wine (for 32bit win games)
     "gamemode",
     "gamescope",
-    "qt6pas", #This is here cuz of the goverlay AppImage
-    "timeshift", #Launch with `sudo -E GDK_BACKEND=wayland timeshift-gtk`
+    "kaccounts-providers",
+    "timeshift",
     "xdg-desktop-portal-gtk",
     "vkmark",
     "wireguard-tools",
@@ -45,31 +44,28 @@ items = [
     "lact-bin",
 ]
 
-#Packages to be installed via AM.
-[managers.am]
+#Packages to be installed via Soar.
+[managers.soar]
 items = [
-    "fdm",
-    "cromite",
-    "lutris",
-    "vscodium",
-    "fastfetch",
-    "gimp-git", #Switch to flatpak once gimp 3 releases
-    "goverlay",
-    "waydroid-helper",
-    "vesktop",
+    "librewolf#gitlab.com.librewolf-community.browser.appimage.stable:pkgcache",
+    "vlc-git#AM.x86_64.vlc-git.vlc-git:ivan-hc-am",
+    "cromite#github.com.pkgforge-dev.Cromite-AppImage",
+    "goverlay#github.com.benjamimgois.goverlay.stable",
+    "waydroid-helper#github.com.ayasa520.waydroid-helper.stable:pkgcache",
 ]
 
-#Packages to be installed via AM --user mode.
-[managers.am_user]
+#Packages to be installed via Soar. (Profile 1)
+[managers.soar_profile1]
 items = [
-    "funkin-legacy", #Using AppImage cuz of wayland support",
-    "ultimmc",
+    "funkin#AM.x86_64.funkin-legacy.funkin:ivan-hc-am", #Using soar pkg cuz of wayland support",
+    "ultimmc#wrappe.ultimmc:pkgcache",
 ]
 
 #Repos to be added system wide.
 [managers.flatpak_repos]
 items = [
     "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
+    "flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo",
     "sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo",
 ]
 
@@ -77,6 +73,7 @@ items = [
 [managers.flatpak_repos_user]
 items = [
     "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
+    "flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo",
     "sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo",
 ]
 
@@ -84,6 +81,7 @@ items = [
 [managers.flatpak_repos_extra]
 items = [
     "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
+    "flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo",
     "sober https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/flatpak/repos/sober.flatpakrepo",
 ]
 
@@ -96,16 +94,21 @@ items = [
 # Packages to be installed via Flatpak. (User mode)
 [managers.flatpak_user]
 items = [
+    "flathub org.ghidra_sre.Ghidra",
     "flathub com.github.KRTirtho.Spotube",
     "flathub com.spotify.Client",
     "flathub org.strawberrymusicplayer.strawberry",
     "flathub website.i2pd.i2pd",
     "flathub dev.deedles.Trayscale",
     "flathub flathub com.github.ztefn.haguichi",
+    "flathub net.lutris.Lutris",
+    "org.kde.konsole", #This is here to launch native games inside flatpak env
     "flathub org.gnome.Boxes",
-    "flathub org.mozilla.firefox",
+    "flathub io.github.giantpinkrobots.varia",
     "flathub com.google.Chrome", #Fortnite Browser
     "flathub im.nheko.Nheko",
+    "flathub im.riot.Riot",
+    "flathub dev.vencord.Vesktop",
     "flathub io.github.flattool.Warehouse",
     "flathub org.gnome.GHex",
     "flathub org.blender.Blender",
@@ -117,6 +120,7 @@ items = [
     "flathub io.gitlab.adhami3310.Impression",
     "flathub org.kde.filelight",
     "flathub com.rustdesk.RustDesk",
+    "flathub org.kde.krdc",
     "flathub org.libreoffice.LibreOffice",
     "flathub org.nickvision.tubeconverter",
     "flathub in.srev.guiscrcpy",
@@ -124,11 +128,14 @@ items = [
     "flathub org.kde.kdenlive",
     "flathub com.valvesoftware.Steam",
     "flathub org.libretro.RetroArch",
-    "flathub net.davidotek.pupgui2",
+    "flathub com.vysp3r.ProtonPlus",
     "flathub com.github.Matoking.protontricks",
     "flathub org.freedesktop.Platform.VulkanLayer.MangoHud//23.08",
+    "flathub org.freedesktop.Platform.VulkanLayer.MangoHud//24.08",
     "flathub org.freedesktop.Platform.VulkanLayer.gamescope//23.08",
+    "flathub org.freedesktop.Platform.VulkanLayer.gamescope//24.08",
     "flathub org.freedesktop.Platform.VulkanLayer.vkBasalt//23.08",
+    "flathub org.freedesktop.Platform.VulkanLayer.vkBasalt//24.08",
 ]
 
 # Packages to be installed via Flatpak. (Extra mode)
@@ -141,16 +148,20 @@ items = [
     "flathub net.supertuxkart.SuperTuxKart",
     "flathub dev.bragefuglseth.Keypunch",
     "flathub io.github.TheWisker.Cavasik",
+    "flathub org.nickvision.cavalier",
     "flathub com.github.tchx84.Flatseal",
     "flathub io.github.marco_calautti.DeltaPatcher",
     "flathub org.kde.krita",
     "flathub org.inkscape.Inkscape",
     "flathub com.jpexs.decompiler.flash",
+    "flathub org.kde.haruna",
     "flathub io.mpv.Mpv",
     "flathub ch.openboard.OpenBoard",
     "flathub io.github.peazip.PeaZip",
+    "flathub io.github.shiftey.Desktop",
     "flathub org.qbittorrent.qBittorrent",
     "flathub org.tenacityaudio.Tenacity",
+    "flathub-beta org.gimp.GIMP",
     "sober org.vinegarhq.Sober",
 ]
 

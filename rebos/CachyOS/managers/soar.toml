@@ -1,0 +1,12 @@
+# SoarPKGS
+
+add = "soar install #:?"
+remove = "soar remove #:?"
+upgrade = "soar update"
+
+plural_name = "soar"
+
+hook_name = "soar"
+
+[config]
+many_args = true

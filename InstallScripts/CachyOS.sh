@@ -1,6 +1,6 @@
-read -n 1 -s -p "Please update via CachyOS-hello first."
+echo "Please update via CachyOS-hello first."
 
-echo "Starting within 10 seconds"
+read -n 1 -s
 
 sleep 10
 
@@ -10,19 +10,27 @@ sudo pacman -S gnome-disk-utility --noconfirm #DO NOT REMOVE
 
 #Extra flatpak installation folder (CHECK "NOTES/README.MD" FOR MORE INFO)
 sudo mkdir -p /etc/flatpak/installations.d
-sudo touch /etc/flatpak/installations.d/extra.conf
 
 #Install AppImage stuff
 mkdir /home/$USER/Applications
 
 #Install YaY
-paru -S yay-bin --noconfirm
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
 
-#Install AM
-yay -S am --noconfirm
+#Bash profile fix
+sudo rm ~/.bashrc
+cd ~/.bashrc
+wget https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/ShellProfiles/BASH/.bashrc
+
+#Install Soar
+yay -S soar-bin --noconfirm
+soar defconfig --external
 
 #Rebos
-am -i rebos
+soar install rebos#gitlab.com.Oglo12.rebos:bincache
 rebos setup
 rebos config init
 

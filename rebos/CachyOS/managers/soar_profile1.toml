@@ -1,0 +1,11 @@
+# SoarPKGS (Profile 1)
+
+add = "soar --profile profile1 install #:?"
+remove = "soar --profile profile1 remove #:?"
+
+plural_name = "soar_profile1"
+
+hook_name = "soar_profile1"
+
+[config]
+many_args = true
