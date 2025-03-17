@@ -113,6 +113,7 @@ items = [
     "flathub org.gnome.GHex",
     "flathub org.blender.Blender",
     "flathub rs.ruffle.Ruffle",
+    "flathub org.gimp.GIMP",
     "flathub org.synfig.SynfigStudio",
     "flathub com.github.libresprite.LibreSprite",
     "flathub org.kde.akregator",
@@ -161,7 +162,6 @@ items = [
     "flathub io.github.shiftey.Desktop",
     "flathub org.qbittorrent.qBittorrent",
     "flathub org.tenacityaudio.Tenacity",
-    "flathub-beta org.gimp.GIMP",
     "sober org.vinegarhq.Sober",
 ]
 
