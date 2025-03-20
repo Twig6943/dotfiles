@@ -1,5 +1,5 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-40945f07-d6a5-4c2c-b76a-48a9cfff5ba2=
+switch-to-activity-ae03a96e-ddb4-406e-bbea-12a04ba3be9e=
 
 [KDE Keyboard Layout Switcher][Global Shortcuts]
 Switch to Last-Used Keyboard Layout=Meta+Alt+L
@@ -8,8 +8,8 @@ Switch to Next Keyboard Layout=Meta+Alt+K
 [StandardShortcuts]
 AboutApp=
 AboutKDE=
-Activate Next Tab=Ctrl+PgDown; Ctrl+]
-Activate Previous Tab=Ctrl+PgUp; Ctrl+[
+Activate Next Tab=Ctrl+]; Ctrl+PgDown
+Activate Previous Tab=Ctrl+[; Ctrl+PgUp
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
 Back=Alt+Left; Back
@@ -20,9 +20,9 @@ Clear=
 Close=Ctrl+Esc; Ctrl+W
 ConfigureNotifications=
 ConfigureToolbars=
-Copy=Ctrl+C; Ctrl+Ins
+Copy=Ctrl+Ins; Ctrl+C
 CreateFolder=Ctrl+Shift+N
-Cut=Ctrl+X; Shift+Del
+Cut=Shift+Del; Ctrl+X
 DeleteFile=Shift+Del
 DeleteWordBack=Ctrl+Backspace
 DeleteWordForward=Ctrl+Del
@@ -46,7 +46,7 @@ Goto=
 GotoLine=Ctrl+G
 GotoPage=
 Help=F1
-Home=Home Page; Alt+Home
+Home=Alt+Home; Home Page
 KeyBindings=Ctrl+Alt+,
 Mail=
 MoveToTrash=Del
@@ -54,10 +54,10 @@ New=Ctrl+N
 Next=PgDown
 NextCompletion=Ctrl+Down
 Open=Ctrl+O
-OpenContextMenu=Menu; Shift+F10
+OpenContextMenu=Shift+F10; Menu
 OpenMainMenu=F10
 OpenRecent=
-Paste=Shift+Ins; Ctrl+V
+Paste=Ctrl+V; Shift+Ins
 Paste Selection=Ctrl+Shift+Ins
 Preferences=Ctrl+Shift+,
 PrevCompletion=Ctrl+Up
@@ -66,7 +66,7 @@ PrintPreview=
 Prior=PgUp
 Quit=Ctrl+Q
 Redo=Ctrl+Shift+Z
-Reload=F5; Refresh
+Reload=Refresh; F5
 RenameFile=F2
 Replace=Ctrl+R
 ReportBug=
@@ -76,7 +76,7 @@ RotateUp=Up
 Save=Ctrl+S
 SaveAs=Ctrl+Shift+S
 SelectAll=Ctrl+A
-ShowHideHiddenFiles=Alt+.; Ctrl+H
+ShowHideHiddenFiles=Ctrl+H; Alt+.
 ShowMenubar=Ctrl+M
 ShowStatusbar=
 ShowToolbar=
@@ -91,20 +91,6 @@ Zoom=
 ZoomIn=Ctrl+=; Ctrl++
 ZoomOut=Ctrl+-
 
-[Strawberry][Global Shortcuts]
-next_track=
-play_pause=
-prev_track=
-stop=
-
-[com.dec05eba.gpu_screen_recordergpu_screen_recorder_gtk][Global Shortcuts]
-gpu_screen_recorder_pause_unpause_recording=
-gpu_screen_recorder_save_replay=Alt+3
-gpu_screen_recorder_start_stop_recording=Alt+F1
-
-[io.github.TheWisker.Cavasik.desktop][Global Shortcuts]
-_launch=Meta+C
-
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=Meta+Alt+S
 
@@ -118,14 +104,14 @@ decrease_microphone_volume=Microphone Volume Down
 decrease_volume=Volume Down; Media Previous
 decrease_volume_small=Shift+Volume Down
 increase_microphone_volume=Microphone Volume Up
-increase_volume=Media Play; Volume Up
+increase_volume=Volume Up; Media Play
 increase_volume_small=Shift+Volume Up
-mic_mute=Microphone Mute; Meta+Volume Mute
+mic_mute=Meta+Volume Mute; Microphone Mute
 mute=Tools
 
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=
-Lock Session=Screensaver; Meta+L
+Lock Session=Meta+L; Screensaver
 Log Out=Ctrl+Alt+Del
 Log Out Without Confirmation=
 LogOut=
@@ -289,13 +275,13 @@ Window to Screen 6=
 Window to Screen 7=
 disableInputCapture=Meta+Shift+Esc
 view_actual_size=Meta+0
-view_zoom_in=Meta++; Meta+=
+view_zoom_in=Meta+=; Meta++
 view_zoom_out=Meta+-
 
 [mediacontrol][Global Shortcuts]
 mediavolumedown=
 mediavolumeup=
-nextmedia=Media Stop
+nextmedia=
 pausemedia=Media Pause
 playmedia=
 playpausemedia=Search
@@ -304,9 +290,6 @@ stopmedia=
 
 [org.kde.dolphin.desktop][Global Shortcuts]
 _launch=Meta+E
-
-[org.kde.kcalc.desktop][Global Shortcuts]
-_launch=
 
 [org.kde.konsole.desktop][Global Shortcuts]
 NewTab=
@@ -318,13 +301,13 @@ RunClipboard=Alt+Shift+F2
 _launch=Alt+Space
 
 [org.kde.kscreen.desktop][Global Shortcuts]
-ShowOSD=Display; Meta+P
+ShowOSD=Meta+P; Display
 
 [org.kde.plasma-systemmonitor.desktop][Global Shortcuts]
 _launch=Meta+Esc
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
-_launch=Meta+Ctrl+Alt+Shift+Space; Meta+.; Meta+Ş
+_launch=Meta+.; Meta+Ş; Meta+Ctrl+Alt+Shift+Space
 
 [org.kde.spectacle.desktop][Global Shortcuts]
 ActiveWindowScreenShot=Meta+Print
@@ -334,12 +317,9 @@ OpenWithoutScreenshot=
 RecordRegion=Meta+Shift+R; Meta+R
 RecordScreen=Meta+Alt+R
 RecordWindow=Meta+Ctrl+R
-RectangularRegionScreenShot=Ctrl+Print; Meta+Shift+Print
+RectangularRegionScreenShot=Meta+Shift+Print; Ctrl+Print
 WindowUnderCursorScreenShot=Meta+Ctrl+Print
 _launch=Meta+Shift+S
-
-[org.nickvision.cavalier.desktop][Global Shortcuts]
-_launch=Meta+X
 
 [org_kde_powerdevil][Global Shortcuts]
 Decrease Keyboard Brightness=Keyboard Brightness Down
@@ -368,7 +348,6 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
-activate widget 3=
 clear-history=
 clipboard_action=Meta+Ctrl+X
 cycle-panels=Meta+Alt+P
