@@ -49,6 +49,7 @@ items = [
 items = [
     "librewolf#gitlab.com.librewolf-community.browser.appimage.stable:pkgcache",
     "vlc-git#AM.x86_64.vlc-git.vlc-git:ivan-hc-am",
+    "pince-0.4.2:ivan-hc-am",
     "cromite#github.com.pkgforge-dev.Cromite-AppImage",
     "goverlay#github.com.benjamimgois.goverlay.stable",
     "waydroid-helper#github.com.ayasa520.waydroid-helper.stable:pkgcache",
@@ -113,6 +114,7 @@ items = [
     "flathub org.gnome.GHex",
     "flathub org.blender.Blender",
     "flathub rs.ruffle.Ruffle",
+    "flathub org.gimp.GIMP",
     "flathub org.synfig.SynfigStudio",
     "flathub com.github.libresprite.LibreSprite",
     "flathub org.kde.akregator",
@@ -127,6 +129,7 @@ items = [
     "flathub com.obsproject.Studio",
     "flathub org.kde.kdenlive",
     "flathub com.valvesoftware.Steam",
+    "flathub com.valvesoftware.Steam.Utility.steamtinkerlaunch",
     "flathub org.libretro.RetroArch",
     "flathub com.vysp3r.ProtonPlus",
     "flathub com.github.Matoking.protontricks",
@@ -161,7 +164,6 @@ items = [
     "flathub io.github.shiftey.Desktop",
     "flathub org.qbittorrent.qBittorrent",
     "flathub org.tenacityaudio.Tenacity",
-    "flathub-beta org.gimp.GIMP",
     "sober org.vinegarhq.Sober",
 ]
 
