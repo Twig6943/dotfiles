@@ -2,6 +2,10 @@ echo "Please update via CachyOS-hello first."
 
 read -n 1 -s
 
+echo "Please Switch your shell profile to bash."
+
+read -n 1 -s
+
 sleep 10
 
 #Install flatpak & disk util
