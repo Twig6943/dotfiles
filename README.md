@@ -24,6 +24,7 @@ Video editing: `Kdenlive`
 
 # Hood certified stuff 😎
 ```
+CachyOS
 EndeavourOS
 Nobara (Kinda)
 Debian
@@ -31,7 +32,6 @@ Debian
 
 # No no stuff 💩
 ```
-CachyOS
 ```
 
 # [IMPORTANT NOTES ❗](https://github.com/Twig6943/dotfiles/tree/main/Notes)
