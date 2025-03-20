@@ -26,7 +26,7 @@ makepkg -si
 
 #Bash profile fix
 sudo rm ~/.bashrc
-cd ~/.bashrc
+cd ~/
 wget https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/ShellProfiles/BASH/.bashrc
 
 #Install Soar
