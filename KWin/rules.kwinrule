@@ -50,11 +50,25 @@ wmclassmatch=1
 Description=MPV
 above=true
 aboverule=3
+desktopfile=mpv
+desktopfilerule=3
 desktops=\\0
 desktopsrule=3
-wmclass=mpv mpv
+wmclass=mpv
 wmclasscomplete=true
-wmclassmatch=1
+wmclassmatch=3
+
+[MPV (Native)]
+Description=MPV (Native)
+above=true
+aboverule=3
+desktopfile=mpv
+desktopfilerule=3
+desktops=\\0
+desktopsrule=3
+wmclass=mpv
+wmclasscomplete=true
+wmclassmatch=2
 
 [PiP (Chromium)]
 Description=PiP (Chromium)
