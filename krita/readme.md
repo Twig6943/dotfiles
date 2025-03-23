@@ -1,6 +1,6 @@
 # Colors
 
-Canvas bg: `#242424`
+Canvas border color: `#242424`
 
 Checkerboard 1: `#1E1E1E`
 
