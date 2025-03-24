@@ -19,7 +19,6 @@ items = [
     "distrobox",
     "lshw",
     "mangohud", #Remove once you learn how to use the flatpak pkg
-    "lib32-mangohud", #When not using WoW64 mode of wine (for 32bit win games)
     "gamemode",
     "gamescope",
     "kaccounts-providers",
@@ -35,7 +34,9 @@ items = [
     "htop",
 ]
 #Disabled pkgs
-
+#Wine (I don't want multilib enabled)
+#lib32-mangohud #When not using WoW64 mode of wine (for 32bit win games)
+    
 #Packages to be installed via YaY.
 [managers.yay]
 items = [
