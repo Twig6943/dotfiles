@@ -49,12 +49,13 @@ items = [
 [managers.soar]
 items = [
     "librewolf#gitlab.com.librewolf-community.browser.appimage.stable:pkgcache",
-    "vlc-git#AM.x86_64.vlc-git.vlc-git:ivan-hc-am",
     "pince#AM.x86_64.pince.pince:ivan-hc-am",
     "cromite#github.com.pkgforge-dev.Cromite-AppImage",
     "goverlay#github.com.benjamimgois.goverlay.stable",
     "waydroid-helper#github.com.ayasa520.waydroid-helper.stable:pkgcache",
 ]
+#Disabled pkgs
+#vlc-git#AM.x86_64.vlc-git.vlc-git:ivan-hc-am
 
 #Packages to be installed via Soar. (Profile 1)
 [managers.soar_profile1]
