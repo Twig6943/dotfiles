@@ -134,12 +134,9 @@ items = [
     "flathub org.libretro.RetroArch",
     "flathub com.vysp3r.ProtonPlus",
     "flathub com.github.Matoking.protontricks",
-    "flathub org.freedesktop.Platform.VulkanLayer.MangoHud//23.08",
-    "flathub org.freedesktop.Platform.VulkanLayer.MangoHud//24.08",
-    "flathub org.freedesktop.Platform.VulkanLayer.gamescope//23.08",
-    "flathub org.freedesktop.Platform.VulkanLayer.gamescope//24.08",
-    "flathub org.freedesktop.Platform.VulkanLayer.vkBasalt//23.08",
-    "flathub org.freedesktop.Platform.VulkanLayer.vkBasalt//24.08",
+    "flathub org.freedesktop.Platform.VulkanLayer.MangoHud",
+    "flathub org.freedesktop.Platform.VulkanLayer.gamescope",
+    "flathub org.freedesktop.Platform.VulkanLayer.vkBasalt",
 ]
 
 # Packages to be installed via Flatpak. (Extra mode)
