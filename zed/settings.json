@@ -13,5 +13,10 @@
     "mode": "system",
     "light": "One Light",
     "dark": "Ayu Dark"
+  },
+  "terminal": {
+    "toolbar": {
+      "breadcrumbs": false
+    }
   }
 }
