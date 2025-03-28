@@ -106,7 +106,7 @@ items = [
     "flathub dev.deedles.Trayscale",
     "flathub flathub com.github.ztefn.haguichi",
     "flathub net.lutris.Lutris",
-    "org.kde.konsole", #This is here to launch native games inside flatpak env
+    "flathub com.raggesilver.BlackBox", #This is here to launch native games inside flatpak env
     "flathub org.gnome.Boxes",
     "flathub io.github.giantpinkrobots.varia",
     "flathub com.google.Chrome", #Fortnite Browser
