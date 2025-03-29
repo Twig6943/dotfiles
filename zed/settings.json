@@ -8,8 +8,11 @@
   },
   "terminal": {
     "toolbar": {
-      "breadcrumbs": false
+      "breadcrumbs": false,
+      "shell": "system",
+      "dock": "bottom"
     }
   },
-  "restore_on_startup": "last_session"
+  "restore_on_startup": "last_session",
+  "quick_actions": false
 }
