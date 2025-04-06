@@ -32,6 +32,7 @@ Debian
 
 # No no stuff 💩
 ```
+WMS/Compositors
 ```
 
 # [IMPORTANT NOTES ❗](https://github.com/Twig6943/dotfiles/tree/main/Notes)
