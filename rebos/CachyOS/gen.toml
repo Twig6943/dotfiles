@@ -49,6 +49,7 @@ items = [
 [managers.soar]
 items = [
     "librewolf#gitlab.com.librewolf-community.browser.appimage.stable:pkgcache",
+    "rustdesk#github.com.rustdesk.rustdesk.stable:pkgcache",
     "pince#AM.x86_64.pince.pince:ivan-hc-am",
     "cromite#github.com.pkgforge-dev.Cromite-AppImage",
     "goverlay#github.com.benjamimgois.goverlay.stable",
@@ -120,7 +121,6 @@ items = [
     "flathub org.kde.kclock",
     "flathub io.gitlab.adhami3310.Impression",
     "flathub org.kde.filelight",
-    "flathub com.rustdesk.RustDesk",
     "flathub org.kde.krdc",
     "flathub org.libreoffice.LibreOffice",
     "flathub org.nickvision.tubeconverter",
