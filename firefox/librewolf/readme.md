@@ -18,9 +18,11 @@ Set up [user.js](https://github.com/Twig6943/dotfiles/blob/main/firefox/librewol
 
 [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
 
-[Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
+# Scripts
 
-[Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+[ViolentMonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
+
+[Twitter-web-exporter](https://github.com/prinsss/twitter-web-exporter)
 
 # Bookmarks
 
