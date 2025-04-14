@@ -34,6 +34,7 @@ items = [
     "htop",
 ]
 #Disabled pkgs
+#archlinux-xdg-menu
 #hyprland
 #hyprshot
 #hyprpaper
