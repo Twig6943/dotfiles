@@ -34,7 +34,12 @@ items = [
     "htop",
 ]
 #Disabled pkgs
-#Wine (I don't want multilib enabled)
+#hyprland
+#hyprshot
+#waybar
+#wofi
+#sway
+#wine (I don't want multilib enabled)
 #lib32-mangohud #When not using WoW64 mode of wine (for 32bit win games)
     
 #Packages to be installed via YaY.
