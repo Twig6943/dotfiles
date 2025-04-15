@@ -1,5 +1,5 @@
 daemonize
-image=/home/$USER/wallpapers/swaylock.png
+image=/usr/share/wallpapers/Custom/default_lock.png
 color=002b36
 inside-color=002b36
 inside-color=000000
