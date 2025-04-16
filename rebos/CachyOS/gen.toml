@@ -124,6 +124,8 @@ items = [
     "flathub org.blender.Blender",
     "flathub rs.ruffle.Ruffle",
     "flathub org.gimp.GIMP",
+    "flathub io.gitlab.theevilskeleton.Upscaler",
+    "flathub io.github.tntwise.REAL-Video-Enhancer",
     "flathub org.synfig.SynfigStudio",
     "flathub org.kde.akregator",
     "flathub org.kde.kclock",
