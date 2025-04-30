@@ -1,5 +1,5 @@
 #Notes;
-#This gen.toml is ready for a davincibox install
+#Remove cachyos-fish-config before importing this gen.toml
 
 #Software that does support wayland but needs a flag/etc;
 #Wine,LibreSprite,Spotify,Chromium
@@ -13,7 +13,6 @@ items = [
     "zip",
     "p7zip",
     "kio-admin",
-    "fastfetch",
     "flatpak-builder",
     "discover",
     "distrobox",
@@ -57,6 +56,7 @@ items = [
 [managers.soar]
 items = [
     "librewolf#gitlab.com.librewolf-community.browser.appimage.stable:pkgcache",
+    "fastfetch#sharun.wrappe.stable.fastfetch:pkgcache",
     "rustdesk#github.com.rustdesk.rustdesk.stable:pkgcache",
     "pince#AM.x86_64.pince.pince:ivan-hc-am",
     "cromite#github.com.pkgforge-dev.Cromite-AppImage",
