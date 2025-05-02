@@ -118,6 +118,7 @@ items = [
     "flathub com.google.Chrome", #Fortnite Browser
     "flathub im.nheko.Nheko",
     "flathub im.riot.Riot",
+    "flathub org.signal.Signal",
     "flathub dev.vencord.Vesktop",
     "flathub io.github.flattool.Warehouse",
     "flathub org.gnome.GHex",
