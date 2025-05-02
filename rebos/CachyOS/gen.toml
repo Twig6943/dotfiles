@@ -69,7 +69,6 @@ items = [
 #Packages to be installed via Soar. (Profile 1)
 [managers.soar_profile1]
 items = [
-    "funkin#AM.x86_64.funkin-legacy.funkin:ivan-hc-am", #Using soar pkg cuz of wayland support",
     "ultimmc#wrappe.ultimmc:pkgcache",
 ]
 
@@ -175,6 +174,7 @@ items = [
 # Packages to be installed as .flatpak files.
 #[managers.flatpak_file]
 #items = [
+    #"github.com/Pucas01/FunkinFlatpak",
     #"github.com/fn2006/PollyMC",
     #"gitgud.io/Twig6943/resolve-flatpak",
 #]
