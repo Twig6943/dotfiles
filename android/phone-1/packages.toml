@@ -44,6 +44,7 @@ F-Droid = [
 ]
 #Disabled pkgs;
 
+#ObtaniumDB; https://apps.obtanium.imranr.dev
 Obtanium = [
  "github.com/bluesky-social/social-app",
  "github.com/flixclusiveorg/Flixclusive",
