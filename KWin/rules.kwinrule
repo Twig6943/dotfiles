@@ -97,3 +97,15 @@ title=Picture-in-Picture
 titlematch=1
 wmclass=PiP (Firefox)
 wmclasscomplete=true
+
+[VLC]
+Description=VLC
+above=true
+aboverule=3
+desktopfile=vlc
+desktopfilerule=3
+desktops=\\0
+desktopsrule=3
+wmclass=vlc vlc
+wmclasscomplete=true
+wmclassmatch=3
