@@ -1,0 +1,5 @@
+[Environment]
+ELECTRON_OZONE_PLATFORM_HINT=auto
+
+[Context]
+filesystems=home;host-etc;host-os;host
