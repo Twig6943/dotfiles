@@ -17,5 +17,12 @@
   "toolbar": {
     "breadcrumbs": false,
     "quick_actions": false
+  },
+  "features": {
+    "edit_prediction_provider": "none"
+  },
+  "assistant": {
+    "enabled": false,
+    "version": "2"
   }
 }
