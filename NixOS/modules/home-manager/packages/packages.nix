@@ -73,12 +73,8 @@
         kdePackages.ark
         kdePackages.kalk #Calculator
         kdePackages.spectacle
-        bottom
         pulseaudioFull
         aria
-        jp2a
-        deskreen
-        nixpkgs-fmt
         p7zip
         wl-clipboard
         grim
