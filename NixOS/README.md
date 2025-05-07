@@ -1,3 +1,4 @@
+# I probably won't ever use this due to not being able to install flatpaks to different drives through nixos's implementation (rebos, despite being made by a 17 year old handles this flawlessly) (There might be some weird workaround that I don't know of but for now yea that's the situation.)
 
 # Directory structure
 
