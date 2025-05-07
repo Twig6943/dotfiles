@@ -1,3 +1,5 @@
+# This is mostly to learn NixOS see below ⬇️
+
 # I probably won't ever use this due to not being able to install flatpaks/appimages to different drives through nixos's implementation (Turns out nobody was interested to write a module that does this)
 
 # Directory structure
