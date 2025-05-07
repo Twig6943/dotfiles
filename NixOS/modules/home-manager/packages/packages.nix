@@ -31,6 +31,7 @@
         inputs.nix-gaming.packages.${pkgs.system}.mo2installer
 
         # Over
+        librewolf-bin
         wget
         wlr-randr
         thefuck
@@ -117,24 +118,15 @@
       }
     ];
     packages = [
-      "io.github.sigmasd.stimulator"
-      "org.vinegarhq.Sober"
-      "com.modrinth.ModrinthApp"
-      "net.shadps4.shadPS4"
-      "org.kde.kdenlive"
-      "com.google.AndroidStudio"
-      "io.github.everestapi.Olympus"
-      "com.github.Rosalie241.RMG"
-      "com.github.tchx84.Flatseal"
-      "com.steamgriddb.SGDBoop"
-      "io.mrarm.mcpelauncher"
-      "camp.nook.nookdesktop"
-      "com.fightcade.Fightcade"
-      "io.itch.itch"
-      "io.github.lime3ds.Lime3DS"
-      "io.github.Soundux"
-      "gg.guilded.Guilded"
-      "net.audiorelay.AudioRelay"
+      "dev.zed.Zed"
+      "org.ghidra_sre.Ghidra"
+      "com.spotify.Client"
+      "org.strawberrymusicplayer.strawberry"
+      "net.lutris.Lutris"
+      "org.qbittorrent.qBittorrent"
+      "io.mpv.Mpv"
+      "org.gnome.Boxes"
+      "im.riot.Riot"
       "org.kde.Platform"
       "org.freedesktop.Platform"
       "org.freedesktop.Sdk/x86_64/23.08"
