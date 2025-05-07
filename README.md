@@ -1,40 +1,17 @@
-# Peak Combination 👑 (Super Skibidi 🚽)
+## Directory structure
 
-OS: `EndeavourOS`
-
-Display Server: `Wayland`
-
-DE: `KDE`
-
-PKG Manager: `Flatpak/Soar`
-
-File system: `BTRFS`
-
-Game Launcher: `Lutris`
-
-Bootloader: `SystemD`
-
-Communication: `Nheko/Dino`
-
-Browser: `Librewolf w user.js/Cromite w ad filters`
-
-Video Player: `Mpv`
-
-Video editing: `Kdenlive`
-
-# Hood certified stuff 😎
 ```
-CachyOS
-EndeavourOS
-Nobara (Kinda)
-Debian
+├──modules/core/gui/steam.nix    (gamescope workaround)
+├──modules/home-manager/gui/flameshot.nix      (flameshot wayland fix)
+├──modules/home-manager/gui/vesktop.nix        (vesktop override)
+├──modules/home-manager/packages/packages.nix   (packages module)
+└──modules/home-manager/packages/pkgcustom/     (pkgcustom)
 ```
 
-# No no stuff 💩
-```
-WMS/Compositors
-```
+## Plans
+
+- [ ] Placeholder
 
 # [IMPORTANT NOTES ❗](https://github.com/Twig6943/dotfiles/tree/main/Notes)
 
-<img src="https://assets.mycast.io/actor_images/actor-man-batman-arkham-977281_small.jpg" width="400"/>
+<img src="https://i.kym-cdn.com/entries/icons/original/000/053/420/Bombardiro_crocodilo_cover.jpg" width="400"/>
