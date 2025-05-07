@@ -31,13 +31,7 @@ it.
 
 # How 2 Install?
 
-```console
-sudo nix --extra-experimental-features 'nix-command flakes' run github:nix-community/disko -- --mode zap_create_mount --flake github:raidenovich/OuterHeaven
-```
-
-(Or preferably use the minimal install, which has the same disko file anyways)
-
-Secondly, run the `nixos-install` command.
+Run the `nixos-install` command.
 
 ```console
 sudo nixos-install --flake github:twig6943/OuterHeaven
