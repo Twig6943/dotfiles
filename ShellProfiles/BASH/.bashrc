@@ -5,8 +5,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+alias pwfix='faillock --reset'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+
 PS1='[\u@\h \w]\$ '
 PATH="$HOME/.local/share/soar/bin:$PATH"
 
