@@ -14,4 +14,10 @@
 
 # [IMPORTANT NOTES ❗](https://github.com/Twig6943/dotfiles/tree/main/Notes)
 
+# Screenshare fix
+
+```
+systemctl --user restart xdg-desktop-portal
+```
+
 <img src="https://i.kym-cdn.com/entries/icons/original/000/053/420/Bombardiro_crocodilo_cover.jpg" width="400"/>
