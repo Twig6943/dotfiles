@@ -104,6 +104,7 @@ items = [
 items = [
     "flathub dev.zed.Zed",
     "flathub org.ghidra_sre.Ghidra",
+    "flathub org.filezillaproject.Filezilla",
     "flathub com.github.KRTirtho.Spotube",
     "flathub com.spotify.Client",
     "flathub org.strawberrymusicplayer.strawberry",
