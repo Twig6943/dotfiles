@@ -34,7 +34,7 @@ it.
 Run the `nixos-install` command.
 
 ```console
-sudo nixos-install --flake github:twig6943/OuterHeaven
+sudo nixos-install --flake github:twig6943/dotfiles/NixOS/
 ```
 
 My personal advice is to clone the git repo and not remotely build as sometimes
