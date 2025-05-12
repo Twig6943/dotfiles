@@ -30,7 +30,7 @@ items = [
     "winetricks",
     "kdialog",
     "zenity",
-    "htop",
+    "btop",
 ]
 #Disabled pkgs
 #archlinux-xdg-menu
