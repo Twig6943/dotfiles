@@ -1,11 +1,10 @@
 ## Directory structure
 
 ```
-├──modules/core/gui/steam.nix    (gamescope workaround)
-├──modules/home-manager/gui/flameshot.nix      (flameshot wayland fix)
-├──modules/home-manager/gui/vesktop.nix        (vesktop override)
-├──modules/home-manager/packages/packages.nix   (packages module)
-└──modules/home-manager/packages/pkgcustom/     (pkgcustom)
+┌──/InstallScripts Install scripts
+├──/Rebos/ Rebos configurations
+├──/NixOS/ NixOS configurations
+└──/Notes/ Important notes
 ```
 
 ## Plans
