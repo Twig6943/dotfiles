@@ -22,7 +22,7 @@
 systemctl --user restart xdg-desktop-portal
 ```
 
-### Sudo password messing up fix
+### Sudo password fix
 ```
 faillock --reset
 ```
