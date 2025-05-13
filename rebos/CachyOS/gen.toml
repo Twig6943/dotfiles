@@ -176,7 +176,8 @@ items = [
 # Packages to be installed as .flatpak files.
 #[managers.flatpak_file]
 #items = [
-    #"github.com/Pucas01/FunkinFlatpak",
-    #"github.com/fn2006/PollyMC",
+    #"github.com/3ster/ida-freeware-flatpak"
     #"gitgud.io/Twig6943/resolve-flatpak",
+    #"github.com/fn2006/PollyMC",
+    #"github.com/Pucas01/FunkinFlatpak",
 #]
