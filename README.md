@@ -7,7 +7,7 @@
 └──/Notes/ Important notes
 ```
 
-## Plans
+## Plans 🗺️
 
 - [ ] Placeholder
 
