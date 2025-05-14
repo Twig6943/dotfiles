@@ -101,10 +101,8 @@
         #   };
         # })
 
-        # Custom packages
-        # (callPackage ./pkgcustom/roblox-fd {})
       ];
-      else
+      else;
       []
 
   # List of nix packages end here
