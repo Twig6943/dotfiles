@@ -1,10 +1,5 @@
-{
-  pkgs,
-  hostname,
-  config,
-  lib,
-  ...
-}:
+{ pkgs, hostname, config, lib, ... }:
+
 {
   boot = {
     initrd.verbose = false;
@@ -13,18 +8,22 @@
       "split_lock_detect=off"
       "quiet"
     ];
-    # kernelParams = [ ];
-    extraModulePackages =
+
+    extraModulePackages = 
       with config.boot.kernelPackages;
-      (lib.lists.optionals (hostname == "NixSlayer") [
+      lib.lists.optionals (hostname == "NixSlayer") [
         xpadneo
         usbip
-      ]);
+      ];
+
     kernelPackages =
-      if (hostname == "NixSlayer") then
-      else if (hostname == "jd") then
+      if hostname == "NixSlayer" then
+        pkgs.linuxPackages_latest
+      else if hostname == "jd" then
+        pkgs.linuxPackages_hardened
       else
         pkgs.linuxPackages;
+
     supportedFilesystems = [
       "ntfs"
       "ext4"
@@ -34,5 +33,6 @@
       "udev"
     ];
   };
+
   hardware.uinput.enable = true;
 }
