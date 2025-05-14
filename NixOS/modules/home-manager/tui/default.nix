@@ -1,6 +1,6 @@
 {
   imports = [
-    ./neovim.nix
+    # ./neovim.nix
     # ./nushell.nix
     ./pdiary.nix
     ./vinegar.nix
