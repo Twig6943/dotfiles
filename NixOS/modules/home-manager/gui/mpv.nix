@@ -3,7 +3,7 @@
   programs.mpv = {
     enable = true;
     package = pkgs.mpv;
-    scripts = with pkgs.mpvScripts; []
+    scripts = with pkgs.mpvScripts; [];
     scriptOpts = {
       webtorrent = {
         path = "/tmp";
