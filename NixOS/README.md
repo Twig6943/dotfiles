@@ -29,6 +29,10 @@ The general philosophy is this configuration is simplicity and modularity.
 Mostly so people I tell about NixOS can look at my configuration and understand
 it.
 
+### Warning ⚠️
+
+I know this is typical NixOS stuff but either name the machine to `NixSlayer` and your user to `twig` or replace them yourself.
+
 # How 2 Install?
 
 Clone the repository (Either by downloading an archive through a browser or by adding `git` to your `/etc/nixos/configuration.nix` file.)
