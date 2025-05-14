@@ -44,8 +44,8 @@ cd dotfiles/NixOS
 
 Run the `nixos-install` command.
 
-```console
-sudo nixos-install --flake github:twig6943/dotfiles/NixOS/
+```
+sudo nixos-install --flake .#
 ```
 
 My personal advice is to clone the git repo and not remotely build as sometimes
