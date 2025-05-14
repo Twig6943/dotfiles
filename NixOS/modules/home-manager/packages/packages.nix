@@ -9,101 +9,82 @@
   # Define your packages here and everything related.
   imports = [ inputs.nix-flatpak.homeManagerModules.nix-flatpak ];
 
-  home.packages =
-    with pkgs;
-    if (hostname == "NixSlayer") then
-      [
-        # Define packages that derive from inputs
+  home.packages = with pkgs;
+  if (hostname == "NixSlayer") then
+    [
 
-        inputs.nh.packages.${pkgs.system}.default
-        # inputs.nixpkgs-stable.legacyPackages.${pkgs.system}.mysql-workbench
-        inputs.nixpkgs-stable.legacyPackages.${pkgs.system}.gimp-with-plugins
-        # inputs.nixpkgs-stable.legacyPackages.${pkgs.system}.itch
-        inputs.nixpkgs-stable.legacyPackages.${pkgs.system}.handbrake
-        inputs.nixpkgs-stable.legacyPackages.${pkgs.system}.valent
-        # inputs.nix-alien.packages.${pkgs.system}.nix-alien
-        inputs.anyrun.packages.${pkgs.system}.stdin
-        inputs.nixpkgs-stable.legacyPackages.${pkgs.system}.bottles
-        # inputs.nixpkgs-stable.legacyPackages.${pkgs.system}.nwg-dock-hyprland
-        # inputs.hyprswitch.packages.${pkgs.system}.hyprswitch
-        inputs.quickshell.packages.${pkgs.system}.default
-        inputs.nix-gaming.packages.${pkgs.system}.viper
-        inputs.nix-gaming.packages.${pkgs.system}.mo2installer
+      # Over
+      librewolf-bin
+      wget
+      wlr-randr
+      thefuck
+      btop
+      killall
+      appimage-run
+      gamemode
+      pavucontrol
+      nix-init
+      waydroid
+      ffmpeg
+      vulkan-tools
+      fastfetch
+      scrcpy
+      python3Full
+      gnupg
+      wlprop
+      # mate.mate-polkit;
+      distrobox
+      unzip
+      qgnomeplatform-qt6
+      qgnomeplatform
+      gparted
+      gnome-clocks
+      gnome-sound-recorder
+      wev
+      docker
+      speedtest-cli
+      gnome-calendar
+      wireguard-tools
+      android-tools
+      gpu-screen-recorder
+      nix-update
+      firewalld-gui
+      wine-staging
+      nmap
+      ntfs3g
+      amdgpu_top
+      qt6.qtdeclarative
+      kdePackages.ark
+      kdePackages.kalk # Calculator
+      kdePackages.spectacle
+      pulseaudioFull
+      aria
+      p7zip
+      wl-clipboard
+      grim
+      mangohud
+      # resources
+      # clipboard-jh;
+      # (pkgs.appimageTools.wrapType2 { # or wrapType1
+      #   name = "suyu";
+      #   src = fetchurl {
+      #     url = "https://git.suyu.dev/suyu/suyu/releases/download/v0.0.3/Suyu-Linux_x86_64.AppImage";
+      #     hash = "sha256-26sWhTvB6K1i/K3fmwYg5pDIUi+7xs3dz8yVj5q7H0c=";
+      #   };
+      # })
 
-        # Over
-        librewolf-bin
-        wget
-        wlr-randr
-        thefuck
-        htop
-        killall
-        appimage-run
-        gamemode
-        pavucontrol
-        nix-init
-        waydroid
-        ffmpeg
-        vulkan-tools
-        fastfetch
-        scrcpy
-        python3Full
-        gnupg
-        wlprop
-        #mate.mate-polkit
-        distrobox
-        unzip
-        qgnomeplatform-qt6
-        qgnomeplatform
-        gparted
-        gnome-clocks
-        gnome-sound-recorder
-        wev
-        docker
-        speedtest-cli
-        gnome-calendar
-        wireguard-tools
-        android-tools
-        gpu-screen-recorder
-        nix-update
-        firewalld-gui
-        wine-staging
-        nmap
-        ntfs3g
-        amdgpu_top
-        qt6.qtdeclarative
-        kdePackages.ark
-        kdePackages.kalk #Calculator
-        kdePackages.spectacle
-        pulseaudioFull
-        aria
-        p7zip
-        wl-clipboard
-        grim
-        mangohud
-        # resources
-        # clipboard-jh
-        # (pkgs.appimageTools.wrapType2 { # or wrapType1
-        #   name = "suyu";
-        #   src = fetchurl {
-        #     url = "https://git.suyu.dev/suyu/suyu/releases/download/v0.0.3/Suyu-Linux_x86_64.AppImage";
-        #     hash = "sha256-26sWhTvB6K1i/K3fmwYg5pDIUi+7xs3dz8yVj5q7H0c=";
-        #   };
-        # })
-
-        # Override Template
-
-        # (pkgs.<package>.overrideAttrs {
-        #   src = pkgs.fetchFromGitHub {
-        #     owner = "";
-        #     repo = "";
-        #     rev = "";
-        #     sha256 = "";
-        #   };
-        # })
-
-      ];
-      else
-      []
+      # Override Template
+      # (pkgs.<package>.overrideAttrs {
+      #   src = pkgs.fetchFromGitHub {
+      #     owner = "";
+      #     repo = "";
+      #     rev = "";
+      #     sha256 = "";
+      #   };
+      # })
+    ]
+  else []
+;
 
   # List of nix packages end here
   services.flatpak = {
