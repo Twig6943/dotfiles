@@ -37,18 +37,20 @@ I know this is typical NixOS stuff but either name the machine to `NixSlayer` an
 
 Clone the repository (Either by downloading an archive through a browser or by adding `git` to your `/etc/nixos/configuration.nix` file.)
 
-```
+```console
 git clone https://github.com/twig6943/dotfiles.git
 cd dotfiles/NixOS
 ```
 
 # Run the flake 
 
-`sudo nix --extra-experimental-features 'nix-command flakes' run .#`
+```console
+sudo nix --extra-experimental-features 'nix-command flakes' run .#
+```
 
 Run the `nixos-install` command.
 
-```
+```console
 sudo nixos-install --flake .#
 ```
 
