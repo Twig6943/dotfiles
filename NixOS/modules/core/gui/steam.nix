@@ -1,6 +1,6 @@
 { inputs, pkgs, ... }:
 {
-  imports = [ inputs.nix-gaming.nixosModules.platformOptimizations ];
+  imports = [];
   programs = {
     steam = {
       enable = true;
