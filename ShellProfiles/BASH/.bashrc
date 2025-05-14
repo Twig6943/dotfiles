@@ -13,4 +13,5 @@ PS1='[\u@\h \w]\$ '
 PATH="$HOME/.local/share/soar/bin:$PATH"
 
 export GDK_BACKEND=wayland,x11
+export GTK_THEME=Breeze:dark
 export PATH="$HOME/.local/share/soar/bin:$PATH"
