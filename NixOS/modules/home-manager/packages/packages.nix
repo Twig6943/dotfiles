@@ -102,7 +102,7 @@
         # })
 
       ];
-      else;
+      else
       []
 
   # List of nix packages end here
