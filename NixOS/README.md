@@ -45,7 +45,7 @@ cd dotfiles/NixOS
 # Run the flake 
 
 ```console
-sudo nix --extra-experimental-features 'nix-command flakes' run .#
+sudo nixos-rebuild switch --flake /home/$USER/dotfiles/NixOS#NixSlayer
 ```
 
 Run the `nixos-install` command.
