@@ -1,6 +1,6 @@
 { pkgs, inputs, ... }:
 {
-  imports = [ inputs.nix-gaming.nixosModules.pipewireLowLatency ];
+  imports = [];
   # sound.enable = true;
   services.pulseaudio.enable = false;
   security.rtkit.enable = true;
