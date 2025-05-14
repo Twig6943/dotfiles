@@ -47,7 +47,6 @@
           modules = [
             ./machines/NixSlayer
             ./modules
-            ./secrets
           ];
         };
       };
