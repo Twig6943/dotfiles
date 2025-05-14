@@ -29,7 +29,7 @@
   # External drives
 
 
-# Add disks here
+# Add disks and stuff like that here
 #  fileSystems."/" = {
 #    device = "/dev/disk/by-uuid/bd44ffbb-b994-4b47-b5a2-eea71704cfbf";
 #    fsType = "ext4";
