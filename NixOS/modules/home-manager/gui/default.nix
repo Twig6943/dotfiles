@@ -2,7 +2,6 @@
   imports = [
     # ./anyrun.nix
     ./browser
-    ./discord.nix
     ./gzdoom.nix
     ./kde-conf.nix
     ./kitty.nix
