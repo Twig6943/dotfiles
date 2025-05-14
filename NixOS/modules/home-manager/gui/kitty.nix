@@ -1,7 +1,6 @@
 {
   programs.kitty = {
     enable = true;
-    theme = "";
     font = {
       name = "Iosevka Nerd Font";
       size = 13;
