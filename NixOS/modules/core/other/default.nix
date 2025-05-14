@@ -12,5 +12,5 @@
     ./locales.nix
     ./users.nix
     # ./byedpi
-  ]
+  ];
 }
