@@ -1,6 +1,6 @@
 # This is mostly to learn NixOS see below ⬇️
 
-# I probably won't ever use this due to not being able to install flatpaks/appimages to different drives through nixos's implementation (Turns out nobody was interested to write a module that does this)
+# I probably won't ever use this due to not being able to install flatpaks/appimages to different drives through nixos's implementation (declaratively) (Turns out nobody was interested to write a module that does this)
 
 # Directory structure
 
@@ -30,6 +30,17 @@ Mostly so people I tell about NixOS can look at my configuration and understand
 it.
 
 # How 2 Install?
+
+Clone the repository (Either by downloading an archive through a browser or by adding `git` to your `/etc/nixos/configuration.nix` file.)
+
+```
+git clone https://github.com/twig6943/dotfiles.git
+cd dotfiles/NixOS
+```
+
+# Run the flake 
+
+`sudo nix --extra-experimental-features 'nix-command flakes' run .#`
 
 Run the `nixos-install` command.
 
