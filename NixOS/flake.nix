@@ -48,7 +48,6 @@
             ./machines/NixSlayer
             ./modules
             ./secrets
-            })
           ];
         };
       };
