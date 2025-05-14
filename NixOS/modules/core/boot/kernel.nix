@@ -21,17 +21,14 @@
         usbip
       ]);
     kernelPackages =
-      if (hostname == "Tanker") then
-        pkgs.linuxPackages_jovian
+      if (hostname == "NixSlayer") then
       else if (hostname == "jd") then
-        pkgs.linuxPackages_hardened
       else
         pkgs.linuxPackages;
     supportedFilesystems = [
       "ntfs"
       "ext4"
       "btrfs"
-      "zfs"
     ];
     kernelModules = [
       "udev"
