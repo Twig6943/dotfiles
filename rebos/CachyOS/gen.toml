@@ -106,6 +106,7 @@ items = [
     "flathub org.ghidra_sre.Ghidra",
     "flathub re.rizin.cutter",
     "flathub re.rizin.cutter.plugin.rz-ghidra",
+    "flathub org.kde.kalk",
     "flathub org.filezillaproject.Filezilla",
     "flathub com.github.KRTirtho.Spotube",
     "flathub com.spotify.Client",
