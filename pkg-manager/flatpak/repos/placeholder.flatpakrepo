@@ -1,0 +1,10 @@
+[Flatpak Repo]
+Name=Placeholder
+Url=https://placeholder.com/repo/
+Description=This is the placeholder app repository.
+Branches=stable
+Homepage=https://placeholder.com
+Icon=https://placeholder.com/placeholder.com.svg
+RuntimeRepo=https://placeholder.com/repo/flathub.flatpakrepo
+IsRuntime=false
+GPGKey=Placeholder
