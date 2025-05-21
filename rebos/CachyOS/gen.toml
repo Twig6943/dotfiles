@@ -31,6 +31,7 @@ items = [
     "kdialog",
     "zenity",
     "btop",
+    "htop",
 ]
 #Disabled pkgs
 #archlinux-xdg-menu
