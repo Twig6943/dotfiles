@@ -138,6 +138,7 @@ items = [
     "flathub org.kde.filelight",
     "flathub org.kde.krdc",
     "flathub org.libreoffice.LibreOffice",
+    "flathub org.kde.okular",
     "flathub org.nickvision.tubeconverter",
     "flathub com.obsproject.Studio",
     "flathub org.kde.kdenlive",
