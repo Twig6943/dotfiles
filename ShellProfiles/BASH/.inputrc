@@ -1,1 +1,11 @@
+# Stuff
+
+# Ctrl+v ~200 fix
 set enable-bracketed-paste off
+
+# Ctrl+Backspace fix
+"\C-H":"\C-W"
+
+# Disabled
+#"\e[A": history-search-backward
+#"\e[B": history-search-forward
