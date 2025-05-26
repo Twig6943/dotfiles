@@ -11,6 +11,7 @@
 [managers.system]
 items = [
     "zip",
+    "micro",
     "p7zip",
     "kio-admin",
     "flatpak-builder",
