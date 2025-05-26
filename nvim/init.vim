@@ -25,8 +25,10 @@ inoremap jk <Esc>
 " Nano style Ctrl+x
 function! NanoStyleExit()
   if &modified
-    let answer = input("Save modified buffer? (y/n) ")
-    if answer =~? '^y'
+    echo "Save modified buffer? (y/n) "
+    let c = nr2char(getchar())
+
+    if c =~? 'y'
       if expand('%') == ''
         let fname = input("Save as: ")
         if fname == ''
@@ -38,7 +40,7 @@ function! NanoStyleExit()
         write
       endif
       quit
-    elseif answer =~? '^n'
+    elseif c =~? 'n'
       quit!
     else
       echo "Exit aborted."
