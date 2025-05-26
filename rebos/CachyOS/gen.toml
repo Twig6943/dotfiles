@@ -116,6 +116,7 @@ items = [
     "flathub website.i2pd.i2pd",
     "flathub dev.deedles.Trayscale",
     "flathub flathub com.github.ztefn.haguichi",
+    "flathub io.github.radiolamp.mangojuice",
     "flathub net.lutris.Lutris",
     "flathub com.raggesilver.BlackBox", #This is here to launch native games inside flatpak env
     "flathub org.gnome.Boxes",
