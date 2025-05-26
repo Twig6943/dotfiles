@@ -50,5 +50,8 @@ function! NanoStyleExit()
   endif
 endfunction
 
+" Arrow keys to select
+set keymodel=startsel
+
 nnoremap <C-x> :call NanoStyleExit()<CR>
 inoremap <C-x> <Esc>:call NanoStyleExit()<CR>
