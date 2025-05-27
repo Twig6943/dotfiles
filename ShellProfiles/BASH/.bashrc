@@ -12,6 +12,16 @@ export VISUAL=nano
 export GDK_BACKEND=wayland,x11
 export GTK_THEME=Breeze:dark
 
+# Aliases
+alias pwfix='faillock --reset'
+alias bash_conf_reload='source ~/.bashrc'
+alias ls='ls --color=auto'
+alias nano='nano --line'
+alias grep='grep --color=auto'
+
+# Search files in the current folder
+alias f="find . | grep "
+
 # Archives
 alias mktar='tar -cvf'
 alias mkbz2='tar -cvjf'
@@ -49,15 +59,6 @@ extract () {
 force_color_prompt=yes
 
 [[ $- != *i* ]] && return
-
-# Aliases
-alias pwfix='faillock --reset'
-alias bash_conf_reload='source ~/.bashrc'
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-
-# Search files in the current folder
-alias f="find . | grep "
 
 # Colors
 LIGHTGRAY="\033[0;37m"
