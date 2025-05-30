@@ -139,7 +139,7 @@ items = [
     "flathub io.gitlab.theevilskeleton.Upscaler",
     "flathub io.github.tntwise.REAL-Video-Enhancer",
     "flathub org.synfig.SynfigStudio",
-    "flathub org.kde.akregator",
+    "flathub io.github.martinrotter.rssguard",
     "flathub org.kde.kclock",
     "flathub io.gitlab.adhami3310.Impression",
     "flathub org.kde.filelight",
