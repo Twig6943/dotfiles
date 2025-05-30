@@ -1,0 +1,248 @@
+[adblock]
+custom_filters=
+enabled=false
+filter_lists=https://secure.fanboy.co.nz/easylist.txt, https://secure.fanboy.co.nz/easyprivacy.txt, https://secure.fanboy.co.nz/fanboy-social.txt
+
+[categories_expand_states]
+1-16--1=true
+1-8-1=false
+1-8-10=false
+1-8-11=true
+1-8-12=true
+1-8-13=false
+1-8-14=false
+1-8-15=true
+1-8-16=true
+1-8-17=false
+1-8-18=true
+1-8-19=false
+1-8-2=true
+1-8-20=true
+1-8-21=true
+1-8-22=false
+1-8-23=true
+1-8-24=false
+1-8-25=true
+1-8-26=false
+1-8-27=false
+1-8-28=false
+1-8-29=true
+1-8-3=true
+1-8-30=true
+1-8-31=true
+1-8-32=true
+1-8-33=true
+1-8-34=true
+1-8-35=true
+1-8-36=true
+1-8-37=true
+1-8-38=true
+1-8-39=true
+1-8-4=false
+1-8-40=true
+1-8-41=true
+1-8-42=true
+1-8-43=true
+1-8-44=true
+1-8-45=true
+1-8-46=true
+1-8-47=true
+1-8-48=true
+1-8-5=false
+1-8-6=false
+1-8-7=false
+1-8-8=false
+1-8-9=false
+
+[cookies]
+1-024adf8bfe91afa4819544d01b0fc97d=AwXuX+Ue2GsQ4WLvNHK5Mu4W5XEK+9c780OgnswsNZheLJDGTmMcAEowhsRESHYz5a+x8gzKky+1NGz1liewAt8JI/S1Wbt9vkD3JIkgORxN4U+po0qM+RhhZuJ+JjfTgamZ663LLGVim1nDjInWzP40GT4TU49pSitJnpn+i+ITRGq76ZOgkOW9GcGot2QmsCh7
+10-AWSALBCORS="AwWrLIRXNP43h4tSigo0TOyJ9JtDijnVHa3v0YNjdNljUf27Mx5hae9yyJY65QzgqlDZ2JC8HvG1IGxq5uiw81QTOTEv+lFqme96yQmJ+Q1na2axLPsB0QnO/kPUX3X8sYSGnpLaN+rW/eQTFSKUUShuD5exLTAXgkaZlXZTfWbQyw0k9QEguVLQUC78C4PKyLcVMkuCnQEocjOIKHuZjHpPiDwoN1losRoK4DrUtxqAODKEC0XE98LlxKYxBJzzunVplifBRJ8U18+IRIIWrLQABwLgjjX2NFoXI8eNkjy+FUHlPIKvTO28ZhA="
+11-_octo=AwVMBx7+P9eu4rFp+RlXepBZeNVP/nCcVOQUKniYiifh0m44sJ3i4ikNf1fJTrsLqDd1Sa7Tkbe+bOC1wFAbbvFP5hty3uTHhy+lbkRBu8rUtjsnd/jwVyuLmOv2o8pd3GEN5nNjarTOf0VdZa/7dsIozG0gahWq/RliWYNPsErUO8DxgGz2I/Wa
+12-FTR_Country_Code="AwVU18lFwjJW8pBLDB6/ZPdu4OwyA6hEjDyUqvhmvVga3Y/mo2Wc2hZ0wS4Q3E13tSxJtrfDajCC164N/xcOC0pDdnWHo4rfwXviLYB0EgTMjmw4Pg=="
+13-FTR_Cache_Status=AwUZ7ribsaOducjOUIRRZ2dTyXlcDCPPB7doVgSaQaTmIfP5vxpHpEK7C2TBmr+jZwaX3yY/nqcaXMmCBJhFG4V9KKFkRVkGG4AzWgXDW/l+AtO44kRaeQTiVlj82LiBTv6dsixq
+14-logged_in="AwVVhdD2EkiTK0LepHulHn+4O5Q4u2qGTv4DPW+Pkz78zHAmroP8/DdNnfnZ8UrTkgxNyCzwgTk9Lc/WrcApeYCENaVkbq9td7AIymMry561QHwdTeivr8W4ZBZnIiycJMXatOeA5y5hr6/4RtSuvRVjWeI0QGatJ8cy465Er8odzg=="
+15-_cfuvid=AwWso3M0SX6Vu17h8Rvstw21TX0zSPoW3m5wThzk9UiOvABGzvOIFN1lrbv14FrfubD61vWnEb3zSORnXWsMPk1XMIq0A5WmnUj2BTImGEa1VB+siy5qUH9FtJ5bx8KCdQLYCWSIyhr5YRpwNQv/kkKTSx0U9UKrnT7CtlSn+hYFrbZNuin8wMnMhounhzUfz+95cXk1aIv6sC0QZ6Ll
+16-Session-Id="AwVnoZBYgfQHqvYtKWsieYrrGZDj2f0R2WmPseMDH7p8DrLgaFUuPvUNlECCPC5A0MceLcRcwwPiFpMXDzoxNsW1kj8rq4uPdc5nmfDk/PuNGGe0aRu8P4RsVIbJqjkDZE7mJ9wYOTPEX8R/eqGYWLZV/vhLgrnXNyGQxpIcGuUrPNF1zSdQEM8y4gWJu9PAGfxRdQbopDrVaw=="
+17-NID="AwUiICwyGqboWw6KAI8qKHjVkAvqfxj0PI0zDV+3ppclF6vtZVjf0hvtWoeivZ7UWI2l9wAnTUjDB31poY/tPAl3MhdYg949zkIVU90fY5ctM1GFOjrlFCMRBoew74t8JOv/Ar62glYQRITej0AHMvi7gZdqz0I6eaEtZmmnuVBdyoG4ooy0rALkN4bz18pYS/qle8yuxXCK9Uup6A539fTGqi1tdh8uu/+pZOTEG1pguGAQG6xy7TSgtZ8K9MuR0guSrZTgGQoUAS1n8KnzGFFxQ8kaBVwYmwbqg/LPiHJKT4VCohHXE5x5ErHkh85cl+F337Jclikiljkc+Yw3qGVpGpgSesZzlsoffJGp7RL0n4oih8qC0MKd/j9d0BQ="
+18-PREF="AwWjly91M1dJzy+MJoY02DwA6b+NjWCMRPTp14VdS+YkVvqsJAl2dheAB9JKhWFhGCI8WjjS0Ibr3vS7eoGFvl1vgFwfR0rFdKfwn1Osuws/VTgip0wRAWDWsRhnsTWLeQFJfNY8GHjj8eGQR5xszXgqD59F83MlPDr3qy0nTCOsRCTW/Gm8fmpLP7rQHTfpw4Ua8r121A=="
+19-AEC="AwXiVFmEio2ScNTiS89UC8nGl3gn4MYq4lJaZDbez2iunDBi6se87CefySQpjI8mu0/BR0oDabZ60BZTTz3raE9zZ2+7HjNN7d942E3J1HkeaY+GZsH04JxLlKc/daQFN69oyybpVij0+i+KU1oIJUFbCOp6y4wFdTBBiIE24T5fdtXH8h46S1+REIojyxS7h3RnY3ePU9XG49l4nhCtknB3WQIJRckRBkjV9JRXnw=="
+2-SERVERID="AwV0jk9yavsa5kNjunLuzIBcgJjnez/TG6sRL32bPdwe3Uz4BFilfwPlMb75WUVlHoM1XQOlXGfkmsk65CG5eXh4MXD45Vm56Q=="
+20-SNID=AwUUCXvOhh1R5dst7jkND4epKxl/XArmLp7B/61FVOE7CbXze0Y9oen1zZc0H8BBXirDN+BPq1yR5VR9KrxlN2D8u9y7zE/alpx2fQNZ/7dHqAtOet5MwpT5o/tNrtG2kYWu8fZHAokQ3AmEh8UPMLCpVc11lXRuuLPNNktq9lA3NPcQtfpD/M0zsQ+PFkqo6nuXOsk9HYsFNVR2W+5ZkPwTj3Euc7tiEiS+KEGtZ4yHM/iBTIFGp8bO542ARf6kyNoHARsIu/p0YlRwBui0NMOP
+21-024adf8bfe91afa4819544d01b0fc97d=AwU/CDWM/GX+OpHdKYUIQFXoRdhx52CMRPQZJ3WdjDH3hTlz+8a9Ies3Hlzc0N8MC+vXDM/+aLJ2N12lKrCCyKG5YUOuSYFw6VrqDLGm4BftPGXjwX5P4nZNIjhgBJ5ypYajQbcVjIZ3gWLJ3myOj59XFuP2aGLr/vRV3XAEGhVAn3yollgy
+22-device_view="AwUg7wFE/W93mUZTOIiwO9fqfTQn845iqhrl24lhcN0fLIDWXnMMDMc7k9wG2+9fhvIljMHGXPPYTrqI7e+i1+6qJd0aeEQ+1WH23Zsfb3MMPPdD0NOtzlJiV1Wq19euyDlMTPkOvbGgrx+VbJxxpKXZ12B7Z/BNywoj9buqDwbD/T9ZZg=="
+23-_vm_consent_type="AwW7WluZcjMk8wEgwW9DjVBvqf4Je8gk7Fyhn80lNOkvH6PpYUwzK+LQ7Js1yny3WTShNvgIeNCz65hjGLqeeRSvIB1rtD4Y/KReG2tgU3t4hpv2Fk7u4zgF84/XUNDBqWLmfZkUYZXTB/6RXEMd/qgDVZa80ByI97IhDUaLPw=="
+24-SERVERID="AwVOg9+2LP/TgsyqsH3zA6BBJJoABw3hKZkiHE6oDu8t7n/LN2uWTDDWAo3KanZWLUj/kzUOlVBPtOZvUukRtVEoBJcY9d8f260="
+25-Domain="AwWHJKiXR4jDn/+oZoBFhJIz1RUpP0erY9MrFUfZwONmGkq/Gt/FBgd4N7p/J6Fl4x6sx01yvHWYLU9wwbm/WTidBNsWUkcd9F1kGJox96Hn8od7tV7IgkB2rLxymR9VW+GTa8L5I+Y+LUWT1xCISElJAEHJitIeRQ=="
+26-Tag="AwXfoWTglEE5sDgcYJKs6vfqrPXMpEqmbt4XKXudBKTbJvP4O/rnIlu9CQHEB/pcIccT+Fh9gSfCxFXaekLDH2UF7IZDeZxCujjxhztkhlggogsb4/kkeecfSsMGJztkeeJW2n1ZRnl6z7nTE9LLl4o9oUMk0/4="
+27-_gh_sess="AwVsKPoEGnrheivRtdbmgSH+nH0ZB9E99URPcSPrt5bQ4k4IBLajxEumLjg4JLQFm3J7IrtSrFu7Jr9VPWYWCjZdpXBhRVnUoo2TKZG4sAqhaagy0WCu/fM09foiQTpsmaUsnHZmyhcceqLD2fT41KV6jlAGS8QyEjkN6L8x8blQFhwRos9icfXnNMZEArDUTm23fFg3xJ2wJHGVD+zpUO+yrf7P8/r0UpGl5UbMa+G2Y8YtVg7Ax8Cn4IPwHUwoJXiQL8LeKBsqjjgp/L2XF1nvzJS9F7wgM+q3vAVd6b9zPaGhlXIvkDjOPTD7/UFMzMAUj3lz/oiTwPUOfjODKBeXu5bAjSDjW6xRdRG5Y8ve4/WaMyvRB6sJyDO5IVApAoG1EfjdTZDNQlt7QCjZmGqd6JVDCx3UwL9FqZncT+WF3jL3I7CPvMo6pXRDUL/ICfrWa6bQyaSf+RyGiald3n6UNsa98saOjdv3EAOn7HIIRSFkh8OVSg=="
+28-__cflb="AwUoU3U5jNv80gC2ClzPu0JsBlvF0znVHa28gtA4KRja6VULg745LPoqj/rQIgNJ2WzhhBTafIMtW9tgiVLpSj3+uKgsorUpoNKhFpI2de28PmMIv4dJXNl7MzbhAkM0qLfxSlYSL+pOrNzAGt+DNhFStqK6kOqypk5052q7hz8Lz1s7jdhW9k4SnRMw2o8dTERCHSccbu/e52apROt9wlJbvkso2o+bfs0="
+29-AWSALB=AwVDT9bVAMMjBHNpcr2kjmU5BIR12OwAyHggHkyktYJYqnYwuIUKP4ClT1C0n0yBHTcPGE4zkRSFkYRtCvsWQGDXCJWPILBd0RBJcz4Al5QUKBU77LgMRZSCYlx3kLeehpxEw7+5I6n58qFpaA7sdUDXUa6sXVNimYKpnTPahXQxMQA1HFwopxMWwppeX4UsZ7iey540iFrpVzI6w3UetnsyIfIH1Gz2Yf+jv236SRaaQVke0iSwavJAZ0JiDZo9ZmQpOVjlej1x8HmP413l9SLhjfZ8
+3-device_view=AwU/xw/Cvjrx2PGJvgODxSeSf+eA+wvnL59hXw3l9MkLecWXHyKt+C9Pv6oAdV1trbmyKsHFmD2PqmRNPig2KzsIV1bR9ML7UTUZi1naHoVACL8YE6ESzRjo+XxBfY0ml6Vw+KM3sVex98VCLXSifHjkYLkkFlI7OMEeAWLptySeBLh3
+30-AWSALBCORS="AwUu3Jjg6HdEuMA7JQp3be8cI6o97bRYkCBsUgDo+cgW5EgOhosMOUxYiVwxZPRMroPP2L6DmTqR8Fb5mI5gp+b623DkytJKytPtu5HI/pO1XgB54XeP2BdyMsiAIXi7Pxi65NbOQvM+w+JElMPtN9Q48k3zplWYhVEyCF07LZhEnnpnXLUeZLhzlf2n+WLmFlT7IXLV/ihSv+HYd+V2pA9lzNE7Vgf9l4Aa/CuYvSXd0PIuJlKks9n8sfsS//4AWcyEAnCNRkpUVWVJDIhmvpURbvR8rQZ9E1HKDtp2vQ=="
+31-cf_clearance="AwWCHN620/TOOWFS4nJg/qhUKd03TLNflyW1i9k5JoPdz2MlrZDrdz8Zo4RAVNic8PB4rneyVARMrVdQHHEGBTO00G/K6iGH0cWSPVPu2H6kMHchIUJCMKwzFDFOvfWQTUNExs1j3bUnXKpB2mHxiHTBXTN6grJ/uHBcWIkopfBC3lBFA3gFh4qem6qUPDDg3YgLyTy7iyUOIW+EBqR7EZK/qgWil9oKd4W/CTDXUjF+eV/1GEFGaG7ogOWI+Ga19Xu7NW1rMO+xgAEhKKo/N6jJf1xuJ2QEzMeO/scveIK7/1rA4yaiue9DJShsP9zX95bFe7Uocw+lKULUFaC4ljTM4wljx+eSLMQr5gEFX2zxWbhSPzMlix/kzVKf7LJvmOfKHw1VtR32hGtzIPbTmvoI0nhw6fnZxANcwrvxk0PrrWR02EQ+HdbYWL8MZ+7ZJuGrzBx/Z9fnBu9p5RmCYQTUJzpbuoaREBpmJ37xjFc8kzdmVXIwW0jO8IDAMGdCIB/g7dsDhMThDJNYuzhMWWVxhi5WweTviWAqcGVzUfT7xhUN+i+uGotfmp0U0x/jlIToi0JhAW+SVbRGamuNnSb8yKbTobw7Xcr53aa8c9eWjys="
+32-NID="AwVwdXQElCaa9Nqlpix6ebvCzo4mZ4Nvpxbp14VtfNlnVfm/Nwpx7aV32gSOkRnVW2fxjycZT7Q0rmBg7RmHtINefu1F8Emi9Kn8fbPrwn7eC+rYbwhcMycdpw+otqudCC7JHAQVPVWbo35HIXdEtaDLlkWCR3FApKNnF7qhHPYGNlulavqtPrgCjKJi+nfTiAMa+Z3pGFmnsk/1bJr3jQzV3eZv8Laiw0f7+ntwbHcWlIBQrIgGtF5UB5cmQGWn80uc1oCHt5EqH3LuxHEPVSuDZySHxGaXxvtXRF4MACiOxxAqjeJVKYwySKeWNUKPhZ6v2QDh0gi3gNwbqIDJqtvuDakQOVCTeukIalh/Eqe1ur4yVwF/4oBSnONdhpli0QqhNcBczMHkrvG0PZAuy9VlV7D8iM6JMzeFCjEOyKvZF5+1rJfixDkteojvfSFA+yE="
+33-DV="AwUf0MunW7D1eW7BDXoaGuJmHQgCkLNflyfT7b8h+Kcan8+kJT5nfH4GK2Xm/1uExASTGecAG0N/YHS+fl1FH4F5SCZmpz38gkfwfCCcfKa++yrAnESmeoBlybuFWr/gGhrS5Jt7GqAgWQoBRWQHxiG+9fi/nQIhoMUSmt2FA8dH2454Jc8fWSKynA=="
+34-YSC="AwWStzt/++tOOWyzu12OIqUPsQhIZwPvJ5c1C1k/43kHwhNjQRzAIaLkSkF/xDyeG4U0OAW+nlq7Ik7HhMCkHp7ntL/72rmA458sR+ZG3OVmGEu4ZqM7+/r6s/J6B8w1rg=="
+35-__Secure-ROLLOUT_TOKEN="AwV4x+tb09lAyInL/xG3lmZVlBjJKQnlLZ2WqPo6JodEdtqEDAFucObsRfBD3OBYwpJ6pasy8If8wCgtwsqlRixHqJTWCcpaiDya7S8b8jGKLDV6KxQxLDntLV2Qm5a4BFfpcbxS/7eOOw4KfCyMFsawc7XckfR6T4zWsAZBjKQknlM6c2jpJ7DIYknOD/hkUSGPqD81/Xtqj353c8dZz70HGJUTfQcfSlZ0qHil8Q=="
+36-VISITOR_INFO1_LIVE=AwVuOJgV8lwbLytG8h88FhXhLAlCKX2RWekBP22FlKlvXeGzOwaJ3AsrsaMVMJgej1PK12b2UhrlJvHWXJyy4FvxlEJ/LIs1qIJoeShZjd/DoqV1WCSEmIj/dgndctJEdeFzzTYIUuCcFOQiv8upmt5/ldPhJwCpKJGRuAVvflzyGMAY/B08Weg3zITCq8z4zn+IwW06
+37-VISITOR_PRIVACY_METADATA="AwXeen8QD1rwMzGw3iA9bP1q5vuZFUWpYdHO8KJCUH2/jSF/9/p9aI/irJ6Aan2fFGHrdT90ddBUI6s/Pr38f+hHhAdhwOCu2H1NqdCOkC+mBbPd3OSRUeLEPvJQE7UYIh3gMxamUjhDwm204hTC14K1bIToJE+e9pazHxh2mgLIR1ObcnvQrIEz7A1CyYHllk+4EtGG+wnwjJ0yc3+oIZcPCA=="
+4-_vm_consent_type=AwXa7ZhiEqCJO7ywmj8EtKKEcBkn9gHtJZVpVwXt/CHn12shqYT74yo4BHPdIpRfsN1IzwHxgSlKMkG6gQNjETsGC2B/FkC+fbdzNsDEqLRKcQ5C8DiONbkiZT0h0OU5W+rQ77LvbvJd2Xzdzy2BnI6P5bcLwtW+H9EDmDDr
+5-Domain="AwX1eFh7JPNNUrO6hIKjgO6byL6tneYKwnKcovBud1TRrf0IrWhysbDPgA3IkBbSVKkbcPrFC8IvmvjHdg4I7ufe+xRdKdyZ5ylMc7vf2733i7Unzfu720HsdRCTIzQKtlvkoQq0Yc4lvgFE51nqA7zTX3J/hlol5kST5wMbyusHkqY="
+6-Tag="AwUIqeKqrEF9mi+Sr0Cjqh2qkj1PG71RmSnW6LpcxWUa5zI5+jsm45p8yMAFxjud4AaSmt5+o4FlnLUGRWe0KrEqvMjLdC+uJadxQt6/Q9sO9bqJjG0xkUzw4QsP7pIyd9KSqWIj5lhioS5bIKF6HCbdswZ65bRCgSP0gGR8rTSrO7U="
+7-_gh_sess="AwUGohxOFJaImEWVt4ECf+50A7IEOqVJgTAINmSs8NGXpQlPQ/Gkw0yLRkDpwBPXtKj+N7dYH/6ihBoK8kREWmadszx48ccbDPPm3382kt1HQ/FY3ZrEd1xXYmHJAaSbTji+AQCb9UHYD1IHwW3ckHr6MjDWG2ODs46H8GAd1F6Hxc7DbIWWig5d3MYLk4qFgRP+kzI5eKw2HGZR3Enk3Sl+ggPVRCJXSOYQOKe+IFEqvkdMdU6Mjbx2ka84l3Q+vzj/x5bXKnC5CGZ1Zt1+JM79PPW9dySxorjFzvDJbTfLeIpColqT2MD6uUnL8dj2K8LH+LOI57/Qp2hT6inaYVp7DnxYMBuWnDGKr0SWo8trIewc0JUZUpSMWEhv0lsfAkrad3tlaakGZJYC9qVFbfCv+fy7vKD0eDNWTF2eRGee3x8/V3FOX6yEyChn1PsInY0Bs4Q5/hxYne9KDJRlQYE9i8t0PgJDgHWiVjRokVYYUzN2SuMkcjZnNpcAsM+pvA=="
+8-__cflb="AwXSkLn42mdGxxuKSqBB1mX2eToIYPgU3GxrVQfn/s8NP5PNRXj/6jysXVUZawr9FrPr7+2QLqagWc79R8131EMUfuxRU3kTecVeh+IeLuhO7BmjWA8U3eH7v9blPgGvQN7cP0Rn+H/8LKacxao6sLRw8UxZdCnI4nRlgxzE6kXhwoqugOSiSfHQGe+6lU3a8vp3d24E9TQSpmATq3995HEs6dKjLI9WRrA/4fFlZGusTtejMw=="
+9-AWSALB="AwVgQy/onqKiv7AmRKCCpEIXJSXzziPPB7fo1oRsfUqQYr74cE3C90hth5h8V4QttDDlADT4Wt9Od2KL7B3woIIVyldN4nKgLM2U7qOfSGOOeLtJbs8tUo5tzzHqgkmUaPM+oFHJPOPnahCVE+lc0mHobpCS4+1cCmyr1ElYbx1TO3WKwn0/8oCpEaQLkMONhANCnQulQ/CkF5JzUxOu4Kr2rSHm3WZcM9/DMAyVw0kIbvq/v2Q8vNRgCiIKZdJ1XlwRxfOABttw6hahnqOLWKmzE4E="
+
+[custom_skin_colors]
+Allright=#77dd77
+FgDisabledFeed=#000000
+FgError=#e74343
+FgInteresting=#11204f
+FgNewMessages=#3a6fe4
+FgSelectedError=#ffd7d7
+FgSelectedInteresting=#ffffff
+FgSelectedNewMessages=#f0f2fc
+enabled=false
+
+[dialog_geometries]
+AdBlockDialog_size=@Size(453 424)
+FormAccountDetails_size=@Size(550 450)
+FormAddAccount_size=@Size(405 390)
+FormBackupDatabaseSettings_size=@Size(446 341)
+FormCategoryDetails_size=@Size(455 262)
+FormDiscoverFeeds_size=@Size(642 394)
+FormFeedDetails_size=@Size(748 652)
+FormRestoreDatabaseSettings_size=@Size(509 352)
+FormSettings_size=@Size(800 550)
+FormStandardImportExport_size=@Size(500 628)
+
+[download_manager]
+download_0_done=true
+download_0_location=/home/twig/Downloads/51THs73epibWQAhi.jpg
+download_0_url=@Variant(\0\0\0\x11\0\0\0Xhttps://pbs.twimg.com/ext_tw_video_thumb/1879631716417224704/pu/img/51THs73epibWQAhi.jpg)
+remove_policy=0
+
+[feed_list_searcher]
+case_sensitivity=0
+criteria=2
+search_mode=1
+
+[feeds]
+auto_update_enabled=false
+auto_update_fast=false
+auto_update_interval=900
+auto_update_only_unfocused=false
+count_format=(%unread)
+customize_list_font=false
+feed_update_timeout=30000
+feeds_update_on_startup=false
+feeds_update_on_startup_delay=15
+hide_counts_if_no_unread=false
+list_font="Noto Sans,10,-1,0,400,0,0,0,0,0,0,0,0,0,0,1"
+only_basic_shortcuts_in_lists=false
+show_tooltips=true
+show_tree_branches=true
+strikethrough_disabled_feeds=true
+update_feed_list_during_fetching=false
+
+[file_dialog_paths]
+general=/run/user/1000/doc/978bb881/RSSG
+
+[gui]
+FormBackupDatabaseSettings=@ByteArray(\0\0\0\x2\0\0\0*\0m\0_\0\x63\0h\0\x65\0\x63\0k\0\x42\0\x61\0\x63\0k\0u\0p\0S\0\x65\0t\0t\0i\0n\0g\0s\0\0\0\x1\0\0\0\xe\0\x63\0h\0\x65\0\x63\0k\0\x65\0\x64\0\0\0\x1\0\x1\0\0\0*\0m\0_\0\x63\0h\0\x65\0\x63\0k\0\x42\0\x61\0\x63\0k\0u\0p\0\x44\0\x61\0t\0\x61\0\x62\0\x61\0s\0\x65\0\0\0\x1\0\0\0\xe\0\x63\0h\0\x65\0\x63\0k\0\x65\0\x64\0\0\0\x1\0\x1)
+alternate_colors_in_lists=true
+colored_busy_tray_icon=false
+default_sort_column_feeds=0
+default_sort_order_feeds=0
+enable_list_headers=true
+enable_notifications=true
+enable_status_bar=true
+enable_toolbars=true
+feed_view_state=eyJoZWFkZXJfMF9zaXplIjoyMzgsImhlYWRlcl8xX3NpemUiOjQ5LCJoZWFkZXJfY291bnQiOjJ9
+feeds_toolbar="m_actionUpdateAllItems,m_actionStopRunningItemsUpdate,m_actionPauseFeedFetching,m_actionMarkAllItemsRead,filter[],spacer,search"
+forced_skin_colors=true
+height_row_feeds=-1
+height_row_messages=-1
+hide_tabbar_one_tab=false
+hide_when_minimized=false
+icon_theme_name=Breeze_Light
+main_menu_visible=true
+messages_toolbar="m_actionMarkSelectedMessagesAsRead,m_actionMarkSelectedMessagesAsUnread,m_actionSwitchImportanceOfSelectedMessages,separator,highlighter[],filter[],spacer,search"
+monochrome_tray_icon=false
+msg_view_state="eyJoZWFkZXJfMF9oaWRkZW4iOnRydWUsImhlYWRlcl8wX2lkeCI6MCwiaGVhZGVyXzBfc2l6ZSI6MCwiaGVhZGVyXzEwX2hpZGRlbiI6dHJ1ZSwiaGVhZGVyXzEwX2lkeCI6MTAsImhlYWRlcl8xMF9zaXplIjowLCJoZWFkZXJfMTFfaGlkZGVuIjp0cnVlLCJoZWFkZXJfMTFfaWR4IjoxMSwiaGVhZGVyXzExX3NpemUiOjAsImhlYWRlcl8xMl9oaWRkZW4iOnRydWUsImhlYWRlcl8xMl9pZHgiOjEyLCJoZWFkZXJfMTJfc2l6ZSI6MCwiaGVhZGVyXzEzX2hpZGRlbiI6dHJ1ZSwiaGVhZGVyXzEzX2lkeCI6MTMsImhlYWRlcl8xM19zaXplIjowLCJoZWFkZXJfMTRfaGlkZGVuIjp0cnVlLCJoZWFkZXJfMTRfaWR4IjoxNCwiaGVhZGVyXzE0X3NpemUiOjAsImhlYWRlcl8xNV9oaWRkZW4iOnRydWUsImhlYWRlcl8xNV9pZHgiOjE1LCJoZWFkZXJfMTVfc2l6ZSI6MCwiaGVhZGVyXzE2X2hpZGRlbiI6dHJ1ZSwiaGVhZGVyXzE2X2lkeCI6MTYsImhlYWRlcl8xNl9zaXplIjowLCJoZWFkZXJfMTdfaGlkZGVuIjp0cnVlLCJoZWFkZXJfMTdfaWR4IjoxNywiaGVhZGVyXzE3X3NpemUiOjAsImhlYWRlcl8xOF9oaWRkZW4iOnRydWUsImhlYWRlcl8xOF9pZHgiOjE4LCJoZWFkZXJfMThfc2l6ZSI6MCwiaGVhZGVyXzE5X2hpZGRlbiI6dHJ1ZSwiaGVhZGVyXzE5X2lkeCI6MTksImhlYWRlcl8xOV9zaXplIjowLCJoZWFkZXJfMV9oaWRkZW4iOmZhbHNlLCJoZWFkZXJfMV9pZHgiOjEsImhlYWRlcl8xX3NpemUiOjEwMCwiaGVhZGVyXzIwX2hpZGRlbiI6dHJ1ZSwiaGVhZGVyXzIwX2lkeCI6MjAsImhlYWRlcl8yMF9zaXplIjowLCJoZWFkZXJfMl9oaWRkZW4iOmZhbHNlLCJoZWFkZXJfMl9pZHgiOjIsImhlYWRlcl8yX3NpemUiOjEwMCwiaGVhZGVyXzNfaGlkZGVuIjp0cnVlLCJoZWFkZXJfM19pZHgiOjMsImhlYWRlcl8zX3NpemUiOjAsImhlYWRlcl80X2hpZGRlbiI6dHJ1ZSwiaGVhZGVyXzRfaWR4Ijo0LCJoZWFkZXJfNF9zaXplIjowLCJoZWFkZXJfNV9oaWRkZW4iOnRydWUsImhlYWRlcl81X2lkeCI6NSwiaGVhZGVyXzVfc2l6ZSI6MCwiaGVhZGVyXzZfaGlkZGVuIjpmYWxzZSwiaGVhZGVyXzZfaWR4Ijo2LCJoZWFkZXJfNl9zaXplIjoxMDAsImhlYWRlcl83X2hpZGRlbiI6dHJ1ZSwiaGVhZGVyXzdfaWR4Ijo3LCJoZWFkZXJfN19zaXplIjowLCJoZWFkZXJfOF9oaWRkZW4iOmZhbHNlLCJoZWFkZXJfOF9pZHgiOjgsImhlYWRlcl84X3NpemUiOjEwMCwiaGVhZGVyXzlfaGlkZGVuIjpmYWxzZSwiaGVhZGVyXzlfaWR4Ijo5LCJoZWFkZXJfOV9zaXplIjoxNiwiaGVhZGVyX2NvdW50IjoyMSwic29ydF8wX2NvbHVtbiI6OSwic29ydF8wX29yZGVyIjoxLCJzb3J0X2NvdW50IjoxfQ=="
+show_unread_numbers_in_tray_icon=true
+show_unread_numbers_on_task_bar=true
+skin=nudus-dark
+splitter_feeds=272, 1641
+splitter_messages_horizontal=241, 704
+splitter_messages_is_vertical=false
+splitter_messages_vertical=359, 542
+start_hidden=false
+start_in_fullscreen=false
+status_bar="m_barProgressDownloadAction,m_barProgressFeedsAction,m_actionUpdateAllItems,m_actionUpdateSelectedItems,m_actionStopRunningItemsUpdate,m_actionFullscreen,m_actionQuit"
+style=Breeze
+tab_close_double_button=true
+tab_close_mid_button=true
+tab_new_double_button=true
+toast_notifications_margin=16
+toast_notifications_opacity=0.9
+toast_notifications_position=3
+toast_notifications_screen=-1
+toast_notifications_width=300
+toolbar_icon_size=0
+toolbar_style=0
+use_toast_notifications=false
+use_tray_icon=true
+window_is_maximized=false
+window_position=@Point(0 0)
+window_size=@Size(1246 645)
+
+[main]
+first_run=false
+first_run_4.8.5=false
+
+[messages]
+always_display_preview=true
+article_list_padding=-1
+avoid_old_articles=false
+bring_app_to_front_after_msg_opened=false
+clear_read_on_exit=false
+custom_date_format=
+custom_date_format_for_dates_only=
+custom_time_format=
+customize_list_font=false
+datetime_to_avoid_article=@DateTime(\0\0\0\x10\0\0\0\0\0\0%\x8c\x9a\x3}\0\x80\0)
+enable_message_preview=true
+fixup_future_datetimes=false
+hours_to_avoid_article=0
+ignore_contents_changes=true
+keep_cursor_center=false
+limit_count_of_articles=0
+limit_dont_remove_starred=true
+limit_dont_remove_unread=true
+limit_recycle_dont_purge=false
+list_font="Noto Sans,10,-1,0,400,0,0,0,0,0,0,0,0,0,0,1"
+mark_message_on_selected=0
+mark_message_on_selected_delay=3000
+message_head_image_height=1000
+multiline_article_list=false
+previewer_font_standard="Noto Sans,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1"
+relative_time_for_new_articles=-1
+show_enclosures_in_message=true
+switch_article_list_rtl=true
+unread_icons_in_message_list=1
+use_custom_date=false
+use_custom_date_for_dates_only=false
+use_custom_time=false
+zoom=1.6000000089406965
+
+[notifications]
+1=1, , 50, 1, 0
+2=1, :/sounds/notify.wav, 62, 1, 0
+3=0, , 50, 1, 0
+4=0, , 50, 1, 0
+5=1, , 50, 1, 0
+6=1, , 50, 1, 0
+7=1, , 50, 1, 0
+8=1, , 50, 1, 0
+9=1, , 50, 1, 0
