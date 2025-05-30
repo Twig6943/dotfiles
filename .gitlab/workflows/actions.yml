@@ -1,0 +1,15 @@
+stages:
+  - archive
+
+archive:
+  stage: archive
+  image: ubuntu:latest
+  script:
+    - apt update && apt install -y git
+    - git clone "$CI_REPOSITORY_URL" .
+  artifacts:
+    name: "Dotfiles"
+    paths:
+      - dotfiles/
+    expire_in: 1 week
+  when: manual
