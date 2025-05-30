@@ -1,4 +1,18 @@
-name: Release
+name: Archive 📁
 
 on:
   workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Upload Compiled DLL
+        uses: actions/upload-artifact@v4
+        with:
+          name: Dotfiles
+          path: dotfiles/*
