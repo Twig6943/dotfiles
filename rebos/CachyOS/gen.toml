@@ -35,7 +35,6 @@ items = [
     "winetricks",
     "kdialog",
     "zenity",
-    "micro",
     "btop",
     "htop",
 ]
@@ -48,7 +47,6 @@ items = [
 #waybar
 #wofi
 #sway
-#wine (I don't want multilib enabled)
 #lib32-mangohud #When not using WoW64 mode of wine (for 32bit win games)
     
 #Packages to be installed via YaY.
@@ -110,6 +108,7 @@ items = [
 # Packages to be installed via Flatpak. (User mode)
 [managers.flatpak_user]
 items = [
+    "flathub io.github.zyedidia.micro",
     "flathub dev.zed.Zed",
     "flathub org.ghidra_sre.Ghidra",
     "flathub re.rizin.cutter",
