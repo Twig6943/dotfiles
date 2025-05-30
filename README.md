@@ -10,6 +10,7 @@
 ## Plans 🗺️
 
 - [ ] Convert android confs to proper obtanium configs
+- [ ] Rebase RSS
 
 # [IMPORTANT NOTES ❗](https://github.com/Twig6943/dotfiles/tree/main/Notes)
 
