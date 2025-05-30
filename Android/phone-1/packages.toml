@@ -57,6 +57,7 @@ Obtanium = [
  "github.com/ProtonMail/android-mail",
  "github.com/karlstav/cava",
  "whatsapp get from apps.obtainium.imranr.dev",
+ "com.degenk.boorusama"
  "torproject.org/download CALF:tor-browser-android-aarch64.*apk$",
 ]
 #CALF=Custom apk link filter for Obtanium
