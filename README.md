@@ -10,7 +10,7 @@
 ## Plans 🗺️
 
 - [ ] Convert android confs to proper obtanium configs
-- [ ] Rebase RSS (Figure out r34 and nitter stuff optimally)
+- [ ] Rebase RSS (Figure out r34/nitter/kemono stuff optimally)
 
 # [IMPORTANT NOTES ❗](https://github.com/Twig6943/dotfiles/tree/main/Notes)
 
