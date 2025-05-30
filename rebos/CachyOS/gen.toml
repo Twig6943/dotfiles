@@ -1,11 +1,15 @@
 #Notes;
-#Remove cachyos-fish-config before importing this gen.toml
+#Remove cachyos-fish-config before importing this gen.toml (not sure if this is still relevant)
 
 #Software that does support wayland but needs a flag/etc;
 #Wine,LibreSprite,Spotify,Chromium
 
 #Software that doesn't support wayland
-#Steam,Proton,krita,FFDEC,Ghidra,Resolve
+#Steam > GOG + Lutris
+#Krita > GIMP
+#FFDEC > ?
+#Ghidra > Cutter with ghidra decompiler
+#Resolve > Kdenlive/OpenShot
 
 #Packages to be installed via Pacman.
 [managers.system]
