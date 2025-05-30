@@ -1,4 +1,4 @@
-{
+    {
     "*.js": {
         "tabsize": 2
     },
@@ -9,7 +9,7 @@
         "tabsize": 2
     },
     "autosu": true,
-    "colorscheme": "simple",
+    "colorscheme": "gotham",
     "diffgutter": true,
     "ignorecase": false,
     "mkparents": true,
