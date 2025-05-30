@@ -9,7 +9,7 @@
 
 ## Plans 🗺️
 
-- [ ] Placeholder
+- [ ] Convert android confs to proper obtanium configs
 
 # [IMPORTANT NOTES ❗](https://github.com/Twig6943/dotfiles/tree/main/Notes)
 
