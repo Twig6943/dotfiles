@@ -30,10 +30,12 @@ items = [
     "vkmark",
     "wireguard-tools",
     "headscale",
+    "vlc-git",
     "wine",
     "winetricks",
     "kdialog",
     "zenity",
+    "micro",
     "btop",
     "htop",
 ]
@@ -62,7 +64,6 @@ items = [
 items = [
     "librewolf#gitlab.com.librewolf-community.browser.appimage.stable:pkgcache",
     "fastfetch#sharun.wrappe.stable.fastfetch:pkgcache",
-    "micro#github.com.zyedidia.micro:bincache",
     "rustdesk#github.com.rustdesk.rustdesk.stable:pkgcache",
     "pince#AM.x86_64.pince.pince:ivan-hc-am",
     "cromite#github.com.pkgforge-dev.Cromite-AppImage",
@@ -71,6 +72,7 @@ items = [
 ]
 #Disabled pkgs
 #vlc-git#AM.x86_64.vlc-git.vlc-git:ivan-hc-am
+#micro#github.com.zyedidia.micro:bincache
 
 #Packages to be installed via Soar. (Profile 1)
 [managers.soar_profile1]
