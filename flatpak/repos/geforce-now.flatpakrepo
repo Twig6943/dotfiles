@@ -1,0 +1,10 @@
+[Flatpak Repo]
+Name=GeForceNOW
+Url=https://international.download.nvidia.com/GFNLinux/flatpak/geforcenow_repo
+Description=Repository of GeForceNOW Flatpak application
+Branches=stable
+Homepage=https://geforcenow.com
+Icon=https://www.svgrepo.com/show/303630/nvidia-logo.svg
+RuntimeRepo=https://flathub.org/repo/flathub.flatpakrepo
+IsRuntime=false
+GPGKey=Placeholder
