@@ -36,12 +36,6 @@
             "keycolor": "red"
         },
         {
-            "type": "command",
-            "key": "",
-            "keyColor": "red",
-            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
-        },
-        {
             "type": "kernel",
             "key": "",
             "keycolor": "red"
@@ -59,7 +53,7 @@
         {
             "type": "packages",
             "key": "",
-            "keycolor": "yellow"
+            "keycolor": "green"
         },
         {
             "type": "custom",
@@ -103,6 +97,12 @@
             "type": "uptime",
             "key": "",
             "keycolor": "yellow"
+        },
+        {
+                    "type": "command",
+                    "key": "",
+                    "keyColor": "yellow",
+                    "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
         },
         {
             "type": "terminal",
