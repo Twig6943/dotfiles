@@ -19,12 +19,12 @@
 ### Screenshare fix
 
 ```
-systemctl --user restart xdg-desktop-portal
+screensharefix
 ```
 
 ### Sudo password fix
 ```
-faillock --reset
+pwfix
 ```
 
 <img src="https://i.kym-cdn.com/entries/icons/original/000/053/420/Bombardiro_crocodilo_cover.jpg" width="400"/>
