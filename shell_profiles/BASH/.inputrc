@@ -3,7 +3,7 @@
 # Ctrl+v ~200 fix
 set enable-bracketed-paste off
 
-# Ctrl+Backspace fix
+# Ctrl+Backspace delete word
 "\C-H":"\C-W"
 
 # Disabled
