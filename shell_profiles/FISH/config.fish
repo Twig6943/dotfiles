@@ -77,18 +77,3 @@ end
 # fish does not source config for non-interactive shells by default, so no need for this.
 
 # Prompt customization
-function fish_prompt
-    set_color cyan
-    echo -n (whoami)
-    set_color red
-    echo -n '@'
-    set_color green
-    echo -n (hostname)
-    set_color magenta
-    echo -n ':'
-    set_color magenta
-    echo -n (prompt_pwd)
-    set_color red
-    echo -n '$ '
-    set_color normal
-end
