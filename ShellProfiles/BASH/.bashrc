@@ -15,6 +15,7 @@ export GTK_THEME=Breeze:dark
 # Aliases
 # alias micro='flatpak run io.github.zyedidia.micro'
 alias pwfix='faillock --reset'
+alias screensharefix='systemctl --user restart xdg-desktop-portal'
 alias bash_conf_reload='source ~/.bashrc'
 alias ls='ls --color=auto'
 alias nano='nano --line'
