@@ -2,29 +2,19 @@
 
 ```
 ┌──/InstallScripts Install scripts
-├──/Rebos/ Rebos configurations
+├──/Windows/ Windows configurations
+├──/rebos/ Rebos configurations
 ├──/NixOS/ NixOS configurations
 └──/Notes/ Important notes
 ```
 
-## Plans 🗺️
+## Roadmap 🗺️
 
 - [ ] Convert android confs to proper obtanium configs
 - [ ] Rebase RSS (Figure out kemono stuff optimally)
 
-# [IMPORTANT NOTES ❗](https://github.com/Twig6943/dotfiles/tree/main/Notes)
+# [Useful stuff 🔥](/Notes/UsefulStuff.md)
 
-# Fixes 🔨
+# [Fixes 🔨](/Notes/ErrorFixes.md)
 
-### Screenshare fix
-
-```
-screensharefix
-```
-
-### Sudo password fix
-```
-pwfix
-```
-
-<img src="https://i.kym-cdn.com/entries/icons/original/000/053/420/Bombardiro_crocodilo_cover.jpg" width="400"/>
+<img src="/assets/Maxwell.webp.jpg" width="400"/>
