@@ -1,5 +1,4 @@
 #Notes;
-#Remove cachyos-fish-config before importing this gen.toml (not sure if this is still relevant)
 
 #Software that does support wayland but needs a flag/etc;
 #Wine,LibreSprite,Spotify,Chromium
