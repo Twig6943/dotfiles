@@ -1,4 +1,4 @@
-# ErrorFixes
+# ErrorFixes 🔴
 
 Fixes to error I encounter every now and then can be found here.
 
