@@ -47,4 +47,6 @@ sudo virsh net-define --file default.xml
 sudo virsh net-start default
 sudo virsh net-autostart default
 sudo virsh net-list --all
+sudo systemctl restart libvirtd
+sudo systemctl restart network
 ```
