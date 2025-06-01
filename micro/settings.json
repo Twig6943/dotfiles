@@ -9,7 +9,7 @@
         "tabsize": 2
     },
     "autosu": true,
-    "colorscheme": "gotham",
+    "colorscheme": "twig",
     "diffgutter": true,
     "ignorecase": false,
     "mkparents": true,
