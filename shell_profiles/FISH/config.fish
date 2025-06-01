@@ -1,5 +1,7 @@
 # ~/.config/fish/config.fish
 
+source ~/.config/fish/conf.d/colors.fish
+
 # Disable fish greeting message
 set -g fish_greeting
 
@@ -14,7 +16,7 @@ set -gx GTK_THEME Breeze:dark
 # Aliases
 alias pwfix='faillock --reset'
 alias screensharefix='systemctl --user restart xdg-desktop-portal'
-alias bash_conf_reload='source ~/.config/fish/config.fish'
+alias fish_conf_reload='source ~/.config/fish/config.fish'
 alias ls='ls --color=auto'
 alias nano='nano --line'
 alias grep='grep --color=auto'
