@@ -17,7 +17,7 @@ systemctl --user restart xdg-desktop-portal
 
 1. Add `default` network and use `/usr/share/libvirt/networks/default.xml` to define it
 
-### The XML file
+### The XML file (In case it doesn't exist)
 
 ```bash
 <network>
