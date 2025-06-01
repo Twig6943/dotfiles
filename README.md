@@ -3,12 +3,12 @@
 If I have more than `3` of an app kind (e.g. `Terminal`) chances are it has its own folder.
 
 ```
-├──/InstallScripts Install scripts
+┌──/InstallScripts Install scripts
 ├──/NixOS/ NixOS configurations
 ├──/Notes/ Important notes
 ├──/Rebos/ Rebos configurations
 ├──/Synthesizer/ Synthesizer configurations
-├──/Windows/ Windows configurations
+└──/Windows/ Windows configurations
 ```
 
 ## Roadmap 🗺️
