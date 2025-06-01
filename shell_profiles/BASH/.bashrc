@@ -7,15 +7,18 @@
 # Soar bins
 export PATH="$HOME/.local/share/soar/bin:$PATH"
 
-export EDITOR=nano
-export VISUAL=nano
+export EDITOR=micro
+export VISUAL=micro
 export GDK_BACKEND=wayland,x11
 export GTK_THEME=Breeze:dark
+
+# Vi stuff
+
+set -o vi
 
 # Aliases
 # alias micro='flatpak run io.github.zyedidia.micro'
 alias pwfix='faillock --reset'
-alias screensharefix='systemctl --user restart xdg-desktop-portal'
 alias bash_conf_reload='source ~/.bashrc'
 alias ls='ls --color=auto'
 alias nano='nano --line'
