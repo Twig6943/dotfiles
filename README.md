@@ -10,11 +10,12 @@
 
 ## Roadmap 🗺️
 
+- [X] Rebase RSS
 - [ ] Convert android confs to proper obtanium configs
-- [ ] Rebase RSS (Figure out kemono stuff optimally)
+- [ ] Kemono
 
 # [Useful stuff 🔥](/Notes/UsefulStuff.md)
 
 # [Fixes 🔨](/Notes/ErrorFixes.md)
 
-<img src="/assets/Maxwell.webp.jpg" width="400"/>
+<img src="/assets/wallpapers/Maxwell.webp" width="400"/>
