@@ -2,18 +2,26 @@
 
 Fixes to error I encounter every now and then can be found here.
 
-### Sudo password 🔑
+## Sudo password 🔑
 
 ```bash
 faillock --reset
 ```
 
-### Screenshare 🖥️
+## Screenshare 🖥️
 
 ```bash
 systemctl --user restart xdg-desktop-portal
 ```
-### Network `default` virt-manager
+
+## Unable to connect to libvirt
+
+```bash
+sudo systemctl restart libvirtd
+sudo systemctl restart network
+```
+
+## Network `default` virt-manager
 
 1. Add `default` network and use `/usr/share/libvirt/networks/default.xml` to define it
 
@@ -39,6 +47,4 @@ sudo virsh net-define --file default.xml
 sudo virsh net-start default
 sudo virsh net-autostart default
 sudo virsh net-list --all
-sudo systemctl restart network
-sudo systemctl restart libvirtd
 ```
