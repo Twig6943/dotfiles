@@ -2,6 +2,6 @@
 ColorScheme=GreenOnBlack
 
 [General]
-Command=/usr/bin/bash
+Command=/usr/bin/fish
 Name=Profile 1
 Parent=FALLBACK/
