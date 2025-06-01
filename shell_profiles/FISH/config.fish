@@ -7,17 +7,18 @@ set -g fish_greeting
 
 # Keybinds
 bind \cH backward-kill-word 
+#bind \e, begin-selection
+#bind \e. end-selection
  
 # Environment variables
 set -gx PATH $HOME/.local/share/soar/bin $PATH
 
-set -gx EDITOR nano
-set -gx VISUAL nano
+set -gx EDITOR micro
+set -gx VISUAL micro
 set -gx GDK_BACKEND wayland,x11
 set -gx GTK_THEME Breeze:dark
 
 # Aliases
-# alias micro='flatpak run io.github.zyedidia.micro'
 alias pwfix='faillock --reset'
 alias screensharefix='systemctl --user restart xdg-desktop-portal'
 alias fish_conf_reload='source ~/.config/fish/config.fish'
