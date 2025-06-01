@@ -11,6 +11,7 @@
 ## Roadmap 🗺️
 
 - [X] Rebase RSS
+- [ ] Fix NixOS
 - [ ] Convert android confs to proper obtanium configs
 - [ ] Kemono
 
