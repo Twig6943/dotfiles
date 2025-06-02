@@ -18,7 +18,6 @@
       micro
       wget
       wlr-randr
-      thefuck
       btop
       killall
       appimage-run
