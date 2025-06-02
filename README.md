@@ -14,8 +14,8 @@ If I have more than `3` of an app kind (e.g. `Terminal`) chances are it has its 
 ## Roadmap 🗺️
 
 - [X] Rebase RSS
+- [X] Fix NixOS
 - [ ] Convert android confs to proper obtanium configs
-- [ ] Fix NixOS
 - [ ] Kemono
 
 # [My public GPG key](/gpg/)
