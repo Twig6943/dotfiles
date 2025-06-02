@@ -35,6 +35,8 @@ Make sure you have the following credentials.
 `MachineName` `NixSlayer`
 `Username` `twig`
 
+Make sure to replace [this](NixOS/machines/NixSlayer/hardware-configuration.nix#L34) with your main drive's uuid.
+
 ### Virtual machines
 
 You might need to change [this line](/NixOS/modules/core/boot/bootloader.nix#L14) if you're on a virtual machine.
@@ -44,7 +46,7 @@ You might need to change [this line](/NixOS/modules/core/boot/bootloader.nix#L14
 Clone the repository (Either by downloading an archive through a browser or by adding `git` to your `/etc/nixos/configuration.nix` file.)
 
 ```console
-git clone https://github.com/twig6943/dotfiles.git
+git clone https://github.com/twig6943/dotfiles.git ~/dotfiles
 cp -r ~/dotfiles/NixOS ~/NixOS
 ```
 
