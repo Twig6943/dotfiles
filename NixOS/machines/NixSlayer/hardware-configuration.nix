@@ -30,10 +30,10 @@
 
 
 # Add disks and stuff like that here
-#  fileSystems."/" = {
-#    device = "/dev/disk/by-uuid/bd44ffbb-b994-4b47-b5a2-eea71704cfbf";
-#    fsType = "ext4";
-#  };
+  fileSystems."/" = {
+    device = "/dev/disk/by-uuid/762eef50-333e-4295-9d0c-c3f54f8ee84e";
+    fsType = "ext4";
+  };
 
   swapDevices = [ ];
 
