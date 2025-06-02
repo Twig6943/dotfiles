@@ -31,9 +31,15 @@ it.
 
 ### Warning ⚠️
 
-I know this is typical NixOS stuff but either name the machine to `NixSlayer` and your user to `twig` or replace them yourself.
+Make sure you have the following credentials.
+`MachineName` `NixSlayer`
+`Username` `twig`
 
-# How 2 Install?
+### Virtual machines
+
+You might need to change [this line](/NixOS/modules/core/boot/bootloader.nix#L14) if you're on a virtual machine.
+
+# How to Install?
 
 Clone the repository (Either by downloading an archive through a browser or by adding `git` to your `/etc/nixos/configuration.nix` file.)
 
@@ -45,18 +51,8 @@ cd dotfiles/NixOS
 # Run the flake 
 
 ```console
-sudo nixos-rebuild switch --flake /home/$USER/dotfiles/NixOS#NixSlayer
+sudo nixos-rebuild switch --flake ~/dotfiles/NixOS#NixSlayer
 ```
-
-Run the `nixos-install` command.
-
-```console
-sudo nixos-install --flake .#
-```
-
-My personal advice is to clone the git repo and not remotely build as sometimes
-it can disconnect from your wifi network while building. (Don't ask me why, I
-don't know)
 
 # What to do post-install? (note for self)
 
