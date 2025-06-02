@@ -13,7 +13,16 @@ export GDK_BACKEND=wayland,x11
 export GTK_THEME=Breeze:dark
 
 # Keybinds
+bindkey "^H" backward-kill-word
 
+# Ensure Emacs-style bindings
+bindkey -e
+
+# Ctrl+Left Arrow → backward-word
+bindkey "^[[1;5D" backward-word
+
+# Ctrl+Right Arrow → forward-word
+bindkey "^[[1;5C" forward-word
 
 # Aliases
 # alias micro='flatpak run io.github.zyedidia.micro'
