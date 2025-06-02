@@ -18,6 +18,8 @@ If I have more than `3` of an app kind (e.g. `Terminal`) chances are it has its 
 - [ ] Fix NixOS
 - [ ] Kemono
 
+# [My public GPG key](/gpg/)
+
 # [Fixes 🔨](/Notes/ErrorFixes.md)
 
 # [Useful stuff 🔥](/Notes/UsefulStuff.md)
