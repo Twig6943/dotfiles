@@ -55,6 +55,7 @@
       amdgpu_top
       qt6.qtdeclarative
       kdePackages.dolphin
+      kdePackages.konsole
       kdePackages.ark
       kdePackages.kalk # Calculator
       kdePackages.spectacle
