@@ -45,13 +45,13 @@ Clone the repository (Either by downloading an archive through a browser or by a
 
 ```console
 git clone https://github.com/twig6943/dotfiles.git
-cd dotfiles/NixOS
+cp -r ~/dotfiles/NixOS ~/NixOS
 ```
 
 # Run the flake 
 
 ```console
-sudo nixos-rebuild switch --flake ~/dotfiles/NixOS#NixSlayer
+sudo nixos-rebuild switch --flake ~/NixOS#NixSlayer
 ```
 
 # What to do post-install? (note for self)
