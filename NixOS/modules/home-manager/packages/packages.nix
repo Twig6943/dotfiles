@@ -15,6 +15,7 @@
 
       # Over
       librewolf-bin
+      micro
       wget
       wlr-randr
       thefuck
