@@ -2,7 +2,7 @@
 <opml version="2.0" xmlns:rssguard="https://github.com/martinrotter/rssguard">
   <head>
     <title>RSS Guard</title>
-    <dateCreated>Fri, 30 May 2025 14:55:14 GMT</dateCreated>
+    <dateCreated>Mon, 02 Jun 2025 12:25:43 GMT</dateCreated>
   </head>
   <body>
     <outline description="" text="Site Specific">
@@ -78,7 +78,6 @@
         <outline description="Turkish Homepage" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="DW-WORLD´s Turkish Homepage" title="DW-WORLD´s Turkish Homepage" type="rss" version="RSS1" xmlUrl="https://rss.dw.com/rdf/rss-tur-all"/>
         <outline description="BBC Turkish - Haberler - BBC News Türkçe" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="BBC Turkish" title="BBC Turkish" type="rss" version="RSS" xmlUrl="https://feeds.bbci.co.uk/turkce/rss.xml"/>
       </outline>
-    </outline>
     </outline>
   </body>
 </opml>
