@@ -18,8 +18,8 @@
     (pkgs.catppuccin-sddm.override {
       flavor = "frappe";
       font = "Iosevka Nerd Font";
-      fontSize = "15";
-      background = "${../../../assets/wallpapers/idolGoro.jpg}";
+      fontSize = "10";
+      background = "${../../../assets/wallpapers/NixSlayer.png}";
       loginBackground = true;
     })
   ];
