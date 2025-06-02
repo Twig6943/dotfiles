@@ -253,14 +253,18 @@
     force = true;
   };
   xdg.configFile."kcminputrc" = {
-    text = ''
+    text = 
+      if (osConfig.networking.hostName == "NixSlayer") then
+       ''
       [Keyboard]
       NumLock=0
 
       [Mouse]
       cursorSize=24
       cursorTheme=catppuccin-frappe-dark-cursors
-    '';
+    ''
+    else
+    null;
     force = true;
   };
   # here are the display settings. I hate that there aren't options for this. plasma-manager is half baked. Well, okay. Maybe not half baked but probably 70% of the way there. Also, I left this note early before I do the configuration.
