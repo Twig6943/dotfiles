@@ -13,16 +13,6 @@
       url = "github:viperML/nh";
       inputs.nixpkgs.follows = "nixpkgs"; # override this repo's nixpkgs snapshot
     };
-    firefox-addons = {
-      url = "gitlab:rycee/nur-expressions?dir=pkgs/firefox-addons";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    polly-mc = {
-      url = "github:fn2006/PollyMC";
-    };
-    minegrub-theme = {
-      url = "github:Lxtharia/minegrub-theme";
-    };
     catpuccin-cursors = {
       url = "github:catppuccin/cursors";
     };
