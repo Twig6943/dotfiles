@@ -35,12 +35,6 @@ fileSystems."/" = {
   fsType = "ext4";
 };
 
-swapDevices = [
-  {
-    device = "/dev/vda2";
-  }
-];
-
   swapDevices = [ ];
 
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
