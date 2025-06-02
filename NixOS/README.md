@@ -37,7 +37,7 @@ Make sure you have the following credentials.
 
 `Username` `twig`
 
-Make sure to replace filesystem & swap stuff inside [this](NixOS/machines/NixSlayer/hardware-configuration.nix) with the stuff inside your `/etc/nixos/configuration.nix` & `/etc/nixos/hardware-configuration.nix` .
+Make sure to replace necessary stuff inside [this](NixOS/machines/NixSlayer/hardware-configuration.nix) with the stuff inside your `/etc/nixos/configuration.nix` & `/etc/nixos/hardware-configuration.nix` .
 
 ### Virtual machines
 
