@@ -19,8 +19,6 @@
     kernelPackages =
       if hostname == "NixSlayer" then
         pkgs.linuxPackages_latest
-      else if hostname == "jd" then
-        pkgs.linuxPackages_hardened
       else
         pkgs.linuxPackages;
 
