@@ -37,11 +37,11 @@ Make sure you have the following credentials.
 
 `Username` `twig`
 
-Make sure to replace [this](NixOS/machines/NixSlayer/hardware-configuration.nix#L34) with your main drive's uuid.
+Make sure to replace filesystem & swap stuff inside [this](NixOS/machines/NixSlayer/hardware-configuration.nix) with the stuff inside your `/etc/nixos/hardware-configuration.nix` .
 
 ### Virtual machines
 
-You might need to change [this line](/NixOS/modules/core/boot/bootloader.nix#L14) if you're on a virtual machine.
+You might need to change [this line](/NixOS/modules/core/boot/bootloader.nix#L14) if you're on a virtual machine. (VMs tend to default to BIOS)
 
 # How to Install?
 
