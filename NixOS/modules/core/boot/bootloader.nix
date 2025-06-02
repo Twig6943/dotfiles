@@ -13,12 +13,12 @@ in
         enable = true;
         efiSupport = true;
         useOSProber = true;
-        devices = [ "nodev" ];
+        devices = [ "/dev/vda" ];
         gfxmodeEfi = "${resolution}";
       };
       systemd-boot.enable = false;
       efi = {
-        canTouchEfiVariables = true;
+        canTouchEfiVariables = false;
       };
     };
   };
