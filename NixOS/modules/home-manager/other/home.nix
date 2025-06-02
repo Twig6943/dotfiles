@@ -88,9 +88,6 @@
   };
   # Enable "programs"
   programs = {
-    thefuck = {
-      enable = true;
-    };
     git = {
       enable = true;
       userName = "twig6943";
