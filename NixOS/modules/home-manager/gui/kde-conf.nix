@@ -266,7 +266,7 @@
   # here are the display settings. I hate that there aren't options for this. plasma-manager is half baked. Well, okay. Maybe not half baked but probably 70% of the way there. Also, I left this note early before I do the configuration.
   xdg.configFile."kwinrc" = {
     text =
-      if (osConfig.networking.hostName == "ShadowMoses") then
+      if (osConfig.networking.hostName == "NixSlayer") then
         ''
           [Desktops]
           Id_1=c511f381-96f0-4508-93be-d15d732001cb
@@ -299,74 +299,6 @@
 
           [Xwayland]
           Scale=1.25
-        ''
-      else if (osConfig.networking.hostName == "BigShell") then
-        ''
-          [Desktops]
-          Id_1=89e8127f-df9b-4b69-9b0c-2ccd3301fad7
-          Number=1
-          Rows=1
-
-          [NightColor]
-          Active=true
-          DayTemperature=5500
-          EveningBeginFixed=1800
-          Mode=Times
-          MorningBeginFixed=0630
-          NightTemperature=5000
-
-          [Plugins]
-          fadeEnabled=false
-          fadedesktopEnabled=false
-          glideEnabled=false
-          magiclampEnabled=false
-          scaleEnabled=false
-          shakecursorEnabled=true
-          slideEnabled=false
-          squashEnabled=false
-
-          [Tiling]
-          padding=4
-
-          [Tiling][fc8b1433-8104-59d8-88f2-eb27dd82efa8]
-          tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
-
-          [Xwayland]
-          Scale=1.25
-        ''
-      else if (osConfig.networking.hostName == "Tanker") then
-        ''
-          [Desktops]
-          Id_1=cc545412-cdc5-4a1e-b501-211ab7d324aa
-          Number=1
-          Rows=1
-
-          [NightColor]
-          Active=true
-          DayTemperature=4500
-          EveningBeginFixed=1800
-          Mode=Times
-          MorningBeginFixed=0630
-          NightTemperature=2500
-
-          [Plugins]
-          fadeEnabled=false
-          fadedesktopEnabled=false
-          glideEnabled=false
-          magiclampEnabled=false
-          scaleEnabled=false
-          shakecursorEnabled=true
-          slideEnabled=false
-          squashEnabled=false
-
-          [Tiling]
-          padding=4
-
-          [Tiling][81edfc82-a00b-55ff-9f47-4f822d9988d4]
-          tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
-
-          [Xwayland]
-          Scale=1
         ''
       else
         null;
@@ -407,28 +339,6 @@
   xdg.configFile."gtkrc" = {
     text = ''
       # Not sure what's supposed to be here. Ok KDE Plasma.
-    '';
-    force = true;
-  };
-  xdg.configFile."Trolltech.conf" = {
-    text = ''
-      [qt]
-      GUIEffects=none
-      KDE\contrast=7
-      KWinPalette\activeBackground=#303446
-      KWinPalette\activeBlend=#c6d0f5
-      KWinPalette\activeForeground=#c6d0f5
-      KWinPalette\activeTitleBtnBg=#292c3c
-      KWinPalette\frame=#292c3c
-      KWinPalette\inactiveBackground=#232634
-      KWinPalette\inactiveBlend=#a5adce
-      KWinPalette\inactiveForeground=#a5adce
-      KWinPalette\inactiveFrame=#303446
-      KWinPalette\inactiveTitleBtnBg=#303446
-      Palette\active=#c6d0f5, #414559, #464b66, #393d54, #14151d, #232634, #c6d0f5, #c6d0f5, #c6d0f5, #303446, #292c3c, #0e1015, #99d1db, #232634, #99d1db, #ca9ee6, #292c3c, #c6d0f5, #303446, #c6d0f5, #a5adce, #99d1db
-      Palette\disabled=#99a1c1, #3c4053, #474d68, #3b3f56, #15171f, #252836, #99a1c1, #a5adce, #99a1c1, #303446, #2b2e3f, #0f1016, #2b2e3f, #99a1c1, #7aa2ae, #9c7eb6, #2b2e3f, #c6d0f5, #303446, #c6d0f5, #8289a5, #2b2e3f
-      Palette\inactive=#858ba5, #323648, #4b516d, #3f445c, #171922, #292d3c, #858ba5, #c6d0f5, #858ba5, #303446, #303446, #111219, #353a4d, #858ba5, #7589aa, #7d7b8e, #303446, #c6d0f5, #303446, #c6d0f5, #757c9b, #353a4d
-      font="Iosevka Nerd Font,14,-1,5,400,0,0,0,0,0,0,0,0,0,0,1"
     '';
     force = true;
   };
