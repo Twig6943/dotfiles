@@ -49,6 +49,7 @@ F-Droid = [
 #ObtaniumDB; https://apps.obtanium.imranr.dev
 Obtanium = [
  "github.com/bluesky-social/social-app",
+ "github.com/LuminarLeaf/boorusama",
  "github.com/flixclusiveorg/Flixclusive",
  "github.com/revoltchat/rvmob",
  "github.com/ruffle-rs/ruffle-android",
@@ -58,7 +59,6 @@ Obtanium = [
  "github.com/ProtonMail/android-mail",
  "github.com/karlstav/cava",
  "whatsapp get from apps.obtainium.imranr.dev",
- "com.degenk.boorusama"
  "torproject.org/download CALF:tor-browser-android-aarch64.*apk$",
 ]
 #CALF=Custom apk link filter for Obtanium
