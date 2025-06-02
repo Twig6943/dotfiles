@@ -1,7 +1,7 @@
 { inputs, config, ... }:
 let
   resolution =
-    if (config.networking.hostName == "ShadowMoses") then
+    if (config.networking.hostName == "NixSlayer") then
       "1920x1080"
     else
       "1920x1080";
