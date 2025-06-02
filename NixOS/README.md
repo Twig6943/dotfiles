@@ -57,7 +57,7 @@ cp -r ~/dotfiles/NixOS ~/NixOS
 # Run the flake 
 
 ```console
-sudo nixos-rebuild switch --flake ~/NixOS#NixSlayer
+nixos-rebuild --option extra-experimental-features 'flakes' switch --flake ~/NixOS#NixSlayer
 ```
 
 # What to do post-install? (note for self)
