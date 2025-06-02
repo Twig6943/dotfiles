@@ -1,6 +1,6 @@
 ## Directory structure 📁
 
-If I have more than `3` of an app kind (e.g. `Terminal`) chances are it has its own folder.
+If I have more than `3` of something (e.g. `Terminal`) chances are it has its own folder.
 
 ```
 ┌──/InstallScripts Install scripts
