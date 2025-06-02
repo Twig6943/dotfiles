@@ -3,14 +3,15 @@
   lib,
   modulesPath,
   ...
-}:
-{
-  imports = [ (modulesPath + "/installer/scan/not-detected.nix") ];
+}: {
+  imports = [
+    (modulesPath + "/installer/scan/not-detected.nix")
+  ];
 
-services.xserver.videoDrivers = [
-  "amdgpu"
-  "kvm-intel"
-];
+  # Graphics drivers
+  services.xserver.videoDrivers = [
+    "amdgpu"
+  ];
 
   boot = {
     extraModulePackages = [ ];
@@ -26,33 +27,36 @@ services.xserver.videoDrivers = [
         "usb_storage"
         "sd_mod"
       ];
-      kernelModules = [ "amdgpu" ];
+      kernelModules = [
+        "amdgpu"
+        "ahci"
+        "xhci_pci"
+        "virtio_pci"
+        "sr_mod"
+        "virtio_blk"
+      ];
     };
   };
 
-  # External drives
+  # Root filesystem
+  fileSystems."/" = {
+    device = "/dev/disk/by-uuid/762eef50-333e-4295-9d0c-c3f54f8ee84e";
+    fsType = "ext4";
+  };
 
+  # Swap
+  swapDevices = [
+    {
+      device = "/dev/disk/by-uuid/cea0ecc6-3d41-409e-96a9-d9591440d733";
+    }
+  ];
 
-# Disk and filesystem configuration
-fileSystems."/" = {
-  device = "/dev/vda1";
-  fsType = "ext4";
-};
-
-swapDevices = [
-  {
-    #device = "/dev/vda2";
-  }
-];
-
-  # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
-  # (the default) this is the recommended approach. When using systemd-networkd it's
-  # still possible to use this option, but it's recommended to use it in conjunction
-  # with explicit per-interface declarations with `networking.interfaces.<interface>.useDHCP`.
+  # Networking
   networking.useDHCP = lib.mkDefault true;
-  # networking.interfaces.enp7s0.useDHCP = lib.mkDefault true;
-  # networking.interfaces.wlo1.useDHCP = lib.mkDefault true;
 
+  # Host architecture
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
+
+  # Microcode updates
   hardware.cpu.intel.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
 }
