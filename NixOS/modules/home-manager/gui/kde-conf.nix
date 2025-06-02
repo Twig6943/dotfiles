@@ -111,7 +111,9 @@
 
   #
   xdg.configFile."kdeglobals" = {
-    text = ''
+    text =
+    if (osConfig.networking.hostName == "NixSlayer") then
+    ''
       [ColorEffects:Disabled]
       ChangeSelectionColor=
       Color=48, 52, 70
@@ -249,11 +251,13 @@
       inactiveBackground=35,38,52
       inactiveBlend=165,173,206
       inactiveForeground=165,173,206
-    '';
+    ''
+    else
+    null;
     force = true;
   };
   xdg.configFile."kcminputrc" = {
-    text = 
+    text =
       if (osConfig.networking.hostName == "NixSlayer") then
        ''
       [Keyboard]
