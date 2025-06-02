@@ -29,11 +29,17 @@
   # External drives
 
 
-# Add disks and stuff like that here
-  fileSystems."/" = {
-    device = "/dev/disk/by-uuid/762eef50-333e-4295-9d0c-c3f54f8ee84e";
-    fsType = "ext4";
-  };
+# Disk and filesystem configuration
+fileSystems."/" = {
+  device = "/dev/vda1";
+  fsType = "ext4";
+};
+
+swapDevices = [
+  {
+    device = "/dev/vda2";
+  }
+];
 
   swapDevices = [ ];
 
