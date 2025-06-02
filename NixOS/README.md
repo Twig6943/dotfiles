@@ -47,7 +47,7 @@ Clone the repository (Either by downloading an archive through a browser or by a
 
 ```console
 cd
-rm -r ~/dotfiles ~/NixOS
+sudo rm -r ~/dotfiles ~/NixOS
 git clone https://github.com/twig6943/dotfiles.git ~/dotfiles
 cp -r ~/dotfiles/NixOS ~/NixOS
 ```
