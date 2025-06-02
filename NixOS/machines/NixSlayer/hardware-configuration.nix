@@ -6,7 +6,11 @@
 }:
 {
   imports = [ (modulesPath + "/installer/scan/not-detected.nix") ];
-  services.xserver.videoDrivers = [ "amdgpu" ];
+
+services.xserver.videoDrivers = [
+  "amdgpu"
+  "kvm-intel"
+];
 
   boot = {
     extraModulePackages = [ ];
