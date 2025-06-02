@@ -2,7 +2,7 @@
 <opml version="2.0" xmlns:rssguard="https://github.com/martinrotter/rssguard">
   <head>
     <title>RSS Guard</title>
-    <dateCreated>Mon, 02 Jun 2025 12:25:43 GMT</dateCreated>
+    <dateCreated>Mon, 02 Jun 2025 15:06:57 GMT</dateCreated>
   </head>
   <body>
     <outline description="" text="Site Specific">
@@ -51,6 +51,7 @@
           <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Unreal Engine - News, Developer Interviews, Spotlights, Tech Blogs" title="Unreal Engine - News, Developer Interviews, Spotlights, Tech Blogs" type="rss" version="RSS" xmlUrl="https://www.unrealengine.com/en-US/rss"/>
           <outline description="" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Release notes from Hyprland" title="Release notes from Hyprland" type="rss" version="ATOM" xmlUrl="https://github.com/hyprwm/Hyprland/releases.atom"/>
           <outline description="" encoding="utf-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="GIMP" title="GIMP" type="rss" version="ATOM" xmlUrl="https://www.gimp.org/feeds/atom.xml"/>
+          <outline description="News and information about Wine" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="WineHQ News" title="WineHQ News" type="rss" version="RSS" xmlUrl="https://www.winehq.org/news/rss"/>
         </outline>
       </outline>
       <outline description="Teknoloji haberleri! Türkiye'nin en büyük teknoloji haber sitesi ShiftDelete.Net" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="Teknoloji Haberleri – ShiftDelete.Net" title="Teknoloji Haberleri – ShiftDelete.Net" type="rss" version="RSS" xmlUrl="https://shiftdelete.net/feed"/>
