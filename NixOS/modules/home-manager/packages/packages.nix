@@ -54,6 +54,7 @@
       ntfs3g
       amdgpu_top
       qt6.qtdeclarative
+      kdePackages.dolphin
       kdePackages.ark
       kdePackages.kalk # Calculator
       kdePackages.spectacle
