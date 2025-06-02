@@ -32,7 +32,9 @@ it.
 ### Warning ⚠️
 
 Make sure you have the following credentials.
+
 `MachineName` `NixSlayer`
+
 `Username` `twig`
 
 Make sure to replace [this](NixOS/machines/NixSlayer/hardware-configuration.nix#L34) with your main drive's uuid.
