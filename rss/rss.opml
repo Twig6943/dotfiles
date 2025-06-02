@@ -79,9 +79,6 @@
         <outline description="BBC Turkish - Haberler - BBC News Türkçe" encoding="UTF-8" rssguard:postProcess="" rssguard:xmlUrlType="0" text="BBC Turkish" title="BBC Turkish" type="rss" version="RSS" xmlUrl="https://feeds.bbci.co.uk/turkce/rss.xml"/>
       </outline>
     </outline>
-    <outline description="" text="Goon">
-      <outline description="" text="Real"/>
-      <outline description="" text="Fictional"/>
     </outline>
   </body>
 </opml>
