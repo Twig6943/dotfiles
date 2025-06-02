@@ -46,6 +46,7 @@ You might need to change [this line](/NixOS/modules/core/boot/bootloader.nix#L14
 Clone the repository (Either by downloading an archive through a browser or by adding `git` to your `/etc/nixos/configuration.nix` file.)
 
 ```console
+cd
 rm -r ~/dotfiles ~/NixOS
 git clone https://github.com/twig6943/dotfiles.git ~/dotfiles
 cp -r ~/dotfiles/NixOS ~/NixOS
