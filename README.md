@@ -8,7 +8,7 @@ If I have more than `3` of something (e.g. `Terminal`) chances are it has its ow
 ├──/Notes Important notes
 ├──/Rebos Rebos configurations
 ├──/Synthesizer Synthesizer configurations
-└──/Windows Windows configurations
+└──/Windows Windows specific configurations
 ```
 
 ## Roadmap 🗺️
