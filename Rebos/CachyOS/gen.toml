@@ -146,6 +146,7 @@ items = [
     "flathub org.kde.okular",
     "flathub org.nickvision.tubeconverter",
     "flathub com.obsproject.Studio",
+    "flathub org.shotcut.Shotcut",
     "flathub org.kde.kdenlive",
     "flathub com.valvesoftware.Steam",
     "flathub com.valvesoftware.Steam.Utility.steamtinkerlaunch",
