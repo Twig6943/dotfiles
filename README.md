@@ -4,11 +4,11 @@ If I have more than `3` of something (e.g. `Terminal`) chances are it has its ow
 
 ```
 ┌──/InstallScripts Install scripts
-├──/NixOS/ NixOS configurations
-├──/Notes/ Important notes
-├──/Rebos/ Rebos configurations
-├──/Synthesizer/ Synthesizer configurations
-└──/Windows/ Windows configurations
+├──/NixOS NixOS configurations
+├──/Notes Important notes
+├──/Rebos Rebos configurations
+├──/Synthesizer Synthesizer configurations
+└──/Windows Windows configurations
 ```
 
 ## Roadmap 🗺️
