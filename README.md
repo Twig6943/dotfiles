@@ -24,4 +24,4 @@ If I have more than `3` of something (e.g. `Terminal`) chances are it has its ow
 
 # [Useful stuff 🔥](/Notes/UsefulStuff.md)
 
-<img src="/assets/wallpapers/Maxwell.webp" width="400"/>
+<img src="/assets/wallpapers/Maxwell.webp" width="800"/>
