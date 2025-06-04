@@ -6,6 +6,8 @@
 
 [Chromium web store](https://github.com/NeverDecaf/chromium-web-store)
 
+[Video Downloader](https://chromewebstore.google.com/detail/video-downloadhelper/lmjnegcaeklhafolokijcfjliaokphfk)
+
 [Yt video stretcher](https://github.com/Dinoosauro/youtube-fullscreen-fit?tab=readme-ov-file)
 
 [Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
