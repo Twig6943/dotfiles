@@ -12,6 +12,8 @@ Overrides: [user-overrides.js](https://github.com/Twig6943/dotfiles/blob/main/fi
 
 [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
+[Youtube ad skipper](https://addons.mozilla.org/en-US/firefox/addon/skiperoo/)
+
 [Video Downloader](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/)
 
 [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
