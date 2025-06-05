@@ -32,6 +32,7 @@ items = [
     "vlc-git",
     "wine",
     "winetricks",
+    "opensnitch",
     "kdialog",
     "zenity",
     "btop",
