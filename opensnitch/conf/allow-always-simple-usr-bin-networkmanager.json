@@ -1,0 +1,12 @@
+{
+    "created": "2025-06-05T15:11:29.000000Z",
+    "name": "allow-always-simple-usr-bin-networkmanager",
+    "enabled": true,
+    "action": "allow",
+    "duration": "always",
+    "operator": {
+        "type": "simple",
+        "operand": "process.path",
+        "data": "/usr/bin/NetworkManager"
+    }
+}

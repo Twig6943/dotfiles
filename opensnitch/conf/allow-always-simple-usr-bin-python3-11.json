@@ -1,0 +1,12 @@
+{
+    "created": "2025-06-05T15:03:35.000000Z",
+    "name": "allow-always-simple-usr-bin-python3-11",
+    "enabled": true,
+    "action": "allow",
+    "duration": "always",
+    "operator": {
+        "type": "simple",
+        "operand": "process.path",
+        "data": "/usr/bin/python3.11"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "created": "2025-06-05T15:06:47.000000Z",
+    "name": "allow-always-simple-app-bin-vesktop-vesktop-bin",
+    "enabled": true,
+    "action": "allow",
+    "duration": "always",
+    "operator": {
+        "type": "simple",
+        "operand": "process.path",
+        "data": "/app/bin/vesktop/vesktop.bin"
+    }
+}
