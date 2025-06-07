@@ -7,6 +7,7 @@
 # Soar bins
 export PATH="$HOME/.local/share/soar/bin:$PATH"
 
+export INPUTRC=$HOME/.inputrc
 export EDITOR=micro
 export VISUAL=micro
 export GDK_BACKEND=wayland,x11
