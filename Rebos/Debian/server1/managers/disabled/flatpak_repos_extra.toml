@@ -1,0 +1,11 @@
+# Flatpak repos (Extra installation mode)
+
+add = "flatpak --installation=extra remote-add --if-not-exists #:?"
+remove = ""
+
+plural_name = "flatpak_repos_extra"
+
+hook_name = "flatpak_repos_extra"
+
+[config]
+many_args = false

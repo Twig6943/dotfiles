@@ -1,0 +1,11 @@
+# Flatpak (Extra installation mode)
+
+add = "flatpak --installation=extra install #:? -y"
+remove = ""
+
+plural_name = "flatpak_extra"
+
+hook_name = "flatpak_extra"
+
+[config]
+many_args = false

@@ -1,0 +1,11 @@
+# Flatpak repos (System installation mode)
+
+add = "flatpak remote-add --if-not-exists #:?"
+remove = ""
+
+plural_name = "flatpak_repos"
+
+hook_name = "flatpak_repos"
+
+[config]
+many_args = false

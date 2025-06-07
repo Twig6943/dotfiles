@@ -1,0 +1,12 @@
+# YaY
+
+add = "yay -S #:? --noconfirm"
+remove = "yay -Rns #:? --noconfirm"
+upgrade = "yay -Syu"
+
+plural_name = "YaY"
+
+hook_name = "YaY"
+
+[config]
+many_args = true

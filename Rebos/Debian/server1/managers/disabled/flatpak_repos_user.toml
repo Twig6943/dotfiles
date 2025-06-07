@@ -1,0 +1,11 @@
+# Flatpak repos (User installation mode)
+
+add = "flatpak --user remote-add --if-not-exists #:?"
+remove = ""
+
+plural_name = "flatpak_repos_user"
+
+hook_name = "flatpak_repos_user"
+
+[config]
+many_args = false

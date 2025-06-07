@@ -1,0 +1,12 @@
+# Flatpak (System installation mode)
+
+add = "flatpak --system install #:? -y"
+remove = ""
+upgrade = "flatpak update -y"
+
+plural_name = "flatpak"
+
+hook_name = "flatpak"
+
+[config]
+many_args = false

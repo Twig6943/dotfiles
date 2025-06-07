@@ -1,0 +1,11 @@
+# Flatpak (User mode)
+
+add = "flatpak --user install #:? -y"
+remove = ""
+
+plural_name = "flatpak_user"
+
+hook_name = "flatpak_user"
+
+[config]
+many_args = false

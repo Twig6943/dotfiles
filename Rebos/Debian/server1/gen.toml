@@ -1,0 +1,32 @@
+#Notes;
+
+#Packages to be installed via apt.
+[managers.system]
+items = [
+    "zip",
+    "p7zip",
+    "flatpak",
+    "flatpak-builder",
+    "distrobox",
+    "lshw",
+    "xdg-desktop-portal-gtk",
+    "vkmark",
+    "wireguard-tools",
+    "wine",
+    "cmus",
+    "winetricks",
+    "btop",
+    "htop",
+]
+#Disabled pkgs
+#opensnitch
+#headscale
+
+#Packages to be installed via Soar.
+[managers.soar]
+items = [
+    "fastfetch#github.com.fastfetch-cli.fastfetch:bincache",
+    "micro#github.com.zyedidia.micro:bincache",
+]
+#Disabled pkgs
+#vlc-git#AM.x86_64.vlc-git.vlc-git:ivan-hc-am
