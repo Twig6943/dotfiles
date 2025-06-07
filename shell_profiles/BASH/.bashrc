@@ -19,6 +19,7 @@ set -o vi
 
 # Aliases
 # alias micro='flatpak run io.github.zyedidia.micro'
+alias fkr='fish_key_reader'
 alias pwfix='faillock --reset'
 alias bash_conf_reload='source ~/.bashrc'
 alias ls='ls --color=auto'
