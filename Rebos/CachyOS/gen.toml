@@ -61,7 +61,7 @@ items = [
 [managers.soar]
 items = [
     "librewolf#gitlab.com.librewolf-community.browser.appimage.stable:pkgcache",
-    "fastfetch#sharun.wrappe.stable.fastfetch:pkgcache",
+    "fastfetch#github.com.fastfetch-cli.fastfetch:bincache",
     "micro#github.com.zyedidia.micro:bincache",
     "pince#AM.x86_64.pince.pince:ivan-hc-am",
     "cromite#github.com.pkgforge-dev.Cromite-AppImage",
