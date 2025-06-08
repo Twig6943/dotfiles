@@ -8,12 +8,9 @@ items = [
     "newsboat",
     "zip",
     "p7zip",
-    "flatpak",
     "flatpak-builder",
-    "distrobox",
     "lshw",
-    "xdg-desktop-portal-gtk",
-    "vkmark",
+    "wireguard",
     "wireguard-tools",
     "wine",
     "winetricks",
@@ -31,4 +28,3 @@ items = [
     "micro#github.com.zyedidia.micro:bincache",
 ]
 #Disabled pkgs
-#vlc-git#AM.x86_64.vlc-git.vlc-git:ivan-hc-am
