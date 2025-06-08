@@ -4,8 +4,11 @@
 [managers.system]
 items = [
     "tmux",
-    "cmus",
     "newsboat",
+    "pulseaudio",
+    "pamix",
+    "cmus",
+    "gpg",
     "zip",
     "p7zip",
     "flatpak-builder",
