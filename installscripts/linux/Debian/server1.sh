@@ -4,16 +4,17 @@ read -n 1 -s
 
 sleep 10
 
-#Install flatpak & disk util
+# Install essential pkgs
+sudo apt install curl wget
 
 #Install Soar
 curl -fsSL "https://raw.githubusercontent.com/pkgforge/soar/main/install.sh" | sh
 soar defconfig --external
 
 #Rebos
-soar install rebos#gitlab.com.Oglo12.rebos:bincache
-rebos setup
-rebos config init
+#soar install rebos#gitlab.com.Oglo12.rebos:bincache
+#rebos setup
+#rebos config init
 
 #Clone dotfiles
 cd /home/$USER
