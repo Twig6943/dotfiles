@@ -62,6 +62,29 @@ extract () {
 	done
 }
 
+# Colors
+
+if [ "$TERM" = "linux" ]; then
+    echo -en "\e]P02d3438" # color 0 (first of pair 1)
+    echo -en "\e]P1343b3f" # color 1 (second of pair 1)
+    echo -en "\e]P1bc2d41" # color 2 (first of pair 2)
+    echo -en "\e]P2e04758" # color 3 (second of pair 2)
+    echo -en "\e]P36c834c" # color 4 (first of pair 3)
+    echo -en "\e]P4869f61" # color 5 (second of pair 3)
+    echo -en "\e]P4b99444" # color 6 (first of pair 4)
+    echo -en "\e]P5dab25b" # color 7 (second of pair 4)
+    echo -en "\e]P64f9990" # color 8 (first of pair 5)
+    echo -en "\e]P764b6ac" # color 9 (second of pair 5)
+    echo -en "\e]P7b86790" # color 10 (first of pair 6)
+    echo -en "\e]P8d980ad" # color 11 (second of pair 6)
+    echo -en "\e]P93a8873" # color 12 (first of pair 7)
+    echo -en "\e]PA50a38e" # color 13 (second of pair 7)
+    echo -en "\e]PBd3c6aa" # color 14 (first of pair 8)
+    echo -en "\e]PCded1b5" # color 15 (second of pair 8)
+    clear #for background artifacting
+fi
+
+
 # If not running interactively, don't do anything
 force_color_prompt=yes
 
