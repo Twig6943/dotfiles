@@ -1,7 +1,7 @@
 {
     "Alt-/": "lua:comment.comment",
     "Ctrl-e": "lua:comment.comment",
-    "Ctrl-x": "Quit",
+    "Ctrl-x": "Cut",
     "Ctrl-y": "Undo",
     "Ctrl-z": "Redo",
     "CtrlDelete": "DeleteWordRight",
