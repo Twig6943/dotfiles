@@ -8,8 +8,8 @@
     "Ctrl-x": "Cut",
     "Ctrl-z": "Undo",
     "Ctrl-Alt-z": "Redo",
-    "P": "FindPrevious",
-    "N": "FindNext",
+    "Ctrl-p": "FindPrevious",
+    "Ctrl-n": "FindNext",
     "CtrlDelete": "DeleteWordRight",
     "CtrlUnderscore": "lua:comment.comment",
     "OldBackspace": "DeleteWordLeft"
