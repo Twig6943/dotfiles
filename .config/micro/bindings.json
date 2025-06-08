@@ -7,7 +7,7 @@
     "Ctrl-e": "lua:comment.comment",
     "Ctrl-x": "Cut",
     "Ctrl-z": "Undo",
-    "Ctrl-Shift-z": "Redo",
+    "Ctrl-Alt-z": "Redo",
     "CtrlDelete": "DeleteWordRight",
     "CtrlUnderscore": "lua:comment.comment",
     "OldBackspace": "DeleteWordLeft"
