@@ -3,6 +3,9 @@
 #Packages to be installed via apt.
 [managers.system]
 items = [
+    "tmux",
+    "cmus",
+    "newsboat",
     "zip",
     "p7zip",
     "flatpak",
@@ -13,7 +16,6 @@ items = [
     "vkmark",
     "wireguard-tools",
     "wine",
-    "cmus",
     "winetricks",
     "btop",
     "htop",
