@@ -8,6 +8,7 @@ items = [
     "pulseaudio",
     "pamix",
     "cmus",
+    "gpm",
     "gpg",
     "zip",
     "p7zip",
