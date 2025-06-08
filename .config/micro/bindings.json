@@ -1,9 +1,13 @@
 {
+    "Ctrl-Alt-Right": "SelectWordRight",
+    "Ctrl-Alt-Left": "SelectWordLeft",
+    "Ctrl-Alt-Up": "SelectUp",
+    "Ctrl-Alt-Down": "SelectDown",
     "Alt-/": "lua:comment.comment",
     "Ctrl-e": "lua:comment.comment",
     "Ctrl-x": "Cut",
-    "Ctrl-y": "Undo",
-    "Ctrl-z": "Redo",
+    "Ctrl-z": "Undo",
+    "Ctrl-Shift-z": "Redo",
     "CtrlDelete": "DeleteWordRight",
     "CtrlUnderscore": "lua:comment.comment",
     "OldBackspace": "DeleteWordLeft"
