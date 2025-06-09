@@ -18,7 +18,7 @@ If I have more than `3` of something (e.g. `Terminal`) chances are it has its ow
 - [ ] Convert android confs to proper obtanium configs
 - [ ] Kemono
 
-# [My public GPG key](/gpg/)
+# [My public GPG key 🔐](/gpg/public-key.asc)
 
 # [Fixes 🔨](/Notes/ErrorFixes.md)
 
