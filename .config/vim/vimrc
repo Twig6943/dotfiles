@@ -1,0 +1,14 @@
+" Enable mouse support
+set mouse=a
+
+" Colorscheme
+colorscheme termschool
+
+" Enable syntax highlighting
+syntax on
+
+" Show line numbers
+set number
+
+noremap! <C-BS> <C-w>
+noremap! <C-h> <C-w>
