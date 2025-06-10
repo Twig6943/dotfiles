@@ -10,5 +10,6 @@ syntax on
 " Show line numbers
 set number
 
+" Ctrl+backspace delete whole word
 noremap! <C-BS> <C-w>
 noremap! <C-h> <C-w>
