@@ -17,10 +17,6 @@ set number
 " Arrow keys
 set whichwrap+=<,>,[,]
 
-" Modes
-inoremap <C-i> <Tab>
-nnoremap <C-b> <C-v>
-
 " Ctrl+backspace
 noremap! <C-h> <C-w>
 noremap! <C-BS> <C-w>
