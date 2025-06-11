@@ -2,7 +2,7 @@
 set mouse=a
 
 " Colorscheme
-colorscheme termschool
+colorscheme ron
 
 " Enable syntax highlighting
 syntax on
