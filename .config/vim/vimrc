@@ -10,6 +10,10 @@ syntax on
 " Show line numbers
 set number
 
-" Ctrl+backspace delete whole word
-noremap! <C-BS> <C-w>
+" Arrow keys
+set whichwrap+=<,>,[,]
+
+map <C-a> <esc>gg0VG<CR>
+
 noremap! <C-h> <C-w>
+noremap! <C-BS> <C-w>
