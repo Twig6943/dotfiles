@@ -2,7 +2,7 @@
 vim.o.mouse = 'a'
 
 -- Colorscheme
-vim.cmd('colorscheme ron')
+vim.cmd('colorscheme evergreen')
 
 -- Enable syntax highlighting
 vim.cmd('syntax on')
@@ -14,7 +14,7 @@ vim.wo.number = true
 vim.opt.whichwrap = vim.opt.whichwrap._value .. '<,>,[,]'  -- Concatenate manually
 
 -- Map Ctrl+A to select all
-vim.api.nvim_set_keymap('n', '<C-a>', '<Esc>gg0VG<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', '<C-a>', '<Esc>gg0VG', { noremap = true, silent = true })
 
 -- Insert mode mappings
 vim.api.nvim_set_keymap('i', '<C-h>', '<C-w>', { noremap = true })
