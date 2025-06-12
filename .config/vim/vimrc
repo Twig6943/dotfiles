@@ -11,8 +11,8 @@ syntax on
 set number
 
 " Wayland clipboard fix (Uncomment if on wayland environment)
-"autocmd TextYankPost * if (v:event.operator == 'y' || v:event.operator == 'd') | silent! execute 'call system("wl-copy", @")' | endif
-"nnoremap p :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '', 'g')<cr>p
+autocmd TextYankPost * if (v:event.operator == 'y' || v:event.operator == 'd') | silent! execute 'call system("wl-copy", @")' | endif
+nnoremap p :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '', 'g')<cr>p
 
 " Arrow keys
 set whichwrap+=<,>,[,]
@@ -23,3 +23,15 @@ noremap! <C-BS> <C-w>
 
 "Ctrl+a
 map <C-a> <esc>gg0VG<CR>
+
+"Ctrl+Down arrow newline stuff
+inoremap <C-Down> <C-o>:call InsertMoveDownOrAddLine()<CR>
+
+function! InsertMoveDownOrAddLine()
+  if line('.') == line('$')
+    call append(line('.'), '')
+    execute "normal! j"
+  else
+    execute "normal! j"
+  endif
+endfunction
