@@ -1,6 +1,7 @@
+[Context]
+filesystems=xdg-config/gtk-3.0:ro;xdg-config/gtk-4.0:ro;home:ro;/mnt;
+nofilesystem=host;nofilesystem=host-os;nofilesystem=home;nofilesystem=host-etc
+
 [Environment]
 # Don't change, anything other than Adwaita makes winetricks light theme
 GTK_THEME=Adwaita:dark
-
-[Context]
-filesystems=host-etc;host-os;host;xdg-config/gtk-3.0:ro;xdg-config/gtk-4.0:ro
