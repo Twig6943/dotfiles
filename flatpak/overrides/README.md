@@ -1,3 +1,9 @@
+# Notes
+
+### Don't change the `GTK_THEME` env var for lutris, it makes winetricks light theme.
+
+# Examples
+
 `filesystems` to allow access
 
 `rw` read-wrtie
@@ -9,7 +15,3 @@
 Use `nofilesystem` to block access to certain paths
 
 `nofilesystem=host;`
-
-# Notes
-
-### Don't change the `GTK_THEME` env var for lutris, it makes winetricks light theme.
