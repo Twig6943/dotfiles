@@ -11,7 +11,9 @@ export INPUTRC=$HOME/.inputrc
 export EDITOR=micro
 export VISUAL=micro
 export GDK_BACKEND=wayland,x11
+export CHROMIUM_USER_FLAGS="--disable-gpu"
 export GTK_THEME=Breeze:dark
+
 
 # Vi stuff
 
