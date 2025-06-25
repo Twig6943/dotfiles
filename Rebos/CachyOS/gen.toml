@@ -53,6 +53,7 @@ items = [
 [managers.yay]
 items = [
     "waydroid",
+    "flashpoint-launcher-bin ", # For dungeon blitz
     "binder_linux-dkms",
     "lact-bin",
 ]
