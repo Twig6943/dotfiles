@@ -17,6 +17,9 @@ nnoremap p :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '',
 " Arrow keys
 set whichwrap+=<,>,[,]
 
+" Ctrl+v
+nnoremap <C-v> <Nop>
+
 " Ctrl+backspace
 noremap! <C-h> <C-w>
 noremap! <C-BS> <C-w>
