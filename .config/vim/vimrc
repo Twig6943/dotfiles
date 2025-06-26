@@ -1,21 +1,21 @@
 " Enable mouse support
 set mouse=a
 
-" Colorscheme
-colorscheme termschool
+" Show line numbers
+set number
+
+" Arrow keys
+set whichwrap+=<,>,[,]
 
 " Enable syntax highlighting
 syntax on
 
-" Show line numbers
-set number
+" Colorscheme
+colorscheme termschool
 
-" Wayland clipboard fix (Uncomment if on wayland environment)
-autocmd TextYankPost * if (v:event.operator == 'y' || v:event.operator == 'd') | silent! execute 'call system("wl-copy", @")' | endif
-nnoremap p :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '', 'g')<cr>p
-
-" Arrow keys
-set whichwrap+=<,>,[,]
+" Wayland clipboard fix (Uncomment if on wayland environment) related PR: https://github.com/vim/vim/pull/17097
+"autocmd TextYankPost * if (v:event.operator == 'y' || v:event.operator == 'd') | silent! execute 'call system("wl-copy", @")' | endif
+"nnoremap p :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '', 'g')<cr>p
 
 " Ctrl+v
 nnoremap <C-v> <Nop>
