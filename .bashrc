@@ -13,7 +13,7 @@ export VISUAL=micro
 export GDK_BACKEND=wayland,x11
 export QT_QPA_PLATFORM=wayland:xcb
 export SDL_VIDEODRIVER=wayland,x11
-export CHROMIUM_USER_FLAGS="--disable-gpu"
+export CHROMIUM_USER_FLAGS="--disable-gpu --enable-blink-features=MiddleClickAutoscroll"
 export GTK_THEME=Breeze:dark
 
 
