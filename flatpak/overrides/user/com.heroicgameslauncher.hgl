@@ -1,2 +1,3 @@
-[Environment]
-ELECTRON_OZONE_PLATFORM_HINT=auto
+[Context]
+filesystems=xdg-config/gtk-3.0:ro;xdg-config/gtk-4.0:ro;home:ro;~/Games:rw;host:rw;mnt:rw;
+nofilesystem=host;nofilesystem=host-os;nofilesystem=home;nofilesystem=host-etc
