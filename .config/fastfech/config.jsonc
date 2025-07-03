@@ -51,6 +51,12 @@
             "keycolor": "green"
         },
         {
+            "type": "sound",
+            "format": "{platform-api}",
+            "key": "",
+            "keycolor": "green"
+        },
+        {
             "type": "packages",
             "key": "",
             "keycolor": "green"
