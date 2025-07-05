@@ -84,6 +84,7 @@ items = [
 items = [
     "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
     "flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo",
+    "hero-persson https://hero-persson.github.io/unmojang-flatpak/index.flatpakrepo",
 ]
 
 #Repos to be added as user.
@@ -91,6 +92,7 @@ items = [
 items = [
     "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
     "flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo",
+    "hero-persson https://hero-persson.github.io/unmojang-flatpak/index.flatpakrepo",
 ]
 
 #Repos to be added to the extra installation.
@@ -98,6 +100,7 @@ items = [
 items = [
     "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
     "flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo",
+    "hero-persson https://hero-persson.github.io/unmojang-flatpak/index.flatpakrepo",
 ]
 
 # Packages to be installed via Flatpak. (System mode)
@@ -159,6 +162,7 @@ items = [
     "flathub org.freedesktop.Platform.VulkanLayer.MangoHud",
     "flathub org.freedesktop.Platform.VulkanLayer.gamescope",
     "flathub org.freedesktop.Platform.VulkanLayer.vkBasalt",
+    "hero-persson org.unmojang.FjordLauncher",
 ]
 
 # Packages to be installed via Flatpak. (Extra mode)
