@@ -1,6 +1,6 @@
 # ErrorFixes 🔴
 
-Fixes to error I encounter every now and then can be found here.
+Fixes to errors I encounter every now and then can be found here.
 
 ## Sudo password 🔑
 
