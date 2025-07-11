@@ -14,6 +14,7 @@ export GDK_BACKEND=wayland,x11
 export QT_QPA_PLATFORM=wayland:xcb
 export SDL_VIDEODRIVER=wayland,x11
 export CHROMIUM_USER_FLAGS="--disable-gpu --ozone-platform-hint=auto --enable-blink-features=MiddleClickAutoscroll"
+export ELECTRON_OZONE_PLATFORM_HINT=auto
 export GTK_THEME=Breeze:dark
 
 
