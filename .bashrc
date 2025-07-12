@@ -12,7 +12,7 @@ export EDITOR=micro
 export VISUAL=micro
 export GDK_BACKEND=wayland,x11
 export QT_QPA_PLATFORM=wayland:xcb
-export SDL_VIDEODRIVER=wayland,x11
+export SDL_VIDEODRIVER=wayland
 export CHROMIUM_USER_FLAGS="--ozone-platform-hint=auto --enable-blink-features=MiddleClickAutoscroll" # Don't add --disable-gpu as it somewhat works unlike electron
 export ELECTRON_OZONE_PLATFORM_HINT=auto
 export GTK_THEME=Breeze:dark
