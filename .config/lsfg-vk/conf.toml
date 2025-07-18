@@ -1,7 +1,8 @@
 version = 1
 [global]
 # override the location of Lossless Scaling
-# dll = "/games/Lossless Scaling"
+
+dll = ".config/lsfg-vk/Lossless Scaling/Lossless.dll"
 
 # [[game]] # example entry
 # exe = "Game.exe"
