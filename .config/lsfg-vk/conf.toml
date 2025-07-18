@@ -2,7 +2,7 @@ version = 1
 [global]
 # override the location of Lossless Scaling
 
-dll = ".config/lsfg-vk/Lossless Scaling/Lossless.dll"
+dll = ".config/lsfg-vk/Lossless.dll"
 
 # [[game]] # example entry
 # exe = "Game.exe"
@@ -19,7 +19,7 @@ dll = ".config/lsfg-vk/Lossless Scaling/Lossless.dll"
 [[game]] # default vkcube entry
 exe = "vkcube"
 
-multiplier = 4
+multiplier = 1
 performance_mode = true
 
 [[game]] # default benchmark entry
@@ -28,7 +28,6 @@ exe = "benchmark"
 multiplier = 4
 performance_mode = false
 
-[[game]] # override Genshin Impact
-exe = "Genshin"
-
-multiplier = 3
+[[game]]
+exe = "RDR2.exe"
+multiplier = 4
