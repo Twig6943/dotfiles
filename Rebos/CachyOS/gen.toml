@@ -1,7 +1,7 @@
 #Notes;
 
 #Software that does support wayland but needs a flag/etc;
-#Wine,LibreSprite,Spotify,Chromium
+#LibreSprite,Spotify,Chromium
 
 #Software that doesn't support wayland
 #Steam > GOG + Lutris
