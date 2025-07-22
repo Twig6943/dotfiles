@@ -6,7 +6,7 @@
 
 Grab user.js from [Arkenfox](https://github.com/arkenfox/user.js/blob/master/user.js)
 
-Overrides: [user-overrides.js](/firefox/user-overrides.js)
+Overrides: [user.js](/firefox/user.js)
 
 # Extensions
 
