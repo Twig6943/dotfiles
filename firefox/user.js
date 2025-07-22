@@ -62,7 +62,7 @@ user_pref("privacy.userContext.enabled", true);
 user_pref("privacy.userContext.ui.enabled", true);
 
 // Strict third party requests, may cause images/video to break.
-user_pref("network.http.referer.XOriginPolicy", 2);
+user_pref("network.http.referer.XOriginPolicy", 1); //Check this if the site with istanbul plaka stops working properly 
 
 //WebRTC settings, things like video calls
 // user_pref("media.peerconnection.enabled", false);
