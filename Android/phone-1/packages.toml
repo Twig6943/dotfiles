@@ -50,7 +50,6 @@ F-Droid = [
 Obtanium = [
  "github.com/bluesky-social/social-app",
  "github.com/LuminarLeaf/boorusama",
- "github.com/flixclusiveorg/Flixclusive",
  "github.com/revoltchat/rvmob",
  "github.com/ruffle-rs/ruffle-android",
  "github.com/signalapp/Signal-Android",
