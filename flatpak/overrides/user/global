@@ -10,5 +10,5 @@ ELECTRON_OZONE_PLATFORM_HINT=auto
 GDK_BACKEND=wayland,x11
 QT_QPA_PLATFORM=wayland:xcb
 SDL_VIDEODRIVER=wayland,x11
-CHROMIUM_USER_FLAGS="--disable-gpu --ozone-platform-hint=auto --enable-blink-features=MiddleClickAutoscroll"
+CHROMIUM_USER_FLAGS="--disable-gpu --ozone-platform-hint=auto --enable-blink-features=MiddleClickAutoscroll --use-gl=angle --use-angle=swiftshader"
 GTK_THEME=Breeze:dark
