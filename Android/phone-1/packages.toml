@@ -3,6 +3,7 @@
 F-Droid.repos = [
  "microg.org/fdroid/repo",
  "cromite.org/fdroid/repo",
+ "brave-browser-apk-release.s3.brave.com/fdroid/repo",
  "www.collaboraoffice.com/downloads/fdroid/repo",
  "https://molly.im/fdroid/repo/",
  "apt.izzysoft.de/fdroid/repo",
@@ -54,7 +55,7 @@ Obtanium = [
  "github.com/revoltchat/rvmob",
  "github.com/ruffle-rs/ruffle-android",
  "github.com/signalapp/Signal-Android",
- "github.com/KhoalaS/Infinity-For-Reddit",
+ "github.com/cygnusx-1-org/continuum",
  "github.com/NewPipeX/NewPipeX",
  "github.com/ProtonMail/android-mail",
  "github.com/karlstav/cava",
@@ -63,7 +64,7 @@ Obtanium = [
 ]
 #CALF=Custom apk link filter for Obtanium
 #Disabled pkgs
-#
+# "github.com/KhoalaS/Infinity-For-Reddit",
 
 Play_Store = [
  "",
