@@ -11,7 +11,6 @@ If I have more than `3` of something (e.g. `Terminal`) chances are it has its ow
 └──/Windows Windows specific configurations
 ```
 
-pushtest
 ## Roadmap 🗺️
 
 - [X] Rebase RSS
