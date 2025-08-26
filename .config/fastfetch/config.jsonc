@@ -9,7 +9,7 @@
 {
     "$schema": "~/.config/fastfetch/json_schema.json",
     "logo": {
-        "color": {"1": "blue", "2": "black"},
+        "color": { "1": "blue", "2": "black" },
         "source": "$HOME/.config/fastfetch/ascii/rose.txt",
         //"source": "~/.config/fastfetch/images/*.png",
         "padding": {
@@ -78,7 +78,8 @@
         {
             "type": "gpu",
             "key": "",
-            "keycolor": "magenta"
+            "keycolor": "magenta",
+            "format": "{vendor} {name} | {driver}"
         },
         {
             "type": "swap",
@@ -105,10 +106,10 @@
             "keycolor": "yellow"
         },
         {
-                    "type": "command",
-                    "key": "",
-                    "keyColor": "yellow",
-                    "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+            "type": "command",
+            "key": "",
+            "keyColor": "yellow",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
         },
         {
             "type": "shell",
@@ -132,6 +133,6 @@
                 "width": 10
             }
         },
-        "break",
+        "break"
     ]
 }
