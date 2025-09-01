@@ -19,7 +19,7 @@ items = [
     "discover",
     "distrobox",
     "lshw",
-    "mangohud", # Remove once you learn how to use the flatpak pkg from cli
+    "mangohud", #Remove once you learn how to use the flatpak pkg from cli
     "gamemode",
     "gamescope",
     "kaccounts-providers",
@@ -28,8 +28,8 @@ items = [
     "vkmark",
     "wireguard-tools",
     "headscale",
-    "vlc-git", # Switch to universal once universal pkg comes out.
-    "krita-git", # Switch to universal once universal pkg comes out.
+    "vlc-git", #Switch to universal once universal pkg comes out.
+    "krita-git", #Switch to universal once universal pkg comes out.
     "wine",
     "winetricks",
     "opensnitch",
