@@ -29,7 +29,7 @@ items = [
     "wireguard-tools",
     "headscale",
     "vlc-git", # Switch to universal once universal pkg comes out.
-    "krita-git" # Switch to universal once universal pkg comes out.
+    "krita-git", # Switch to universal once universal pkg comes out.
     "wine",
     "winetricks",
     "opensnitch",
