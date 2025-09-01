@@ -5,7 +5,6 @@
 
 #Software that doesn't support wayland
 #Steam > GOG + Lutris
-#Krita > GIMP
 #FFDEC > ?
 #Ghidra > Cutter with ghidra decompiler
 #Resolve > Kdenlive/OpenShot
@@ -20,7 +19,7 @@ items = [
     "discover",
     "distrobox",
     "lshw",
-    "mangohud", #Remove once you learn how to use the flatpak pkg
+    "mangohud", # Remove once you learn how to use the flatpak pkg from cli
     "gamemode",
     "gamescope",
     "kaccounts-providers",
@@ -29,7 +28,8 @@ items = [
     "vkmark",
     "wireguard-tools",
     "headscale",
-    "vlc-git",
+    "vlc-git", # Switch to universal once universal pkg comes out.
+    "krita-git" # Switch to universal once universal pkg comes out.
     "wine",
     "winetricks",
     "opensnitch",
@@ -175,7 +175,6 @@ items = [
     "flathub io.github.TheWisker.Cavasik",
     "flathub com.github.tchx84.Flatseal",
     "flathub io.github.marco_calautti.DeltaPatcher",
-    "flathub org.kde.krita",
     "flathub org.inkscape.Inkscape",
     "flathub com.jpexs.decompiler.flash",
     "flathub org.kde.haruna",
