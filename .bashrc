@@ -12,8 +12,8 @@ export EDITOR=micro
 export VISUAL=micro
 export GDK_BACKEND=wayland,x11
 export QT_QPA_PLATFORM=wayland:xcb
-export SDL_VIDEODRIVER=wayland,x11
-export CHROMIUM_USER_FLAGS="--ozone-platform-hint=auto --enable-blink-features=MiddleClickAutoscroll --use-gl=angle --use-angle=swiftshader --ignore-gpu-blocklist" # Don't add --disable-gpu as it somewhat works unlike electron
+#export SDL_VIDEODRIVER=wayland,x11
+#export CHROMIUM_USER_FLAGS="--ozone-platform-hint=auto --enable-blink-features=MiddleClickAutoscroll --use-gl=angle --use-angle=swiftshader" # Don't add --disable-gpu as it somewhat works unlike electron
 export ELECTRON_OZONE_PLATFORM_HINT=auto
 export GTK_THEME=Breeze:dark
 
@@ -26,7 +26,7 @@ set -o vi
 # alias micro='flatpak run io.github.zyedidia.micro'
 alias fkr='fish_key_reader'
 alias pwfix='faillock --reset'
-alias empty_trash='sudo rm -rf ~/.local/share/Trash/*'
+alias empty_trash='sudo rm -rf ~/.local/share/Trash/files/* ~/.local/share/Trash/info/*'
 alias bash_conf_reload='source ~/.bashrc'
 alias ls='ls --color=auto'
 alias nano='nano --line'
@@ -122,4 +122,3 @@ if [[ ${EUID} == 0 ]] ; then
 else
     PS1='\[\033[48;2;105;121;16;38;2;255;255;255m\] \$ \[\033[48;2;0;135;175;38;2;105;121;16m\]\[\033[48;2;0;135;175;38;2;255;255;255m\] \u@\h \[\033[48;2;83;85;85;38;2;0;135;175m\]\[\033[48;2;83;85;85;38;2;255;255;255m\] \w \[\033[49;38;2;83;85;85m\]\[\033[00m\] '
 fi
-
