@@ -15,7 +15,7 @@ If I have more than `3` of something (e.g. `Terminal`) chances are it has its ow
 
 - [X] Rebase RSS
 - [X] Fix NixOS
-- [ ] Convert android confs to proper obtanium configs
+- [x] Convert android confs to proper obtanium configs
 - [ ] Kemono
 
 # [My public GPG key 🔐](/gpg/public-key.asc)
