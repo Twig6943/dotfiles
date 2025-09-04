@@ -71,20 +71,20 @@
             "keycolor": "blue"
         },
         {
-            "type": "cpu",
+            "type": "swap",
             "key": "",
             "keycolor": "blue"
+        },
+        {
+            "type": "cpu",
+            "key": "",
+            "keycolor": "magenta"
         },
         {
             "type": "gpu",
             "key": "",
             "keycolor": "magenta",
             "format": "{vendor} {name} | {driver}"
-        },
-        {
-            "type": "swap",
-            "key": "",
-            "keycolor": "magenta"
         },
         {
             "type": "disk",
