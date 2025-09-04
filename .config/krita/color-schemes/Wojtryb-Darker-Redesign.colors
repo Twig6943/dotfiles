@@ -89,8 +89,8 @@ ForegroundPositive=120,183,83
 ForegroundVisited=142,121,165
 
 [General]
-ColorScheme=Krita-Wojtryb-Darker-Redesign
-Name=Krita-Wojtryb-Darker-Redesign
+ColorScheme=Wojtryb-Darker-Redesign
+Name=Wojtryb-Darker-Redesign
 shadeSortColumn=true
 
 [KDE]
