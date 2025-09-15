@@ -43,6 +43,8 @@ sudo systemctl restart network
 ```
 
 ```bash
+sudo virsh net-destroy default
+sudo virsh net-undefine default
 sudo virsh net-define --file default.xml
 sudo virsh net-start default
 sudo virsh net-autostart default
