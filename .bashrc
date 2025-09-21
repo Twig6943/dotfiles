@@ -26,7 +26,7 @@ set -o vi
 # alias micro='flatpak run io.github.zyedidia.micro'
 alias fkr='fish_key_reader'
 alias pwfix='faillock --reset'
-alias kill_exe='sudo pkill -9 -f '\.exe''
+alias kill_exe='sudo pkill -9 -f "\\.exe"'
 alias empty_trash='sudo rm -rf ~/.local/share/Trash/files/* ~/.local/share/Trash/info/*'
 alias bash_conf_reload='source ~/.bashrc'
 alias ls='ls --color=auto'
