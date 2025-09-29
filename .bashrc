@@ -6,6 +6,7 @@
 
 # Soar bins
 export PATH="$HOME/.local/share/soar/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 export INPUTRC=$HOME/.inputrc
 export EDITOR=micro
