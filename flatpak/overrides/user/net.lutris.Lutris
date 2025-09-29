@@ -3,4 +3,6 @@ filesystems=xdg-config/gtk-3.0:ro;xdg-config/gtk-4.0:ro;home:ro;~/Games:rw;/mnt/
 nofilesystem=host;host-etc;host-os
 
 [Environment]
-GTK_THEME=Adwaita:dark
+GTK_THEME=Breeze:dark
+
+# Switch to Adwaita:dark if winetricks doesn't use dark theme
