@@ -60,7 +60,7 @@ items = [
 [managers.soar]
 items = [
     "sas#AM.x86_64.sas.sas:ivan-hc-am",
-    "librewolf#gitlab.com.librewolf-community.browser.appimage.stable:pkgcache",
+    "librewolf#AM.x86_64.librewolf.librewolf:ivan-hc-am",
     "fastfetch#sharun.wrappe.stable.fastfetch:pkgcache", # Don't change this, remember sound issue
     "micro#github.com.zyedidia.micro:bincache",
     "pince#AM.x86_64.pince.pince:ivan-hc-am",
