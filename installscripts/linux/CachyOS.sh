@@ -38,6 +38,9 @@ wget https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/ShellPr
 yay -S soar-bin --noconfirm
 soar defconfig --external
 
+# Install dbin
+wget -qO- "https://raw.githubusercontent.com/xplshn/dbin/master/stubdl" | sh -s -- --install "$HOME/.local/bin/dbin"
+
 #Rebos
 soar install rebos#gitlab.com.Oglo12.rebos:bincache
 rebos setup
