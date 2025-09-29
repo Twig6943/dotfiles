@@ -1,6 +1,6 @@
 [Context]
-filesystems=xdg-config/gtk-3.0:ro;xdg-config/gtk-4.0:ro;home:ro;~/Games:rw;host:rw;mnt:rw;
-nofilesystem=host;nofilesystem=host-os;nofilesystem=home;nofilesystem=host-etc
+filesystems=xdg-config/gtk-3.0:ro;xdg-config/gtk-4.0:ro;home:ro;~/Games:rw;/mnt/09403f3c-3c66-47f2-a0b4-5b5fbae04d23/home/twig/Games;rw
+nofilesystem=host;host-etc;host-os
 
 [Environment]
 GTK_THEME=Adwaita:dark
