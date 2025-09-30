@@ -1,3 +1,3 @@
-Phone 1 > S7 Edge
+Phone 1 > Main phone
 
-Phone 2 > Asus Zenfone 5
+Phone 2 > Placeholder?
