@@ -1,6 +1,6 @@
 # A list of apps categorized by their source platform
 
-F-Droid.repos = [
+fdroid.repos = [
  "microg.org/fdroid/repo",
  "cromite.org/fdroid/repo",
  "brave-browser-apk-release.s3.brave.com/fdroid/repo",
@@ -10,7 +10,7 @@ F-Droid.repos = [
  "mobileapp.bitwarden.com/fdroid/repo",
 ]
 
-F-Droid = [
+packages.fdroid = [
  "io.github.z3r0c00l_2k.aquadroid",
  "org.microg.gms",
  "com.termux",
@@ -49,7 +49,7 @@ F-Droid = [
 #Disabled pkgs;
 
 #ObtaniumDB; https://apps.obtanium.imranr.dev
-Obtanium = [
+packages.obtanium = [
  "github.com/microg/FakeStore", # Really Important
  "github.com/bluesky-social/social-app",
  "github.com/LuminarLeaf/boorusama",
@@ -67,7 +67,12 @@ Obtanium = [
 #Disabled pkgs
 # "github.com/KhoalaS/Infinity-For-Reddit",
 
-Play_Store = [
+packages.play_store = [
  "",
+]
+#Disabled pkgs
+
+packages.termux = [
+ "fastfetch",
 ]
 #Disabled pkgs
