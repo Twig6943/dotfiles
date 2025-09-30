@@ -124,6 +124,7 @@ items = [
     "flathub flathub com.github.ztefn.haguichi",
     "flathub io.github.radiolamp.mangojuice",
     "flathub net.lutris.Lutris",
+    "flathub com.heroicgameslauncher.hgl",
     "flathub com.raggesilver.BlackBox", #This is here to launch native games inside flatpak env
     "flathub org.gnome.Boxes",
     "flathub io.github.giantpinkrobots.varia",
