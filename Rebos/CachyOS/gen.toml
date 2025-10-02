@@ -63,6 +63,7 @@ items = [
     "librewolf#AM.x86_64.librewolf.librewolf:ivan-hc-am",
     "fastfetch#sharun.wrappe.stable.fastfetch:pkgcache", # Don't change this, remember sound issue
     "micro#github.com.zyedidia.micro:bincache",
+    "nvim#AM.x86_64.nvim.nvim:ivan-hc-am",
     "pince#AM.x86_64.pince.pince:ivan-hc-am",
     "cromite#github.com.pkgforge-dev.Cromite-AppImage",
     "goverlay#github.com.benjamimgois.goverlay.stable",
