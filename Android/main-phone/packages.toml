@@ -2,7 +2,7 @@
 
 fdroid.repos = [
  "microg.org/fdroid/repo",
- "cromite.org/fdroid/repo",
+ "cromite.org/fdroid/repo", # Down https://github.com/uazo/cromite/issues/2325
  "brave-browser-apk-release.s3.brave.com/fdroid/repo",
  "www.collaboraoffice.com/downloads/fdroid/repo",
  "https://molly.im/fdroid/repo/",
@@ -51,6 +51,7 @@ packages.fdroid = [
 #ObtaniumDB; https://apps.obtanium.imranr.dev
 packages.obtanium = [
  "github.com/microg/FakeStore", # Really Important
+ "github.com/uazo/cromite",
  "github.com/bluesky-social/social-app",
  "github.com/LuminarLeaf/boorusama",
  "github.com/revoltchat/rvmob",
