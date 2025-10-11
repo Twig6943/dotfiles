@@ -2,7 +2,8 @@
 org.freedesktop.Flatpak=talk
 
 [Context]
-filesystems=xdg-config/gtk-3.0:ro;xdg-config/gtk-4.0:ro;home:ro;~/Games:rw;/mnt/09403f3c-3c66-47f2-a0b4-5b5fbae04d23/home/twig/Games;rw
+filesystems=xdg-config/gtk-3.0:ro;xdg-config/gtk-4.0:ro;home:ro;~/Games:rw;/mnt/09403f3c-3c66-47f2-a0b4-5b5fbae04d23/home/twig/Games:rw;~/.var/app/com.valvesoftware.Steam:rw;
+
 nofilesystem=host;host-etc;host-os
 
 # Do no change
