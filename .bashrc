@@ -45,6 +45,22 @@ alias unbz2='tar -xvjf'
 alias ungz='tar -xvzf'
 
 
+# upload a file to 0x0.st and return the URL
+upload() {
+    if [ -z "$1" ]; then
+        echo "Usage: upload <file>"
+        return 1
+    fi
+
+    if [ ! -f "$1" ]; then
+        echo "Error: '$1' is not a file."
+        return 1
+    fi
+
+    curl -F "file=@$1" https://0x0.st
+}
+
+
 # Extracts any archive(s) (if unp isn't installed)
 extract () {
 	for archive in $*; do
