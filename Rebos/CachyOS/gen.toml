@@ -67,7 +67,7 @@ items = [
     "nvim#AM.x86_64.nvim.nvim:ivan-hc-am",
     "pince#AM.x86_64.pince.pince:ivan-hc-am",
     "cromite#github.com.pkgforge-dev.Cromite-AppImage",
-    "goverlay#github.com.benjamimgois.goverlay.stable",
+    "goverlay#github.com.benjamimgois.goverlay.stable:pkgcache",
     "waydroid-helper#github.com.ayasa520.waydroid-helper.stable:pkgcache",
 ]
 #Disabled pkgs
