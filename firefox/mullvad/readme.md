@@ -1,1 +1,3 @@
-#Idk why I left this here (Use mullvad as i2pd browser)
+# Proxy Settings
+
+![](assets/1.webp)
