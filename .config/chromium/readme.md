@@ -10,6 +10,8 @@
 
 [Chromium web store](https://github.com/NeverDecaf/chromium-web-store)
 
+[Dark Reader](https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
+
 [Video Downloader](https://chromewebstore.google.com/detail/video-downloadhelper/lmjnegcaeklhafolokijcfjliaokphfk)
 
 [Yt video stretcher](https://github.com/Dinoosauro/youtube-fullscreen-fit?tab=readme-ov-file)
