@@ -50,8 +50,6 @@ rebos config init
 cd /home/$USER
 git clone https://github.com/Twig6943/dotfiles
 
-mkdir ~/.unpacked_browser_extensions
-
 #Create /crap/ folder 
 sudo mkdir /crap
 sudo chown $USER 777 /crap
