@@ -1,7 +1,7 @@
 #Notes;
 
 #Software that does support wayland but needs a flag/etc;
-#Wine,LibreSprite,Spotify,Chromium
+#Wine,LibreSprite,Spotify
 
 #Software that doesn't support wayland
 #Steam > GOG + Lutris
@@ -67,6 +67,7 @@ items = [
     "nvim#AM.x86_64.nvim.nvim:ivan-hc-am",
     "pince#AM.x86_64.pince.pince:ivan-hc-am",
     "cromite#github.com.pkgforge-dev.Cromite-AppImage",
+    "helium#AM.x86_64.helium.helium:ivan-hc-am",
     "goverlay#github.com.benjamimgois.goverlay.stable:pkgcache",
     "waydroid-helper#github.com.ayasa520.waydroid-helper.stable:pkgcache",
 ]
