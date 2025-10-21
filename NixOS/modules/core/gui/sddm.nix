@@ -19,7 +19,7 @@
       flavor = "frappe";
       font = "Iosevka Nerd Font";
       fontSize = "10";
-      background = "${../../../assets/wallpapers/NixSlayer.png}";
+      background = "${../../../assets/wallpapers/NixSlayer.webp}";
       loginBackground = true;
     })
   ];

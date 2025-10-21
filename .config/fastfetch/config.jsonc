@@ -10,8 +10,8 @@
     "$schema": "~/.config/fastfetch/json_schema.json",
     "logo": {
         "color": { "1": "blue", "2": "black" },
-        "source": "$HOME/.config/fastfetch/ascii/rose.txt",
-        //"source": "~/.config/fastfetch/images/*.png",
+        //"source": "~/.config/fastfetch/ascii/*.txt",
+        //"source": "~/.config/fastfetch/images/*.webp",
         "padding": {
             "top": 2,
             "right": 5

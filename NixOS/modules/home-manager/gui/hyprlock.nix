@@ -104,7 +104,7 @@ in
     # BACKGROUND
     background {
       monitor = ${primary-monitor}
-      path = ${../../../assets/wallpapers/idolGoro.jpg}
+      path = ${../../../assets/wallpapers/idolGoro.webp}
       blur_passes = 0
       color = $base
     }

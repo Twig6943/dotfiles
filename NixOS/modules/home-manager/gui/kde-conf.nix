@@ -66,7 +66,7 @@
     };
     kscreenlocker = {
       appearance = {
-        wallpaper = ../../../assets/wallpapers/idolGoro.jpg;
+        wallpaper = ../../../assets/wallpapers/idolGoro.webp;
       };
     };
     fonts = {
