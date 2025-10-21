@@ -14,6 +14,8 @@
 
 [Video Downloader](https://chromewebstore.google.com/detail/video-downloadhelper/lmjnegcaeklhafolokijcfjliaokphfk)
 
+[Varia Integrator](https://chromewebstore.google.com/detail/varia-integrator/dacakhfljjhgdfdlgjpabkkjhbpcmiff)
+
 [Yt video stretcher](https://github.com/Dinoosauro/youtube-fullscreen-fit?tab=readme-ov-file)
 
 [SponsorBlock](https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone)
