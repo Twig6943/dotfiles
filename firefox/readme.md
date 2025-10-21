@@ -2,9 +2,9 @@
 
 ### Use DuckDuckGo/[SearXNG instance](https://searx.space/)/Brave Search
 
-# USER.JS STUFF
+# user.js
 
-Grab user.js from [Arkenfox](https://github.com/arkenfox/user.js/blob/master/user.js)
+Grab [user.js from Arkenfox](https://github.com/arkenfox/user.js/blob/master/user.js)
 
 Overrides: [user.js](/firefox/user.js)
 
@@ -17,6 +17,8 @@ Overrides: [user.js](/firefox/user.js)
 [Dark reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
 
 [Video Downloader](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/)
+
+[Varia Integrator](https://addons.mozilla.org/en-US/firefox/addon/varia-integrator/)
 
 [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
 
