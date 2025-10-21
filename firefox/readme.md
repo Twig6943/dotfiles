@@ -10,32 +10,24 @@ Overrides: [user.js](/firefox/user.js)
 
 # Extensions
 
-[uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+[Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
 
-[Youtube ad skipper](https://addons.mozilla.org/en-US/firefox/addon/skiperoo/)
+[Better volume booster](https://addons.mozilla.org/en-US/firefox/addon/better-volume-booster/)
+
+[Dark reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
 
 [Video Downloader](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/)
 
 [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
 
-[Better volume booster](https://addons.mozilla.org/en-US/firefox/addon/better-volume-booster/)
+[uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+
+[Youtube ad skipper](https://addons.mozilla.org/en-US/firefox/addon/skiperoo/)
 
 [YT Video Stretcher](https://addons.mozilla.org/en-US/firefox/addon/youtube-fullscreen-fit/)
-
-[Free download manager](https://addons.mozilla.org/en-US/firefox/addon/free-download-manager-addon/)
-
-[Multi-threaded download manager](https://addons.mozilla.org/en-US/firefox/addon/multithreaded-download-manager/)
-
-[Dark reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
-
-[Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
-
-[Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
 
 [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
 # Bookmarks
 
-Grab from proton drive/nextcloud
-
-# [Other firefox based browsers](https://github.com/Twig6943/dotfiles/blob/main/firefox/Other)
+Grab from df_p
