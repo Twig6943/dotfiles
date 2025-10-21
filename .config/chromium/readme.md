@@ -2,7 +2,7 @@
 
 ### Use DuckDuckGo/[SearXNG instance](https://searx.space/)/Brave Search
 
-# Extensions (I don't really use these)
+# Extensions
 
 [Bitwarden](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb)
 
