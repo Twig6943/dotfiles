@@ -1,6 +1,6 @@
 # Search Engine
 
-### Switch to a popular [SearXNG instance](https://searx.space/) or to DuckDuckGo
+### Use DuckDuckGo/[SearXNG instance](https://searx.space/)/Brave Search
 
 # Extensions (I don't really use these)
 
