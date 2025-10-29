@@ -78,6 +78,7 @@ items = [
 [managers.soar_profile1]
 items = [
     "ultimmc#wrappe.ultimmc:pkgcache",
+    "inkscape#gitlab.com.inkscape.inkscape",
 ]
 
 #Repos to be added system wide.
@@ -179,7 +180,6 @@ items = [
     "flathub io.github.TheWisker.Cavasik",
     "flathub com.github.tchx84.Flatseal",
     "flathub io.github.marco_calautti.DeltaPatcher",
-    "flathub org.inkscape.Inkscape",
     "flathub com.jpexs.decompiler.flash",
     "flathub org.kde.haruna",
     "flathub io.mpv.Mpv",
