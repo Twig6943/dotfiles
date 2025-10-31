@@ -33,3 +33,7 @@
 # Bookmarks
 
 Grab from df_p
+
+# Dark theme (force)
+
+`Enabled with selective image inversion based on transparency and number of colors.`
