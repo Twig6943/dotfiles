@@ -1,6 +1,6 @@
 {
   "ui_font_size": 16,
-  "buffer_font_size": 16,
+  "buffer_font_size": 20.0,
   "restore_on_startup": "last_workspace",
   "theme": {
     "mode": "system",
@@ -21,8 +21,7 @@
   "features": {
     "edit_prediction_provider": "none"
   },
-  "assistant": {
+  "agent": {
     "enabled": false,
-    "version": "2"
   }
 }
