@@ -22,6 +22,7 @@ packages.fdroid = [
  "org.purplei2p.i2pd",
  "com.stoutner.privacybrowser.standard",
  "com.aurora.store",
+ "app.organicmaps",
  "co.prestosole.clima",
  "im.vector.app",
  "com.zaneschepke.wireguardautotunnel",
