@@ -53,6 +53,7 @@ packages.fdroid = [
 packages.obtanium = [
  "github.com/microg/FakeStore", # Really Important
  "github.com/uazo/cromite",
+ "github.com/jqssun/android-helium-browser",
  "github.com/bluesky-social/social-app",
  "github.com/LuminarLeaf/boorusama",
  "github.com/revoltchat/rvmob",
