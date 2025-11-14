@@ -87,6 +87,7 @@ items = [
     "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
     "flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo",
     "hero-persson https://hero-persson.github.io/unmojang-flatpak/index.flatpakrepo",
+    "ykc https://flatpak.yellowkeycard.net/ykc.flatpakrepo",
 ]
 
 #Repos to be added as user.
@@ -95,6 +96,7 @@ items = [
     "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
     "flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo",
     "hero-persson https://hero-persson.github.io/unmojang-flatpak/index.flatpakrepo",
+    "ykc https://flatpak.yellowkeycard.net/ykc.flatpakrepo",
 ]
 
 #Repos to be added to the extra installation.
@@ -103,6 +105,7 @@ items = [
     "flathub https://dl.flathub.org/repo/flathub.flatpakrepo",
     "flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo",
     "hero-persson https://hero-persson.github.io/unmojang-flatpak/index.flatpakrepo",
+    "ykc https://flatpak.yellowkeycard.net/ykc.flatpakrepo",
 ]
 
 # Packages to be installed via Flatpak. (System mode)
