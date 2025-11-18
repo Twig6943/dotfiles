@@ -64,6 +64,7 @@ items = [
 [managers.am]
 items = [
     "helium",
+    "heroic-games-launcher",
 ]
 
 #Packages to be installed via Soar.
