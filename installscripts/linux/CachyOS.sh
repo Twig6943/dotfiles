@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 echo "Please update via CachyOS-hello first."
 
-echo "DONT FORGET TO add;"
+echo "Please add;"
 echo "[chaotic-aur]"
 echo "Include = /etc/pacman.d/chaotic-mirrorlist"
-echo "to /etc/pacman.conf"
+echo "to /etc/pacman.conf once this script is done."
 
 chsh -s /usr/bin/bash $USER
 read -n 1 -s
