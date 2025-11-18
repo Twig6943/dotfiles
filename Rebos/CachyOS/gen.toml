@@ -59,6 +59,12 @@ items = [
 ]
 #flashpoint-launcher-bin
 
+#Packages to be installed via am.
+[managers.am]
+items = [
+    "helium",
+]
+
 #Packages to be installed via Soar.
 [managers.soar]
 items = [
