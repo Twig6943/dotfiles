@@ -36,6 +36,26 @@ types=1
 wmclass=io.github.TheWisker.Cavasik
 wmclassmatch=1
 
+[Copying — Dolphin]
+Description=Copying — Dolphin
+below=true
+belowrule=3
+title=Copying — Dolphin
+titlematch=1
+wmclass=dolphin org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
+[Deleting — Dolphin]
+Description=Deleting — Dolphin
+below=true
+belowrule=3
+title=Deleting — Dolphin
+titlematch=1
+wmclass=dolphin org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
 [Emoji Selector]
 Description=Emoji Selector
 above=true

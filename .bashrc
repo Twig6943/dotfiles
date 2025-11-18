@@ -17,7 +17,6 @@ export QT_QPA_PLATFORM=wayland:xcb
 export ELECTRON_OZONE_PLATFORM_HINT=auto
 export GTK_THEME=Breeze:dark
 
-
 # Vi stuff
 
 set -o vi
@@ -30,7 +29,7 @@ alias proton='umu-run'
 alias kill_exe='sudo pkill -9 -f "\\.exe"'
 alias empty_trash='sudo rm -rf ~/.local/share/Trash/files/* ~/.local/share/Trash/info/*'
 alias bash_conf_reload='source ~/.bashrc'
-alias ls='ls --color=auto'
+alias ls='ls -f --color=auto'
 alias nano='nano --line'
 alias grep='grep --color=auto'
 
@@ -61,6 +60,13 @@ upload() {
     curl -F "file=@$1" https://0x0.st
 }
 
+temp_upload() {
+    for file in "$@"; do
+        echo "Uploading $file..."
+        curl -F "file=@$file" https://temp.sh/upload
+        echo
+    done
+}
 
 # Extracts any archive(s) (if unp isn't installed)
 extract () {

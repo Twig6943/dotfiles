@@ -34,8 +34,8 @@ sudo rm ~/.bashrc
 cd ~/
 wget https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/ShellProfiles/BASH/.bashrc
 
-#Install Soar
-yay -S soar-bin --noconfirm
+#Install Soar & am
+yay -S soar-bin am --noconfirm
 soar defconfig --external
 
 # Install dbin
