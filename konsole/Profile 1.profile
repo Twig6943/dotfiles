@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=GreenOnBlack
+ColorScheme=Breeze
 
 [General]
 Command=/usr/bin/bash
