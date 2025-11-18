@@ -1,6 +1,7 @@
 begin = [
   "system",
   "yay",
+  "am",
   "soar",
   "soar_profile1",
 ]
