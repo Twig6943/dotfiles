@@ -28,7 +28,6 @@ items = [
     "vkmark",
     "wireguard-tools",
     "headscale",
-    "vlc-git", #Switch to universal once universal pkg comes out.
     "krita-git", #Switch to universal once universal pkg comes out.
     "wine",
     "winetricks",
@@ -39,6 +38,7 @@ items = [
     "htop",
 ]
 #Disabled pkgs
+#"vlc-git", #Switch to universal once universal pkg comes out. //Still a headache
 #archlinux-xdg-menu
 #hyprland
 #swaylock  #Don't use hyprlock that shits ass
@@ -48,7 +48,7 @@ items = [
 #wofi
 #sway
 #lib32-mangohud #When not using WoW64 mode of wine (for 32bit win games)
-    
+
 #Packages to be installed via YaY.
 [managers.yay]
 items = [
@@ -65,7 +65,6 @@ items = [
     "fastfetch#sharun.wrappe.stable.fastfetch:pkgcache", # Don't change this, remember sound issue
     "micro#github.com.zyedidia.micro:bincache",
     "nvim#AM.x86_64.nvim.nvim:ivan-hc-am",
-    "pince#AM.x86_64.pince.pince:ivan-hc-am",
     "cromite#github.com.pkgforge-dev.Cromite-AppImage",
     "helium#AM.x86_64.helium.helium:ivan-hc-am",
     "goverlay#github.com.benjamimgois.goverlay.stable:pkgcache",
@@ -73,6 +72,7 @@ items = [
 ]
 #Disabled pkgs
 #vlc-git#AM.x86_64.vlc-git.vlc-git:ivan-hc-am
+#pince#AM.x86_64.pince.pince:ivan-hc-am # https://github.com/pkgforge/soarpkgs/issues/222
 
 #Packages to be installed via Soar. (Profile 1)
 [managers.soar_profile1]
@@ -108,34 +108,33 @@ items = [
     "ykc https://flatpak.yellowkeycard.net/ykc.flatpakrepo",
 ]
 
-# Packages to be installed via Flatpak. (System mode)
-[managers.flatpak]
+#Repos to be added to the extra installation. NoGPG
+[managers.flatpak_repos_extra_nogpg]
 items = [
-    "flathub com.dec05eba.gpu_screen_recorder", #I have to install this as system 😭
+    "funkin-flatpak https://pucas01.github.io/Funkin-Flatpak/",
 ]
+
+# Packages to be installed via Flatpak. (System mode)
+#[managers.flatpak]
+#items = [
+#    "", #Placeholder since I don't need to install anything as system?
+#]
 
 # Packages to be installed via Flatpak. (User mode)
 [managers.flatpak_user]
 items = [
     "flathub dev.zed.Zed",
     "flathub org.ghidra_sre.Ghidra",
-    "flathub re.rizin.cutter",
-    "flathub re.rizin.cutter.plugin.rz-ghidra",
     "flathub org.gnome.Calculator",
     "flathub org.filezillaproject.Filezilla",
-    "flathub com.github.KRTirtho.Spotube",
     "flathub com.spotify.Client",
     "flathub org.strawberrymusicplayer.strawberry",
     "flathub website.i2pd.i2pd",
     "flathub dev.deedles.Trayscale",
     "flathub flathub com.github.ztefn.haguichi",
-    "flathub io.github.radiolamp.mangojuice",
-    "flathub net.lutris.Lutris",
     "flathub com.heroicgameslauncher.hgl",
-    "flathub com.raggesilver.BlackBox", #This is here to launch native games inside flatpak env
     "flathub org.gnome.Boxes",
     "flathub io.github.giantpinkrobots.varia",
-    "flathub com.google.Chrome", #Fortnite Browser
     "flathub im.nheko.Nheko",
     "flathub im.riot.Riot",
     "flathub org.signal.Signal",
@@ -143,33 +142,32 @@ items = [
     "flathub io.github.flattool.Warehouse",
     "flathub com.rustdesk.RustDesk",
     "flathub net.werwolv.ImHex",
-    "flathub org.blender.Blender",
     "flathub rs.ruffle.Ruffle",
     "flathub org.gimp.GIMP",
     "flathub io.gitlab.theevilskeleton.Upscaler",
-    "flathub io.github.tntwise.REAL-Video-Enhancer",
-    "flathub org.synfig.SynfigStudio",
     "flathub io.github.martinrotter.rssguard",
     "flathub org.kde.kclock",
-    "flathub io.gitlab.adhami3310.Impression",
     "flathub org.kde.filelight",
-    "flathub org.kde.krdc",
     "flathub org.libreoffice.LibreOffice",
     "flathub org.kde.okular",
     "flathub org.nickvision.tubeconverter",
     "flathub com.obsproject.Studio",
+    "flathub com.dec05eba.gpu_screen_recorder",
     "flathub org.shotcut.Shotcut",
     "flathub org.kde.kdenlive",
     "flathub com.valvesoftware.Steam",
-    "flathub com.valvesoftware.Steam.Utility.steamtinkerlaunch",
     "flathub org.libretro.RetroArch",
     "flathub com.vysp3r.ProtonPlus",
     "flathub com.github.Matoking.protontricks",
     "flathub org.freedesktop.Platform.VulkanLayer.MangoHud",
     "flathub org.freedesktop.Platform.VulkanLayer.gamescope",
-    "flathub org.freedesktop.Platform.VulkanLayer.vkBasalt",
     "hero-persson org.unmojang.FjordLauncher",
 ]
+#"flathub net.lutris.Lutris", # Lutris is still dead
+#"flathub re.rizin.cutter",
+#"flathub re.rizin.cutter.plugin.rz-ghidra",
+#"flathub org.freedesktop.Platform.VulkanLayer.vkBasalt",
+
 
 # Packages to be installed via Flatpak. (Extra mode)
 [managers.flatpak_extra]
@@ -186,12 +184,13 @@ items = [
     "flathub com.jpexs.decompiler.flash",
     "flathub org.kde.haruna",
     "flathub io.mpv.Mpv",
-    "flathub ch.openboard.OpenBoard",
     "flathub io.github.peazip.PeaZip",
     "flathub org.qbittorrent.qBittorrent",
     "flathub org.tenacityaudio.Tenacity",
     "flathub org.vinegarhq.Sober",
+    "funkin-flatpak io.github.Pucas01.FunkinFlatpak",
 ]
+#    "flathub ch.openboard.OpenBoard",
 
 # Packages to be installed as .flatpak files.
 #[managers.flatpak_file]
