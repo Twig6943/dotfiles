@@ -1,0 +1,11 @@
+# Flatpak repos (User installation mode nogpg)
+
+add = "flatpak --user remote-add --if-not-exists --no-gpg-verify #:?"
+remove = ""
+
+plural_name = "flatpak_repos_user_nogpg"
+
+hook_name = "flatpak_repos_user_nogpg"
+
+[config]
+many_args = false
