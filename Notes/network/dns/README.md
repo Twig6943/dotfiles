@@ -11,3 +11,7 @@ KDE DNS settings;
 ```
 2a10:50c0::ad1:ff,2a10:50c0::ad2:ff
 ```
+
+Hit `disconnect` if it doesn't apply automatically.
+
+<img src="disconnect.webp"/>
