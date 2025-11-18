@@ -21,6 +21,7 @@ items = [
     "discover",
     "distrobox",
     "lshw",
+    "umu-launcher", # DO NOT REMOVE
     "mangohud", #Remove once you learn how to use the flatpak pkg from cli
     "gamemode",
     "gamescope",
