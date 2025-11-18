@@ -22,7 +22,7 @@ sudo pacman-key --lsign-key 3056513887B78AEB
 sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
 sudo pacman -Syu --noconfirm
 
-#Extra flatpak installation folder (CHECK "NOTES/README.MD" FOR MORE INFO)
+#Extra flatpak installation folder (See /flatpak/installations) 
 sudo mkdir -p /etc/flatpak/installations.d
 
 #Install AppImage stuff
