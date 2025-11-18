@@ -90,6 +90,16 @@ wmclass=mpv
 wmclasscomplete=true
 wmclassmatch=2
 
+[Moving — Dolphin]
+Description=Moving — Dolphin
+below=true
+belowrule=3
+title=Moving — Dolphin
+titlematch=1
+wmclass=dolphin org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
 [PiP (Chromium)]
 Description=PiP (Chromium)
 above=true
