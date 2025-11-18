@@ -64,7 +64,6 @@ items = [
 [managers.am]
 items = [
     "helium",
-    "heroic-games-launcher",
 ]
 
 #Packages to be installed via Soar.
@@ -163,6 +162,7 @@ items = [
     "flathub com.dec05eba.gpu_screen_recorder",
     "flathub org.shotcut.Shotcut",
     "flathub org.kde.kdenlive",
+    "flathub com.heroicgameslauncher.hgl",
     "flathub com.valvesoftware.Steam",
     "flathub org.libretro.RetroArch",
     "flathub com.vysp3r.ProtonPlus",
