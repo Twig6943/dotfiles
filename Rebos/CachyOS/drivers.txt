@@ -1,7 +1,7 @@
 RX 580
 
 Drivers:
-sudo pacman -S amdvlk vulkan-radeon
+sudo pacman -S vulkan-radeon
 
 OpenCL:
 yay -S opencl-amd ocl-icd-choose
