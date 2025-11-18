@@ -1,11 +1,11 @@
-# Flatpak repos (Extra installation mode)
+# Flatpak repos (Extra installation mode nogpg)
 
 add = "flatpak --installation=extra remote-add --if-not-exists --no-gpg-verify #:?"
 remove = ""
 
-plural_name = "flatpak_repos_extra"
+plural_name = "flatpak_repos_extra_nogpg"
 
-hook_name = "flatpak_repos_extra"
+hook_name = "flatpak_repos_extra_nogpg"
 
 [config]
 many_args = false
