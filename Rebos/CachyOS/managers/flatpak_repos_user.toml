@@ -1,11 +1,11 @@
-# Flatpak repos (User installation mode nogpg)
+# Flatpak repos (User installation mode)
 
 add = "flatpak --user remote-add --if-not-exists #:?"
 remove = ""
 
-plural_name = "flatpak_repos_user_nogpg"
+plural_name = "flatpak_repos_user"
 
-hook_name = "flatpak_repos_user_nogpg"
+hook_name = "flatpak_repos_user"
 
 [config]
 many_args = false
