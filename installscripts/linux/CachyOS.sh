@@ -5,6 +5,7 @@ echo "Please add;"
 echo "[chaotic-aur]"
 echo "Include = /etc/pacman.d/chaotic-mirrorlist"
 echo "to /etc/pacman.conf once this script is done."
+echo "Also run sudo pacman -Syu after this script."
 
 chsh -s /usr/bin/bash $USER
 read -n 1 -s
