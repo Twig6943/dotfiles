@@ -9,7 +9,7 @@ end = [
   "flatpak_repos",
   "flatpak_repos_user",
   "flatpak_repos_extra",
-  "flatpak_repos_extra_nogpg",
+  "flatpak_repos_user_nogpg",
   "flatpak_user",
   "flatpak_extra",
 ]
