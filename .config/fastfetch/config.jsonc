@@ -33,33 +33,33 @@
         {
             "type": "os",
             "key": "",
-            "keycolor": "red"
+            "keyColor": "red"
         },
         {
             "type": "kernel",
             "key": "",
-            "keycolor": "red"
+            "keyColor": "red"
         },
         {
             "type": "de",
             "key": "",
-            "keycolor": "green"
+            "keyColor": "green"
         },
         {
             "type": "wm",
             "key": "",
-            "keycolor": "green"
+            "keyColor": "green"
         },
         {
             "type": "sound",
             "format": "{platform-api}",
             "key": "",
-            "keycolor": "green"
+            "keyColor": "green"
         },
         {
             "type": "packages",
             "key": "",
-            "keycolor": "green"
+            "keyColor": "green"
         },
         {
             "type": "custom",
@@ -68,33 +68,33 @@
         {
             "type": "memory",
             "key": "",
-            "keycolor": "blue"
+            "keyColor": "blue"
         },
         {
             "type": "swap",
             "key": "",
-            "keycolor": "blue"
+            "keyColor": "blue"
         },
         {
             "type": "cpu",
             "key": "",
-            "keycolor": "magenta"
+            "keyColor": "magenta"
         },
         {
             "type": "gpu",
             "key": "",
-            "keycolor": "magenta",
+            "keyColor": "magenta",
             "format": "{vendor} {name} | {driver}"
         },
         {
             "type": "disk",
             "key": "",
-            "keycolor": "red"
+            "keyColor": "red"
         },
         {
             "type": "battery",
             "key": "",
-            "keycolor": "red"
+            "keyColor": "red"
         },
         {
             "type": "custom",
@@ -103,7 +103,7 @@
         {
             "type": "uptime",
             "key": "",
-            "keycolor": "yellow"
+            "keyColor": "yellow"
         },
         {
             "type": "command",
@@ -114,12 +114,12 @@
         {
             "type": "shell",
             "key": "",
-            "keycolor": "yellow"
+            "keyColor": "yellow"
         },
         {
             "type": "terminal",
             "key": "",
-            "keycolor": "yellow"
+            "keyColor": "yellow"
         },
         {
             "type": "custom",
