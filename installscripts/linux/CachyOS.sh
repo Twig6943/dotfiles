@@ -57,6 +57,7 @@ cd /home/$USER
 git clone https://github.com/Twig6943/dotfiles
 
 # Give current users rw perms for wallpapers
+sudo mkdir /usr/share/wallpapers/Custom/
 sudo setfacl -m u:$(whoami):rwX /usr/share/wallpapers/Custom/
 
 #Create /crap/ folder 
