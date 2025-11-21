@@ -23,3 +23,6 @@ user_pref("network.proxy.no_proxies_on", "localhost, 127.0.0.1");
 
 // Enable remote DNS through SOCKS v5
 user_pref("network.proxy.socks_remote_dns", true);
+
+// Vertical tabs
+user_pref("sidebar.verticalTabs", true);
