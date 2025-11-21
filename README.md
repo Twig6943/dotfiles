@@ -1,5 +1,7 @@
 ## Directory structure 📁
 
+# Version `1.0`
+
 If I have more than `3` of something (e.g. `Terminal`) chances are it has its own folder.
 
 ```
