@@ -16,6 +16,7 @@
 items = [
     "zip",
     "p7zip",
+    "msedit",
     "kio-admin",
     "flatpak-builder",
     "discover",
@@ -74,7 +75,7 @@ items = [
     "librewolf#gitlab.com.librewolf-community.browser.appimage.stable:pkgcache",
     "fastfetch#sharun.wrappe.stable.fastfetch:pkgcache", # Don't change this, remember sound issue
     "micro#github.com.zyedidia.micro:bincache",
-    "nvim#AM.x86_64.nvim.nvim:ivan-hc-am",
+    "neovim#github.com.neovim.neovim.stable:pkgcache",
     "cromite#github.com.pkgforge-dev.Cromite-AppImage",
     "goverlay#github.com.benjamimgois.goverlay.stable:pkgcache",
     "waydroid-helper#github.com.ayasa520.waydroid-helper.stable:pkgcache",
