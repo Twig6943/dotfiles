@@ -1,3 +1,0 @@
-[Context]
-sockets=wayland
-filesystems=xdg-config/MangoHud:ro;xdg-config/gtk-3.0:ro;xdg-config/gtk-4.0:ro;/usr/share/themes:ro;/usr/share/icons:ro
