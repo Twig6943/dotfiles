@@ -19,6 +19,7 @@ items = [
     "msedit",
     "kio-admin",
     "flatpak-builder",
+    "wl-clipboard", # This is for vi and vim
     "discover",
     "distrobox",
     "lshw",
