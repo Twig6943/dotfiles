@@ -1,6 +1,6 @@
 [Context]
-sockets=wayland;
-filesystems=xdg-config/gtk-3.0:ro;xdg-config/gtk-4.0:ro;xdg-config/MangoHud:ro;/usr/share/themes:ro;/usr/share/icons:ro;xdg-run/discord-ipc-0;xdg-run/app/com.discordapp.Discord:create;xdg-run/discord-ipc-0;xdg-run/app/dev.vencord.Vesktop:create;
+sockets=wayland
+filesystems=xdg-run/app/dev.vencord.Vesktop:create;xdg-run/app/com.discordapp.Discord:create;xdg-run/discord-ipc-0;xdg-config/MangoHud:ro;xdg-config/gtk-4.0:ro;xdg-config/gtk-3.0:ro
 
 [Environment]
 EDITOR=micro
@@ -11,4 +11,3 @@ GDK_BACKEND=wayland,x11
 QT_QPA_PLATFORM=wayland:xcb
 SDL_VIDEODRIVER=wayland,x11
 CHROMIUM_USER_FLAGS="--ozone-platform-hint=auto --enable-blink-features=MiddleClickAutoscroll --ignore-gpu-blocklist --use-gl=angle --use-angle=swiftshader"
-GTK_THEME=Breeze:dark
