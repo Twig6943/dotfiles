@@ -16,6 +16,8 @@
 
 [Varia Integrator](https://chromewebstore.google.com/detail/varia-integrator/dacakhfljjhgdfdlgjpabkkjhbpcmiff)
 
+[PiP in any site](https://github.com/mtsmfm/pip-any-site)
+
 [Yt video stretcher](https://github.com/Dinoosauro/youtube-fullscreen-fit?tab=readme-ov-file)
 
 [SponsorBlock](https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone)
