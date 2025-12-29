@@ -1,0 +1,3 @@
+[Context]
+filesystems=xdg-config/MangoHud:rw
+persistent=.config/MangoHud;.config/vkBasalt
