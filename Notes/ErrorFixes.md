@@ -1,14 +1,14 @@
-# ErrorFixes 🔴
+# ErrorFixes
 
 Fixes to errors I encounter every now and then can be found here.
 
-## Sudo password 🔑
+## Sudo password
 
 ```bash
 faillock --reset
 ```
 
-## Screenshare 🖥️
+## Screenshare
 
 ```bash
 systemctl --user restart xdg-desktop-portal
