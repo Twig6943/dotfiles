@@ -2,8 +2,8 @@
 
 - [ ] Placeholder
 
-# [Fixes 🔨](/Notes/ErrorFixes.md)
+# [Fixes](/Notes/ErrorFixes.md)
 
-# [Useful stuff 🔥](/Notes/UsefulStuff.md)
+# [Useful stuff](/Notes/UsefulStuff.md)
 
 <img src="/assets/wallpapers/strawHats.webp" width="800"/>
