@@ -18,6 +18,8 @@ Overrides: [user.js](/firefox/user.js)
 
 [Video Downloader](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/)
 
+[Brisk downloader](https://github.com/BrisklyDev/brisk-browser-extension/releases)
+
 [Varia Integrator](https://addons.mozilla.org/en-US/firefox/addon/varia-integrator/)
 
 [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)

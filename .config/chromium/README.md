@@ -14,6 +14,8 @@
 
 [Video Downloader](https://chromewebstore.google.com/detail/video-downloadhelper/lmjnegcaeklhafolokijcfjliaokphfk)
 
+[Brisk downloader](https://github.com/BrisklyDev/brisk-browser-extension/releases)
+
 [Varia Integrator](https://chromewebstore.google.com/detail/varia-integrator/dacakhfljjhgdfdlgjpabkkjhbpcmiff)
 
 [PiP in any site](https://github.com/mtsmfm/pip-any-site)
