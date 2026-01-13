@@ -144,7 +144,8 @@ items = [
     "flathub dev.deedles.Trayscale",
     "flathub com.github.ztefn.haguichi",
     "flathub org.gnome.Boxes",
-    "flathub io.github.BrisklyDev.Brisk",
+    "flathub io.github.giantpinkrobots.varia",
+    "flathub io.github.BrisklyDev.Brisk", # Keep ts as backup
     "flathub im.nheko.Nheko",
     "flathub im.riot.Riot",
     "flathub org.signal.Signal",
