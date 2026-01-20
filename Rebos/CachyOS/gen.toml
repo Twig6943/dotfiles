@@ -1,16 +1,3 @@
-#Notes;
-
-#OS_AGE record: 242 
-
-#Software that does support wayland but needs a flag/etc;
-#Wine,LibreSprite,Spotify
-
-#Software that doesn't support wayland
-#Steam > GOG + Lutris
-#FFDEC > ?
-#Ghidra > Cutter with ghidra decompiler
-#Resolve > Kdenlive/OpenShot
-
 #Packages to be installed via Pacman.
 [managers.system]
 items = [
@@ -23,6 +10,7 @@ items = [
     "discover",
     "distrobox",
     "lshw",
+    "zerotier-one",
     "umu-launcher", # DO NOT REMOVE
     "mangohud", #Remove once you learn how to use the flatpak pkg from cli
     "gamemode",
@@ -212,5 +200,4 @@ items = [
     #"gitgud.io/Twig6943/resolve-flatpak",
     #"github.com/fn2006/PollyMC",
     #"github.com/unmojang/FjordLauncher"
-    #"github.com/Pucas01/FunkinFlatpak",
-#]
+    #"github.com/Pucas01/FunkinFlatpak"
