@@ -47,6 +47,7 @@ items = [
 items = [
     "waydroid",
     "binder_linux-dkms",
+    "wps-office-cn",
 ]
 #zerotier-desktop-ui-git (wait for pr to get merged)
 #flashpoint-launcher-bin

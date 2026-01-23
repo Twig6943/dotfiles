@@ -20,4 +20,4 @@ url = "https://meta.pkgforge.dev/external/appimage.github.io/x86_64-Linux.json.z
 root_path = "/home/twig/.local/share/soar"
 
 [profile.profile1]
-root_path = "/home/twig/Desktop/Sigma"
+root_path = "/mnt/f53204c8-56a6-445d-9a2e-1434e4877f58/soar"

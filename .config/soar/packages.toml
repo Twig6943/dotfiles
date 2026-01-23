@@ -1,0 +1,14 @@
+[packages]
+helium = { github = "imputnet/helium-linux", asset_pattern = "*x86_64.AppImage", version = "*" }
+fastfetch = { github = "fastfetch-cli/fastfetch", asset_pattern = "*linux-amd64.tar.gz", version = "*"}
+goverlay = { github = "benjamimgois/goverlay", asset_pattern = "*.AppImage", version = "*"}
+pince = { github = "korcankaraokcu/PINCE", asset_pattern = "*x86_64.AppImage", version = "*" }
+micro = { github = "micro-editor/micro", asset_pattern = "*linux64-static.tar.gz", version = "*"}
+waydroid_helper = { github = "waydroid-helper/waydroid-helper", asset_pattern = "*x86_64.AppImage", version = "*"}
+simple-appimage-sandbox = { github = "Samueru-sama/simple-appimage-sandbox", asset_pattern = "*anylinux-x86_64.AppImage", version = "*"}
+desktopeditors = { github = "ONLYOFFICE/DesktopEditors", asset_pattern = "*x86_64.AppImage", version = "9.2.1" }
+
+# with pkg_id
+inkscape = { pkg_id = "gitlab.com.inkscape.inkscape", version = "*" }
+librewolf = { pkg_id = "gitlab.com.librewolf-community.browser.appimage.stable", version = "*" }
+neovim = { pkg_id = "github.com.neovim.neovim.stable", version = "*" }
