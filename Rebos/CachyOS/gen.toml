@@ -48,37 +48,17 @@ items = [
     "waydroid",
     "binder_linux-dkms",
 ]
+#zerotier-desktop-ui-git (wait for pr to get merged)
 #flashpoint-launcher-bin
 
-#Packages to be installed via am.
-[managers.am]
-items = [
-    "helium",
-    "github-desktop",
-]
-
-#Packages to be installed via Soar.
+#Soar supports declarative packages
 [managers.soar]
 items = [
-    "sas#AM.x86_64.sas.sas:ivan-hc-am",
-    "librewolf#gitlab.com.librewolf-community.browser.appimage.stable:pkgcache",
-    "fastfetch#sharun.wrappe.stable.fastfetch:pkgcache", # Don't change this, remember sound issue
-    "micro#github.com.zyedidia.micro:bincache",
-    "neovim#github.com.neovim.neovim.stable:pkgcache",
-    "cromite#github.com.pkgforge-dev.Cromite-AppImage",
-    "goverlay#github.com.benjamimgois.goverlay.stable:pkgcache",
-    "waydroid-helper#github.com.ayasa520.waydroid-helper.stable:pkgcache",
+    "apply",
 ]
 #Disabled pkgs
 #vlc-git#AM.x86_64.vlc-git.vlc-git:ivan-hc-am
 #pince#AM.x86_64.pince.pince:ivan-hc-am # https://github.com/pkgforge/soarpkgs/issues/222
-
-#Packages to be installed via Soar. (Profile 1)
-[managers.soar_profile1]
-items = [
-    "ultimmc#wrappe.ultimmc:pkgcache",
-    "inkscape#gitlab.com.inkscape.inkscape",
-]
 
 #Repos to be added system wide.
 [managers.flatpak_repos]
@@ -129,8 +109,6 @@ items = [
     "flathub com.spotify.Client",
     "flathub org.strawberrymusicplayer.strawberry",
     "flathub website.i2pd.i2pd",
-    "flathub dev.deedles.Trayscale",
-    "flathub com.github.ztefn.haguichi",
     "flathub org.gnome.Boxes",
     "flathub io.github.giantpinkrobots.varia",
     "flathub io.github.BrisklyDev.Brisk", # Keep ts as backup

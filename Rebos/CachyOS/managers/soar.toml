@@ -1,6 +1,6 @@
 # SoarPKGS
 
-add = "soar install #:?"
+add = "soar #:?"
 remove = "soar remove #:?"
 upgrade = "soar update"
 
