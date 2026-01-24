@@ -6,7 +6,7 @@ pince = { github = "korcankaraokcu/PINCE", asset_pattern = "*x86_64.AppImage", v
 micro = { github = "micro-editor/micro", asset_pattern = "*linux64-static.tar.gz", version = "*"}
 waydroid_helper = { github = "waydroid-helper/waydroid-helper", asset_pattern = "*x86_64.AppImage", version = "*"}
 simple-appimage-sandbox = { github = "Samueru-sama/simple-appimage-sandbox", asset_pattern = "*anylinux-x86_64.AppImage", version = "*"}
-desktopeditors = { github = "ONLYOFFICE/DesktopEditors", asset_pattern = "*x86_64.AppImage", version = "9.2.1" }
+desktopeditors = { github = "ONLYOFFICE/DesktopEditors", asset_pattern = "*x86_64.AppImage", version = "*" }
 
 # with pkg_id
 inkscape = { pkg_id = "gitlab.com.inkscape.inkscape", version = "*" }
