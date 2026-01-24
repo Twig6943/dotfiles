@@ -36,7 +36,7 @@ makepkg -si
 
 #Bash profile fix
 sudo rm ~/.bashrc
-cd ~/
+cd ~
 wget https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/.bashrc
 source ~/.bashrc
 
@@ -44,14 +44,14 @@ source ~/.bashrc
 yay -S soar-bin --noconfirm
 soar defconfig --external
 
-#Rebos
-soar install rebos#gitlab.com.Oglo12.rebos:bincache
-rebos setup
-rebos config init
-
 #Clone dotfiles
-cd /home/$USER
+cd ~
 git clone https://github.com/Twig6943/dotfiles
+cp -r ~/dotfiles/.config/* ~/.config
+
+#Metapac & soar (run after setting extra installation paths)
+#soar apply
+#metapac sync
 
 # Create per-user wallpaper directory
 mkdir ~/.local/share/wallpapers
