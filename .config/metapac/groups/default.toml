@@ -84,6 +84,7 @@ flatpak = {
     { name = "user:org.nickvision.tubeconverter", options = { remote = "flathub" } },
     { name = "user:com.obsproject.Studio", options = { remote = "flathub" } },
     { name = "user:com.dec05eba.gpu_screen_recorder", options = { remote = "flathub" } },
+    { name = "user:org.jellyfin.JellyfinDesktop", options = { remote = "flathub" } },
     { name = "user:org.shotcut.Shotcut", options = { remote = "flathub" } },
     { name = "user:org.kde.kdenlive", options = { remote = "flathub" } },
     { name = "user:com.heroicgameslauncher.hgl", options = { remote = "flathub" } },
