@@ -18,12 +18,6 @@ enabled_backends = ["arch", "flatpak"]
 # Default: false
 hostname_groups_enabled = false
 
-# Backends to enable per hostname. These will be merged with the base
-# `enabled_backends` config.
-# Default: None
-[hostname_enabled_backends]
-cachyos-x8664 = ["arch", "flatpak"]
-
 [arch]
 # Since pacman, pamac, paru, pikaur and yay all operate on the same package database
 # they are mutually exclusive and so you must pick which one you want
@@ -31,11 +25,3 @@ cachyos-x8664 = ["arch", "flatpak"]
 # Must be one of: ["pacman", "pamac", "paru", "pikaur", "yay"]
 # Default: "pacman"
 package_manager = "pacman"
-
-[flatpak]
-# If this is `true` then flatpak packages default to using the `--system`
-# option.
-# If this is `false` then flatpak packages default to using the `--user`
-# option.
-# Default: true
-systemwide = false

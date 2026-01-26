@@ -41,7 +41,7 @@ wget https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/.bashrc
 source ~/.bashrc
 
 #Install Soar
-yay -S soar-bin --noconfirm
+yay -S soar-bin metapac --noconfirm
 soar defconfig --external
 
 #Clone dotfiles
