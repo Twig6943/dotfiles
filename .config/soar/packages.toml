@@ -2,6 +2,7 @@
 helium = { github = "imputnet/helium-linux", asset_pattern = "*x86_64.AppImage", version = "*" }
 fastfetch = { github = "fastfetch-cli/fastfetch", asset_pattern = "*linux-amd64.tar.gz", version = "*"}
 goverlay = { github = "benjamimgois/goverlay", asset_pattern = "*.AppImage", version = "*"}
+xenia-edge = { github = "has207/xenia-edge", asset_pattern = "*.AppImage", version = "*" }
 pince = { github = "korcankaraokcu/PINCE", asset_pattern = "*x86_64.AppImage", version = "*" }
 micro = { github = "micro-editor/micro", asset_pattern = "*linux64-static.tar.gz", version = "*"}
 waydroid_helper = { github = "waydroid-helper/waydroid-helper", asset_pattern = "*x86_64.AppImage", version = "*"}
