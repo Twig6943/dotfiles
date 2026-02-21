@@ -4,8 +4,8 @@
 
 # Environment variables
 
-# Paths (Soar,dbin,gem)
-export PATH="$HOME/.local/share/soar/bin:$HOME/.local/bin:$HOME/.local/share/gem/ruby/3.4.0/bin:$PATH"
+# Paths (Soar,dbin)
+export PATH="$HOME/.local/share/soar/bin:$HOME/.local/bin:$PATH"
 
 export INPUTRC=$HOME/.inputrc
 export EDITOR=micro
