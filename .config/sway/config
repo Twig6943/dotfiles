@@ -32,7 +32,7 @@ include /etc/sway/config-vars.d/*
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/$USER/wallpapers/wp.png fill
+output * bg /home/$USER/.local/share/wallpapers/y0lock.webp fill
 
 ### Key bindings
 #
