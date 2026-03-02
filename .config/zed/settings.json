@@ -1,27 +1,27 @@
 {
+  "edit_predictions": {
+    "provider": "none"
+  },
   "ui_font_size": 16,
   "buffer_font_size": 20.0,
   "restore_on_startup": "last_workspace",
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Ayu Dark"
+    "dark": "Ayu Dark",
   },
   "terminal": {
     "toolbar": {
       "breadcrumbs": false,
       "shell": "system",
-      "dock": "bottom"
-    }
+      "dock": "bottom",
+    },
   },
   "toolbar": {
     "breadcrumbs": false,
-    "quick_actions": false
-  },
-  "features": {
-    "edit_prediction_provider": "none"
+    "quick_actions": false,
   },
   "agent": {
     "enabled": false,
-  }
+  },
 }
