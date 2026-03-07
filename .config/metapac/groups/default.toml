@@ -32,6 +32,8 @@ arch = {
     "zenity",
     "btop",
     "htop",
+    "sway", # Keep these as backups
+    "kitty", # Keep these as backups
   ]
 }
 
