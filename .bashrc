@@ -25,7 +25,7 @@ set -o vi
 # alias micro='flatpak run io.github.zyedidia.micro'
 alias fkr='fish_key_reader'
 alias pwfix='faillock --reset'
-alias proton='umu-run'
+alias proton='GTK_THEME=Adwaita:dark umu-run'
 alias kill_exe='sudo pkill -9 -f "\\.exe"'
 alias kill_Exe='sudo pkill -9 -f "\\.exe"'
 alias empty_trash='sudo rm -rf ~/.local/share/Trash/files/* ~/.local/share/Trash/info/*'
