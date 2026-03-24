@@ -1,7 +1,16 @@
 [
   {
-    "label": "r/c++",
+    "label": "r/g++",
     "command": "g++ $ZED_FILE -o $ZED_STEM && ./$ZED_STEM && echo && echo 'Program finished' && echo",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "hide": "never",
+    "shell": "system",
+  },
+  {
+    "label": "r/cmake",
+    "command": "cmake . -B build && make -j$(nproc)",
     "use_new_terminal": false,
     "allow_concurrent_runs": false,
     "reveal": "always",
