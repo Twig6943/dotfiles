@@ -1,7 +1,7 @@
 [
   {
     "label": "r/g++",
-    "command": "g++ $ZED_FILE -o $ZED_STEM && ./$ZED_STEM && echo && echo 'Program finished' && echo",
+    "command": "g++ $ZED_FILE -o $ZED_STEM && ./$ZED_STEM",
     "use_new_terminal": false,
     "allow_concurrent_runs": false,
     "reveal": "always",
