@@ -1,6 +1,6 @@
 [
   {
-    "label": "Compile, Run, and Extra Commands",
+    "label": "r/c++",
     "command": "g++ $ZED_FILE -o $ZED_STEM && ./$ZED_STEM && echo && echo 'Program finished' && echo",
     "use_new_terminal": false,
     "allow_concurrent_runs": false,
