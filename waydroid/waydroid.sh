@@ -14,5 +14,3 @@ read -p "Press [Enter] once you are done using Waydroid..."
 
 # Stop Waydroid
 waydroid session stop
-
-echo "Waydroid session stopped and firewall services reverted."
