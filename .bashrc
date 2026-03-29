@@ -7,6 +7,7 @@
 # Paths (Soar,dbin)
 export PATH="$HOME/.local/share/soar/bin:$HOME/.local/bin:$PATH"
 
+export WINDOWS_SDK_PATH="$HOME/my_msvc/opt/msvc"
 export INPUTRC=$HOME/.inputrc
 export EDITOR=micro
 export VISUAL=micro
