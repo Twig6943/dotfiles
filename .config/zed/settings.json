@@ -7,7 +7,7 @@
     "Editorconfig": {},
   },
   "buffer_line_height": "comfortable",
-  "buffer_font_family": "Bitstream Vera Sans",
+  "buffer_font_family": ".ZedMono",
   "buffer_font_features": {
     "calt": false,
   },
