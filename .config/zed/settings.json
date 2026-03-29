@@ -1,6 +1,18 @@
 {
+  "languages": {
+    "C++": {
+      "hard_tabs": true,
+      "tab_size": 4,
+    },
+    "Editorconfig": {},
+  },
+  "buffer_line_height": "comfortable",
+  "buffer_font_family": "Bitstream Vera Sans",
+  "buffer_font_features": {
+    "calt": false,
+  },
   "edit_predictions": {
-    "provider": "none"
+    "provider": "none",
   },
   "ui_font_size": 16,
   "buffer_font_size": 20.0,
