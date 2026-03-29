@@ -23,6 +23,8 @@
     "dark": "Ayu Dark",
   },
   "terminal": {
+    "font_family": "Fira Code",
+    "font_size": 16,
     "toolbar": {
       "breadcrumbs": false,
       "shell": "system",
