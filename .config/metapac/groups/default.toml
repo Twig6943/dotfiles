@@ -13,7 +13,6 @@ arch = {
     "zerotier-one",
     "waydroid",
     "binder_linux-dkms",
-    "wps-office-cn",
     "umu-launcher", # DO NOT REMOVE
     "mangohud", #Remove once you learn how to use the flatpak pkg from cli
     "gamemode",
@@ -83,6 +82,7 @@ flatpak = {
     { name = "user:org.kde.kclock", options = { remote = "flathub" } },
     { name = "user:org.kde.filelight", options = { remote = "flathub" } },
     { name = "user:org.libreoffice.LibreOffice", options = { remote = "flathub" } },
+    { name = "user:cn.wps.wps_365", options = { remote = "flathub" } },
     { name = "user:org.kde.okular", options = { remote = "flathub" } },
     { name = "user:org.nickvision.tubeconverter", options = { remote = "flathub" } },
     { name = "user:com.obsproject.Studio", options = { remote = "flathub" } },
