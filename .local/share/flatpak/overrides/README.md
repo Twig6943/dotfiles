@@ -6,7 +6,7 @@
 
 `filesystems` to allow access
 
-`rw` read-wrtie
+`rw` read-write
 
 `ro` read-only
 
