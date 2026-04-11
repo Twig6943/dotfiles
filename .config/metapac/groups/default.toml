@@ -104,7 +104,7 @@ flatpak = {
     { name = "extra:org.vinegarhq.Sober", options = { remote = "flathub" } },
     { name = "extra:sh.ppy.osu", options = { remote = "flathub" } },
     { name = "extra:tw.ddnet.ddnet", options = { remote = "flathub" } },
-    { name = "extra:org.zdoom.GZDoom", options = { remote = "flathub" } },
+    { name = "extra:org.zdoom.UZDoom", options = { remote = "flathub" } },
     { name = "extra:net.supertuxkart.SuperTuxKart", options = { remote = "flathub" } },
     { name = "extra:dev.bragefuglseth.Keypunch", options = { remote = "flathub" } },
     { name = "extra:io.github.TheWisker.Cavasik", options = { remote = "flathub" } },
