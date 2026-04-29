@@ -5,7 +5,9 @@
 # Environment variables
 
 # Paths (Soar,dbin)
-export PATH="$HOME/.local/share/soar/bin:$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/share/soar/bin:$HOME/.local/bin:$HOME/.cargo/bin:$PATH"
+
+export PROTONPATH=GE-Proton
 
 export WINDOWS_SDK_PATH="$HOME/my_msvc/opt/msvc"
 export INPUTRC=$HOME/.inputrc
