@@ -1,10 +1,32 @@
 {
+  "cli_default_open_behavior": "existing_window",
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "icon_theme": "VSCode Icons for Zed (Dark)",
+  "disable_ai": true,
   "languages": {
     "C++": {
       "hard_tabs": true,
       "tab_size": 4,
     },
-    "Editorconfig": {},
+    "Editorconfig": {
+      "hard_tabs": false,
+      "tab_size": 4,
+    },
+    "Python": {
+      "hard_tabs": false,
+      "tab_size": 4,
+    },
   },
   "buffer_line_height": "comfortable",
   "buffer_font_family": ".ZedMono",
