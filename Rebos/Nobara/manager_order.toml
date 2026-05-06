@@ -1,9 +1,0 @@
-begin = [
-  "system",
-  "am",
-  "am_user",
-]
-
-end = [
-  "flatpak",
-]
