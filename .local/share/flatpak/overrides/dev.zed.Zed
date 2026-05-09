@@ -3,3 +3,4 @@ ZED_FLATPAK_NO_ESCAPE=
 
 [Context]
 unset-environment=ZED_FLATPAK_NO_ESCAPE;
+filesystems=xdg-config/zed:rw
