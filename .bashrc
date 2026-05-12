@@ -7,8 +7,6 @@
 # Paths (Soar,dbin)
 export PATH="$HOME/.local/share/soar/bin:$HOME/.local/bin:$HOME/.cargo/bin:/usr/lib/qt6/bin::$PATH"
 
-export KANVAS_INSTALLDIR=/mnt/f53204c8-56a6-445d-9a2e-1434e4877f58/Games/Kanvas/KanvasLauncher
-
 export PROTONPATH=GE-Proton
 
 export WINDOWS_SDK_PATH="$HOME/my_msvc/opt/msvc"
