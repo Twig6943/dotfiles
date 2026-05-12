@@ -5,7 +5,9 @@
 # Environment variables
 
 # Paths (Soar,dbin)
-export PATH="$HOME/.local/share/soar/bin:$HOME/.local/bin:$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.local/share/soar/bin:$HOME/.local/bin:$HOME/.cargo/bin:/usr/lib/qt6/bin::$PATH"
+
+export KANVAS_INSTALLDIR=/mnt/f53204c8-56a6-445d-9a2e-1434e4877f58/Games/Kanvas/KanvasLauncher
 
 export PROTONPATH=GE-Proton
 
@@ -33,7 +35,7 @@ alias kill_exe='sudo pkill -9 -f "\\.exe"'
 alias kill_Exe='sudo pkill -9 -f "\\.exe"'
 alias empty_trash='sudo rm -rf ~/.local/share/Trash/files/* ~/.local/share/Trash/info/*'
 alias bash_conf_reload='source ~/.bashrc'
-alias ls='ls -f --color=auto'
+alias ls='ls -alhf --color=auto'
 alias nano='nano --line'
 alias grep='grep --color=auto'
 
