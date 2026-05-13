@@ -16,7 +16,7 @@ collapsed = false
 
 [behavior]
 minimize_on_launch = false
-save_game_logs = false
+save_game_logs = true
 
 [display]
 scale = 1.0
