@@ -1,5 +1,5 @@
 [Context]
-filesystems=home:ro;~/.var/app/com.valvesoftware.Steam;/mnt/Games/Games;xdg-pictures/GameCovers;~/Games;xdg-config/omikuji;xdg-data/omikuji;
+filesystems=home:ro;~/.var/app/com.valvesoftware.Steam;/mnt/Games/Games;xdg-pictures/GameCovers;~/Games;xdg-data/omikuji;
 nofilesystem=host;host-etc;host-os
 
 [Session Bus Policy]

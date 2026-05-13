@@ -1,0 +1,77 @@
+# omikuji settings
+# edit and restart the launcher to apply.
+# paths accept `~` (expanded to $HOME on read).
+
+[paths]
+data_dir = "~/.local/share/omikuji"
+library_dir = "~/.local/share/omikuji/library"
+gachas_dir = "~/.local/share/omikuji/gachas"
+runners_dir = "~/.local/share/omikuji/runners"
+dll_packs_dir = "~/.local/share/omikuji/components"
+prefixes_dir = "~/.local/share/omikuji/prefixes"
+cache_dir = "~/.local/share/omikuji/cache"
+logs_dir = "~/.local/share/omikuji/logs"
+runtime_dir = "~/.local/share/omikuji/runtime"
+
+[assets]
+fetch_url = "https://raw.githubusercontent.com/reakjra/omikuji-assets/main"
+
+[components]
+umu_run = "https://api.github.com/repos/Open-Wine-Components/umu-launcher/releases/latest"
+hpatchz = "https://api.github.com/repos/sisong/HDiffPatch/releases/latest"
+legendary = "https://api.github.com/repos/derrod/legendary/releases/latest"
+gogdl = "https://api.github.com/repos/Heroic-Games-Launcher/heroic-gogdl/releases/latest"
+jadeite = "https://codeberg.org/api/v1/repos/mkrsym1/jadeite/releases/latest"
+egl_dummy = "https://raw.githubusercontent.com/reakjra/omikuji-assets/main/runtime/epic/EpicGamesLauncher.exe"
+
+[steam]
+api_key = ""
+
+[[runners]]
+name = "Proton-Spritz"
+kind = "proton"
+api_url = "https://api.github.com/repos/NelloKudo/proton-cachyos/releases"
+asset_pattern = "-x86_64.tar.xz"
+extract = "tar_xz"
+
+[[runners]]
+name = "Proton-GE"
+kind = "proton"
+api_url = "https://api.github.com/repos/GloriousEggroll/proton-ge-custom/releases"
+asset_pattern = ".tar.gz"
+extract = "tar_gz"
+
+[[runners]]
+name = "Dawn Winery Proton"
+kind = "proton"
+api_url = "https://dawn.wine/api/v1/repos/dawn-winery/dwproton/releases"
+asset_pattern = ".tar.xz"
+extract = "tar_xz"
+
+[[runners]]
+name = "Proton-Cachyos"
+kind = "proton"
+api_url = "https://api.github.com/repos/CachyOS/proton-cachyos/releases"
+asset_pattern = ".tar.xz"
+extract = "tar_xz"
+
+[[dll_packs]]
+name = "DXVK"
+kind = "dxvk"
+api_url = "https://api.github.com/repos/doitsujin/dxvk/releases"
+asset_pattern = ".tar.gz"
+extract = "tar_gz"
+
+[[dll_packs]]
+name = "VKD3D-Proton"
+kind = "vkd3d"
+api_url = "https://api.github.com/repos/HansKristian-Work/vkd3d-proton/releases"
+asset_pattern = ".tar.zst"
+extract = "tar_zst"
+
+[[dll_packs]]
+name = "DXVK-NVAPI"
+kind = "dxvk_nvapi"
+api_url = "https://api.github.com/repos/jp7677/dxvk-nvapi/releases"
+asset_pattern = ".tar.gz"
+extract = "tar_gz"
