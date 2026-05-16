@@ -28,6 +28,7 @@ set -o vi
 # alias micro='flatpak run io.github.zyedidia.micro'
 alias fkr='fish_key_reader'
 alias pwfix='faillock --reset'
+alias kde_des_fix='kbuildsycoca6'
 alias proton='GTK_THEME=Adwaita:dark umu-run'
 alias kill_exe='sudo pkill -9 -f "\\.exe"'
 alias kill_Exe='sudo pkill -9 -f "\\.exe"'
@@ -150,3 +151,4 @@ if [[ ${EUID} == 0 ]] ; then
 else
     PS1='\[\033[48;2;105;121;16;38;2;255;255;255m\] \$ \[\033[48;2;0;135;175;38;2;105;121;16m\]\[\033[48;2;0;135;175;38;2;255;255;255m\] \u@\h \[\033[48;2;83;85;85;38;2;0;135;175m\]\[\033[48;2;83;85;85;38;2;255;255;255m\] \w \[\033[49;38;2;83;85;85m\]\[\033[00m\] '
 fi
+. "$HOME/.cargo/env"
