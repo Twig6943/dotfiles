@@ -14,6 +14,11 @@ faillock --reset
 systemctl --user restart xdg-desktop-portal
 ```
 
+## .desktop files not showing up in start menu
+```sh
+kbuildsycoca6 --noincremental
+```
+
 ## Unable to connect to libvirt
 
 ```bash
