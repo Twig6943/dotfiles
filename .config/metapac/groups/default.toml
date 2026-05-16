@@ -22,7 +22,6 @@ arch = {
     "xdg-desktop-portal-gtk",
     "vkmark",
     "wireguard-tools",
-    "headscale",
     "krita-git", #Switch to universal once universal pkg comes out.
     "wine",
     "winetricks",
