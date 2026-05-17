@@ -4,7 +4,7 @@
 
 # Environment variables
 
-# Paths (Soar,dbin)
+# Paths
 export PATH="$HOME/.local/share/soar/bin:$HOME/.local/bin:$HOME/.cargo/bin:/usr/lib/qt6/bin::$PATH"
 
 export PROTONPATH=GE-Proton
@@ -34,7 +34,7 @@ alias kill_exe='sudo pkill -9 -f "\\.exe"'
 alias kill_Exe='sudo pkill -9 -f "\\.exe"'
 alias empty_trash='sudo rm -rf ~/.local/share/Trash/files/* ~/.local/share/Trash/info/*'
 alias bash_conf_reload='source ~/.bashrc'
-alias ls='ls -alhf --color=auto'
+alias ls='ls -fh --color=auto'
 alias nano='nano --line'
 alias grep='grep --color=auto'
 
