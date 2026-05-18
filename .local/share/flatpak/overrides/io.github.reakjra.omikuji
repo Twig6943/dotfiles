@@ -1,9 +1,10 @@
 [Context]
-filesystems=home:ro;~/.var/app/com.valvesoftware.Steam:rw;/mnt/Games/Games:rw;xdg-pictures/GameCovers:rw;~/Games:rw;xdg-data/omikuji:rw;xdg-data/umu:rw;
+sockets=!fallback-x11
+filesystems=home:ro;~/.var/app/com.valvesoftware.Steam:rw;/mnt/Games/Games:rw;xdg-pictures/GameCovers:rw;~/Games:rw;xdg-data/omikuji:rw;xdg-data/umu:rw
 nofilesystem=host;host-etc;host-os
-
-[Session Bus Policy]
-org.freedesktop.Flatpak=talk
 
 [Environment]
 GTK_THEME=Adwaita:dark
+
+[Session Bus Policy]
+org.freedesktop.Flatpak=talk
