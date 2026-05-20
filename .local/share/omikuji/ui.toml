@@ -1,6 +1,6 @@
 [library]
-card_zoom = 1.0
-card_spacing = 10
+card_zoom = 1.05
+card_spacing = 6
 card_elevation = true
 unload_store_pages = true
 
@@ -11,17 +11,30 @@ show_gog = true
 show_steam = true
 
 [nav]
-width = 164
+width = 200
 collapsed = false
 
 [behavior]
 minimize_on_launch = false
 save_game_logs = true
+auto_check_epic_updates_on_launch = false
+auto_check_gog_updates_on_launch = false
+auto_check_updates_on_boot = false
+show_tray_icon = false
+discord_rpc = false
+double_click_launches = true
 
 [display]
 scale = 1.0
 muted_icons = false
 card_flow = "center"
+
+[theme]
+follow_system_colors = true
+follow_system_font = true
+font_family = ""
+
+[theme.colors]
 
 [console_mode]
 background = "wave"
