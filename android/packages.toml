@@ -8,6 +8,7 @@ fdroid.repos = [
  "https://molly.im/fdroid/repo/",
  "apt.izzysoft.de/fdroid/repo",
  "mobileapp.bitwarden.com/fdroid/repo",
+ "https://raw.githubusercontent.com/zaneschepke/fdroid/main/fdroid/repo?fingerprint=0890C5D44C0109E366801C39840325E810E21B270B9D2AEC53CE0D6C5FC849DB",
 ]
 
 packages.fdroid = [
