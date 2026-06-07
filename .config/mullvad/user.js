@@ -1,3 +1,6 @@
+// JS
+user_pref("javascript.enabled", false);
+
 // Manual proxy configuration
 user_pref("network.proxy.type", 1);
 
