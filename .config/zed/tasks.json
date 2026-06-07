@@ -10,7 +10,7 @@
   },
   {
     "label": "r/cmake",
-    "command": "cmake . -B build && make -j$(nproc)",
+    "command": "cmake . -B build && make -C build -j$(nproc)",
     "use_new_terminal": false,
     "allow_concurrent_runs": false,
     "reveal": "always",
