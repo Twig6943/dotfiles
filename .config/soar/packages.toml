@@ -1,16 +1,19 @@
 [packages]
 helium = { github = "imputnet/helium-linux", asset_pattern = "*x86_64.AppImage", version = "*" }
-fastfetch = { github = "fastfetch-cli/fastfetch", asset_pattern = "*linux-amd64.tar.gz", version = "*"}
-mangojuice = { github = "benjamimgois/goverlay", asset_pattern = "*.AppImage", version = "*"}
+fastfetch = { github = "fastfetch-cli/fastfetch", asset_pattern = "*linux-amd64.tar.gz", version = "*" }
 xenia-edge = { github = "has207/xenia-edge", asset_pattern = "*.AppImage", version = "*" }
+omikuji = { github = "reakjra/omikuji", asset_pattern = "*x86_64.AppImage", version = "*" }
+goverlay = { github = "benjamimgois/goverlay", asset_pattern = "*.appimage", version = "*" }
 pince = { github = "korcankaraokcu/PINCE", asset_pattern = "*x86_64.AppImage", version = "*" }
 micro = { github = "micro-editor/micro", asset_pattern = "*linux64-static.tar.gz", version = "*"}
 waydroid_helper = { github = "waydroid-helper/waydroid-helper", asset_pattern = "*x86_64.AppImage", version = "*"}
-simple-appimage-sandbox = { github = "Samueru-sama/simple-appimage-sandbox", asset_pattern = "*anylinux-x86_64.AppImage", version = "*"}
-desktopeditors = { github = "ONLYOFFICE/DesktopEditors", asset_pattern = "*x86_64.AppImage", version = "*" }
-zerotier-desktop-ui = { github = "Twig6943/DesktopUI", asset_pattern = "*x86_64.AppImage", version = "1.0" } # gotta force version this
+simple-appimage-sandbox = { github = "Samueru-sama/simple-appimage-sandbox", asset_pattern = "*anylinux-x86_64.AppImage", version = "*" }
 vscodium = { github = "VSCodium/vscodium", asset_pattern = "*x86_64.AppImage", version = "*" }
+notepadnext = { github = "dail8859/NotepadNext", asset_pattern = "*x86_64.AppImage", version = "*" }
+zerotier-desktop-ui = { github = "Twig6943/DesktopUI", asset_pattern = "*x86_64.AppImage", version = "*" }
 winboat = { github = "TibixDev/winboat", asset_pattern = "*x86_64.AppImage", version = "*" }
+mullvad-browser = { github = "Portable-Linux-Apps/mullvad-browser-AppImage", asset_pattern = "*x86_64.AppImage", version = "*" }
+duckstation = { github = "stenzek/duckstation", asset_pattern = "*x64.AppImage", version = "*" }
 
 # with pkg_id
 inkscape = { pkg_id = "gitlab.com.inkscape.inkscape", version = "*" }
