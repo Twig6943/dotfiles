@@ -71,6 +71,7 @@ flatpak = {
     { name = "user:im.riot.Riot", options = { remote = "flathub" } },
     { name = "user:org.signal.Signal", options = { remote = "flathub" } },
     { name = "user:dev.vencord.Vesktop", options = { remote = "flathub" } },
+    { name = "user:it.mijorus.gearlever", options = { remote = "flathub" } },
     { name = "user:io.github.flattool.Warehouse", options = { remote = "flathub" } },
     { name = "user:com.rustdesk.RustDesk", options = { remote = "flathub" } },
     { name = "user:net.werwolv.ImHex", options = { remote = "flathub" } },
