@@ -1,0 +1,7 @@
+[Context]
+sockets=system-bus;session-bus
+devices=usb;shm;kvm;input;dri
+filesystems=~/Games;/mnt/Games/SteamGames:rw
+
+[Environment]
+MANGOHUD=1

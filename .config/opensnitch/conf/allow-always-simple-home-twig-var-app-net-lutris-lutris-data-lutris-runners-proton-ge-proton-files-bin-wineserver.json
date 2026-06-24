@@ -1,0 +1,12 @@
+{
+    "created": "2025-06-05T15:14:10.000000Z",
+    "name": "allow-always-simple-home-twig-var-app-net-lutris-lutris-data-lutris-runners-proton-ge-proton-files-bin-wineserver",
+    "enabled": true,
+    "action": "allow",
+    "duration": "always",
+    "operator": {
+        "type": "simple",
+        "operand": "process.path",
+        "data": "/home/twig/.var/app/net.lutris.Lutris/data/lutris/runners/proton/ge-proton/files/bin/wineserver"
+    }
+}

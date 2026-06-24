@@ -1,0 +1,3 @@
+https://easylist.to/easylist/easylist.txt
+https://gist.githubusercontent.com/aggarwalsushant/9461f3b09d6a08c9f03f74071a066996/raw/536886701dddb4c08edbbbfea2cadcadddb00064/ublockStaticCustomFilters.txt
+https://www.cromite.org/filters/abp-filters-anti-cv.txt

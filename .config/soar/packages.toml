@@ -1,0 +1,20 @@
+[packages]
+helium = { github = "imputnet/helium-linux", asset_pattern = "*x86_64.AppImage", version = "0.13.5.1" }
+fastfetch = { github = "fastfetch-cli/fastfetch", asset_pattern = "*linux-amd64.tar.gz", version = "2.65.1" }
+xenia-edge = { github = "has207/xenia-edge", asset_pattern = "*.AppImage", version = "e3d9428" }
+omikuji = { github = "reakjra/omikuji", asset_pattern = "*x86_64.AppImage", version = "0.4.2" }
+goverlay = { github = "benjamimgois/goverlay", asset_pattern = "*.appimage", version = "*" }
+pince = { github = "korcankaraokcu/PINCE", asset_pattern = "*x86_64.AppImage", version = "*" }
+micro = { github = "micro-editor/micro", asset_pattern = "*linux64-static.tar.gz", version = "*"}
+waydroid_helper = { github = "waydroid-helper/waydroid-helper", asset_pattern = "*x86_64.AppImage", version = "*"}
+simple-appimage-sandbox = { github = "Samueru-sama/simple-appimage-sandbox", asset_pattern = "*anylinux-x86_64.AppImage", version = "*" }
+vscodium = { github = "VSCodium/vscodium", asset_pattern = "*x86_64.AppImage", version = "*" }
+winboat = { github = "TibixDev/winboat", asset_pattern = "*x86_64.AppImage", version = "*" }
+mullvad-browser = { github = "Portable-Linux-Apps/mullvad-browser-AppImage", asset_pattern = "*x86_64.AppImage", version = "*" }
+duckstation = { github = "stenzek/duckstation", asset_pattern = "*x64.AppImage", version = "*" }
+opencode = { github = "anomalyco/opencode", asset_pattern = "*x86_64.AppImage", version = "1.17.10" }
+
+# with pkg_id
+inkscape = { pkg_id = "gitlab.com.inkscape.inkscape", version = "*" }
+librewolf = { pkg_id = "gitlab.com.librewolf-community.browser.appimage.stable", version = "*" }
+neovim = { pkg_id = "github.com.neovim.neovim.stable", version = "*" }

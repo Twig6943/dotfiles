@@ -1,0 +1,64 @@
+{
+  "format_on_save": "off",
+  "cli_default_open_behavior": "existing_window",
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "icon_theme": "VSCode Icons for Zed (Dark)",
+  "disable_ai": true,
+  "languages": {
+    "C++": {
+      "hard_tabs": true,
+      "tab_size": 4,
+    },
+    "Editorconfig": {
+      "hard_tabs": false,
+      "tab_size": 4,
+    },
+    "Python": {
+      "hard_tabs": false,
+      "tab_size": 4,
+    },
+  },
+  "buffer_line_height": "comfortable",
+  "buffer_font_family": ".ZedMono",
+  "buffer_font_features": {
+    "calt": false,
+  },
+  "edit_predictions": {
+    "provider": "none",
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 20.0,
+  "restore_on_startup": "last_workspace",
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Ayu Dark",
+  },
+  "terminal": {
+    "font_family": "Fira Code",
+    "font_size": 16,
+    "toolbar": {
+      "breadcrumbs": false,
+      "shell": "system",
+      "dock": "bottom",
+    },
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+  },
+  "agent": {
+    "enabled": false,
+  },
+}

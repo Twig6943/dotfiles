@@ -1,0 +1,16 @@
+[wine]
+version = "steam:Proton-CachyOS Latest"
+ntsync = true
+dxvk = true
+vkd3d = true
+graphics_driver = "wayland"
+
+[launch]
+
+[graphics]
+mangohud = true
+
+[graphics.gamescope]
+
+[system]
+gamemode = true

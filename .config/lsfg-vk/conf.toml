@@ -1,0 +1,28 @@
+version = 1
+
+[global]
+dll = ".config/lsfg-vk/Lossless.dll"
+
+[[game]]
+exe = "RDR2.exe"
+multiplier = 4
+flow_scale = 1.0
+performance_mode = false
+hdr_mode = false
+experimental_present_mode = "fifo"
+
+[[game]]
+exe = "vkcube"
+multiplier = 1
+flow_scale = 1.0
+performance_mode = true
+hdr_mode = false
+experimental_present_mode = "fifo"
+
+[[game]]
+exe = "new profile"
+multiplier = 2
+flow_scale = 1.0
+performance_mode = false
+hdr_mode = false
+experimental_present_mode = "fifo"

@@ -1,0 +1,6 @@
+[Context]
+filesystems=xdg-config/zed;
+unset-environment=ZED_FLATPAK_NO_ESCAPE;
+
+[Environment]
+ZED_FLATPAK_NO_ESCAPE=

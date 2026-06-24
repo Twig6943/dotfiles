@@ -1,0 +1,12 @@
+# See how to configure Vinegar on the documentation website:
+# https://vinegarhq.org/Configuration
+[player]
+renderer = "OpenGL"
+dxvk = false
+forced_version = "version-70a2467227df4077"
+[player.fflags]
+DFIntTaskSchedulerTargetFps = 60
+launcher = "gamemoderun"
+[player.env]
+DXVK_HUD = "0"
+MANGOHUD = "1"

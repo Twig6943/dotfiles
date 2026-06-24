@@ -1,0 +1,40 @@
+" Enable mouse support
+set mouse=a
+
+" Show line numbers
+set number
+
+" Arrow keys
+set whichwrap+=<,>,[,]
+
+" Enable syntax highlighting
+syntax on
+
+" Colorscheme
+colorscheme termschool
+
+"Wayland clipboard fix (Uncomment if on wayland environment) A pr related to this has been merged but arch's build of vim doesn't have the necessary flags.
+"autocmd TextYankPost * if (v:event.operator == 'y' || v:event.operator == 'd') | silent! execute 'call system("wl-copy", @")' | endif
+"nnoremap p :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '', 'g')<cr>p
+
+" Ctrl+v
+nnoremap <C-v> <Nop>
+
+" Ctrl+backspace
+noremap! <C-h> <C-w>
+noremap! <C-BS> <C-w>
+
+"Ctrl+a
+map <C-a> <esc>gg0VG<CR>
+
+"Ctrl+Down arrow newline stuff
+inoremap <C-Down> <C-o>:call InsertMoveDownOrAddLine()<CR>
+
+function! InsertMoveDownOrAddLine()
+  if line('.') == line('$')
+    call append(line('.'), '')
+    execute "normal! j"
+  else
+    execute "normal! j"
+  endif
+endfunction

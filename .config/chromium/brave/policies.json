@@ -1,0 +1,13 @@
+{
+    "BraveRewardsDisabled": true,
+    "BraveWalletDisabled": true,
+    "BraveVPNDisabled": 1,
+    "BraveAIChatEnabled": false,
+    "IPFSEnabled": false,
+    "NewTabPageLocation": "about:blank",
+    "PasswordManagerEnabled": false,
+    "HardwareAccelerationModeEnabled": true,
+    "HelpMeWriteSettings": false,
+    "HighEfficiencyModeEnabled": true,
+    "MemorySaverModeSavings": 1
+}

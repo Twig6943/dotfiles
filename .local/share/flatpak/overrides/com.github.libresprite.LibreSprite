@@ -1,0 +1,2 @@
+[Environment]
+SDL_VIDEODRIVER=wayland,x11

@@ -1,0 +1,10 @@
+daemonize
+image=/usr/share/wallpapers/Custom/default_lock.jpg
+color=002b36
+inside-color=002b36
+inside-color=000000
+indicator-radius=150
+indicator-thickness=10
+indicator-caps-lock
+show-keyboard-layout
+color 800080

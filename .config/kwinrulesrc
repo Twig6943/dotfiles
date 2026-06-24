@@ -1,0 +1,144 @@
+[03689d10-45bd-49f5-916d-a78dfb416735]
+Description=Deleting — Dolphin
+below=true
+belowrule=3
+title=Deleting — Dolphin
+titlematch=1
+wmclass=dolphin org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
+[0bc00940-5e03-41e0-9700-7ff417b54b56]
+Description=Moving — Dolphin
+below=true
+belowrule=3
+title=Moving — Dolphin
+titlematch=1
+wmclass=dolphin org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
+[2a16cda2-7ec2-496e-8640-17ff66b2700a]
+Description=VLC
+above=true
+aboverule=3
+desktopfile=vlc
+desktopfilerule=3
+desktops=\\0
+desktopsrule=3
+wmclass=vlc vlc
+wmclasscomplete=true
+wmclassmatch=3
+
+[338cdc28-de5c-4e34-9fa5-b9760fd7e39c]
+Description=Cavasik
+above=true
+aboverule=3
+belowrule=3
+desktopfile=io.github.TheWisker.Cavasik
+desktopfilerule=3
+desktopsrule=2
+fullscreenrule=3
+layer=above
+layerrule=2
+minimizerule=3
+noborderrule=3
+title=Cavasik
+types=1
+wmclass=io.github.TheWisker.Cavasik
+wmclassmatch=1
+
+[987ca872-e7ec-4f98-b92d-c9bd1fe54dc5]
+Description=Cavalier
+above=true
+aboverule=3
+belowrule=3
+desktopfile=org.nickvision.cavalier
+desktopfilerule=3
+desktops=\\0
+desktopsrule=3
+fullscreenrule=3
+layer=above
+layerrule=2
+minimizerule=3
+noborderrule=3
+title=Cavasik
+types=1
+wmclass=org.nickvision.cavalier
+wmclassmatch=1
+
+[98c4558a-26d9-48ab-9d5c-43c42bef415f]
+Description=MPV
+above=true
+aboverule=3
+desktopfile=mpv
+desktopfilerule=3
+desktops=\\0
+desktopsrule=3
+wmclass=mpv
+wmclasscomplete=true
+wmclassmatch=3
+
+[9e678173-0a04-4966-8506-843e968cbda3]
+Description=Emoji Selector
+above=true
+aboverule=3
+desktops=\\0
+desktopsrule=3
+wmclass=plasma-emojier org.kde.plasma.emojier
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=11
+rules=338cdc28-de5c-4e34-9fa5-b9760fd7e39c,0bc00940-5e03-41e0-9700-7ff417b54b56,987ca872-e7ec-4f98-b92d-c9bd1fe54dc5,98c4558a-26d9-48ab-9d5c-43c42bef415f,9e678173-0a04-4966-8506-843e968cbda3,2a16cda2-7ec2-496e-8640-17ff66b2700a,03689d10-45bd-49f5-916d-a78dfb416735,f58acc00-d799-4803-9c9e-e21d51394e99,dfb56f55-47b8-46fa-936d-9f459424ee79,d2076d86-5c5f-41e1-9a9e-834723b4fccd,b33354a2-5a67-41dd-9c32-f1b8d7ff11a5
+
+[b33354a2-5a67-41dd-9c32-f1b8d7ff11a5]
+Description=PiP (Firefox)
+above=true
+aboverule=3
+belowrule=3
+desktops=\\0
+desktopsrule=3
+fullscreenrule=3
+minimizerule=3
+title=Picture-in-Picture
+titlematch=1
+wmclass=PiP (Firefox)
+wmclasscomplete=true
+
+[d2076d86-5c5f-41e1-9a9e-834723b4fccd]
+Description=Copying — Dolphin
+below=true
+belowrule=3
+title=Copying — Dolphin
+titlematch=1
+wmclass=dolphin org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
+[dfb56f55-47b8-46fa-936d-9f459424ee79]
+Description=PiP (Chromium)
+above=true
+aboverule=3
+belowrule=3
+desktops=\\0
+desktopsrule=3
+fullscreenrule=3
+minimizerule=3
+title=Picture in picture
+titlematch=1
+wmclass=PiP (Chromium)
+wmclasscomplete=true
+
+[f58acc00-d799-4803-9c9e-e21d51394e99]
+Description=MPV (Native)
+above=true
+aboverule=3
+desktopfile=mpv
+desktopfilerule=3
+desktops=\\0
+desktopsrule=3
+wmclass=mpv
+wmclasscomplete=true
+wmclassmatch=2

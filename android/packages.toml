@@ -1,0 +1,77 @@
+# A list of apps categorized by their source platform
+
+fdroid.repos = [
+ "microg.org/fdroid/repo",
+ "cromite.org/fdroid/repo", # Down https://github.com/uazo/cromite/issues/2325
+ "brave-browser-apk-release.s3.brave.com/fdroid/repo",
+ "www.collaboraoffice.com/downloads/fdroid/repo",
+ "https://molly.im/fdroid/repo/",
+ "apt.izzysoft.de/fdroid/repo",
+ "mobileapp.bitwarden.com/fdroid/repo",
+ "https://raw.githubusercontent.com/zaneschepke/fdroid/main/fdroid/repo?fingerprint=0890C5D44C0109E366801C39840325E810E21B270B9D2AEC53CE0D6C5FC849DB",
+]
+
+packages.fdroid = [
+ "org.microg.gms",
+ "com.termux",
+ "com.nextcloud.client",
+ "com.maelchiotti.localmaterialnotes",
+ "org.schabi.newpipe",
+ "org.purplei2p.i2pd",
+ "com.stoutner.privacybrowser.standard",
+ "com.aurora.store",
+ "app.organicmaps",
+ "co.prestosole.clima",
+ "io.element.android.x",
+ "com.zaneschepke.wireguardautotunnel",
+ "org.documentfoundation.libreoffice",
+ "dev.imranr.obtainium.fdroid",
+ "com.foobnix.pro.pdf.reader",
+ "com.secuso.privacyFriendlyCodeScanner",
+ "com.nononsenseapps.feeder",
+ "com.beemdevelopment.aegis",
+ "me.zhanghai.android.files",
+ "us.spotco.fennec_dos",
+ "com.retroarch",
+ "com.gianlu.aria2app",
+ "is.xyz.mpv",
+ "org.videolan.vlc",
+ "de.yaacc",
+ "org.joinmastodon.android",
+ "com.collabora.libreoffice",
+ "com.x8bit.bitwarden",
+]
+#Disabled pkgs;
+
+#ObtaniumDB; https://apps.obtanium.imranr.dev
+packages.obtanium = [
+ "github.com/microg/FakeStore", # Really Important
+ "github.com/uazo/cromite",
+ "github.com/jqssun/android-helium-browser",
+ "github.com/bluesky-social/social-app",
+ "github.com/LuminarLeaf/boorusama",
+ "github.com/fluxerapp/flutter_client",
+ "github.com/ruffle-rs/ruffle-android",
+ "github.com/signalapp/Signal-Android",
+ "github.com/cygnusx-1-org/continuum",
+ "github.com/ProtonMail/android-mail",
+ "github.com/karlstav/cava",
+ "whatsapp.com/android",
+ "torproject.org/download CALF:tor-browser-android-aarch64.*apk$",
+]
+#CALF=Custom apk link filter for Obtanium
+#Disabled pkgs
+
+packages.play_store = [
+ "",
+]
+#Disabled pkgs
+
+packages.appgallery = [
+ "com.pozitron.iscep",
+]
+
+packages.termux = [
+ "fastfetch",
+]
+#Disabled pkgs

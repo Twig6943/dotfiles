@@ -1,0 +1,12 @@
+{
+    "created": "2025-06-05T15:11:27.000000Z",
+    "name": "allow-always-simple-tmp-mount-librew-0-9a-za-z-6-librewolf",
+    "enabled": true,
+    "action": "allow",
+    "duration": "always",
+    "operator": {
+        "type": "regexp",
+        "operand": "process.path",
+        "data": "^/tmp/\\.mount_librew[0-9A-Za-z]{6}\\/.*librewolf$"
+    }
+}

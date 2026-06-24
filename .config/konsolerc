@@ -1,0 +1,16 @@
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[General]
+ConfigVersion=1
+
+[Notification Messages]
+CloseAllEmptyTabs=true
+CloseSingleTab=true
+ShowPasteHugeTextWarning=false
+
+[Shortcut Schemes]
+Current Scheme=konsole.shortcuts
+
+[UiSettings]
+ColorScheme=Breeze

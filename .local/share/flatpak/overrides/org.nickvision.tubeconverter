@@ -1,0 +1,5 @@
+[Environment]
+GTK_THEME=Breeze:dark
+
+[Context]
+filesystems=host-etc;host-os;host;xdg-config/gtk-3.0:ro;xdg-config/gtk-4.0:ro

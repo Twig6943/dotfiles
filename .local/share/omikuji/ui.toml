@@ -1,0 +1,76 @@
+[library]
+card_zoom = 1.05
+card_spacing = 6
+card_elevation = true
+unload_store_pages = true
+
+[tabs]
+show_gachas = true
+show_epic = true
+show_gog = true
+show_steam = true
+
+[nav]
+width = 200
+collapsed = false
+
+[behavior]
+minimize_on_launch = false
+save_game_logs = true
+auto_check_epic_updates_on_launch = false
+auto_check_gog_updates_on_launch = false
+auto_check_updates_on_boot = false
+show_tray_icon = false
+discord_rpc = false
+double_click_launches = true
+
+[display]
+scale = 1.0
+muted_icons = false
+card_flow = "center"
+
+[theme]
+follow_system_colors = true
+follow_system_font = true
+font_family = ""
+
+[theme.colors]
+
+[console_mode]
+background = "wave"
+active = false
+
+[[categories]]
+enabled = true
+name = "All Games"
+icon = "sports_esports"
+kind = "all"
+value = ""
+
+[[categories]]
+enabled = true
+name = "Favourites"
+icon = "star"
+kind = "favourite"
+value = ""
+
+[[categories]]
+enabled = true
+name = "Recent"
+icon = "schedule"
+kind = "recent"
+value = ""
+
+[[categories]]
+enabled = true
+name = "Wine"
+icon = "wine_bar"
+kind = "runner"
+value = "wine"
+
+[[categories]]
+enabled = true
+name = "Native"
+icon = "monitor"
+kind = "runner"
+value = "native"
