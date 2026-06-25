@@ -48,7 +48,7 @@ soar defconfig --external
 git clone https://github.com/Twig6943/dotfiles ~/Projects/dotfiles
 cp -r ~/Projects/dotfiles/.config/* ~/.config
 
-# Create per-user wallpaper directory
+#Create per-user wallpaper directory
 mkdir /mnt/Games/flatpak
 mkdir /mnt/Games/soar
 mkdir /mnt/Games/am
