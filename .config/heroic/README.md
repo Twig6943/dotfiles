@@ -9,12 +9,12 @@
 # Default wrapper (flatpak)
 
 ```sh
-flatpak-spawn --no-network --env=PROTONPATH=/home/twig/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/proton/GE-Proton-latest/ --env=PROTON_ADD_CONFIG=wayland --env=WINEPREFIX=/mnt/Games/home/twig/Games/DefaultPrefix
+flatpak-spawn --no-network --env=PROTONPATH=/home/twig/.var/app/com.heroicgameslauncher.hgl/config/heroic/tools/proton/GE-Proton-latest/ --env=PROTON_ADD_CONFIG=wayland --env=WINEPREFIX=/mnt/Games/DefaultPrefix
 ```
 
 # Default wrapper (AppImage)
 
 ```sh
-firejail --noprofile --net=none env PROTONPATH=/home/twig/.config/heroic/tools/proton/GE-Proton-latest/ env PROTON_ADD_CONFIG=wayland env WINEPREFIX=/mnt/Games/home/twig/Games/DefaultPrefix
+firejail --noprofile --net=none env PROTONPATH=/home/twig/.config/heroic/tools/proton/GE-Proton-latest/ env PROTON_ADD_CONFIG=wayland env WINEPREFIX=/mnt/Games/DefaultPrefix
 ```
 
