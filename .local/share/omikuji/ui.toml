@@ -1,17 +1,20 @@
+env_sets = []
+dll_sets = []
+
 [library]
-card_zoom = 1.05
+card_zoom = 1.0
 card_spacing = 6
 card_elevation = true
 unload_store_pages = true
 
 [tabs]
-show_gachas = true
-show_epic = true
-show_gog = true
-show_steam = true
+show_gachas = false
+show_epic = false
+show_gog = false
+show_steam = false
 
 [nav]
-width = 200
+width = 186
 collapsed = false
 
 [behavior]
@@ -33,6 +36,8 @@ card_flow = "center"
 follow_system_colors = true
 follow_system_font = true
 font_family = ""
+fill_fields = true
+radius_scale = 1.0
 
 [theme.colors]
 
