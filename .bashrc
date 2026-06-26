@@ -25,6 +25,7 @@ set -o vi
 
 # Aliases
 alias fkr='fish_key_reader'
+alias wlprop='qdbus6 org.kde.KWin /KWin org.kde.KWin.queryWindowInfo'
 alias pwfix='faillock --reset'
 alias kde_des_fix='kbuildsycoca6'
 alias proton='umu-run'
