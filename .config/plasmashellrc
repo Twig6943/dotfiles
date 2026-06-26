@@ -1,18 +1,20 @@
 [Notification Messages]
 klipperClearHistoryAskAgain=false
 
-[PlasmaViews][Panel 193]
+[PlasmaViews][Panel 25]
 floating=0
 panelVisibility=1
+shell=org.kde.plasma.desktop
 
-[PlasmaViews][Panel 193][Defaults]
+[PlasmaViews][Panel 25][Defaults]
 thickness=46
 
-[PlasmaViews][Panel 215]
+[PlasmaViews][Panel 3]
 floating=0
 panelVisibility=1
+shell=org.kde.plasma.desktop
 
-[PlasmaViews][Panel 215][Defaults]
+[PlasmaViews][Panel 3][Defaults]
 thickness=46
 
 [Updates]
