@@ -19,6 +19,12 @@ systemctl --user restart xdg-desktop-portal
 kbuildsycoca6 --noincremental
 ```
 
+## fonts/emojis not showing up
+
+```sh
+fc-cache -f
+```
+
 ## Unable to connect to libvirt
 
 ```bash
