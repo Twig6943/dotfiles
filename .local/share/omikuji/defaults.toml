@@ -1,8 +1,9 @@
 [wine]
-version = "steam:Proton-CachyOS Latest"
+version = "steam:Proton-GE Latest"
 ntsync = true
 dxvk = true
 vkd3d = true
+fsr = false
 graphics_driver = "wayland"
 
 [launch]
