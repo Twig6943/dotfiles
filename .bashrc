@@ -7,7 +7,7 @@
 # Paths
 export PATH="$HOME/.local/share/soar/bin:$HOME/.local/bin:$HOME/.cargo/bin:/usr/lib/qt6/bin::$PATH"
 
-export PROTONPATH="~/.var/app/com.valvesoftware.Steam/.local/share/Steam/compatibilitytools.d/Proton-CachyOS Latest/"
+export PROTONPATH="$HOME/.var/app/com.valvesoftware.Steam/.steam/steam/compatibilitytools.d/Proton-GE Latest"
 
 export WINDOWS_SDK_PATH="$HOME/my_msvc/opt/msvc"
 export INPUTRC=$HOME/.inputrc
