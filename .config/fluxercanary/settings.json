@@ -1,0 +1,16 @@
+{
+  "window_behavior": {
+    "showTrayIcon": true,
+    "useNativeTitleBar": false,
+    "rememberWindowState": true,
+    "allowTransparency": false,
+    "smoothScrolling": false,
+    "middleClickAutoscroll": true,
+    "firstClickPassThroughWhenUnfocused": false,
+    "minimizeToTrayV2": false,
+    "closeToTrayV2": true
+  },
+  "troubleshooting": {
+    "disableHardwareAcceleration": false
+  }
+}
