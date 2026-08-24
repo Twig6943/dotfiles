@@ -15,6 +15,14 @@ waydroid_helper = { github = "waydroid-helper/waydroid-helper", asset_pattern = 
 winboat = { github = "TibixDev/winboat", asset_pattern = "*x86_64.AppImage", version = "*" }
 xenia-edge = { github = "has207/xenia-edge", asset_pattern = "*.AppImage", version = "*" }
 
+fluxer-canary = {
+  url = "https://api.fluxer.app/dl/desktop/canary/linux/x64/latest/appimage",
+  version_command = '''
+  curl -sL -o /dev/null -w '%{url_effective}' \
+    "https://api.fluxer.app/dl/desktop/canary/linux/x64/latest/appimage" \
+    | grep -oP '[0-9]+\.[0-9]+\.[0-9]+'
+  ''', version = "*" }
+
 # with pkg_id
 inkscape = { pkg_id = "gitlab.com.inkscape.inkscape", version = "*" }
 librewolf = { pkg_id = "gitlab.com.librewolf-community.browser.appimage.stable", version = "*" }
