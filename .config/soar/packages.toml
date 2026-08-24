@@ -18,10 +18,10 @@ xenia-edge = { github = "has207/xenia-edge", asset_pattern = "*.AppImage", versi
 fluxer-canary = {
   url = "https://api.fluxer.app/dl/desktop/canary/linux/x64/latest/appimage",
   version_command = '''
-  curl -sL -o /dev/null -w '%{url_effective}' \
-    "https://api.fluxer.app/dl/desktop/canary/linux/x64/latest/appimage" \
-    | grep -oP '[0-9]+\.[0-9]+\.[0-9]+'
-  ''', version = "*" }
+  curl -sI "https://api.fluxer.app/dl/desktop/canary/linux/x64/latest/appimage" | grep -oP 'Fluxer%20Canary-\K[0-9.]+'
+  ''',
+  version = "*"
+}
 
 # with pkg_id
 inkscape = { pkg_id = "gitlab.com.inkscape.inkscape", version = "*" }
