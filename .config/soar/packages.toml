@@ -18,7 +18,9 @@ xenia-edge = { github = "has207/xenia-edge", asset_pattern = "*.AppImage", versi
 fluxer-canary = {
   url = "https://api.fluxer.app/dl/desktop/canary/linux/x64/latest/appimage",
   version_command = '''
-  curl -sI "https://api.fluxer.app/dl/desktop/canary/linux/x64/latest/appimage" | grep -oP 'Fluxer%20Canary-\K[0-9.]+'
+    curl -sIL "https://api.fluxer.app/dl/desktop/canary/linux/x64/latest/appimage" |
+      grep -oP 'Fluxer-Canary-\K[0-9.]+' |
+      head -1
   ''',
   version = "*"
 }
