@@ -24,13 +24,16 @@ export GTK_THEME=Breeze:dark
 set -o vi
 
 # Aliases
-alias fkr='fish_key_reader'
+alias update_all='sudo pacman -Syu && yay -Syu && soar update && flatpak update -y'
+
 alias wlprop='qdbus6 org.kde.KWin /KWin org.kde.KWin.queryWindowInfo'
 alias pwfix='faillock --reset'
 alias kde_des_fix='kbuildsycoca6'
 alias proton='umu-run'
+
 alias kill_exe='sudo pkill -9 -f "\\.exe"'
 alias kill_Exe='sudo pkill -9 -f "\\.exe"'
+
 alias empty_trash='sudo rm -rf ~/.local/share/Trash/files/* ~/.local/share/Trash/info/*'
 alias bash_conf_reload='source ~/.bashrc'
 alias ls='ls -fh --color=auto'
