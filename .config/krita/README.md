@@ -6,8 +6,6 @@ Checkerboard 2: `#2C2C2C`
 
 Canvas border color: `#242424`
 
-`.colors` files to go `color-schemes` folder
-
 # Shortcuts 
 
 As for the `shortcuts` files just import those from the UI
