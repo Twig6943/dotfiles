@@ -1,28 +1,16 @@
-version = 1
+version = 2
 
 [global]
-dll = ".config/lsfg-vk/Lossless.dll"
+allow_fp16 = true
+dll = "~/.config/lsfg-vk/lsfg-vk.dll"
+log_level = "info"
 
-[[game]]
-exe = "RDR2.exe"
-multiplier = 4
+[[profile]]
+active_in = [ "vkcube", "vkcubepp", "flashplayer_32_sa.exe", "flashplayer_32_", "flashplayer_32" ]
 flow_scale = 1.0
-performance_mode = false
-hdr_mode = false
-experimental_present_mode = "fifo"
-
-[[game]]
-exe = "vkcube"
-multiplier = 1
-flow_scale = 1.0
-performance_mode = true
-hdr_mode = false
-experimental_present_mode = "fifo"
-
-[[game]]
-exe = "new profile"
 multiplier = 2
-flow_scale = 1.0
-performance_mode = false
-hdr_mode = false
-experimental_present_mode = "fifo"
+name = "Flash"
+override_present_mode = false
+pacing_mode = "vsync"
+performance_mode = true
+preserve_swapchain_image_count = false
