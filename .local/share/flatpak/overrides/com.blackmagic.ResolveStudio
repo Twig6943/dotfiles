@@ -3,3 +3,7 @@ sockets=!wayland
 
 [Environment]
 QT_QPA_PLATFORM=xcb
+
+# Uncomment these if you get gpu related errors
+#OCL_ICD_VENDORS=/usr/lib/x86_64-linux-gnu/GL/OpenCL/vendors
+#LD_PRELOAD=/usr/lib/x86_64-linux-gnu/GL/default/lib/libLLVM.so.21.1
