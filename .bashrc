@@ -5,9 +5,12 @@
 # Environment variables
 
 # Paths
-export PATH="$HOME/.local/share/soar/bin:$HOME/.local/bin:$HOME/.cargo/bin:/usr/lib/qt6/bin::$PATH"
+export PATH="$HOME/.local/share/soar/bin:$HOME/.local/bin:/usr/lib/qt6/bin::$PATH"
 
-export PROTONPATH="$HOME/.var/app/com.valvesoftware.Steam/.steam/steam/compatibilitytools.d/Proton-GE Latest"
+export KANVAS_INSTALLDIR=/mnt/Games/Games/Kanvas/KanvasLauncher
+
+# Will use latest version
+export PROTONPATH="~/.var/app/com.valvesoftware.Steam/.steam/steam/compatibilitytools.d/Proton-GE Latest/"
 
 export WINDOWS_SDK_PATH="$HOME/my_msvc/opt/msvc"
 export INPUTRC=$HOME/.inputrc
@@ -24,20 +27,21 @@ export GTK_THEME=Breeze:dark
 set -o vi
 
 # Aliases
-alias update_all='sudo pacman -Syu && yay -Syu && soar update && flatpak update -y'
 
+alias ametfetch='fastfetch -c ~/.config/fastfetch/config_amet.jsonc'
+
+# alias micro='flatpak run io.github.zyedidia.micro'
 alias wlprop='qdbus6 org.kde.KWin /KWin org.kde.KWin.queryWindowInfo'
 alias pwfix='faillock --reset'
 alias kde_des_fix='kbuildsycoca6'
+alias resolve_convert='ffmpeg -i "$1" -c:v copy -c:a pcm_s16le "${2:-output.mov}"'
 alias proton='umu-run'
-
 alias kill_exe='sudo pkill -9 -f "\\.exe"'
 alias kill_Exe='sudo pkill -9 -f "\\.exe"'
-
 alias empty_trash='sudo rm -rf ~/.local/share/Trash/files/* ~/.local/share/Trash/info/*'
 alias bash_conf_reload='source ~/.bashrc'
-alias ls='ls -fh --color=auto'
 alias nano='nano --line'
+alias ls='ls -fh --color=auto'
 alias grep='grep --color=auto'
 
 # Search files in the current folder
@@ -153,4 +157,3 @@ if [[ ${EUID} == 0 ]] ; then
 else
     PS1='\[\033[48;2;105;121;16;38;2;255;255;255m\] \$ \[\033[48;2;0;135;175;38;2;105;121;16m\]\[\033[48;2;0;135;175;38;2;255;255;255m\] \u@\h \[\033[48;2;83;85;85;38;2;0;135;175m\]\[\033[48;2;83;85;85;38;2;255;255;255m\] \w \[\033[49;38;2;83;85;85m\]\[\033[00m\] '
 fi
-. "$HOME/.cargo/env"
