@@ -11,6 +11,7 @@ simple-appimage-sandbox = { github = "Samueru-sama/simple-appimage-sandbox", ass
 vscodium = { github = "VSCodium/vscodium", asset_pattern = "*x86_64.AppImage", version = "*" }
 waydroid_helper = { github = "waydroid-helper/waydroid-helper", asset_pattern = "*x86_64.AppImage", version = "*" }
 winboat = { github = "TibixDev/winboat", asset_pattern = "*x86_64.AppImage", version = "*" }
+krita = { url = "https://cdn.kde.org/ci-builds/graphics/krita/master/linux/krita-6.1.0-prealpha-3f5b288201-x86_64.AppImage", version = "*" }
 
 fluxer-canary = {
   url = "https://api.fluxer.app/dl/desktop/canary/linux/x64/latest/appimage",
