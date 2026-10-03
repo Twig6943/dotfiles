@@ -26,6 +26,7 @@ fluxer-canary = {
 }
 
 # with pkg_id
+lazygit = { pkg_id = "lazygit:bincache", version = "*" }
 inkscape = { pkg_id = "gitlab.com.inkscape.inkscape", version = "*" }
 librewolf = { pkg_id = "gitlab.com.librewolf-community.browser.appimage.stable", version = "*" }
 neovim = { pkg_id = "github.com.neovim.neovim.stable", version = "*" }
