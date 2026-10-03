@@ -26,5 +26,5 @@ librewolf = { pkg_id = "gitlab.com.librewolf-community.browser.appimage.stable",
 neovim = { pkg_id = "github.com.neovim.neovim.stable", version = "*" }
 
 # other profile
-duckstation = { github = "stenzek/duckstation", asset_pattern = "*x64.AppImage", version = "*" profile = "games"}
-xenia-edge = { github = "has207/xenia-edge", asset_pattern = "*.AppImage", version = "*" profile = "games"}
+duckstation = { github = "stenzek/duckstation", asset_pattern = "*x64.AppImage", version = "*", profile = "games"}
+xenia-edge = { github = "has207/xenia-edge", asset_pattern = "*.AppImage", version = "*", profile = "games"}
