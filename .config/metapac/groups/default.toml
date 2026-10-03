@@ -87,7 +87,6 @@ flatpak = {
     { name = "user:org.jellyfin.JellyfinDesktop", options = { remote = "flathub" } },
     { name = "user:org.shotcut.Shotcut", options = { remote = "flathub" } },
     { name = "user:org.kde.kdenlive", options = { remote = "flathub" } },
-    { name = "user:com.heroicgameslauncher.hgl", options = { remote = "flathub" } },
     { name = "user:com.valvesoftware.Steam", options = { remote = "flathub" } },
     { name = "user:org.libretro.RetroArch", options = { remote = "flathub" } },
     { name = "user:com.vysp3r.ProtonPlus", options = { remote = "flathub" } },
