@@ -3,6 +3,7 @@ arch = {
   packages = [
     "zip",
     "7zip",
+    "fuse", # Needed for non-sharun AppImages
     "msedit",
     "kio-admin",
     "flatpak-builder",
