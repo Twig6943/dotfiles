@@ -19,5 +19,5 @@ url = "https://meta.pkgforge.dev/external/appimage.github.io/x86_64-Linux.json.z
 [profile.default]
 root_path = "~/.local/share/soar"
 
-[profile.profile1]
+[profile.games]
 root_path = "/mnt/Games/soar"
