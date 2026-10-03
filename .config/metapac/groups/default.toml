@@ -22,7 +22,6 @@ arch = {
     "xdg-desktop-portal-gtk",
     "vkmark",
     "wireguard-tools",
-    "krita-git", #Switch to universal once universal pkg comes out.
     "wine",
     "winetricks",
     "opensnitch",
@@ -123,7 +122,7 @@ flatpak = {
 #[managers.flatpak_file]
 #items = [
     #"github.com/3ster/ida-freeware-flatpak"
-    #"gitgud.io/Twig6943/resolve-flatpak",
+    #"github.com/night199uk/resolve-flatpak"
     #"github.com/fn2006/PollyMC",
     #"github.com/unmojang/FjordLauncher"
     #"github.com/Pucas01/FunkinFlatpak"
