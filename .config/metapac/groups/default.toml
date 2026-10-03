@@ -12,13 +12,11 @@ arch = {
     "lshw",
     "zerotier-one",
     "waydroid",
-    "binder_linux-dkms",
     "umu-launcher", # DO NOT REMOVE
     "mangohud", #Remove once you learn how to use the flatpak pkg from cli
     "gamemode",
     "gamescope",
     "kaccounts-providers",
-    "timeshift",
     "xdg-desktop-portal-gtk",
     "vkmark",
     "wireguard-tools",
