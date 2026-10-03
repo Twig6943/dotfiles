@@ -27,6 +27,7 @@ sudo mkdir -p /etc/flatpak/installations.d
 
 #Install AppImage stuff
 mkdir /home/$USER/Applications
+mkdir /home/$USER/AppImages
 
 #Install YaY
 sudo pacman -S --needed git base-devel
