@@ -1,6 +1,6 @@
 [Context]
-filesystems=xdg-config/zed;
-unset-environment=ZED_FLATPAK_NO_ESCAPE;
+filesystems=/mnt/Games/Projects:rw;xdg-config/zed
+unset-environment=ZED_FLATPAK_NO_ESCAPE
 
 [Environment]
 ZED_FLATPAK_NO_ESCAPE=
