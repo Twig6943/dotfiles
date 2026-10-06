@@ -39,6 +39,7 @@ makepkg -si
 sudo rm ~/.bashrc
 cd ~
 wget https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/.bashrc
+wget https://raw.githubusercontent.com/Twig6943/dotfiles/refs/heads/main/.inputrc
 source ~/.bashrc
 
 #Install Soar
