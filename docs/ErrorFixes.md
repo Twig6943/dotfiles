@@ -1,5 +1,7 @@
 # ErrorFixes
 
+[Kwin saturation](https://github.com/Garward/kwin-saturation-effect)
+
 Fixes to errors I encounter every now and then can be found here.
 
 ## Sudo password
