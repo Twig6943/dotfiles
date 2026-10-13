@@ -1,3 +1,3 @@
-# [Fixes](/docs/ErrorFixes.md)
+# [Fixes/Notes](/docs/ErrorFixes.md)
 
 <img src="./.local/share/wallpapers/vergilCatppuccin.webp" width="800"/>
