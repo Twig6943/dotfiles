@@ -1,5 +1,5 @@
 Windows Registry Editor Version 5.00
-
+; Theme
 [HKEY_CURRENT_USER\Control Panel\Colors]
 "Window"="20 22 24"
 "WindowText"="252 252 252"
@@ -39,3 +39,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ThemeManager]
 "ThemeActive"="0"
+
+[HKEY_CURRENT_USER\Software\Wine]
+"ShowDotFiles"="Y"
