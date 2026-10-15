@@ -1,0 +1,13 @@
+"compatibilitytools"
+{
+  "compat_tools"
+  {
+    "wine"
+    {
+      "install_path" "."
+      "display_name" "System Wine"
+      "from_oslist" "windows"
+      "to_oslist" "linux"
+    }
+  }
+}

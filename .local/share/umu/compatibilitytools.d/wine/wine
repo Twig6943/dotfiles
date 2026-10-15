@@ -1,0 +1,36 @@
+#!/bin/sh
+set -eu
+
+case "${1:-}" in
+    waitforexitandrun|run|runinprefix) shift ;;
+esac
+
+# Redirect `umu-run winetricks 123` to `winetricks 123` and exit completely afterward.
+if [ "${1:-}" = "winetricks" ]; then
+    shift
+    exec winetricks "$@"
+fi
+
+# Initialize the prefix headlessly on first run.
+if [ ! -f "$WINEPREFIX/system.reg" ]; then
+    env -u DISPLAY WAYLAND_DISPLAY=wine-no-display wineboot --init
+    # wineboot returns before wineserver flushes the registry hives to
+    # disk (that only happens when wineserver exits), so wait for it —
+    # otherwise the import below is skipped on the very first boot and
+    # explorer comes up with Wine's default light theme.
+    wineserver -w
+fi
+
+# Import the config if prefix exists.
+if [ -f "$WINEPREFIX/user.reg" ]; then
+    WINETRICKS_SUPER_QUIET=1 winetricks ~/.config/protonfixes/localfixes/verbs/config_reg.verb
+fi
+
+# Force-kill .exe processes with elevated privileges.
+pkill -9 -f "\\.exe"
+
+# Wait for Wine processes to exit.
+wineserver -w
+
+# Launch the requested command and return its exit status.
+exec wine "$@"

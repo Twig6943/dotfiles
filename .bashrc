@@ -35,6 +35,7 @@ alias wlprop='qdbus6 org.kde.KWin /KWin org.kde.KWin.queryWindowInfo'
 alias pwfix='faillock --reset'
 alias kde_des_fix='kbuildsycoca6'
 alias resolve_convert='ffmpeg -i "$1" -c:v copy -c:a pcm_s16le "${2:-output.mov}"'
+alias wine='WINEPREFIX=$HOME/.wine PROTONPATH=$HOME/.local/share/umu/compatibilitytools.d/wine/ umu-run' # DO NOT REMOVE UNLESS HAVE TO
 alias proton='umu-run'
 alias kill_exe='sudo pkill -9 -f "\\.exe"'
 alias kill_Exe='sudo pkill -9 -f "\\.exe"'
