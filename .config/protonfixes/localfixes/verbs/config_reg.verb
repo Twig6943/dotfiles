@@ -1,0 +1,7 @@
+w_metadata config_reg settings \
+    title="Import custom wine theme registry"
+
+load_config_reg()
+{
+    w_try_regedit "$HOME/.config/wine/config.reg"
+}
