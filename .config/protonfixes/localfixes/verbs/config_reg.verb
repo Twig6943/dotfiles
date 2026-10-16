@@ -5,5 +5,6 @@ w_metadata config_reg settings \
 load_config_reg()
 {
     w_try_regedit "$HOME/.config/wine/config.reg"
+    w_try wineserver -k
     w_try touch "${W_WINDIR_UNIX}/config_reg.installed"
 }
