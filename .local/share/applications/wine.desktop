@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=wine
+MimeType=application/x-ms-dos-executable;application/x-msi;application/x-bat;
+Exec=bash -c "env WINEPREFIX=~/.wine PROTONPATH=~/.local/share/umu/compatibilitytools.d/wine umu-run %f"
+NoDisplay=true
+StartupNotify=true
+Icon=wine-symbolic
