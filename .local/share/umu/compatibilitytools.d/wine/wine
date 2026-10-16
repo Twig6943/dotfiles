@@ -26,11 +26,5 @@ if [ -f "$WINEPREFIX/user.reg" ]; then
     WINETRICKS_SUPER_QUIET=1 winetricks ~/.config/protonfixes/localfixes/verbs/config_reg.verb
 fi
 
-# Force-kill .exe processes with elevated privileges.
-pkill -9 -f "\\.exe"
-
-# Wait for Wine processes to exit.
-wineserver -w
-
 # Launch the requested command and return its exit status.
 exec wine "$@"
