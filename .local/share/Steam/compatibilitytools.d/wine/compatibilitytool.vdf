@@ -2,7 +2,7 @@
 {
   "compat_tools"
   {
-    "wine"
+    "proton"
     {
       "install_path" "."
       "display_name" "System Wine"

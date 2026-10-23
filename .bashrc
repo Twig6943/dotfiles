@@ -7,10 +7,10 @@
 # Paths
 export PATH="$HOME/.local/share/soar/bin:$HOME/.local/bin:/usr/lib/qt6/bin::$PATH"
 
-export KANVAS_INSTALLDIR=/mnt/Games/Games/Kanvas/KanvasLauncher
+export KANVAS_INSTALLDIR=/mnt/Games/Kanvas/KanvasLauncher
 
 # Will use latest version
-export PROTONPATH="~/.var/app/com.valvesoftware.Steam/.steam/steam/compatibilitytools.d/Proton-GE Latest/"
+export PROTONPATH="GE-Proton"
 
 export WINDOWS_SDK_PATH="$HOME/my_msvc/opt/msvc"
 export INPUTRC=$HOME/.inputrc
@@ -35,7 +35,7 @@ alias wlprop='qdbus6 org.kde.KWin /KWin org.kde.KWin.queryWindowInfo'
 alias pwfix='faillock --reset'
 alias kde_des_fix='kbuildsycoca6'
 alias resolve_convert='ffmpeg -i "$1" -c:v copy -c:a pcm_s16le "${2:-output.mov}"'
-alias wine='WINEPREFIX=$HOME/.wine PROTONPATH=$HOME/.local/share/umu/compatibilitytools.d/wine/ umu-run' # DO NOT REMOVE UNLESS HAVE TO
+alias wine='WINEPREFIX=$HOME/.wine PROTONPATH=$HOME/.local/share/Steam/compatibilitytools.d/wine/ umu-run' # DO NOT REMOVE UNLESS HAVE TO
 alias proton='umu-run'
 alias kill_exe='sudo pkill -9 -f "\\.exe"'
 alias kill_Exe='sudo pkill -9 -f "\\.exe"'
@@ -44,9 +44,6 @@ alias bash_conf_reload='source ~/.bashrc'
 alias nano='nano --line'
 alias ls='ls -fh --color=auto'
 alias grep='grep --color=auto'
-
-# Search files in the current folder
-alias f="find . | grep "
 
 # Archives
 alias mktar='tar -cvf'

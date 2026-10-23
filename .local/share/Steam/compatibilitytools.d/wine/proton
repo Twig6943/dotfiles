@@ -1,6 +1,17 @@
 #!/bin/sh
 set -eu
 
+# Steam requires this otherwise it'll give
+# ~/.local/share/Steam/compatibilitytools.d/wine/proton: line 15: WINEPREFIX: unbound variable
+
+: "${WINEPREFIX:=$HOME/.wine}"
+export WINEPREFIX
+
+# Disable Steam overlay if LD_PRELOAD is set.
+if [ -n "${LD_PRELOAD:-}" ]; then
+    export LD_PRELOAD="${LD_PRELOAD//[^:]*\/gameoverlayrenderer.so/}"
+fi
+
 case "${1:-}" in
     waitforexitandrun|run|runinprefix) shift ;;
 esac
