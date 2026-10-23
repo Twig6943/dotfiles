@@ -91,7 +91,6 @@ flatpak = {
     { name = "user:org.shotcut.Shotcut", options = { remote = "flathub" } },
     { name = "user:org.kde.kdenlive", options = { remote = "flathub" } },
     { name = "user:org.libretro.RetroArch", options = { remote = "flathub" } },
-    { name = "user:com.vysp3r.ProtonPlus", options = { remote = "flathub" } },
     { name = "user:com.github.Matoking.protontricks", options = { remote = "flathub" } },
     { name = "user:org.freedesktop.Platform.VulkanLayer.MangoHud", options = { remote = "flathub" } },
     { name = "user:org.freedesktop.Platform.VulkanLayer.gamescope", options = { remote = "flathub" } },
