@@ -3,7 +3,10 @@ fastfetch = { github = "fastfetch-cli/fastfetch", asset_pattern = "*linux-amd64.
 goverlay = { github = "benjamimgois/goverlay", asset_pattern = "*.AppImage", version = "*" }
 helium = { github = "imputnet/helium-linux", asset_pattern = "*x86_64.AppImage", version = "*" }
 protonplus = { github = "Vysp3r/ProtonPlus", asset_pattern = "*x86_64.AppImage", version = "*" }
-heroic = { github = "Heroic-Games-Launcher/HeroicGamesLauncher", asset_pattern = "*x86_64.AppImage", version = "*" }
+#heroic = { github = "Heroic-Games-Launcher/HeroicGamesLauncher", asset_pattern = "*x86_64.AppImage", version = "*" }
+
+misterdownloadmanager = { github = "anefzaoui/misterdownloadmanager", asset_pattern = "*x86_64.AppImage", version = "*" }
+
 micro = { github = "micro-editor/micro", asset_pattern = "*linux64-static.tar.gz", version = "*" }
 mullvad-browser = { github = "Portable-Linux-Apps/mullvad-browser-AppImage", asset_pattern = "*x86_64.AppImage", version = "*" }
 opencode = { github = "anomalyco/opencode", asset_pattern = "*x86_64.AppImage", version = "*" }
@@ -15,13 +18,13 @@ winboat = { github = "TibixDev/winboat", asset_pattern = "*x86_64.AppImage", ver
 krita = { url = "https://cdn.kde.org/ci-builds/graphics/krita/master/linux/krita-6.1.0-prealpha-3f5b288201-x86_64.AppImage", version = "*" }
 
 # using flatpak as it seems to work better
-#fluxer-canary = {
-#  url = "https://api.fluxer.app/dl/desktop/canary/linux/x64/latest/appimage",
-#  version_command = '''
-#    curl -sIL "https://api.fluxer.app/dl/desktop/canary/linux/x64/latest/appimage" |
-#      grep -oP 'Fluxer-Canary-\K[0-9.]+' |
-#      head -1
-#  ''', version = "*" }
+fluxer = {
+  url = "https://api.fluxer.app/dl/desktop/stable/linux/x64/latest/appimage",
+  version_command = '''
+    curl -sIL "https://api.fluxer.app/dl/desktop/stable/linux/x64/latest/appimage" |
+      grep -oP 'Fluxer-\K[0-9.]+' |
+      head -1
+  ''', version = "*" }
 
 # with pkg_id
 inkscape = { pkg_id = "gitlab.com.inkscape.inkscape", version = "*" }
@@ -29,5 +32,6 @@ librewolf = { pkg_id = "gitlab.com.librewolf-community.browser.appimage.stable",
 neovim = { pkg_id = "github.com.neovim.neovim.stable", version = "*" }
 
 # other profile
-duckstation = { github = "stenzek/duckstation", asset_pattern = "*x64.AppImage", version = "*", profile = "games"}
-xenia-edge = { github = "has207/xenia-edge", asset_pattern = "*.AppImage", version = "*", profile = "games"}
+irori = { github = "irori-app/irori", asset_pattern = "*x86_64.AppImage", profile = "games", version = "*"}
+duckstation = { github = "stenzek/duckstation", asset_pattern = "*x64.AppImage", profile = "games", version = "*"}
+xenia-edge = { github = "has207/xenia-edge", asset_pattern = "*.AppImage", profile = "games", version = "*"}
