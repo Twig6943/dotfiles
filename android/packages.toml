@@ -23,6 +23,7 @@ packages.fdroid = [
  "app.organicmaps",
  "co.prestosole.clima",
  "io.element.android.x",
+ "io.github.dovecoteescapee.byedpi",
  "com.zaneschepke.wireguardautotunnel",
  "org.documentfoundation.libreoffice",
  "dev.imranr.obtainium.fdroid",
@@ -46,7 +47,6 @@ packages.fdroid = [
 #ObtaniumDB; https://apps.obtanium.imranr.dev
 packages.obtanium = [
  "github.com/microg/FakeStore", # Really Important
- "github.com/uazo/cromite",
  "github.com/jqssun/android-helium-browser",
  "github.com/bluesky-social/social-app",
  "github.com/LuminarLeaf/boorusama",
@@ -69,6 +69,7 @@ packages.play_store = [
 
 packages.appgallery = [
  "com.pozitron.iscep",
+ "com.belbim.istanbulkart",
 ]
 
 packages.termux = [
