@@ -45,6 +45,10 @@ flatpak = {
     { name = "system:flathub-beta", options = { url = "https://flathub.org/beta-repo/flathub-beta.flatpakrepo" } },
     { name = "user:flathub-beta", options = { url = "https://flathub.org/beta-repo/flathub-beta.flatpakrepo" } },
     { name = "extra:flathub-beta", options = { url = "https://flathub.org/beta-repo/flathub-beta.flatpakrepo" } },
+    # flatpark
+    { name = "system:flatpark", options = { url = "https://dl.flatpark.org/flatpark.flatpakrepo" } },
+    { name = "user:flatpark", options = { url = "https://dl.flatpark.org/flatpark.flatpakrepo" } },
+    { name = "extra:flatpark", options = { url = "https://dl.flatpark.org/flatpark.flatpakrepo" } },
     # hero-persson
     { name = "system:hero-persson", options = { url = "https://hero-persson.github.io/unmojang-flatpak/index.flatpakrepo" } },
     { name = "user:hero-persson", options = { url = "https://hero-persson.github.io/unmojang-flatpak/index.flatpakrepo" } },
