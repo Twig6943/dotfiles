@@ -34,7 +34,7 @@ sudo systemctl restart libvirtd
 sudo systemctl restart network
 ```
 
-## Network `default` virt-manager
+## Network `default` virt-manager (disable UFW if you must, that fixes it if you do most of the time)
 
 1. Add `default` network and use `/usr/share/libvirt/networks/default.xml` to define it
 
